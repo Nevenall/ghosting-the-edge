@@ -1,12 +1,12 @@
-Jet engines scream through the smog overhead and tonight’s greasy rain on your mirror shades smears the scavenged neon of High Street Market. Every drawn, tired, or modded face in the shadows of the piecemeal stalls gets sniffed from your visual cortex by the investigation software you installed and matched against the facial data of your target. Then it pumps the results back into your field of vision as a match percentage with a color cue.
+Jet engines scream through the smog overhead and tonight’s greasy rain on your mirrorshades smears the scavenged neon of High Street Market. Every face in the crowded piecemeal stalls gets sniffed from your visual cortex, matched against your target's facial data then pumped back into your field of vision with a color-coded match percentage.
 
 58%...12%...70%...68%...95% -- “Hey there.”
 
-The cold metal barrel drops as softly as a spider on to the back of your neck. A warning floats across the bottom of your vision because this smartass gunner hacked his safety-off function to broadcast a weapons-free alert.
+The cold metal barrel drops as softly as a spider on to the back of your neck. A warning floats across the bottom of your vision because this overconfident smartass hacked his safety-off function to broadcast a weapons-free alert. 
 
 Welcome to the Edge
 
-# Chapter One – Welcome to the Edge
+# Chapter One – Ghosting the Edge
 
 ‘Ghosting’ is slang for making a living (‘feeding the meat’ is a more colorful phrase for the same thing).
 
