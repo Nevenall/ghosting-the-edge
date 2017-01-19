@@ -14,7 +14,7 @@ Welcome to the Edge
 
 This chapter is for everyone. Its ground level concepts and questions to help you make this dystopian future your own.
 
-## Playing Cyberpunk
+## Playing Fate + Cyberpunk
 
 A Fate game is about competent, proactive, and dramatic characters. A cyberpunk game is about fighting to survive and thrive in a near future where the worst of what our world has to offer is exaggerated to extremes. It's a dangerous world where even characters with powerful backing find themselves dancing daily on the razor's edge of ruin or success. You'll play people who fight the system trying to build a life of their own choosing, however short, in the cracks and shadows of oppressive corporate domination.
 
@@ -3170,6 +3170,7 @@ Characters who don't want to start getting outclassed by every ganger they throw
 # Afterwards
 
 {art: Something dramatic to draw you into the text. Maybe a letter frame, or a maybe an augmented reality email frame.
+![Tree of Life by Doomer from DeviantArt](Graphics\tree_of_digital_life_by_adoomer-d35ytew.png)
 
 Dearest Reader!
 
