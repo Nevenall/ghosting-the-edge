@@ -1,0 +1,13 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	// A command to compile the ghosting the edge manuscript.docx to markdown
+	"version": "0.1.0",
+	"command": "cmd",
+	"isShellCommand": true,
+	"args": [
+		"/C pandoc manuscript.docx -t markdown -o manuscript.md --wrap=none --atx-headers"
+	],
+	"showOutput": "always"
+	
+}
