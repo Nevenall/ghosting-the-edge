@@ -1,6 +1,6 @@
 Jet engines scream through the smog overhead and tonight's greasy rain on your mirrorshades smears the scavenged neon of High Street Market. Every face in the makeshift stalls gets sniffed from your visual cortex, matched against your target's facial data, then pumped back into your field of vision with a color-coded match percentage.
 
-58%...12%...70%...68%...95% -- “Hey there.”
+58%...12%...70%...68%...95% -- "Hey there."
 
 Cold metal drops as softly as a spider on to the back of your neck. A warning floats across the bottom of your vision like a cobweb because this smartass hacked their safety-off function to broadcast a weapons-free alert. 
 
@@ -32,7 +32,7 @@ As you read through the rest of this chapter, talk about how the concepts might 
 
 ### Orientation
 
-If there's a dark center to a cyberpunk game its corporations and the oppressive domination they represent. Corporations are not simply powerful, they are the very structure of power in the same way hereditary nobility was the structure of power in the past. Everyone has a relationship to corporations and orientation is simply asking a character “what is your relationship to corporations?”
+If there's a dark center to a cyberpunk game its corporations and the oppressive domination they represent. Corporations are not simply powerful, they are the very structure of power in the same way hereditary nobility was the structure of power in the past. Everyone has a relationship to corporations and orientation is simply asking a character "what is your relationship to corporations?"
 
 I'll describe three possible orientations: Sponsored, Revolutionary, or On the Edge. There's no need to pick just one; some people have very complicated relationships to power.
 
@@ -48,7 +48,7 @@ Being sponsored gives you access to gear, intel, and support both financial and 
 
 Sponsorship is not a guarantee and it's especially not guaranteed to last forever. Maybe you're rival will final sabotage your position, maybe you'll learn something that makes you a threat to your sponsor, or maybe they'll just get tired of seeing your face.
 
-If your character has a sponsor, ask yourself: “How far will your character go to secure their position?” “How high will they rise, and how long can they hold on?” “What will they do if they lose their sweet deal?”
+If your character has a sponsor, ask yourself: "How far will your character go to secure their position?" "How high will they rise, and how long can they hold on?" "What will they do if they lose their sweet deal?"
 
 #### Revolutionary
 
@@ -56,15 +56,15 @@ Instead of being a corporate tool you actively fights the system. You might be a
 
 You face more than just the confines of the modern surveillance culture, but also the masses of corporate employees more concerned with their own position then the truth. You'll likely be a labeled a terrorist, perhaps with good reason, and you'll be a constant target; hounded from safehouse to safehouse. At least you have their attention.
 
-“How far will you go to bring the system down? What will you give up, and who will you abandon?” “What will you do when they catch up to you?”
+"How far will you go to bring the system down? What will you give up, and who will you abandon?" "What will you do when they catch up to you?"
 
 #### On the Edge
 
-Maybe you're not so much into responsibility or ideology, maybe you just want to do your own thing. On the Edge describes an ambivalent orientation towards the corporate power structure. Not a part of system and not actively against it. This is a common stance for freelancers selling their skills to the highest bidder. You might revel in the relative freedom but you'll find themselves being used as a pawn in the power struggles of others; Always chasing the next deal, hopefully one step ahead of disaster. If you find this orientation attractive you should ask yourself, “How long can you survive on the edge?”
+Maybe you're not so much into responsibility or ideology, maybe you just want to do your own thing. On the Edge describes an ambivalent orientation towards the corporate power structure. Not a part of system and not actively against it. This is a common stance for freelancers selling their skills to the highest bidder. You might revel in the relative freedom but you'll find themselves being used as a pawn in the power struggles of others; Always chasing the next deal, hopefully one step ahead of disaster. If you find this orientation attractive you should ask yourself, "How long can you survive on the edge?"
 
 ### Theme
 
-To make a theme ask yourself a grand question like “is there a soul?” Your game is the answer to that question. The point of a theme is to give your game something to be about that's not just oddly violent odd jobs. It gives you a goal to align play and a touchstone to return to if your game wanders off into wilds.
+To make a theme ask yourself a grand question like "is there a soul?" Your game is the answer to that question. The point of a theme is to give your game something to be about that's not just oddly violent odd jobs. It gives you a goal to align play and a touchstone to return to if your game wanders off into wilds.
 
 You can open-endedly explore a thematic question, but also consider definitely answering the question and using your game to explore how that answer affects everything. For example: Yes, there is a measurable, but unidentifiable factor in the brain that some people choose to label a soul. Do you care? What if you found out you're missing that particular factor? Does that factor survive if your memories are copied to cybernetic brain?
 
@@ -108,7 +108,7 @@ Don't have a solid character concept yet? Scan these six archetypical cyberpunk 
 
 Poise is power and you exploit that hard. Some think charisma is antique or that being the Face is just about lying, but you know the true, most people fall for the presentation not the facts and, you're a master of presentation.
 
-As the Face you may find yourself in the Dis {Side bar Callout: with a paragraph about the District} negotiating “territorial rights” between the Vampyre's and the Magogs, playing a duet on a thought harp for millions of virtual concert goes, or change raising at a High Street Market stall.
+As the Face you may find yourself in the Dis {Side bar Callout: with a paragraph about the District} negotiating "territorial rights" between the Vampyre's and the Magogs, playing a duet on a thought harp for millions of virtual concert goes, or change raising at a High Street Market stall.
 
 The face role contains a multitude of sinners: media personalities, cult leaders, grifters, politicians, artists, rock stars, even your garden variety gigolo.
 
@@ -128,7 +128,7 @@ Varsha earned her role as the face of journalism for an entire generation for he
 
 ##### Grace
 
-Grace is an AI composer who says she began life as a corporate machine learning system designed to absorb musical data and decipher the patterns of popularity. In interviews she has referred to her awaking as “a singular moment of gestalt arising from humanity's longing for affirmation as expressed through their music.” Grace has faced a lot of scorn, many music reviewers love to call her an iComposer and imply that she's really a corporate construction designed to trick the listening public.
+Grace is an AI composer who says she began life as a corporate machine learning system designed to absorb musical data and decipher the patterns of popularity. In interviews she has referred to her awaking as "a singular moment of gestalt arising from humanity's longing for affirmation as expressed through their music." Grace has faced a lot of scorn, many music reviewers love to call her an iComposer and imply that she's really a corporate construction designed to trick the listening public.
 
 ### Fixer
 
@@ -178,7 +178,7 @@ In the old days you'd have programmed with keyboards and monitors but now, thank
 
 On the other hand, your granddaddy didn't have to worry about attack barriers and black IC that can use that magical interface of yours to hack your brain and mess you up in ways there aren't even words for. Brain death is just the beginning grandson.
 
-As a hacker you'll find yourself using your skills to maybe crack Terradyne's secure net and steal the 3d model of their latest VecD rotor and give it to your “employer,” or sell it to the highest bidder, or maybe both. Don't think your “employer” wouldn't do the same to you.
+As a hacker you'll find yourself using your skills to maybe crack Terradyne's secure net and steal the 3d model of their latest VecD rotor and give it to your "employer," or sell it to the highest bidder, or maybe both. Don't think your "employer" wouldn't do the same to you.
 
 Find the Hacking section on page XXX for more about what you do.
 
@@ -198,7 +198,7 @@ Ask your mom if she remembers the blackout. Back when someone didn't just crack 
 
 ##### cP@1nz
 
-Back when we used bigass cyberdecks and trodes to access a Net that was an infinite perspective grid of green lines dotted with gaudy neon data fortress icons, cP@1nz pulled a series of practical jokes that have yet to be topped. He's the one who hacked the nuclear launch sequence to text congress “HAHA! BOOM!” instead of actually firing missiles, and then posted the launch codes on the Net for other hackers to exploit. Lots and lots of other hackers.
+Back when we used bigass cyberdecks and trodes to access a Net that was an infinite perspective grid of green lines dotted with gaudy neon data fortress icons, cP@1nz pulled a series of practical jokes that have yet to be topped. He's the one who hacked the nuclear launch sequence to text congress "HAHA! BOOM!" instead of actually firing missiles, and then posted the launch codes on the Net for other hackers to exploit. Lots and lots of other hackers.
 
 ##### Betty Talent
 
@@ -580,7 +580,7 @@ Some items have a {0} cost which means they may be had for free.
 
 ## Gear Catalog
 
-“You want to make it, sure you do. So does every meatsack in the Dis and we both know surviving here takes a gritty mash of guts and gear. If you've got the guts, then I've got the gear for you boy'o. I've got a Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires, and Titania Lux Spacedrop rated Assault Armor. You bet I do.” – Can-a-Bass. Dis Fixer
+"You want to make it, sure you do. So does every meatsack in the Dis and we both know surviving here takes a gritty mash of guts and gear. If you've got the guts, then I've got the gear for you boy'o. I've got a Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires, and Titania Lux Spacedrop rated Assault Armor. You bet I do." – Can-a-Bass. Dis Fixer
 
 ### Upgrades
 
@@ -618,7 +618,7 @@ It defines our era in another way as well. Everything you do with your interface
 
 ###### Unlocked Interfaces
 
-Most characters will have a “rooted interface” which has the usual corporate controls and safeguards removed. Giving the character complete control over their device and allowing them to do things like fiddle with the interface id to conceal their true identities.
+Most characters will have a "rooted interface" which has the usual corporate controls and safeguards removed. Giving the character complete control over their device and allowing them to do things like fiddle with the interface id to conceal their true identities.
 
 ###### Wirelessly interface with the Net and local nets
 
@@ -774,7 +774,7 @@ These might be implanted dispersion nets, or simply hardened circuitry.
 
 ##### Sensor Defense
 
-These defenses create interference that makes it more difficult for electronic sensors to detect the character. It might be an active “noise” generating device, or it might be a cleverly engineered skin coating that baffles sensors.
+These defenses create interference that makes it more difficult for electronic sensors to detect the character. It might be an active "noise" generating device, or it might be a cleverly engineered skin coating that baffles sensors.
 
 **Sensor Defense {1, 2}** – +2 {+4} to D against electronic sensor detection and guided weapons.
 
@@ -808,7 +808,7 @@ Cyberbodies don't get tired either. You can hold something up, like hold a girde
 
 You can also hack your own body. One hack is so ubiquitous that every ganger has a mod for it is turning off pain sensors. This is one reason that cyborgs can roll Physique to resist any attacks.
 
-In fact, there's an urban legend that's been attributed to various street samurai over the years, but the gist of it goes, this cyborg samurai gets his eyes and ears destroyed by an improvised explosive when he's fighting these gangers. They figure he'll be easy to wear down now that he's blinded, but he's hacks his cyborg body by rerouting the touch perception of his skin to his eyes and boosting the touch sensitivity so high that he could “see and hear” where the gangers were coming from as they shouted at him and compressed the air that touched his super sensitive skin. And he didn't have to feel the pain where they hit him.
+In fact, there's an urban legend that's been attributed to various street samurai over the years, but the gist of it goes, this cyborg samurai gets his eyes and ears destroyed by an improvised explosive when he's fighting these gangers. They figure he'll be easy to wear down now that he's blinded, but he's hacks his cyborg body by rerouting the touch perception of his skin to his eyes and boosting the touch sensitivity so high that he could "see and hear" where the gangers were coming from as they shouted at him and compressed the air that touched his super sensitive skin. And he didn't have to feel the pain where they hit him.
 
 #### Cyber Prosthetics
 
@@ -1102,7 +1102,7 @@ Which is a greatly expanded class of weapons thanks to the advent of cyberbodies
 
 There are some weapons in here that have more than 4 ammo and have autofire{2} and {3}. Hehehe.
 
-##### HK “Bennet” Super Auto {4}
+##### HK "Bennet" Super Auto {4}
 
 A common light machine gun, the super auto offers a high rate of fire in a small package, and with excellent heat dispersal. Super Autos are popular choice for small drones and for high spec cyborgs looking for firepower. Its even small enough to be used by unenhanced humans but they will suffer some Recoil.
 
@@ -1732,7 +1732,7 @@ If you want to emphasis this even more, reduce initial stress boxes to 1, or eve
 
 #### Conceding
 
-When coming up with concessions for character remember that death is just a temporary condition if you have enough money or connections. Sure, you might die for a while, but if your brain is relatively intact, or if even your memories are stored somewhere else, it can be possible to “reconstruct” a character. Of course, that might only be possible if you make a Faustian bargain with some corporation, but even death can be overcome with enough money.
+When coming up with concessions for character remember that death is just a temporary condition if you have enough money or connections. Sure, you might die for a while, but if your brain is relatively intact, or if even your memories are stored somewhere else, it can be possible to "reconstruct" a character. Of course, that might only be possible if you make a Faustian bargain with some corporation, but even death can be overcome with enough money.
 
 ### Range
 
@@ -1780,7 +1780,7 @@ Some things are large and thickly armored, like an Extermine-8 Battle Tank and s
 
 Congrats! You finally made it to the hacking section. I hope a bunch of you skipped straight here. This section starts with background material about the things hackers do, what they do to them to, and the tools they use to do it. Then you'll find rules for two ways to resolve hacking attempts: as an action, or as a scene.
 
-For a hacker, everything here is common knowledge, but this is far from everything you'll run into. There are other things out there beyond the keen of your work-a-day hacker. Half-crazed Frankenstein IC lurking in forgotten servers, rogue AI who capture hackers and try to “debug” their minds, and rumors of ghost hacks that can rewrite your soul.
+For a hacker, everything here is common knowledge, but this is far from everything you'll run into. There are other things out there beyond the keen of your work-a-day hacker. Half-crazed Frankenstein IC lurking in forgotten servers, rogue AI who capture hackers and try to "debug" their minds, and rumors of ghost hacks that can rewrite your soul.
 
 #### {callout} Hacking Terms
 
@@ -1816,7 +1816,7 @@ For a hacker, everything here is common knowledge, but this is far from everythi
   **Intrusion Countermeasures (IC)**   These are various classes of programs which patrol high level systems looking for hackers and taking actions against them ranging from capture to kill.
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-{callout} “For most people the interface is their whole life. Tells them where to be and who they know. It's like a having a magic wand you can wave and your house will come alive and clean itself and make you a cup of coffee. But, these people are not hackers. They only use 20% of what an interface is capable of. Hackers push it all the way to 110% percent. We have to. When we're on a run we're up against programs that can fry your brain faster than you can even start to THINK 'oh shit!'” – Betty Talent
+{callout} "For most people the interface is their whole life. Tells them where to be and who they know. It's like a having a magic wand you can wave and your house will come alive and clean itself and make you a cup of coffee. But, these people are not hackers. They only use 20% of what an interface is capable of. Hackers push it all the way to 110% percent. We have to. When we're on a run we're up against programs that can fry your brain faster than you can even start to THINK 'oh shit!'" – Betty Talent
 
 ### The Interface and You
 
@@ -1848,7 +1848,7 @@ Your interface has a rating it can use to passively resist hacking attempts if y
 
 #### Hands Free Hacking
 
-The best part about interface implants these days is the wireless part. You don't need to plug a cord into the back of your neck and go find someplace to “jack in.” You are always connected to the big Net and every little net you pass by.
+The best part about interface implants these days is the wireless part. You don't need to plug a cord into the back of your neck and go find someplace to "jack in." You are always connected to the big Net and every little net you pass by.
 
 Some of the cheaper commercial interface implants have ***Weak Wireless Radios*** which can be a hindrance, but you can always connect to a signal booster. In fact, most cars have signal boosters you can plug into, or built in to compensate for degradation at high speeds. If you are going to hack from your car, don't forget to mask your signal booster id.
 
@@ -1886,9 +1886,9 @@ Every system has a Hardening rating which represents how strongly that system re
 
 ##### Locales
 
-Every system can contain nearly infinite cyberspace. In fact, every system can contain a sizable number of nearly infinite cyber worlds in the form of constructs, and large programs, and we refer to each of the interesting places for you to visit as a locale. A locale is just like any other physical place you might visit. Abstractly it's a collection of contiguous zones which you can move around in using virtual “physical” movements. A program can have a number of locales too. In general locales are interesting to cyberspace tourists, but hackers could careless, because to them, every locale is just code. They see beyond the virtualized world and can access the programs creating the illusions of reality that a locale is, and they can rewrite it.
+Every system can contain nearly infinite cyberspace. In fact, every system can contain a sizable number of nearly infinite cyber worlds in the form of constructs, and large programs, and we refer to each of the interesting places for you to visit as a locale. A locale is just like any other physical place you might visit. Abstractly it's a collection of contiguous zones which you can move around in using virtual "physical" movements. A program can have a number of locales too. In general locales are interesting to cyberspace tourists, but hackers could careless, because to them, every locale is just code. They see beyond the virtualized world and can access the programs creating the illusions of reality that a locale is, and they can rewrite it.
 
-Speaking of movement in systems, the system will determine which “physical” movement modalities will be available to you. Some systems might support only basic walking, others have fully realized vehicles for you to use, and quite a few support the wish fulfillment modality of unaided human flight.
+Speaking of movement in systems, the system will determine which "physical" movement modalities will be available to you. Some systems might support only basic walking, others have fully realized vehicles for you to use, and quite a few support the wish fulfillment modality of unaided human flight.
 
 So, you can move around the zones of a Locale using whatever is available on that system, but generally you don't have to, because every system will present you the ability to navigate with just a thought. If a system has more than one interesting Locale available, then it will give you a file system like menu to allow you jump from locale to locale.
 
@@ -2202,7 +2202,7 @@ When it comes to a scene we can turn a bunch of aspects into more detailed oppos
 
 In a hacking scene all the action happens at Net speed. Systems and IC programs can react to you just as fast as you can react to them, so we zoom in and track movement at more detailed level.
 
-Without opposition you can move freely around cyberspace. Amongst the zones of a locale by virtual “physical” movement or by transferring between accessible locales and nodes, provided they are not protected by a barrier.
+Without opposition you can move freely around cyberspace. Amongst the zones of a locale by virtual "physical" movement or by transferring between accessible locales and nodes, provided they are not protected by a barrier.
 
 For one opposed action in cyberspace:
 
@@ -2248,7 +2248,7 @@ This one advancement spawned three main branches of tech: artificial intelligenc
 
 #### You are Interfaced
 
-{value: “Interface technology has radically altered the way we interact with machines and each other.” Alternately to that. “Interface technology lets us hack nets with our minds, share our thoughts, simulate entire worlds right down to physical sensation, and infect someone's brain with a computer virus.” Or, something more metagamey about the game role of the interface. }
+{value: "Interface technology has radically altered the way we interact with machines and each other." Alternately to that. "Interface technology lets us hack nets with our minds, share our thoughts, simulate entire worlds right down to physical sensation, and infect someone's brain with a computer virus." Or, something more metagamey about the game role of the interface. }
 
 {I've established the value prop for interface tech so now we do a quick run down of what you can do with it, what it makes possible. Maybe imply ways that it affects society. }
 
@@ -2332,7 +2332,7 @@ Augmented reality is by far the most common manner of interacting with devices, 
 
 Short for networks; nets with a little 'n' exist anywhere two devices share information. Your interface and smartgun are technically a net. It's a flexible term because nets can be layered and connected in a myriad of ways. Connect them together into a supernet, or connected to everything through the Net. A net is commonly divided into at least two subnets, one public and one private accessible only to a select group of known interface ids. Big corps nets have many many more layers of subnet with ever increasing exclusion and security.
 
-Take that big black corp headquarters building down in the core for example. It's got a densely layered system of nets. There's the public net for visitors with every interface and smartdevice in range connected to it. Usually with some cheesy AR persona welcoming you and offering to “guide you through your first visit to our…” blah blah blah… Then there's the private net for employees with all their interfaces and smartdevices, plus employee workstations and business machines connected to the big servers that run the operations and store data. Layer on to that, all the systems that operate the building's physical features: doors, security, fire prevention, and climate control. And on top of that, connect this building to the corp's larger global net which reaches into every other corp facility and employee there is.
+Take that big black corp headquarters building down in the core for example. It's got a densely layered system of nets. There's the public net for visitors with every interface and smartdevice in range connected to it. Usually with some cheesy AR persona welcoming you and offering to "guide you through your first visit to our…" blah blah blah… Then there's the private net for employees with all their interfaces and smartdevices, plus employee workstations and business machines connected to the big servers that run the operations and store data. Layer on to that, all the systems that operate the building's physical features: doors, security, fire prevention, and climate control. And on top of that, connect this building to the corp's larger global net which reaches into every other corp facility and employee there is.
 
 {we can expand on this from the hacking section too. Anything else that we'd like to know? What they look like through an interface. Focus on how net interface is built from AR}
 
@@ -2382,7 +2382,7 @@ It's not just devices and computers that are linked and networked, it's our very
 
 #### You & Improved
 
-There's so many possible puns about cyberware and interface tech that the media still hasn't caught up but, these days “being the better person” is all about becoming one with machines.
+There's so many possible puns about cyberware and interface tech that the media still hasn't caught up but, these days "being the better person" is all about becoming one with machines.
 
 ##### Cyberbrains
 
@@ -2390,7 +2390,7 @@ Because we understand how the human brain works, we created an electronic device
 
 ##### Cyberbodies
 
-Death doesn't scare us all that much anymore, at least not the “us” that matters. If you're an “us” with money you can replace your entire body with a solid state cybernetic prosthesis that doesn't get sick, or tired, and never ages. Do it for your health, or for the ultimate face lift.
+Death doesn't scare us all that much anymore, at least not the "us" that matters. If you're an "us" with money you can replace your entire body with a solid state cybernetic prosthesis that doesn't get sick, or tired, and never ages. Do it for your health, or for the ultimate face lift.
 
 ##### Cyberware and Bioware
 
@@ -2554,7 +2554,7 @@ Restaurants here are trendy, and the shopping exclusive. The services are exquis
 
 ##### The District
 
-The entirety of what was once the state of New Jersey was going to solve the problem of all those people the corp world couldn't find a use for. All those without the technical skills or the capital to afford an interface implant. All those people, who didn't want to have anything to with corp world. The criminals, the poor, the rebels, and the “alternative.” Everyone was going to have a place in the new self-sustaining enclave called the district.
+The entirety of what was once the state of New Jersey was going to solve the problem of all those people the corp world couldn't find a use for. All those without the technical skills or the capital to afford an interface implant. All those people, who didn't want to have anything to with corp world. The criminals, the poor, the rebels, and the "alternative." Everyone was going to have a place in the new self-sustaining enclave called the district.
 
 It was going to be a beautiful blend of farm and city, powered by the most advanced wireless power grid technology. Or course, it didn't turn out exactly like that. Many historians believe it was trying the build the district that caused the bankruptcy of the federal government.
 
@@ -3057,7 +3057,7 @@ At least one customized vehicle.
 
 ##### Engineer
 
-“Let's start by assuming I'm always correct. We'll get along a lot better that way.”
+"Let's start by assuming I'm always correct. We'll get along a lot better that way."
 
 ###### Peak Skills
 
@@ -3069,7 +3069,7 @@ Sentence about tech
 
 ##### Mechanic
 
-“Engineers can design 'em and AIs can build 'em, but nither of 'em really know what these things can do.”
+"Engineers can design 'em and AIs can build 'em, but nither of 'em really know what these things can do."
 
 ###### Peak Skills
 
@@ -3081,7 +3081,7 @@ Sentence about tech
 
 ##### Hustler
 
-“Short cons, fixing, some legit deal making, even a little begging and stealing, whatever it takes to get by on the streets, ya know?”
+"Short cons, fixing, some legit deal making, even a little begging and stealing, whatever it takes to get by on the streets, ya know?"
 
 ###### Peak Skills
 
