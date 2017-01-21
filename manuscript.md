@@ -18,7 +18,7 @@ This chapter is for everyone. Its ground level concepts and questions to help yo
 
 A Fate game is about competent, proactive, and dramatic characters. A cyberpunk game is about fighting to survive and thrive in a near future where the worst of what our world has to offer is exaggerated to extremes. It's a dangerous world where even characters with powerful backing find themselves dancing daily on the razor's edge of ruin or success. You'll play people who fight the system trying to build a life of their own choosing, however short, in the cracks and shadows of oppressive corporate domination.
 
-### Orientation
+### Essencial Cyberpunk
 
 {Basic concepts and tropes of cyberpunk. Such as cyberware, and what is the Net. Especially what the Net is}
 

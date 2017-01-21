@@ -2,12 +2,22 @@
 	// See https://go.microsoft.com/fwlink/?LinkId=733558
 	// for the documentation about the tasks.json format
 	// A command to compile the ghosting the edge manuscript.docx to markdown
+	//  pandoc manuscript.docx -t markdown -o manuscript.md --wrap=none --atx-headers
 	"version": "0.1.0",
 	"command": "cmd",
 	"isShellCommand": true,
 	"args": [
-		"/C pandoc manuscript.docx -t markdown -o manuscript.md --wrap=none --atx-headers"
+		"/C"
 	],
-	"showOutput": "always"
-	
+	"tasks": [
+		{
+			"taskName": "build",
+			"suppressTaskName": true,
+			"args": [
+				"pandoc -f markdown -t html5 -o manuscript.html manuscript.md & echo HTML-ED!"
+			],
+			"isBuildCommand": true,
+			"showOutput": "always"
+		}
+	]
 }
