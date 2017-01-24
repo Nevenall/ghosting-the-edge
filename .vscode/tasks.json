@@ -14,7 +14,7 @@
 			"taskName": "build",
 			"suppressTaskName": true,
 			"args": [
-				"pandoc -f markdown -t html5 -o manuscript.html manuscript.md & echo HTML-ED!"
+				"del /Q /F html\\*.html & for /R %f in (*.md) do pandoc \"%f\" -t html5 -o \"html\\%~nf.html\""
 			],
 			"isBuildCommand": true,
 			"showOutput": "always"
