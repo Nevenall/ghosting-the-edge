@@ -1,23 +1,75 @@
 {
-	// See https://go.microsoft.com/fwlink/?LinkId=733558
-	// for the documentation about the tasks.json format
-	// A command to compile the ghosting the edge manuscript.docx to markdown
-	//  pandoc manuscript.docx -t markdown -o manuscript.md --wrap=none --atx-headers
-	"version": "0.1.0",
-	"command": "cmd",
-	"isShellCommand": true,
-	"args": [
-		"/C"
-	],
-	"tasks": [
-		{
-			"taskName": "build",
-			"suppressTaskName": true,
-			"args": [
-				"del /Q /F html\\*.html & for /R %f in (*.md) do pandoc \"%f\" -t html5 -o \"html\\%~nf.html\""
-			],
-			"isBuildCommand": true,
-			"showOutput": "always"
-		}
-	]
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  // A command to compile the ghosting the edge manuscript.docx to markdown
+  //  pandoc manuscript.docx -t markdown -o manuscript.md --wrap=none --atx-headers
+  "version": "0.1.0",
+  "_runner": "terminal",
+  "echoCommand": true,
+  "tasks": [
+    {
+      "taskName": "build",
+      "command": "rm html\\*.html; Get-ChildItem *.md -Recurse | ForEach-Object -Process { pandoc.exe $_.FullName -t html5 -o \"html\\$($_.BaseName).html\" };",
+      "args": [],
+      "isShellCommand": true,
+      "isBuildCommand": true,
+      "showOutput": "always"
+    },
+    // setup spell check tasks to use personal dictionary in the proj directory
+    {
+      "taskName": "spell check all files",
+      "command": "gci *.md -Recurse | foreach { write-output \"\nFile - $($_.FullName)\"; SpellCheckTask $_; }",
+      "isShellCommand": true,
+      "showOutput": "always",
+      "isTestCommand": true,
+      "problemMatcher": {
+        "owner": "SpellCheckTask",
+        "severity": "warning",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": "File - (.+)",
+            "file": 1
+          },
+          {
+            "regexp": "(\\d+):(\\d+) (.+ ->.*)",
+            "line": 1,
+            "column": 2,
+            "message": 3,
+            "loop": true
+          }
+        ]
+      }
+    },
+    {
+      "taskName": "spell check this file",
+      "command": "Write-Output \"File - ${file}\"; SpellCheckTask ${file}",
+      "isShellCommand": true,
+      "showOutput": "always",
+      "problemMatcher": {
+        "owner": "SpellCheckTask",
+        "severity": "warning",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": "File - (.+)",
+            "file": 1
+          },
+          {
+            "regexp": "(\\d+):(\\d+) (.+ ->.*)",
+            "line": 1,
+            "column": 2,
+            "message": 3,
+            "loop": true
+          }
+        ]
+      }
+    },
+    {
+      "taskName": "count",
+      "command": "Get-ChildItem *.md -Recurse | Get-Content | Measure-Object -Line -Word -Character",
+      "isShellCommand": true,
+      "showOutput": "always"
+    }
+  ]
 }
