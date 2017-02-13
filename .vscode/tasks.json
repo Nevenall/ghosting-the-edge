@@ -43,7 +43,7 @@
     },
     {
       "taskName": "spell check this file",
-      "command": "Write-Output \"File - ${file}\"; SpellCheckTask ${file}",
+      "command": "Write-Output \"File - ${file}\"; SpellCheckTask \"${file}\";",
       "isShellCommand": true,
       "showOutput": "always",
       "problemMatcher": {
