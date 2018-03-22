@@ -7,6 +7,7 @@ var terms = require('markdown-it-special-terms');
 var del = require('del');
 var shell = require('gulp-shell');
 var count = require('gulp-count-stat');
+const markdownLint = require('markdownlint');
 //var url = require('url');
 
 var md = new MarkdownIt({
@@ -29,7 +30,7 @@ md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
    var aIndex = tokens[idx].attrIndex('href');
    var href = tokens[idx].attrs[aIndex][1];
 
-   if (href.endsWith(".md")) {
+   if(href.endsWith(".md")) {
       tokens[idx].attrs[aIndex][1] = href.replace(".md", ".html");
    }
 
@@ -61,4 +62,17 @@ gulp.task('spelling', function() {
 gulp.task('count', function() {
    return gulp.src(['**/*.md', '!node_modules/**'])
       .pipe(count());
+});
+
+// vale and markdown lint will probably need different problem matchers.
+gulp.task('lint', function() {
+   return gulp.src(['**/*.md', '!node_modules/**'])
+      .pipe(tap((file) => {
+         markdownLint({files: [file]}, function(err, result) {
+            var resultString = (result || "").toString();
+            if (resultString) {
+              console.log(resultString);
+            }
+         });
+      }));
 });
