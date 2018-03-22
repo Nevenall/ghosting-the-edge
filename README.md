@@ -2,9 +2,10 @@
 
 My template environment for markdown projects; just fork and write!
 
-## Dependencies Not Included
+## External Dependencies
 
-OddSpell, ValeLint
+- [OddSpell](https://github.com/Nevenall/OddSpell) for spell checking.
+- [ValeLint](https://github.com/ValeLint/vale/) for style checking.
 
 ## Compiles to Html
 
@@ -17,3 +18,7 @@ Inlcudes custom tweaks to convert internal links to .md files to .html files upo
 ## Visual Studio Code Integration
 
 Includes vs code integration to execute Gulp tasks and a problem matcher for spell checking.
+
+He was all thumbs
+
+this is very interesting
