@@ -72,6 +72,11 @@
       "type": "gulp",
       "task": "count",
       "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "test",
+      "problemMatcher": []
     }
   ]
 }
