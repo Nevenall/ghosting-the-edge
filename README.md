@@ -1,6 +1,6 @@
 # Fork and Write
 
-My template environment for markdown projects; just fork and write!
+My very template environment for markdown projects; just fork and write!
 
 ## External Dependencies
 

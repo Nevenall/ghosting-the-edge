@@ -85,7 +85,28 @@
                   "regexp": "(.+?): (\\d+): (.+ \\[.+\\])",
                   "file": 1,
                   "line": 2,
-                  // "column": 2,
+                  "message": 3,
+                  "loop": true
+               }
+            ]
+         }
+      },
+      {
+         "type": "gulp",
+         "task": "prose",
+         "problemMatcher": {
+            "owner": "Vale",
+            "severity": "warning",
+            "fileLocation": "absolute",
+            "pattern": [
+               {
+                  "regexp": "\"(.+)\"",
+                  "file": 1
+               },
+               {
+                  "regexp": "(\\d+):(\\d+)\t(.+)\t(.+)\t",
+                  "line": 1,
+                  "column": 2,
                   "message": 3,
                   "loop": true
                }
