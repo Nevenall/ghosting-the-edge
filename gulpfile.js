@@ -30,7 +30,7 @@ md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
    var aIndex = tokens[idx].attrIndex('href');
    var href = tokens[idx].attrs[aIndex][1];
 
-   if(href.endsWith(".md")) {
+   if (href.endsWith(".md")) {
       tokens[idx].attrs[aIndex][1] = href.replace(".md", ".html");
    }
 
@@ -69,16 +69,22 @@ gulp.task('count', function() {
 gulp.task('lint', function() {
    return gulp.src(source)
       .pipe(tap((file) => {
-         markdownLint({files: [file.path]}, function(err, result) {
+         markdownLint({
+            files: [file.path],
+            config: {
+               default: true,
+               "line-length": false
+            }
+         }, function(err, result) {
             var resultString = (result || "").toString();
-            if(resultString) {
+            if (resultString) {
                console.log(resultString);
             }
          });
       }));
 });
 
-gulp.task('vale', function() {
+gulp.task('prose', function() {
    return gulp.src(source)
       .pipe(shell(['.\\tools\\ValeLint\\vale "<%= file.path %>"']));
 });

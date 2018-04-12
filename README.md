@@ -13,7 +13,7 @@ Uses Gulp and Markdown-It to compile markdown to html and execute other tasks su
 
 ## Internal Links
 
-Includes custom tweaks to convert internal links to .md files to .html files upon compile. 
+Includes custom tweaks to convert internal links to .md files to .html files upon compile.
 
 ## Visual Studio Code Integration
 
