@@ -2,31 +2,32 @@
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
   //  pandoc manuscript.docx -t markdown -o manuscript.md --wrap=none --atx-headers
-  "version": "0.1.0",
-  "_runner": "terminal",
-  "echoCommand": true,
+  "version": "2.0.0",
   "tasks": [
     {
-      "taskName": "build",
-      "command": "rm html\\*.html; Get-ChildItem *.md -Recurse | ForEach-Object -Process { pandoc.exe $_.FullName -t html5 -o \"html\\$($_.BaseName).html\" };",
-      "args": [],
-      "isShellCommand": true,
-      "isBuildCommand": true,
-      "showOutput": "always"
+      "type": "gulp",
+      "task": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
     },
     {
-      "taskName": "spell check all files",
-      "command": "gci *.md -Recurse | foreach { write-output \"\nFile - $($_.FullName)\"; OddSpell $_; }",
-      "isShellCommand": true,
-      "showOutput": "always",
-      "isTestCommand": true,
+      "task": "spelling",
+      "type": "gulp",
+      "presentation": {
+        "reveal": "silent",
+        "focus": false,
+        "panel": "dedicated"
+      },
       "problemMatcher": {
         "owner": "OddSpell",
         "severity": "warning",
         "fileLocation": "absolute",
         "pattern": [
           {
-            "regexp": "File - (.+)",
+            "regexp": "\"(.+)\"",
             "file": 1
           },
           {
@@ -40,17 +41,21 @@
       }
     },
     {
-      "taskName": "spell check this file",
-      "command": "Write-Output \"File - ${file}\"; OddSpell \"${file}\";",
-      "isShellCommand": true,
-      "showOutput": "always",
+      "label": "spell check this file",
+      "type": "shell",
+      "command": "Write-Output \"${file}\"; OddSpell \"${file}\";",
+      "presentation": {
+        "reveal": "silent",
+        "focus": false,
+        "panel": "dedicated"
+      },
       "problemMatcher": {
         "owner": "OddSpell",
         "severity": "warning",
         "fileLocation": "absolute",
         "pattern": [
           {
-            "regexp": "File - (.+)",
+            "regexp": "\"(.+)\"",
             "file": 1
           },
           {
@@ -64,10 +69,49 @@
       }
     },
     {
-      "taskName": "count",
-      "command": "Get-ChildItem *.md -Recurse | Get-Content | Measure-Object -Line -Word -Character",
-      "isShellCommand": true,
-      "showOutput": "always"
+      "type": "gulp",
+      "task": "count",
+      "problemMatcher": []
+    },
+    {
+      "type": "gulp",
+      "task": "lint",
+      "problemMatcher": {
+        "owner": "MarkdownLint",
+        "severity": "warning",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": "(.+?): (\\d+): (.+ \\[.+\\])",
+            "file": 1,
+            "line": 2,
+            "message": 3,
+            "loop": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "gulp",
+      "task": "prose",
+      "problemMatcher": {
+        "owner": "write-good",
+        "severity": "warning",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": "\"(.+)\"",
+            "file": 1
+          },
+          {
+            "regexp": "(\\d+):(\\d+) (.+)",
+            "line": 1,
+            "column": 2,
+            "message": 3,
+            "loop": true
+          }
+        ]
+      }
     }
   ]
 }
