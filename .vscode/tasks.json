@@ -1,117 +1,117 @@
 {
-   // See https://go.microsoft.com/fwlink/?LinkId=733558
-   // for the documentation about the tasks.json format
-   //  pandoc manuscript.docx -t markdown -o manuscript.md --wrap=none --atx-headers
-   "version": "2.0.0",
-   "tasks": [
-      {
-         "type": "gulp",
-         "task": "build",
-         "group": {
-            "kind": "build",
-            "isDefault": true
-         },
-         "problemMatcher": []
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  //  pandoc manuscript.docx -t markdown -o manuscript.md --wrap=none --atx-headers
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "gulp",
+      "task": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
       },
-      {
-         "task": "spelling",
-         "type": "gulp",
-         "presentation": {
-            "reveal": "silent",
-            "focus": false,
-            "panel": "dedicated"
-         },
-         "problemMatcher": {
-            "owner": "OddSpell",
-            "severity": "warning",
-            "fileLocation": "absolute",
-            "pattern": [
-               {
-                  "regexp": "\"(.+)\"",
-                  "file": 1
-               },
-               {
-                  "regexp": "(\\d+):(\\d+) (.+ ->.*)",
-                  "line": 1,
-                  "column": 2,
-                  "message": 3,
-                  "loop": true
-               }
-            ]
-         }
+      "problemMatcher": []
+    },
+    {
+      "task": "spelling",
+      "type": "gulp",
+      "presentation": {
+        "reveal": "silent",
+        "focus": false,
+        "panel": "dedicated"
       },
-      {
-         "label": "spell check this file",
-         "type": "shell",
-         "command": "Write-Output \"${file}\"; OddSpell \"${file}\";",
-         "presentation": {
-            "reveal": "silent",
-            "focus": false,
-            "panel": "dedicated"
-         },
-         "problemMatcher": {
-            "owner": "OddSpell",
-            "severity": "warning",
-            "fileLocation": "absolute",
-            "pattern": [
-               {
-                  "regexp": "\"(.+)\"",
-                  "file": 1
-               },
-               {
-                  "regexp": "(\\d+):(\\d+) (.+ ->.*)",
-                  "line": 1,
-                  "column": 2,
-                  "message": 3,
-                  "loop": true
-               }
-            ]
-         }
-      },
-      {
-         "type": "gulp",
-         "task": "count",
-         "problemMatcher": []
-      },
-      {
-         "type": "gulp",
-         "task": "lint",
-         "problemMatcher": {
-            "owner": "MarkdownLint",
-            "severity": "warning",
-            "fileLocation": "absolute",
-            "pattern": [
-               {
-                  "regexp": "(.+?): (\\d+): (.+ \\[.+\\])",
-                  "file": 1,
-                  "line": 2,
-                  "message": 3,
-                  "loop": true
-               }
-            ]
-         }
-      },
-      {
-         "type": "gulp",
-         "task": "prose",
-         "problemMatcher": {
-            "owner": "Vale",
-            "severity": "warning",
-            "fileLocation": "absolute",
-            "pattern": [
-               {
-                  "regexp": "\"(.+)\"",
-                  "file": 1
-               },
-               {
-                  "regexp": "(\\d+):(\\d+)\t(.+)\t(.+)\t",
-                  "line": 1,
-                  "column": 2,
-                  "message": 3,
-                  "loop": true
-               }
-            ]
-         }
+      "problemMatcher": {
+        "owner": "OddSpell",
+        "severity": "warning",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": "\"(.+)\"",
+            "file": 1
+          },
+          {
+            "regexp": "(\\d+):(\\d+) (.+ ->.*)",
+            "line": 1,
+            "column": 2,
+            "message": 3,
+            "loop": true
+          }
+        ]
       }
-   ]
+    },
+    {
+      "label": "spell check this file",
+      "type": "shell",
+      "command": "Write-Output \"${file}\"; OddSpell \"${file}\";",
+      "presentation": {
+        "reveal": "silent",
+        "focus": false,
+        "panel": "dedicated"
+      },
+      "problemMatcher": {
+        "owner": "OddSpell",
+        "severity": "warning",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": "\"(.+)\"",
+            "file": 1
+          },
+          {
+            "regexp": "(\\d+):(\\d+) (.+ ->.*)",
+            "line": 1,
+            "column": 2,
+            "message": 3,
+            "loop": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "gulp",
+      "task": "count",
+      "problemMatcher": []
+    },
+    {
+      "type": "gulp",
+      "task": "lint",
+      "problemMatcher": {
+        "owner": "MarkdownLint",
+        "severity": "warning",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": "(.+?): (\\d+): (.+ \\[.+\\])",
+            "file": 1,
+            "line": 2,
+            "message": 3,
+            "loop": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "gulp",
+      "task": "prose",
+      "problemMatcher": {
+        "owner": "write-good",
+        "severity": "warning",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": "\"(.+)\"",
+            "file": 1
+          },
+          {
+            "regexp": "(\\d+):(\\d+) (.+)",
+            "line": 1,
+            "column": 2,
+            "message": 3,
+            "loop": true
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -90,11 +90,12 @@ gulp.task('prose', function() {
       .pipe(tap((file, t) => {
          var text = file.contents.toString();
          var suggestions = prose(text);
-         console.log(file.path);
+         console.log(`"${file.path}"`);
          suggestions.forEach(element => {
             var toCount = text.substring(0, element.index + element.offset);
             var line = toCount.match(/\n/g).length;
-            console.log(`${line + 1}: ${element.reason}`);
+            var column = toCount.substring(toCount.lastIndexOf('\n'), element.index).length;
+            console.log(`${line + 1}:${column}  ${element.reason}`);
          });
       }));
 });
