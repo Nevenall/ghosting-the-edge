@@ -18,7 +18,3 @@ Includes custom tweaks to convert internal links to .md files to .html files upo
 ## Visual Studio Code Integration
 
 Includes vs code integration to execute Gulp tasks and a problem matcher for spell checking.
-
-This is very interesting.
-
-So, the cat was stolen by a loose cannon.
