@@ -8,6 +8,7 @@ var del = require('del');
 var shell = require('gulp-shell');
 var count = require('gulp-count-stat');
 const markdownLint = require('markdownlint');
+const prose = require('write-good');
 
 
 var md = new MarkdownIt({
@@ -30,7 +31,7 @@ md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
    var aIndex = tokens[idx].attrIndex('href');
    var href = tokens[idx].attrs[aIndex][1];
 
-   if (href.endsWith(".md")) {
+   if(href.endsWith(".md")) {
       tokens[idx].attrs[aIndex][1] = href.replace(".md", ".html");
    }
 
@@ -77,7 +78,7 @@ gulp.task('lint', function() {
             }
          }, function(err, result) {
             var resultString = (result || "").toString();
-            if (resultString) {
+            if(resultString) {
                console.log(resultString);
             }
          });
@@ -86,5 +87,14 @@ gulp.task('lint', function() {
 
 gulp.task('prose', function() {
    return gulp.src(source)
-      .pipe(shell(['.\\tools\\ValeLint\\vale "<%= file.path %>"']));
+      .pipe(tap((file, t) => {
+         var text = file.contents.toString();
+         var suggestions = prose(text);
+         console.log(file.path);
+         suggestions.forEach(element => {
+            var toCount = text.substring(0, element.index + element.offset);
+            var line = toCount.match(/\n/g).length;
+            console.log(`${line + 1}: ${element.reason}`);
+         });
+      }));
 });
