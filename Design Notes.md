@@ -27,3 +27,7 @@ Thin space             | `&thinsp;`| M.J. -> M.&thinsp;J.
 © Copyright            | `&copy;`  |
 ® Registered trademark | `&reg;`   |
 ™ Trademark            | `&trade;` |
+
+## fork and write would probably be way easier as an npm package. 
+
+except for the tasks and problem matcher actions. 
