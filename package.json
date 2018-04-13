@@ -1,21 +1,20 @@
 {
-  "name": "forkandwrite",
+  "name": "ghosting-the-edge",
   "version": "1.0.0",
-  "description": "A template for markdown writing projects",
+  "description": "A Cyberpunk inspiration book for Fate Core",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nevenall/ForkAndWrite.git"
+    "url": "git+https://github.com/Nevenall/ghosting-the-edge.git"
   },
   "author": "Dan Behlings",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Nevenall/ForkAndWrite/issues"
+    "url": "https://github.com/Nevenall/ghosting-the-edge/issues"
   },
-  "homepage": "https://github.com/Nevenall/ForkAndWrite#readme",
+  "homepage": "https://github.com/Nevenall/ghosting-the-edge#readme",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
