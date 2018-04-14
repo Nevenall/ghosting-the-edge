@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "A Cyberpunk inspiration book for Fate Core",
   "main": "",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nevenall/ghosting-the-edge.git"
