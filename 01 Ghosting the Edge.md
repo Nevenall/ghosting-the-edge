@@ -1,14 +1,14 @@
-# Chapter One – Ghosting the Edge
+# Ghosting the Edge
 
-'Ghosting' Slang for making a living ('feeding the meat' is a more colorful synonym).
+*Ghosting* is slang for making a living (*feeding the meat* is a more colorful synonym).
 
-'The edge' Where the rigidly controlled corporate world and the anarchic freedom of the streets meet.
+*The edge* is the place where the rigidly controlled corporate world and the anarchic freedom of the streets meet.
 
-This chapter is for everyone. Its ground level concepts and questions to help you make this dystopian future your own.
+This chapter is for everyone. It's ground level concepts and questions to help you make this dystopian future your own.
 
 ## Playing Fate + Cyberpunk
 
-A Fate game is about competent, proactive, and dramatic characters. A cyberpunk game is about fighting to survive and thrive in a near future where the worst of what our world has to offer is exaggerated to extremes. It's a dangerous world where even characters with powerful backing find themselves dancing daily on the razor's edge of ruin or success. You'll play people who fight the system trying to build a life of their own choosing, however short, in the cracks and shadows of oppressive corporate domination.
+A Fate game is about competent, proactive, and dramatic characters. A cyberpunk game is about fighting to survive and thrive in a future where the worst of what our world has to offer is exaggerated to extremes. It's a dangerous world where even characters with powerful backing find themselves dancing daily on the razor's edge of ruin or success. You'll play people who fight the system trying to build a life of their own choosing, however short, in the cracks and shadows of oppressive corporate domination.
 
 ### Essential Cyberpunk
 

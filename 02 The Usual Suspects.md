@@ -1,4 +1,4 @@
-# Chapter Two – The Usual Suspects
+# The Usual Suspects
 
 This chapter is for everyone who's going to make a character. I've got some archetypes for you, I've got your cyberpunk skills and edgy stunts too.
 
