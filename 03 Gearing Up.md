@@ -1,4 +1,4 @@
-# Chapter Three – Gearing Up
+# Gearing Up
 
 ## Gear is a Character
 

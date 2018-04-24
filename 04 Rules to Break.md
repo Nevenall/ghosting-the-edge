@@ -1,4 +1,4 @@
-# Chapter Four – Rules to Break
+# Rules to Break
 
 ## Throwing Down
 

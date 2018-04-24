@@ -1,4 +1,4 @@
-# Chapter Five – Running the Edge
+# Running the Edge
 
 ## Hacking Your Game
 
