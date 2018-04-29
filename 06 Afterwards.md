@@ -11,6 +11,6 @@ If you can, please post a review online or send me comments at [dan@nevenall.gam
 
 You can find more of my games here:
 
-[nevenallgames.com](http://nevenall.games)
+[nevenall.games](http://nevenall.games)
 
 [drivethrurpg.com](http://drivethrurpg.com)
