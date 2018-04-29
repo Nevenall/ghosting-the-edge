@@ -144,7 +144,7 @@ Players, these are the starting stats for making player characters. GMs, tweaks 
 
 Write 5 aspects for your character.
 
-If they have a cybernetic body write that into at least one aspect. ***Cyborg Mercenary***, for example. This is important because character's without a ***cybernetic body*** are limited to 3 for their Physique and Move skills.
+If they have a cybernetic body write that into at least one aspect. **Cyborg Mercenary**, for example. This is important because character's without a **cybernetic body** are limited to 3 for their Physique and Move skills.
 
 {callout?}The answers to some of these questions about your character may lead you to good aspects.
 
@@ -158,7 +158,7 @@ If they have a cybernetic body write that into at least one aspect. ***Cyborg Me
 
 -   What's their relationship to the street?
 
--   Who is your character? Can you sum them up in a single phrase like ***Broken Hacker***?
+-   Who is your character? Can you sum them up in a single phrase like **Broken Hacker**?
 
 -   How much augmentation does your character have and does that affect them emotionally or mentally?
 
@@ -166,7 +166,7 @@ If they have a cybernetic body write that into at least one aspect. ***Cyborg Me
 
 ### Skills
 
-Pick skills for your character according to the traditional pyramid with an apex at 4, and one additional restriction; your Physique and Move are limited to 3, unless you have a ***cybernetic body.***
+Pick skills for your character according to the traditional pyramid with an apex at 4, and one additional restriction; your Physique and Move are limited to 3, unless you have a **cybernetic body.**
 
 ### Refresh + Stunts
 
@@ -178,7 +178,7 @@ You'll spend stunt slots on most cyberware and other upgrades but not regular ge
 
 Your character start with 2 physical stress boxes and 2 mental stress boxes.
 
-Characters with a Physique of 4 or 5, and therefore a ***cybernetic body***, get an extra stress box for a total of 3 physical stress. Characters with a Physique of 6 or 7, get 2 extra physical stress boxes for a total of 4.
+Characters with a Physique of 4 or 5, and therefore a **cybernetic body**, get an extra stress box for a total of 3 physical stress. Characters with a Physique of 6 or 7, get 2 extra physical stress boxes for a total of 4.
 
 Characters with a Will of 4 or 5 get 1 extra mental stress box for a total of 3.
 
@@ -202,9 +202,9 @@ Check out the Gear chapter for more possibilities.
 
 ##### Free Upgrades
 
-A number of upgrades are available without using stunt slots. They are listed in with a cost of {0} in the Gear section.
+A number of upgrades are available without using stunt slots. They are listed in with a cost of 0 {RP} in the Gear section.
 
-For example, you may have a basic Interface implant for no cost. You may also have a standard, meaning non-combat, ***Cyborg Replacement Body***, without using stunt slots. Such a body has both benefits and drawbacks.
+For example, you may have a basic Interface implant for no cost. You may also have a standard, meaning non-combat, **Cyborg Replacement Body**, without using stunt slots. Such a body has both benefits and drawbacks.
 
 ##### How Much Can I Take?
 
@@ -288,7 +288,7 @@ Bio is like the Tech skill, but for dealing with living stuff. Its medicine, bio
 
 O to stop your friend from bleeding out, or to design a genetically enhanced liver.
 
-C for old fashion body hacking like entering a ***breath control trance***, or to use a mild stimulant concoction to ***overcharge*** your adrenal control bioimplant.
+C for old fashion body hacking like entering a **breath control trance**, or to use a mild stimulant concoction to **overcharge** your adrenal control bioimplant.
 
 A Not used for attacks.
 
@@ -314,7 +314,7 @@ See the hacking on page XXX for more information.
 
 O to crack an attack barrier and get into the secure net it protects. To code an IC program to patrol your own personal castle in the Net, and a geisha construct to keep you company while you are there. Use it to hack your boss's memory so he'll think you've already completed project Daedalus.
 
-C to stir up a localized ***Packet Storm*** that'll keep the system you just cracked from tracing your signal. To activate the ***Fire Suppression System*** as a distraction so your team can penetrate the Hyldyne Corporate building. Or hack the security controller and make yourself ***Invisible to their Security Sensors***.
+C to stir up a localized **Packet Storm** that'll keep the system you just cracked from tracing your signal. To activate the **Fire Suppression System** as a distraction so your team can penetrate the Hyldyne Corporate building. Or hack the security controller and make yourself **Invisible to their Security Sensors**.
 
 A programs and other hackers if you are both interfaced in the same system.
 
@@ -342,7 +342,7 @@ Physique is still a measure of a character's strength, endurance, toughness, but
 
 O obstacles that require the application of brute force—most often to overcome a situation aspect on a zone—or any other physical impedance, like prison bars or locked gates. Of course, Physique is the classic skill for arm-wrestling matches and other contests of applied strength, as well as marathons or other endurance-based challenges.
 
-C Physique has a lot of potential for advantages in physical conflict, usually related to grappling and holding someone in place, making them ***Pinned*** or ***Locked Down***. You might also use it as a way of discovering physical impairments possessed by the target—grappling the old mercenary tells you that he has a ***Bum Leg*** or some such.
+C Physique has a lot of potential for advantages in physical conflict, usually related to grappling and holding someone in place, making them **Pinned** or **Locked Down**. You might also use it as a way of discovering physical impairments possessed by the target—grappling the old mercenary tells you that he has a **Bum Leg** or some such.
 
 A Physique is not used to harm people directly—see the Fight skill for that.
 
@@ -398,7 +398,7 @@ Resources can represent a character's personal wealth, but it can also be a stat
 
 O to acquire just about any good or service you can imagine, including a justice contract against someone who'd done wrong to you. Or just someone you don't like.
 
-C to host an associate at an ***Exclusive Restaurant*** to give you an edge in your negotiations. Hire someone to get ***Useful Dirt*** on the Trellex board of directors.
+C to host an associate at an **Exclusive Restaurant** to give you an edge in your negotiations. Hire someone to get **Useful Dirt** on the Trellex board of directors.
 
 A Resources is not used for direct attacks.
 
@@ -420,7 +420,7 @@ Tech is the skill for machines and science. Mechanical, and electrical. From a s
 
 O to repair a broken device, design and a build a new one, or place some explosives.
 
-C to jury-rig a ***turbo booster*** for your VecD Shadow, or create some ***simple mechanical advantage***.
+C to jury-rig a **turbo booster** for your VecD Shadow, or create some **simple mechanical advantage**.
 
 A tech is not used directly for attacks but it can help you make the most of an attack using or targeting a device.
 

@@ -1,8 +1,8 @@
 # Ghosting the Edge
 
-*Ghosting* is slang for making a living (*feeding the meat* is a more colorful synonym).
+*Ghosting* -- slang for making a living (*feeding the meat* is a more colorful synonym).
 
-*The edge* is the place where the rigidly controlled corporate world and the anarchic freedom of the streets meet.
+*The edge* -- a the place where the stasis of corporate control meets the anarchic currents of the street.
 
 This chapter is for everyone. It's ground level concepts and questions to help you make this dystopian future your own.
 

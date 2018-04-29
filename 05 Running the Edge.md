@@ -346,7 +346,7 @@ The district can be many things to your game. It can be an urban wasteland ruled
 
 You can find all kinds of crazy stuff in the District, there's even rumors that there's a snyth-concrete cathedral constructed by nano-bots.
 
-{statblock?} ***Abandoned Self-Sustaining Urban Enclave, No Law but What You Can Make For Yourself***
+{statblock?} **Abandoned Self-Sustaining Urban Enclave, No Law but What You Can Make For Yourself**
 
 {callout}The Dis? The Dis is a ruin no one can abandon. The last gasp of a government losing its grip. They wanted to turn what was left of New Jersey and the new eastern seaboard into a modern enclave, safe, clean, efficient, and self-sustaining. Really, it was a dumping ground for those who couldn't, or wouldn't, participate in the new global culture. The undereducated and the misfits. Reality, it was the biggest projects ever created. Well, attempted anyway. No police, nothing official in the Dis, just the law of the street. Its urban decay, poverty, crime, black market, and freedom from corp influence. It's where you go for shady biz, or to hide, and it's where you end up when you can't make it anywhere else. The corps use it too, for them it's dumping ground and proving ground and a place for their darkest deals and nastiest ops.
 
@@ -895,11 +895,11 @@ I kinda feel like I should pay off some of the stuff from the world section by h
 
 #### Inequity 
 
-If you decide nothing else about a location, you should place it on one or the other extreme in terms of wealth. Wherever your characters go, there is either ***urban decay*** and ***neglected infrastructure*** or ***pretentious exclusivity*** and ***constant monitoring and security***. You might occasionally find an area where people cast out of the corporate monoculture have ***repurposed abandoned urban habitat***, but those are rare oases of humanity in a wasteland of ***lawless ruins*** and ***soulless corporate enclaves***.
+If you decide nothing else about a location, you should place it on one or the other extreme in terms of wealth. Wherever your characters go, there is either **urban decay** and **neglected infrastructure** or **pretentious exclusivity** and **constant monitoring and security**. You might occasionally find an area where people cast out of the corporate monoculture have **repurposed abandoned urban habitat**, but those are rare oases of humanity in a wasteland of **lawless ruins** and **soulless corporate enclaves**.
 
 #### Age
 
-Is the place ***so new the bugs aren't worked out*** or is it an old repurposed building that ***should be condemned***.
+Is the place **so new the bugs aren't worked out** or is it an old repurposed building that **should be condemned**.
 
 #### Purpose
 
@@ -943,7 +943,7 @@ If a character enjoys the benefits of a sponsor, consider making their standing 
 
 If you want characters to feel how sharp the edge can be show them the cost of not maintaining and upgrading their tech.
 
-Between scenarios every character gets a negative aspect attached to one of their upgrades. It might be ***Obsolete Wired Reflexes*** because someone invented a way to make them faster and you can bet all the potential adversaries out there won't waste any time getting the new wiring. Or, it can be a maintenance related aspect such as ***Sticky Cyberarm Articulator***, which is sure to lockup at the most inconvenient time if it goes unaddressed.
+Between scenarios every character gets a negative aspect attached to one of their upgrades. It might be **Obsolete Wired Reflexes** because someone invented a way to make them faster and you can bet all the potential adversaries out there won't waste any time getting the new wiring. Or, it can be a maintenance related aspect such as **Sticky Cyberarm Articulator**, which is sure to lockup at the most inconvenient time if it goes unaddressed.
 
 Characters who don't want to start getting outclassed by every ganger they throw down on will take the time to make an O with Resources or Tech to remove these aspects.
 

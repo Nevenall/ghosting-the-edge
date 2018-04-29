@@ -46,7 +46,7 @@ Zones are an intentionally abstract measure of distance. Weapons may have impres
 
 #### Grappling
 
-You and your foe are in intense physical contact. You need to establish a ***grappled*** aspect to achieve this level of range because it renders most weapons and a good many kinds of attacks ineffective. Or at least, increases their difficulty. Grappled characters can't succeed with most attacks unless they can O their ***grappled*** aspect.
+You and your foe are in intense physical contact. You need to establish a **grappled** aspect to achieve this level of range because it renders most weapons and a good many kinds of attacks ineffective. Or at least, increases their difficulty. Grappled characters can't succeed with most attacks unless they can O their **grappled** aspect.
 
 #### Close Quarters Combat (CQC)
 
@@ -70,7 +70,7 @@ Assassination is not a conflict. A conflict requires two parties who can act to 
 
 Treat an assassination as a skill challenge, commonly with a Shoot O for the actual kill and other skills for planning and escaping.
 
-Same thing goes even if you are sniping a group of targets who are actively taking cover to avoid you. It's not a conflict if they can't attack you back. They can ***Take Cover*** and setup obstacles to your sniping or O your ***Concealment*** to find you and target you with their own attacks, assuming their weapons have sufficient range.
+Same thing goes even if you are sniping a group of targets who are actively taking cover to avoid you. It's not a conflict if they can't attack you back. They can **Take Cover** and setup obstacles to your sniping or O your **Concealment** to find you and target you with their own attacks, assuming their weapons have sufficient range.
 
 #### Setting Difficulty 
 
@@ -132,15 +132,15 @@ The interface is what makes hacking, as we know it today, possible. Sure there a
 
 A wireless interface implant can let you hack a secure net in Moscow while you're driving a car in Tokyo but the companies that manufacture them don't want you doing that sort of thing, which is why commercial interfaces are really highly restricted tools of social control.
 
-With a ***Commercial Interface*** there are places in the Net you cannot visit. They are filtered out of your perception. There are things you cannot do, like share your thoughts with another person, and nothing you can do is anonymous. Your identity is embedded in your interface so that every place your go in the Net, every secure net you connect to, everything you buy, everything you eat, and everything you throw out are all recorded and linked to your identity. The ***Really Cheap Commercial Interfaces*** even allow a constant stream advertisements to whisper in your ear like a demon on your shoulder. Some interfaces even have special protocols corps can use to temporarily deactivate your brain if you get caught hacking. Go read your terms and conditions if you don't believe me.
+With a **Commercial Interface** there are places in the Net you cannot visit. They are filtered out of your perception. There are things you cannot do, like share your thoughts with another person, and nothing you can do is anonymous. Your identity is embedded in your interface so that every place your go in the Net, every secure net you connect to, everything you buy, everything you eat, and everything you throw out are all recorded and linked to your identity. The **Really Cheap Commercial Interfaces** even allow a constant stream advertisements to whisper in your ear like a demon on your shoulder. Some interfaces even have special protocols corps can use to temporarily deactivate your brain if you get caught hacking. Go read your terms and conditions if you don't believe me.
 
 People accept this intrusion because they don't intend to do any hacking with their interface anyway, and most of the tracking data is just used to sell them things and improve the quality of their services. Imagine that twice in row you order a pizza after an evening work out, but the third time your interface asks if you'd like it to order the pizza for you every time you work out after 6 pm? They also accept it because they need their interface to do their job. Their corp job which is the only thing standing between them and moving into the district.
 
-Anyway, this all means that the first thing you need to be a hacker is an ***unlocked interface***. One that you have complete control over. You can block ads, and turn off any perception filtering in the Net so you can visit all those nasty hacker hangouts the corp overloads didn't want you to know existed. And what's even better is you have control over the identity of your interface. You can mask it, which will get you rejected from most commercial systems. Or you can present a fake identity, hackers buy them by the dozen. Or you can spoof somebody else's id and get them fingered for your hacker crimes. Of course, most secure nets will raise an alert if a duplicate id connects and lock you both down until the situation can be sorted out. Which is, in fact, a common hacker prank called {Deduping}.
+Anyway, this all means that the first thing you need to be a hacker is an **unlocked interface**. One that you have complete control over. You can block ads, and turn off any perception filtering in the Net so you can visit all those nasty hacker hangouts the corp overloads didn't want you to know existed. And what's even better is you have control over the identity of your interface. You can mask it, which will get you rejected from most commercial systems. Or you can present a fake identity, hackers buy them by the dozen. Or you can spoof somebody else's id and get them fingered for your hacker crimes. Of course, most secure nets will raise an alert if a duplicate id connects and lock you both down until the situation can be sorted out. Which is, in fact, a common hacker prank called {Deduping}.
 
-Of course, if you're lucky enough to have a high level job as say, a corp hacker, you can get an ***unrestricted interface***, which still tracks you, but which doesn't filter you.
+Of course, if you're lucky enough to have a high level job as say, a corp hacker, you can get an **unrestricted interface**, which still tracks you, but which doesn't filter you.
 
-{callout} Any character with a Hack skill is assumed to have an ***unlocked interface*** or an ***unrestricted interface***.
+{callout} Any character with a Hack skill is assumed to have an **unlocked interface** or an **unrestricted interface**.
 
 You can unlock one yourself by using Tech, or pay someone you trust to do it for you.
 
@@ -156,7 +156,7 @@ Your interface has a rating it can use to passively resist hacking attempts if y
 
 The best part about interface implants these days is the wireless part. You don't need to plug a cord into the back of your neck and go find someplace to "jack in." You are always connected to the big Net and every little net you pass by.
 
-Some of the cheaper commercial interface implants have ***Weak Wireless Radios*** which can be a hindrance, but you can always connect to a signal booster. In fact, most cars have signal boosters you can plug into, or built in to compensate for degradation at high speeds. If you are going to hack from your car, don't forget to mask your signal booster id.
+Some of the cheaper commercial interface implants have **Weak Wireless Radios** which can be a hindrance, but you can always connect to a signal booster. In fact, most cars have signal boosters you can plug into, or built in to compensate for degradation at high speeds. If you are going to hack from your car, don't forget to mask your signal booster id.
 
 ##### Promiscuous Mode
 
@@ -164,7 +164,7 @@ This is the default mode for most interface implants and it means they'll automa
 
 ##### Isolation Mode
 
-Turning off your wireless means you can only hack or be hacked though systems you are physically linked to, which can include direct contact plates. That's how Mode Little En hacked JelRazor; by sticking a magnetic wireless repeater on Jel's ***direct contact plate*** and frying his brain.
+Turning off your wireless means you can only hack or be hacked though systems you are physically linked to, which can include direct contact plates. That's how Mode Little En hacked JelRazor; by sticking a magnetic wireless repeater on Jel's **direct contact plate** and frying his brain.
 
 ### But what about fighting in the Net?
 
@@ -336,7 +336,7 @@ When hackers aren't out cracking secure nets and subverting smart devices, they 
 
 Lots of programs are practical and boring, but hackers also write other kinds of programs too and this is a section about those programs.
 
-Most of these will be oneoff programs that you'll run and delete because they are really just a side effect of your Hack actions. For example, you might write a quick ***BFG Program*** to give you an edge in fighting another hacker in the Net. Or you might whip up a ***Cloak of Invisibility*** to make it easier to remain undetected during your run.
+Most of these will be oneoff programs that you'll run and delete because they are really just a side effect of your Hack actions. For example, you might write a quick **BFG Program** to give you an edge in fighting another hacker in the Net. Or you might whip up a **Cloak of Invisibility** to make it easier to remain undetected during your run.
 
 Some programs are more detailed and autonomous. They have skills of their own and sometimes persona. IC programs are commonly of this sort.
 
@@ -356,7 +356,7 @@ Any exploit you run on a system, in fact, just about any action you take with yo
 
 Scripts are great! They're like an entire hacking montage you can store and run whenever want. You can make a good living writing scripts for people who don't know how to hack; to help them destroy evidence of their crimes, or to commit them. A script can be programmed to do whatever tasks you need it too, but only those tasks and only against the system you wrote it for, and even then, only for as long as their defenses remain more or less the same.
 
-Creating a script is like planning a heist and giving the instructions to a robot to run and the robot can only be as smart as you you're your script. Because you have to account for everything up front, it helps to have some foreknowledge about the security of the net you are targeting. From, for example, ***insider information***, or based on your own recent experience.
+Creating a script is like planning a heist and giving the instructions to a robot to run and the robot can only be as smart as you you're your script. Because you have to account for everything up front, it helps to have some foreknowledge about the security of the net you are targeting. From, for example, **insider information**, or based on your own recent experience.
 
 To create a script, either roll a Hacking montage against the target system right now, or wait until the script is actually run and then roll. Whichever fits the flow of your game better.
 
@@ -480,25 +480,25 @@ Once you know the outcome of the montage, you can narrate the highlights of the 
 
 The opposition for a hacking montage is generally the highest barrier or hardening rating out of all the nodes being hacked. You can crack through multiple barrier programs in a single montage.
 
-The system can present active opposition as appropriate, and many will. If there are noteworthy defenses beyond just the barrier program, give the system an aspect for those and bump up the opposition. ***Black IC***, or ***Hackers Watching Everything*** for example.
+The system can present active opposition as appropriate, and many will. If there are noteworthy defenses beyond just the barrier program, give the system an aspect for those and bump up the opposition. **Black IC**, or **Hackers Watching Everything** for example.
 
 ##### Succeeding At a Cost
 
 You can use the *succeed at a cost* concept from O actions when someone fails a hacking montage, even if they're trying to A.
 
-The cost to succeed can be based on the qualities of the system you're hacking. For example, most serious secure nets have ***Black IC*** which can inflict stress as a cost. One or two for a minor cost, and perhaps even a major consequence for a major cost.
+The cost to succeed can be based on the qualities of the system you're hacking. For example, most serious secure nets have **Black IC** which can inflict stress as a cost. One or two for a minor cost, and perhaps even a major consequence for a major cost.
 
 ###### {callout}Example Costs
 
   **Minor**                                           **Major**
   --------------------------------------------------- ---------------------------------------------------------------------
   Couple of Stress                                    A consequence
-  The system has ***Detected Your Intrusion***        The system has ***Captured*** you
+  The system has **Detected Your Intrusion**        The system has **Captured** you
   The system has traced you and is sending security   You and your team get attacked by a security detail the system sent
 
 #### Hacking Sequence
 
-If your action is set in cyberspace then you can run it is a scene. If, for example, your entire team is interfaced with the objective of cracking Chibutsu's AI Persona storage and slipping an extra command directive into their top selling personal assistant AI; that would make a great scene. If you're just trying to activate a building's fire defense system to create ***Big Billowing Clouds of Fire Suppressant Gas*** that will cover your team as they escape; you'd be better served by the quick resolution of a hacking montage.
+If your action is set in cyberspace then you can run it is a scene. If, for example, your entire team is interfaced with the objective of cracking Chibutsu's AI Persona storage and slipping an extra command directive into their top selling personal assistant AI; that would make a great scene. If you're just trying to activate a building's fire defense system to create **Big Billowing Clouds of Fire Suppressant Gas** that will cover your team as they escape; you'd be better served by the quick resolution of a hacking montage.
 
 Hacking as scene builds on hacking as an action, and everything that's true for an action is true for a scene. After all, a scene *is* a sequence of actions, but when you run hacking as a scene you handle the troubles a hacker faces in a more interesting and detailed way.
 
@@ -520,6 +520,6 @@ Wherever you are in a system, the transfer menu is always available and if you w
 
 Hackers, programs, systems, these things all have stress tracks.
 
-Programs get unraveled as they take stress and if they are important enough to have consequences, those will represent various bugs and malfunctions that take away parts of the programs function. This might be ***Lost Chunks of Data***, or ***Broken Voice Feature***. Programs that are taken out are completely at your mercy. You can delete the program, or capture it and rewrite it to be loyal to you.
+Programs get unraveled as they take stress and if they are important enough to have consequences, those will represent various bugs and malfunctions that take away parts of the programs function. This might be **Lost Chunks of Data**, or **Broken Voice Feature**. Programs that are taken out are completely at your mercy. You can delete the program, or capture it and rewrite it to be loyal to you.
 
 Systems have stress as well, and larger corp system can take significant amounts, but, as with programs, taking out an entire system can crash it, and everything in it, irrevocably, or it could mean you get to take over the entire system. {this is essencially what Case was doing with the Chinese ICE breaker. A huge attack on the TA core system so that it could be taken over.}
