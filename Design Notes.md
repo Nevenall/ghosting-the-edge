@@ -26,9 +26,9 @@ Thin space             | `&thinsp;`| M.J. -> M.&thinsp;J.
 ° Degree               | `&deg;`   |   
 · Middle dot           | `&middot;`|           
 • Bullet               | `&bull;`  |     
-© Copyright            | `&copy;`  |
-® Registered trademark | `&reg;`   |
-™ Trademark            | `&trade;` |
+© Copyright            | `&copy;`  | (c)
+® Registered trademark | `&reg;`   | (r)
+™ Trademark            | `&trade;` | (tm)
 
 ## fork and write would probably be way easier as an npm package. 
 
