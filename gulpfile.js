@@ -1,13 +1,19 @@
-var gulp = require('gulp');
-var gutil = require('gulp-util');
-var tap = require('gulp-tap');
-var MarkdownIt = require('markdown-it');
-var deflist = require('markdown-it-deflist');
-var terms = require('markdown-it-special-terms');
-var del = require('del');
-var shell = require('gulp-shell');
-var count = require('gulp-count-stat');
+const gulp = require('gulp');
+const gutil = require('gulp-util');
+const tap = require('gulp-tap');
+const shell = require('gulp-shell');
+
+const count = require('gulp-count-stat');
+
+const del = require('del');
+
+const MarkdownIt = require('markdown-it');
+const deflist = require('markdown-it-deflist');
+const terms = require('markdown-it-special-terms');
+const anchors = require('markdown-it-anchor');
+
 const markdownLint = require('markdownlint');
+
 const prose = require('write-good');
 
 
@@ -21,8 +27,10 @@ var md = new MarkdownIt({
 
 md.use(deflist);
 md.use(terms);
+md.use(anchors);
 
 // any link to a .md resource, we will convert to a link to an .html resource
+// links with \ will be converted to /
 var defaultRender = md.renderer.rules.link_open || function(tokens, idx, options, env, self) {
    return self.renderToken(tokens, idx, options);
 };
@@ -31,6 +39,8 @@ md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
    var aIndex = tokens[idx].attrIndex('href');
    var href = tokens[idx].attrs[aIndex][1];
 
+   tokens[idx].attrs[aIndex][1] = href.replace('\\', '/');
+
    if(href.endsWith(".md")) {
       tokens[idx].attrs[aIndex][1] = href.replace(".md", ".html");
    }
@@ -38,6 +48,8 @@ md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
    // pass token to default renderer.
    return defaultRender(tokens, idx, options, env, self);
 };
+
+
 
 const source = ['**/*.md', '!node_modules/**', '!tools/**'];
 
