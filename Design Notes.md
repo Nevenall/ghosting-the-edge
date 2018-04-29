@@ -1,6 +1,8 @@
 # General Design Notes
 
-The built in markdown typography is OK but we need We need something more elaborate for things like ellipses and degree signs that sort of thing.
+The built in markdown typography is OK but we need We need something more elaborate for things like ellipses and degree signs that sort of thing. 
+
+Markdown-it typography does a good job of replacement actually. 
 
 ## Typographic Symbol Table
 
@@ -24,9 +26,9 @@ Thin space             | `&thinsp;`| M.J. -> M.&thinsp;J.
 ° Degree               | `&deg;`   |   
 · Middle dot           | `&middot;`|           
 • Bullet               | `&bull;`  |     
-© Copyright            | `&copy;`  |
-® Registered trademark | `&reg;`   |
-™ Trademark            | `&trade;` |
+© Copyright            | `&copy;`  | (c)
+® Registered trademark | `&reg;`   | (r)
+™ Trademark            | `&trade;` | (tm)
 
 ## fork and write would probably be way easier as an npm package. 
 

@@ -1,4 +1,4 @@
-{
+ {
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
   //  pandoc manuscript.docx -t markdown -o manuscript.md --wrap=none --atx-headers
@@ -68,11 +68,7 @@
         ]
       }
     },
-    {
-      "type": "gulp",
-      "task": "count",
-      "problemMatcher": []
-    },
+   
     {
       "type": "gulp",
       "task": "lint",
