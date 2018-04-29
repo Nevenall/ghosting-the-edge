@@ -77,8 +77,7 @@ gulp.task('build', ['clean'], function() {
 
 gulp.task('copy', ['build'], function() {
    console.log("copying to c:/src/BookShelf-GhostingTheEdge/src/pages");
-   return gulp.src(source)
-   pipe(dest("c:/src/BookShelf-GhostingTheEdge/src/pages"));
+   return gulp.src('html/**').pipe(gulp.dest("c:/src/BookShelf-GhostingTheEdge/src/pages"));
 });
 
 gulp.task('spelling', function() {
