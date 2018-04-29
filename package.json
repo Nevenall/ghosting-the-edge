@@ -29,5 +29,7 @@
     "markdownlint": "^0.8.1",
     "write-good": "^0.11.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@types/gulp": "^4.0.5"
+  }
 }

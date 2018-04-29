@@ -75,6 +75,12 @@ gulp.task('build', ['clean'], function() {
       .pipe(gulp.dest('./html'));
 });
 
+gulp.task('copy', ['build'], function() {
+   console.log("copying to c:/src/BookShelf-GhostingTheEdge/src/pages");
+   return gulp.src(source)
+   pipe(dest("c:/src/BookShelf-GhostingTheEdge/src/pages"));
+});
+
 gulp.task('spelling', function() {
    return gulp.src(source)
       .pipe(shell(['echo "<%= file.path %>"', 'OddSpell "<%= file.path %>"']));
