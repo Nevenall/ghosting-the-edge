@@ -68,11 +68,7 @@
         ]
       }
     },
-    {
-      "type": "gulp",
-      "task": "count",
-      "problemMatcher": []
-    },
+   
     {
       "type": "gulp",
       "task": "lint",
