@@ -26,7 +26,14 @@ var md = new MarkdownIt({
 });
 
 md.use(deflist);
-md.use(terms);
+md.use(terms, {
+   open_1: "<span class='game-term'>",
+   close_1: "</span>",
+   open_2: "<aside class='callout'>",
+   close_2: "</aside>",
+   open_3: "<div class='stat-block'>",
+   close_3: "</div>"
+});
 md.use(anchors);
 
 // any link to a .md resource, we will convert to a link to an .html resource
