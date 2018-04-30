@@ -2,19 +2,17 @@
 
 ## Gear is a Character
 
-Every piece of gear in Ghosting the Edge is treated as a character with its own aspects, skills, and stunts but, don't panic, most of the time all those extra details are just background. {can we explain what that means and how it might actually work? The rest of the section explains the way that gear is different from a character. The exceptions.
-
-In general, I like approaching things from a more, you instead of him or her. You, or your characters. This works for gms too because they are a you and they have their own characters. Though, as gm you tend to have characters. I suppose we could address ourselves to the players in general as a you. Ya'll. }
+Every piece of gear in Ghosting the Edge is treated as a character with its own aspects, skills, and stunts but don't panic, most of the time all those extra details just fade into the background.
 
 ### Gear is your Tool
 
-Unlike a character, your gear won't operate independently, unless it has the **Sapience** stunt. Most of the time it will simply be part of your characters' action either providing justification for it, like having a gun for Shooting, or providing access to its aspects, skills, and stunts.
+Unlike a character your gear can't operate independently (unless it has the **Sapience** stunt.) Most of the time it will simply be part of your character's action; providing justification for it, or providing you access to its aspects, skills, and stunts.
 
 ### Unrated Skills
 
-Devices, even **Sapient** ones, don't have a store of general knowledge or problem solving abilities like humans do so they can't use skills they don't have a rating for.
+Devices, particularly **Sapient** ones, don't have the same store of general knowledge and problem solving abilities that humans do. Even in the near future, devices can only do what they've been programmed to do, which means they cannot use skills they don't have a rating for.
 
-For example, A **Sapient** vehicle without a rating in the Shoot skill is not programmed to handle onboard weaponry and cannot take any actions involving them.
+> For example, a **Sapient** vehicle without a rating in the Shoot skill is not programmed to handle the onboard weapons and cannot take any actions involving them.
 
 ### Gear Aspects
 
@@ -30,25 +28,25 @@ That said, there are a few gear aspects that come with extra rules, but nothing 
 
 ### Cost Rating {CR}
 
-Gear has an abstract {Cost Rating} that's is roughly equivalent to its total refresh value.
-
-Starting characters pay this cost from their initial gear budget for the item.
-
-In play, the cost is the base difficulty for acquiring that item.
+Gear has an abstract Cost Rating that's roughly equivalent to its total refresh value.Starting characters can pay this cost from their initial gear budget. In play, the cost is the base difficulty for acquiring it.
 
 ### Starting Gear
 
-Starting characters typically get 2x their Resources rating for initial gear.
+Starting characters typically get 2× their Resources rating to buy initial gear.
+
+#### Free Gear
 
 Some items have a 0 {CR} which means they may be had for free.
 
 ## Gear Catalog
 
-{{{"You want to make it, sure you do. So does every meatsack in the Dis and we both know surviving here takes a gritty mash of guts and gear. If you've got the guts, then I've got the gear for you boy'o. I've got a Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires, and Titania Lux Spacedrop rated Assault Armor. You bet I do." – Can-a-Bass. Dis Fixer}}}
+{{{"You want to make it out there? Sure you do! So does every meatsack in the Dis and we both know surviving here takes a gritty mash of guts and gear. If you've got the guts, then I've got the gear for you boy'o. I've got yer Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires. I've even got your Titania Lux Spacedrop rated Assault Armor. You bet I do!" 
+– Can-a-Bass. Dis Fixer}}}
+[callout of just interesting voice? I like the interesting voice approach.]
 
 ### Upgrades
 
-[present some basics, what is an upgrade what is not an upgrade. Game-wise how they are handled. Important to note to people that you don't have to use stunts or refresh to buy upgrades.]
+Gear is great, but you're here because you want to be a better you. You want that special edge that only comes from blurring the line between flesh and machine. Lucky for you, all the bits you could possibly want to cram into your delicate self are right here. 
 
 #### Surgery, Recovery and Adjustment
 
