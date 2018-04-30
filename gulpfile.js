@@ -29,10 +29,10 @@ md.use(deflist);
 md.use(terms, {
    open_1: "<span class='game-term'>",
    close_1: "</span>",
-   open_2: "<aside class='callout'>",
-   close_2: "</aside>",
-   open_3: "<div class='stat-block'>",
-   close_3: "</div>"
+   open_2: "<span class='aspect'>",
+   close_2: "</span>",
+   open_3: "<aside class='callout'>",
+   close_3: "</aside>"
 });
 md.use(anchors);
 
