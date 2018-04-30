@@ -48,19 +48,27 @@ Some items have a 0 {CR} which means they may be had for free.
 
 Gear is great, but you're here because you want to be a better you. You want that special edge that only comes from blurring the line between flesh and machine. Lucky for you, all the bits you could possibly want to cram into your delicate self are right here. 
 
-#### Surgery, Recovery and Adjustment
+#### Surgery & Reestablishment
 
-Upgrades are different from other pieces of gear. You can't just buy one and drive it off the showroom floor. Even simple upgrades require an operation to implant them and connect them to your bodily systems, followed by an extended process of recovery, therapy, and training to make use of your new device.
+Upgrades are not just another piece of gear, they extend you; they are you. Even simple upgrades require an operation to connect them to your bodily systems, and following a process of recovery and adjustment to this new part of you called reestablishment.
 
-Characters are assumed to have gone through this for their initial upgrades, but when they buy a new one during play they'll need to go through the recovery and adjustment process. Luckily, the more you pay the faster you can make it.
+Characters are assumed to have gone through reestablishment for their initial upgrades, but will face it when aquiring new upgrades during play. Of course, the more you can pay the shorter you can make it.
 
-The default Consequence for an upgrade is Moderate. This Consequence is for medical recovery and for the time needed to adjust to using the gear. Learning to mentally activate an interface, or get used to the enhanced reaction times of Boosted Reflexes.
+##### Reestablishment is a Consequence
 
-By adding 1 to the cost of the item, the severity of the recovery and adjustment consequence can be reduced by 1. By adding 2 to the cost the Severity can be reduced by 2.
+The default consequence for an upgrade is moderate. This covers both the medical procedure, recovery, and the time and training it takes to learn to use the new you.  
 
-Some upgrades are more {{invasive}} or {{difficult to adjust to}} and for these the character's Consequence is increased by one severity. Making Mild the least possible.
+###### Adjusting Reestablishment
 
-Other upgrades are non-invasive or easy to adjust to and these reduce the severity of the complication by one.
+By adding 1 to the cost of the item the severity of the reestablishment consequence can be reduced by 1. By adding 2 to the cost, it can be reduced by 2.
+
+Some upgrades are {{invasive}} or {{difficult to adjust to}} and for these the reestablishment severity is increased by 1. These tags each increase the minimum possible severity as well. Making a moderate reestablishment the best you can expect for any {{invasive}} and {{difficult to adjust to}} upgrades, such as wired reflexes.
+
+Other upgrades are the opposite; {{non-invasive}} or {{easy to adjust}} to and these reduce reestablishment by 1.
+
+### Types of Upgrades
+
+
 
 #### Neural Implants
 
