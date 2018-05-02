@@ -84,7 +84,7 @@ md.use(containers, 'figure', {
       var m = tokens[idx].info.match(/\s*figure\s+(.*)/i);
       if (tokens[idx].nesting === 1) {
          if (m) {
-            return `<figure>\n<figcaption>${m[1]}</figcaption>\n`;
+            return `<figure>\n<figcaption>${ md.render(m[1])}</figcaption>\n`;
          } else {
             return '<figure>\n';
          }
