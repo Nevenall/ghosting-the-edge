@@ -40,9 +40,10 @@ Some items have a 0 {CR} which means they may be had for free.
 
 ## Gear Catalog
 
-{{{"You want to make it out there? Sure you do! So does every meatsack in the Dis and we both know surviving here takes a gritty mash of guts and gear. If you've got the guts, then I've got the gear for you boy'o. I've got yer Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires. I've even got your Titania Lux Spacedrop rated Assault Armor. You bet I do!" 
-– Can-a-Bass. Dis Fixer}}}
-[callout of just interesting voice? I like the interesting voice approach.]
+::: aside quoted 
+"You want to make it out there? Sure you do! So does every meatsack in the Dis and we both know surviving here takes a gritty mash of guts and gear. If you've got the guts, then I've got the gear for you boy'o. I've got yer Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires. I've even got your Titania Lux Spacedrop rated Assault Armor. You bet I do!" 
+– Can-a-Bass. Dis Fixer
+:::
 
 ### Upgrades
 

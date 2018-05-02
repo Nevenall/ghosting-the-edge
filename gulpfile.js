@@ -28,10 +28,10 @@ var md = new MarkdownIt({
 
 md.use(deflist);
 md.use(terms, {
-   open_1: "<span class='game-term'>",
+   open_1: '<span class="game-term">',
    close_1: "</span>",
-   // open_2: "<aside class='callout'>",
-   // close_2: "</aside>",
+   open_2: '<span class="aspect">',
+   close_2: "</span>",
    // open_3: "<div class='stat-block'>",
    // close_3: "</div>"
 });
