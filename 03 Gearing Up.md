@@ -769,17 +769,17 @@ Assault armor is also full coverage hard armor, but with powered servos, built i
 
 A full suit of advanced combat armor which can defend against all kinds of attacks. It provides full coverage protection and it also provides some defense against battle field level dangers such as explosions and light weapons.
 
-**Combat Armor, Restricted Military, Expensive**
+{{Combat Armor, Restricted Military, Expensive}}
 
 **Ballistic Protection \[2 {cr}\]** – +4 to D against A from small and medium caliber firearms, and shrapel.
 
-Close Combat Protection \[2 {cr}\] – +4 to D against
+**Close Combat Protection \[2 {cr}\]** – +4 to D against
 
 **Combat Protection \[1 {cr}\]** – +2 to defend against explosives, light weapons.
 
 **Laser Shielding \[1 {cr}\] –** +2 to defend against laser weapons.
 
-**Toxin Scrubbers** **1 {cr}** – +2 to Defend against toxin attacks, especially airborne ones.
+**Toxin Scrubbers \[1 {cr}\]** – +2 to Defend against toxin attacks, especially airborne ones.
 
 ##### Titania Lux™ Assault Armor \[10 {cr}\]
 
@@ -825,7 +825,7 @@ A couple of fun drug write-ups, just as examples.
 
 ### Drones, Robots, & Androids
 
-{some text about them and the difference.}
+[some text about them and the difference. No androids, or robots, really. This is more about]
 
 #### Drones
 
