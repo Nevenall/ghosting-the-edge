@@ -121,6 +121,12 @@ md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
 
 const source = ['**/*.md', '!node_modules/**', '!tools/**'];
 
+gulp.task('copy', ['build'], function() {
+   console.log("specify the path to copy to");
+  // return gulp.src('html/**').pipe(gulp.dest("c:/src/BookShelf-GhostingTheEdge/src/pages"));
+});
+
+
 gulp.task('clean', function() {
    return del('html/**');
 });
