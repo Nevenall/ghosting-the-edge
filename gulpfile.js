@@ -94,9 +94,6 @@ md.use(containers, 'figure', {
    }
 });
 
-
-// add container config for figure with a figure caption
-
 // any link to a .md resource, we will convert to a link to an .html resource
 // links with \ will be converted to /
 var defaultRender = md.renderer.rules.link_open || function(tokens, idx, options, env, self) {

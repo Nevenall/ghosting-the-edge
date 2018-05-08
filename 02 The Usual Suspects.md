@@ -10,7 +10,7 @@ Don't have a solid character concept yet? Scan these six archetypical cyberpunk 
 
 Poise is power and you exploit that hard. Some think charisma is antique or that being the Face is just about lying, but you know the true, most people fall for the presentation not the facts and, you're a master of presentation.
 
-As the Face you may find yourself in the Dis {Side bar Callout: with a paragraph about the District} negotiating "territorial rights" between the Vampyre's and the Magogs, playing a duet on a thought harp for millions of virtual concert goes, or change raising at a High Street Market stall.
+As the Face you may find yourself in the Dis negotiating territory rights between the Vampyre's and the Magogs, playing a duet on a thought harp for millions of virtual concert goes, or change raising at a High Street Market stall.
 
 The face role contains a multitude of sinners: media personalities, cult leaders, grifters, politicians, artists, rock stars, even your garden variety gigolo.
 
@@ -22,7 +22,8 @@ Charisma. The classic Face is all about personal charisma. If they make a deal, 
 
 Friend, Read, Deceive
 
-#### Famous Faces {callout}
+::: aside 
+#### Famous Faces
 
 ##### Varsha Patel
 
@@ -31,6 +32,7 @@ Varsha earned her role as the face of journalism for an entire generation for he
 ##### Grace
 
 Grace is an AI composer who says she began life as a corporate machine learning system designed to absorb musical data and decipher the patterns of popularity. In interviews she has referred to her awaking as "a singular moment of gestalt arising from humanity's longing for affirmation as expressed through their music." Grace has faced a lot of scorn, many music reviewers love to call her an iComposer and imply that she's really a corporate construction designed to trick the listening public.
+:::
 
 ### Fixer
 
@@ -48,11 +50,13 @@ A Plan. The Face may be a powerful charismatic leader, but you have a plan, a go
 
 Contact, Resources, Friend or Troll.
 
+::: aside
 #### Notable Deals
 
 ##### The Founding of the Black Talon Security Corporation
 
 There didn't used to be a Black Talon Corporation; not until its eight legendary founders, the heads of security for eight different corporations, walked off the job with their respective departments to form a new company dedicated to providing security operations for any corporation. How the deal went down has never been revealed, but many suspect Black Talon CEO and founder, Sam James III, stole sensitive secrets for blackmail leverage in his daring revolt.
+:::
 
 ### Ghost
 
@@ -88,6 +92,7 @@ Find the Hacking section on page XXX for more about what you do.
 
 Hack, Investigate, Tech or Crime.
 
+::: aside
 #### Unsolved Hacker Crimes {callout}
 
 No matter how hard the corps try to lock down the Net hackers still find ways to stay anonymous but, that means the most notorious hackers are the ones who get caught. Here's a few notable hacker crimes which haven't been convincingly claimed by anyone…yet.
@@ -95,6 +100,7 @@ No matter how hard the corps try to lock down the Net hackers still find ways to
 ##### The blackout
 
 Ask your mom if she remembers the blackout. Back when someone didn't just crack the Eastern Power Grid secure net, they crashed it. Total system failure. Massive blackouts. Chaos and destruction everywhere.
+:::
 
 #### Legends of the Net {callout}
 

@@ -1,8 +1,16 @@
+Jet engines scream through the smog overhead and tonight's greasy rain on your mirrorshades smears the scavenged neon of High Street Market. Every face in the makeshift stalls gets sniffed from your visual cortex, matched against your target's facial data, then pumped back into your field of vision with a color-coded match percentage.
+
+58%...12%...70%...68%...95% — "Hey there."
+
+Cold metal drops as softly as a spider on to the back of your neck. A warning floats across the bottom of your vision like a cobweb because this smartass hacked their safety-off function to broadcast a weapons-free alert. 
+
+Welcome to the Edge
+
 # Ghosting the Edge
 
-*Ghosting* -- slang for making a living (*feeding the meat* is a more colorful synonym).
+*Ghosting* — slang for making a living (*feeding the meat* is a more colorful synonym).
 
-*The edge* -- a the place where the stasis of corporate control meets the anarchic currents of the street.
+*The edge* — a the place where the stasis of corporate control meets the anarchic currents of the street.
 
 This chapter is for everyone. It's ground level concepts and questions to help you make this dystopian future your own.
 
@@ -12,7 +20,7 @@ A Fate game is about competent, proactive, and dramatic characters. A cyberpunk 
 
 ### Essential Cyberpunk
 
-{Basic concepts and tropes of cyberpunk. Such as cyberware, and what is the Net. Especially what the Net is}
+[Basic concepts and tropes of cyberpunk. Such as cyberware, and what is the Net. Especially what the Net is]
 
 ### Cranking the Engine
 
