@@ -6,6 +6,18 @@ This chapter is for everyone who's going to make a character. I've got some arch
 
 Don't have a solid character concept yet? Scan these six archetypical cyberpunk roles for inspiration.
 
+::: sidebar left 
+#### Famous Faces
+
+##### Varsha Patel
+
+Varsha earned her role as the face of journalism for an entire generation for her unwavering and even handed coverage of the war between India and Pakistan and its nuclear escalation.
+
+##### Grace
+
+Grace is an AI composer who says she began life as a corporate machine learning system designed to absorb musical data and decipher the patterns of popularity. In interviews she has referred to her awaking as "a singular moment of gestalt arising from humanity's longing for affirmation as expressed through their music." Grace has faced a lot of scorn, many music reviewers love to call her an iComposer and imply that she's really a corporate construction designed to trick the listening public.
+:::
+
 ### Face
 
 Poise is power and you exploit that hard. Some think charisma is antique or that being the Face is just about lying, but you know the true, most people fall for the presentation not the facts and, you're a master of presentation.
@@ -22,16 +34,12 @@ Charisma. The classic Face is all about personal charisma. If they make a deal, 
 
 Friend, Read, Deceive
 
-::: aside 
-#### Famous Faces
+::: sidebar right 
+#### Notable Deals
 
-##### Varsha Patel
+##### The Founding of the Black Talon Security Corporation
 
-Varsha earned her role as the face of journalism for an entire generation for her unwavering and even handed coverage of the war between India and Pakistan and its nuclear escalation.
-
-##### Grace
-
-Grace is an AI composer who says she began life as a corporate machine learning system designed to absorb musical data and decipher the patterns of popularity. In interviews she has referred to her awaking as "a singular moment of gestalt arising from humanity's longing for affirmation as expressed through their music." Grace has faced a lot of scorn, many music reviewers love to call her an iComposer and imply that she's really a corporate construction designed to trick the listening public.
+There didn't used to be a Black Talon Corporation; not until its eight legendary founders, the heads of security for eight different corporations, walked off the job with their respective departments to form a new company dedicated to providing security operations for any corporation. How the deal went down has never been revealed, but many suspect Black Talon CEO and founder, Sam James III, stole sensitive secrets for blackmail leverage in his daring revolt.
 :::
 
 ### Fixer
@@ -49,14 +57,6 @@ A Plan. The Face may be a powerful charismatic leader, but you have a plan, a go
 #### Trademark Skills
 
 Contact, Resources, Friend or Troll.
-
-::: aside
-#### Notable Deals
-
-##### The Founding of the Black Talon Security Corporation
-
-There didn't used to be a Black Talon Corporation; not until its eight legendary founders, the heads of security for eight different corporations, walked off the job with their respective departments to form a new company dedicated to providing security operations for any corporation. How the deal went down has never been revealed, but many suspect Black Talon CEO and founder, Sam James III, stole sensitive secrets for blackmail leverage in his daring revolt.
-:::
 
 ### Ghost
 
@@ -76,6 +76,32 @@ Some Ghosts have cracking and hacking skills, but they are specialized for defea
 
 Stealth, Notice, Investigate, Crime.
 
+::: sidebar left
+#### Unsolved Hacker Crimes
+
+No matter how hard the corps try to lock down the Net hackers still find ways to stay anonymous but, that means the most notorious hackers are the ones who get caught. Here's a few notable hacker crimes which haven't been convincingly claimed by anyone…yet.
+
+##### The blackout
+
+Ask your mom if she remembers the blackout. Back when someone didn't just crack the Eastern Power Grid secure net, they crashed it. Total system failure. Massive blackouts. Chaos and destruction everywhere.
+:::
+
+::: callout right
+#### Legends of the Net
+
+##### cP@1nz
+
+Back when we used bigass cyberdecks and trodes to access a Net that was an infinite perspective grid of green lines dotted with gaudy neon data fortress icons, cP@1nz pulled a series of practical jokes that have yet to be topped. He's the one who hacked the nuclear launch sequence to text congress "HAHA! BOOM!" instead of actually firing missiles, and then posted the launch codes on the Net for other hackers to exploit. Lots and lots of other hackers.
+
+##### Betty Talent
+
+Let's be honest, most hackers get one big score before they become targets for Black Talon and every corp hacker out there. They don't get to retire, they end up brain fried, but Betty Talent's all kinds of the exception to that. After her big score she didn't get dead, she got a sweet job offer to be Black Talon's superstar hacker.
+
+##### The Black Monk
+
+The monk is just a myth...right? A boogeyman of the Net. They say he keeps the ghosts of unfortunate hackers trapped in jars in some fortress in the Net, but no one can extract your consciousness through the Net, let alone keep it around after your meat brain dies...right?
+:::
+
 ### Hacker
 
 **AKA**: Netrunner, Console Jockey, Code Cowboy, NIMrod (*archaic*. From **N**eural **I**nterface **M**odem, an older generation of interface technology), Decker (*archaic*. From cyberdeck another obsolete interface technology).
@@ -91,30 +117,6 @@ Find the Hacking section on page XXX for more about what you do.
 #### Trademark Skills
 
 Hack, Investigate, Tech or Crime.
-
-::: aside
-#### Unsolved Hacker Crimes {callout}
-
-No matter how hard the corps try to lock down the Net hackers still find ways to stay anonymous but, that means the most notorious hackers are the ones who get caught. Here's a few notable hacker crimes which haven't been convincingly claimed by anyone…yet.
-
-##### The blackout
-
-Ask your mom if she remembers the blackout. Back when someone didn't just crack the Eastern Power Grid secure net, they crashed it. Total system failure. Massive blackouts. Chaos and destruction everywhere.
-:::
-
-#### Legends of the Net {callout}
-
-##### cP@1nz
-
-Back when we used bigass cyberdecks and trodes to access a Net that was an infinite perspective grid of green lines dotted with gaudy neon data fortress icons, cP@1nz pulled a series of practical jokes that have yet to be topped. He's the one who hacked the nuclear launch sequence to text congress "HAHA! BOOM!" instead of actually firing missiles, and then posted the launch codes on the Net for other hackers to exploit. Lots and lots of other hackers.
-
-##### Betty Talent
-
-Let's be honest, most hackers get one big score before they become targets for Black Talon and every corp hacker out there. They don't get to retire, they end up brain fried, but Betty Talent's all kinds of the exception to that. After her big score she didn't get dead, she got a sweet job offer to be Black Talon's superstar hacker.
-
-##### The Black Monk
-
-The monk is just a myth...right? A boogeyman of the Net. They say he keeps the ghosts of unfortunate hackers trapped in jars in some fortress in the Net, but no one can extract your consciousness through the Net, let alone keep it around after your meat brain dies...right?
 
 ### Samurai
 

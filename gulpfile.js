@@ -37,13 +37,13 @@ md.use(terms, {
 });
 md.use(anchors);
 
-md.use(containers, 'aside', {
+md.use(containers, 'sidebar', {
    validate: function(params) {
-      return params.match(/\s*aside\s*/i);
+      return params.match(/\s*sidebar\s*/i);
    },
 
    render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*aside\s+(.*)/i);
+      var m = tokens[idx].info.match(/\s*sidebar\s+(.*)/i);
       if (tokens[idx].nesting === 1) {
          if (m) {
             return `<aside class="${m[1]}">\n`;
@@ -56,13 +56,13 @@ md.use(containers, 'aside', {
    }
 });
 
-md.use(containers, 'article', {
+md.use(containers, 'callout', {
    validate: function(params) {
-      return params.match(/\s*article\s*/i);
+      return params.match(/\s*callout\s*/i);
    },
 
    render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*article\s+(.*)/i);
+      var m = tokens[idx].info.match(/\s*callout\s+(.*)/i);
       if (tokens[idx].nesting === 1) {
          if (m) {
             return `<article class="${m[1]}">\n`;
