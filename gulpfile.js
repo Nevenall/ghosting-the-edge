@@ -75,6 +75,26 @@ md.use(containers, 'callout', {
    }
 });
 
+md.use(containers, 'quote', {
+   validate: function(params) {
+      return params.match(/\s*quote\s*/i);
+   },
+
+   render: function(tokens, idx) {
+      var m = tokens[idx].info.match(/\s*quote\s+(left|right)?\s(.*)/i);
+      if (tokens[idx].nesting === 1) {
+         if (m) {
+            return `<aside class="quoted ${m[1]}">\n<footer>${m[2]}</footer>\n`;
+         } else {
+            return '<aside class="quoted">\n';
+         }
+      } else {
+         return `</aside>\n`
+      }
+   }
+});
+
+
 md.use(containers, 'figure', {
    validate: function(params) {
       return params.match(/\s*figure\s*/i);
