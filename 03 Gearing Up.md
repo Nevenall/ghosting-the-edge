@@ -28,11 +28,13 @@ That said, there are a few gear aspects that come with extra rules, but nothing 
 
 ### Cost Rating (¤)
 
-Gear has an abstract Cost Rating that's roughly equivalent to its total refresh value. Starting characters can pay this cost from their initial gear budget. In play, the cost is the base difficulty for acquiring it.
+Gear has an abstract cost rating (¤) which is roughly equivalent to its total refresh value. Starting characters may pay this cost from their initial gear budget. In play, the cost is the base difficulty for acquiring it. 
 
-### Starting Gear
+Some items, especially upgrades, have several costs listed meaning the item can be bought more then once is increasing levels.
 
-Starting characters typically get 2× their Resources rating to buy initial gear.
+#### Starting Gear
+
+Starting characters typically get 2 × their Resources rating to buy initial gear.
 
 #### Free Gear
 
@@ -46,7 +48,7 @@ You want to make it out there? Sure you do! So does every meatsack in the Dis an
 
 ### Upgrades
 
-Gear is great, but you're here because you want to be a better you. You want that special edge that only comes from blurring the line between flesh and machine. Lucky for you, all the bits you could possibly want to cram into your delicate self are right here. 
+All gear is great, but you're here because you want to be a better you. You want that special edge that only comes from blurring the line between flesh and machine. Lucky for you, all the bits you could possibly want to cram into your delicate self are right here. 
 
 #### Surgery & Reestablishment
 
@@ -60,15 +62,11 @@ The default consequence for an upgrade is moderate. This covers both the medical
 
 ###### Adjusting Reestablishment
 
-By adding 1 ¤ to the cost of the item the severity of the reestablishment consequence can be reduced by 1. By adding 2 ¤ to the cost, it can be reduced by 2.
+By adding 1 ¤ to the cost of the item the severity of the reestablishment consequence can be reduced by 1 severity. By adding 2 ¤ to the cost, it can be reduced by 2.
 
 Some upgrades are {{invasive}} or {{difficult to adjust to}} and for these the reestablishment severity is increased by 1. These tags each increase the minimum possible severity as well. Making a moderate reestablishment the best you can expect for any {{invasive}} and {{difficult to adjust to}} upgrades, such as wired reflexes.
 
-Other upgrades are the opposite; {{non-invasive}} or {{easy to adjust}} to and these reduce reestablishment by 1.
-
-### Types of Upgrades
-
-
+Other upgrades are the opposite; {{non-invasive}} or {{easy to adjust to}} and these reduce reestablishment by a severity.
 
 #### Neural Implants
 
@@ -132,13 +130,13 @@ Barrier 2, Investigate 2, Know 2, Hardening 1, Notice 1, Move 1 (Net only), Figh
 
 **Autonomous** – This interface has an independent persona named Pearl, by default, who acts as your personal assistant in the Net. It can perform research, send flowers, and even draft memos based upon your previous writing samples. Pearl can also manifest a distinct presence in the Net.
 
-##### Boosted Reflexes
+##### Reflex Amplifiers \[1, 2, 3 ¤\]
 
-Boosted reflexes usually means implanting nanofiber links directly from brain to muscle fibers, bypassing the syrupy slow human nervous system. Implanted sensory processors allow the brain actually integrate visual data fast enough to make the increased reaction time useful. Without these processors, boosted reflexes feels like riding a hyperactive cyberhorse; with them you get the nearest thing to slowing down time we humans have yet achieved.
+Reflex Amplifiers usually means implanting nanofiber links directly from brain to muscle fibers, bypassing the syrupy slow human nervous system. Implanted sensory processors allow the brain actually integrate visual data fast enough to make the increased reaction time useful. Without these processors, reflex amplifiers feels like riding a hyperactive cyberhorse; with them you get the nearest thing to slowing down time we humans have yet achieved.
 
 See the fighting section for info about relay initiative.
 
-**Boosted Reflexes \[1, 2, 3 ¤\]** – When activated you get the aspect **Hotwired Reflexes** for the remainder of the scene, and one free invoke per level of boosted reflexes. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
+**Reflex Amplifiers** — When activated you get the aspect **Amplified Reflexes** for the remainder of the scene, and one free invoke per level of reflex amplifiers. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
 
 ##### Sense Processors
 
@@ -148,13 +146,13 @@ Commonly the counterpart to boosted reflexes, this type of upgrade can also be i
 
 **Hostile Target Alert System \[1 ¤\]** – This sense processor helps you determine friend from foe in a fast moving situation. [What's a good effect for this? Does it track active hostiles or does it detect hostiles before they get the drop on you?]
 
-##### Skillwire
+##### Skillwire \[1, 2, 3 ¤\]
 
 A natural extension of sense processor and interface technologies is the skillwire implant which allows you to instantly plug new skills directly into your brain. They can be information sets like: languages, maps, or the personnel profiles of an entire company. They can be semi-active skills like piloting a specific type of vehicle, or even very active skills, like Kung Fu.
 
 Some people find the nearly subconscious nudging of these kind of processors unsettling, especially ones that key into your motor activation centers because you can find your body doing things before your conscious mind catches up; assuming you disable the safety protocols.
 
-**Skillwire Slot \[1, 2, 3 ¤\]** – For each Skillwire slot you can choose one program. You may change the program in a slot at any time, but it takes one scene for the new skill to become available to you.
+**Skillwire Slot** – For each Skillwire slot you can choose one program. You may change the program in a slot at any time, but it takes one scene for the new skill to become available to you.
 
 > **Language** – You can read and speak a specific language. Most tend towards the formal and correct and so are obviously programs; unless you are willing to pay extra for an up to date colloquialized version.
 >
@@ -167,16 +165,6 @@ Some people find the nearly subconscious nudging of these kind of processors uns
 **Alternate Skillwire \[1 ¤\]** – You may swap the ratings of two pluggable skills between scenes. This may require a Resources roll to acquire a new skill program, and if there is no time really downtime between scenes you may have to use your original values for a while. Or, more interestingly, you might gain the trouble aspect {{Skills A and B are Swapping.}}
 
 Most skills can be swapped except: Contact, Move, Physique, Resources, and Will.
-
-#### Limbs
-
-A cyberpunk classic. I'm not going to bother tell you how one works or give you a lecture about the physics of lifting things with only one cyberlimb. Most cyberlimbs are just replacements for parts lost to disease or misfortune and are no better or worse than a meat appendage. Typical cyberlimbs require no stunt slots but you should strongly consider working them into a character aspect where they can be of some use to you. And maybe get hacked or knocked out by EMP. Occasionally.
-
-**Advanced Cyberlimb \[1 ¤\]** – +2 for actions involving the limb.
-
-> **Hand or Arms** – Crushing and some lifting.
->
-> **Legs** – Running and jumping.
 
 #### Eyes & Ears
 
@@ -207,6 +195,17 @@ Cybereyes and ears are fairly similar mechanically, the initial upgrade gives yo
 > **Encrypted Radio** – On occasion it's useful to have a communication channel that doesn't route through the Net, or your wireless interface. Not everyone thinks to bring equipment to eavesdrop on old fashioned radio signals.
 >
 > **Amplification and Isolation** – You can focus in on a particular sound source. Like maybe a conversation? Doing so will filter out all the sounds, except what you focus on.
+
+
+#### Limbs
+
+A cyberpunk classic. I'm not going to bother tell you how one works or give you a lecture about the physics of lifting things with only one cyberlimb. Most cyberlimbs are just replacements for parts lost to disease or misfortune and are no better or worse than a meat appendage. Typical cyberlimbs require no stunt slots but you should strongly consider working them into a character aspect where they can be of some use to you. And maybe get hacked or knocked out by EMP. Occasionally.
+
+**Advanced Cyberlimb \[1 ¤\]** – +2 for actions involving the limb.
+
+> **Hand or Arms** – Crushing and some lifting.
+>
+> **Legs** – Running and jumping.
 
 #### Physical Enhancements
 
@@ -822,7 +821,7 @@ SmartMetal is a fist-sized blob of malleable metal/nanite mixture which has a bu
 
 A couple of fun drug write-ups, just as examples.
 
-### Drones, Robots, & Androids
+### Drones & Robots
 
 [some text about them and the difference. No androids, or robots, really. This is more about]
 
@@ -902,7 +901,7 @@ Pilot 3, Shoot 3, Notice 3, Barrier 3, Hardening 3, Physique 3, Move 4, Stealth 
 
 **Autonomous** - The Shadow Dx can operate itself.
 
-## Gear Stating Guidelines
+## Gear Creation Guidelines
 
 If you need to quickly stat-up a piece of gear these guidelines will be super helpful.
 
@@ -956,7 +955,7 @@ Remove 4 or 5 skill points and reduce the skill cap by 1.
 
 Remove a stunt
 
-##  Acquiring Gear
+## Acquiring Gear
 
 During play characters can try all kinds of ways to get their hands on new gear. They can buy it outright with a Resources roll, or borrow it through some Contacts, or even design and fab it with an automated workshop and a Tech skill. They might even Steal one.
 

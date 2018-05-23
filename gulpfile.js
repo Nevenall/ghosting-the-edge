@@ -43,7 +43,7 @@ md.use(containers, 'sidebar', {
    },
 
    render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*sidebar\s+(.*)/i);
+      var m = tokens[idx].info.match(/\s*sidebar\s(left|right)?/i);
       if (tokens[idx].nesting === 1) {
          if (m) {
             return `<aside class="${m[1]}">\n`;
@@ -62,12 +62,32 @@ md.use(containers, 'callout', {
    },
 
    render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*callout\s+(.*)/i);
+      var m = tokens[idx].info.match(/\s*callout\s(left|right)?/i);
       if (tokens[idx].nesting === 1) {
          if (m) {
             return `<article class="${m[1]}">\n`;
          } else {
             return '<article>\n';
+         }
+      } else {
+         return "</article>\n"
+      }
+   }
+});
+
+
+md.use(containers, 'stat-block', {
+   validate: function(params) {
+      return params.match(/\s*stat-block\s*/i);
+   },
+
+   render: function(tokens, idx) {
+      var m = tokens[idx].info.match(/\s*stat-block\s(left|right)?/i);
+      if (tokens[idx].nesting === 1) {
+         if (m) {
+            return `<article class="stat-block ${m[1]}">\n`;
+         } else {
+            return '<article class="stat-block">\n';
          }
       } else {
          return "</article>\n"
