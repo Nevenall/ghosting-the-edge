@@ -6,8 +6,8 @@ Markdown-it typography does a good job of replacement actually.
 
 ## Typographic Symbol Table
 
-Symbol                 |  HTML     | Character | Unreplaced (maybe)
------------------------|-----------|-----------|------------
+Symbol                 |  HTML       | Character   | Unreplaced (maybe)
+-----------------------|:-----------:|:-----------:|------------
 Hair space             | `&#8202;` | | M.J. -> M.&#8202;J.
 Thin space             | `&thinsp;`| | M.J. -> M.&thinsp;J.
 – En dash              | `&ndash;` |​–| `-`       
