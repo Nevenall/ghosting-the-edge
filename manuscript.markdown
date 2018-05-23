@@ -300,7 +300,7 @@ Check out the Gear chapter for more possibilities.
 
 ##### Free Upgrades
 
-A number of upgrades are available without using stunt slots. They are listed in with a cost of 0 ¤ in the Gear section.
+A number of upgrades are available without using stunt slots. They are listed in with a cost of 0 ¤ in the Gear section.
 
 For example, you may have a basic Interface implant for no cost. You may also have a standard, meaning non-combat, **Cyborg Replacement Body**, without using stunt slots. Such a body has both benefits and drawbacks.
 
@@ -576,7 +576,7 @@ In play, the cost is the base difficulty for acquiring that item.
 
 Starting characters typically get 2x their Resources rating for initial gear.
 
-Some items have a 0 ¤ cost which means they may be had for free.
+Some items have a 0 ¤ cost which means they may be had for free.
 
 ## Gear Catalog
 
@@ -638,7 +638,7 @@ If you are a too out of date with your interface wiring however, you might have 
 
 A common add-on for interfaces is the **Direct Contact Plate** placed somewhere on your body (Finger tips and the palms are common). The plate is directly wired to your interface allowing you connect to a smart device through the contact plate instead of plugging in an external wire or using a wireless connection.
 
-###### ThotCom Quality Interface 0 ¤
+###### ThotCom Quality Interface 0 ¤
 
 The ThotCom is a fair example of an affordable commercial interface device.
 
@@ -646,7 +646,7 @@ The ThotCom is a fair example of an affordable commercial interface device.
 
 Barrier 2, Investigate 1, Know 1, Notice 0, Hardening 1, Move 0 {Net only}, Fight 0 {Net only}
 
-###### G-Gob Hardened Interface 3 ¤
+###### G-Gob Hardened Interface 3 ¤
 
 A pretty standard interface for professional users. Most of the bells and whistles are more flash then substance, but the G-Gob is popular for its high quality defense barrier programming.
 
@@ -654,7 +654,7 @@ A pretty standard interface for professional users. Most of the bells and whistl
 
 Barrier 3, Hardening 2, Investigate 1, Know 1, Notice 2, Move 2 {Net only}, Fight 2 {Net only}
 
-###### Ithcara Pearl Personal Interface 2 ¤
+###### Ithcara Pearl Personal Interface 2 ¤
 
 The Ithcara Pearl is not just an interface, it's a personal assistant experience. A favorite of corp execs. It features an autonomous computer intelligence which can perform a variety of tasks on command or as needed.
 
@@ -676,9 +676,9 @@ Boosted reflexes usually means implanting nanofiber links directly from brain to
 
 Commonly the counterpart to boosted reflexes, this type of upgrade can also be implanted separately to help you deal with fast moving and highly detailed situations. Sense processors do additional acquisition and filtering of sensory data which is then provided directly to your brain to help you make decisions. Runners describe the info from these processors as being like a little voice in the back of your head compelling you to notice something you would have missed on your own, like that BikePunk sneaking up on you.
 
-**Compensators 1 ¤** – +2 to D against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
+**Compensators 1 ¤** – +2 to D against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
 
-**Hostile Target Alert System 1 ¤** – This sense processor helps you determine friend from foe in a fast moving situation. {What's a good effect for this? Does it track active hostiles or does it detect hostiles before they get the drop on you? }
+**Hostile Target Alert System 1 ¤** – This sense processor helps you determine friend from foe in a fast moving situation. {What's a good effect for this? Does it track active hostiles or does it detect hostiles before they get the drop on you? }
 
 ##### Skillwire
 
@@ -696,7 +696,7 @@ Some people find the nearly subconscious nudging of these kind of processors uns
 >
 > **Kung Fu** – An encyclopedic knowledge of Kung Fu moves looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. **Without cyberbody** +2 for O relating to Kung Fu. **With cyberbody** Kung Fu style Fight skill set to 2. If you already have a fight skill,
 
-**Alternate Skillwire 1 ¤** – You may swap the ratings of two pluggable skills between scenes. This may require a Resources roll to acquire a new skill program, and if there is no time really downtime between scenes you may have to use your original values for a while. Or, more interestingly, you might gain the trouble aspect **Skills A and B are Swapping.**
+**Alternate Skillwire 1 ¤** – You may swap the ratings of two pluggable skills between scenes. This may require a Resources roll to acquire a new skill program, and if there is no time really downtime between scenes you may have to use your original values for a while. Or, more interestingly, you might gain the trouble aspect **Skills A and B are Swapping.**
 
 Most skills can be swapped except: Contact, Move, Physique, Resources, and Will.
 
@@ -704,7 +704,7 @@ Most skills can be swapped except: Contact, Move, Physique, Resources, and Will.
 
 A cyberpunk classic. I'm not going to bother tell you how one works or give you a lecture about the physics of lifting things with only one cyberlimb. Most cyberlimbs are just replacements for parts lost to disease or misfortune and are no better or worse than a meat appendage. Typical cyberlimbs require no stunt slots but you should strongly consider working them into a character aspect where they can be of some use to you. And maybe get hacked or knocked out by EMP. Occasionally.
 
-**Advanced Cyberlimb 1 ¤** – +2 for actions involving the limb.
+**Advanced Cyberlimb 1 ¤** – +2 for actions involving the limb.
 
 > **Hand or Arms** – Crushing and some lifting.
 >
@@ -718,7 +718,7 @@ You can take
 
 Cybereyes and ears are fairly similar mechanically, the initial upgrade gives you a bonus to notice and one extra capability. An additional stunt gives you two extra capabilities. You can treat these capabilities as aspects if you find that appropriate or they can just be game details.
 
-**Cybereyes 1 ¤** – +1 to Notice for sight based O and one extra capability. **Cybereyes 2 ¤ –** Add two extra capabilities. For a total of 3.
+**Cybereyes 1 ¤** – +1 to Notice for sight based O and one extra capability. **Cybereyes 2 ¤ –** Add two extra capabilities. For a total of 3.
 
 > **Recorder** – Anything you see is recorded as video. You can mentally control playback and brain dive the video if you have an Interface.
 >
@@ -728,9 +728,9 @@ Cybereyes and ears are fairly similar mechanically, the initial upgrade gives yo
 >
 > **Telescopic** – Take a much closer look at something interesting. Trade your peripheral vision for it though so be careful.
 
-**Cyberears 1 ¤** – +1 to Notice for hearing based O and one extra capability.
+**Cyberears 1 ¤** – +1 to Notice for hearing based O and one extra capability.
 
-**Cyberears 2 ¤** – Add two extra capabilities. For a total of 3.
+**Cyberears 2 ¤** – Add two extra capabilities. For a total of 3.
 
 > **Recorder** – Record what you hear.
 >
@@ -742,9 +742,9 @@ Cybereyes and ears are fairly similar mechanically, the initial upgrade gives yo
 
 Any number of other physical upgrades are possible from vat muscles, to extra hearts and livers, to extendable rollerblades in your feet.
 
-**Skin and Bone Lacing 1 ¤** – Inside and out you are reinforced. Your skin is harder to pierce, your bones harder to break. Add an extra physical stress box. 
+**Skin and Bone Lacing 1 ¤** – Inside and out you are reinforced. Your skin is harder to pierce, your bones harder to break. Add an extra physical stress box. 
 
-**Muscle Grafts 1 ¤** – Why go to the gym when you can get vat grown bio enhanced muscle implants? Packs a punch and looks great under a tee-shirt. +2 for lifting, jumping, and any sheer muscle based actions.
+**Muscle Grafts 1 ¤** – Why go to the gym when you can get vat grown bio enhanced muscle implants? Packs a punch and looks great under a tee-shirt. +2 for lifting, jumping, and any sheer muscle based actions.
 
 #### Defenses
 
@@ -754,11 +754,11 @@ Defensive upgrades also come in many kinds: sub dermal plates affixes to a chara
 
 Armor plates embedded over or under your skin. Either way they are not very subtle and project your profession to whoever sees or scans you.
 
-**Dermal Plating 1 ¤** – You get a **Ballistic Armor** aspect and you may choose to roll Physique to D against ballistic attacks.
+**Dermal Plating 1 ¤** – You get a **Ballistic Armor** aspect and you may choose to roll Physique to D against ballistic attacks.
 
-**Dermal Plating 2 ¤** – As Dermal Plating 1 ¤ and you get a +2 to D against ballistic attacks.
+**Dermal Plating 2 ¤** – As Dermal Plating 1 ¤ and you get a +2 to D against ballistic attacks.
 
-**Dermal Plating 3 ¤** – As Dermal Plating 1 ¤ and you get a +4 to D against ballistic attacks.
+**Dermal Plating 3 ¤** – As Dermal Plating 1 ¤ and you get a +4 to D against ballistic attacks.
 
 ##### Thermal Insulation
 
@@ -782,9 +782,9 @@ These defenses create interference that makes it more difficult for electronic s
 
 There's a truly startling number of implanted weapon scenarios. Poison gas false teeth, toe-grenades, razor sharp finger-scalpels, the tried and true cyberarm missile launcher for messy assassinations, or a simple bomb at the base of your brain for instant self-destruct.
 
-**Finger Razors 1 ¤** – Small scalpel blades implanted beneath your fingernails remain hidden until you extend them with a thought. There are not terribly dangerous on their own, but they can surprise the unwary and be handy for incapacitating wrists, or blinding a target. +2 to C with Fight when you can apply your razors.
+**Finger Razors 1 ¤** – Small scalpel blades implanted beneath your fingernails remain hidden until you extend them with a thought. There are not terribly dangerous on their own, but they can surprise the unwary and be handy for incapacitating wrists, or blinding a target. +2 to C with Fight when you can apply your razors.
 
-**Concealed Weapon 1 ¤** – You have a generic smart weapon concealed in a cyberlimb, forearms are a common choice, which you can reveal and fire with simply a thought. Your weapon gets +2 to resist being detected.
+**Concealed Weapon 1 ¤** – You have a generic smart weapon concealed in a cyberlimb, forearms are a common choice, which you can reveal and fire with simply a thought. Your weapon gets +2 to resist being detected.
 
 #### To Be Categorized
 
@@ -912,13 +912,13 @@ If you fail your reload roll there are various options for succeeding at cost. M
 
 Always fun. Knifes, swords, and more advanced weapons like tasers and stun batons.
 
-##### GENERIC BLADE 0 ¤
+##### GENERIC BLADE 0 ¤
 
 A perfectly ordinary blade forged of magnetically aligned steel for added strength and penetration.
 
 **Sword, Magaligned Steel**
 
-##### Sifrid & Oast Foundries Excalibur™ Monomolecular Long Sword 2 ¤
+##### Sifrid & Oast Foundries Excalibur™ Monomolecular Long Sword 2 ¤
 
 The Nordic company Sifrid & Oast are purveyors of the finest in close quarters weaponry and the Excalibur™ long sword is their premier offering. It's not some cheap composite stamped into a sword shape and given a thin nano edge that will chip and break after a couple of uses. The Excalibur is mostly light composite with customizable blade and hilt weights so you can find your perfect point of balance, or weight it towards the blade for greater force. The cutting edge is a good flexible nanoconstruct that's highly resistant to impact and stronger than even most other nano edge weapons.
 
@@ -928,7 +928,7 @@ The Nordic company Sifrid & Oast are purveyors of the finest in close quarters w
 
 **Swordbreaker** – If you parry with style against most close combat weapons you can trade your boost to inflict a **Weapon Destroyed** aspect on your foe.
 
-##### Generic stunner 1 ¤
+##### Generic stunner 1 ¤
 
 A common personal defense weapon. Make an O to hit your target in a vulnerable spot then roll Stun vs. Physique to A or C against them.
 
@@ -984,7 +984,7 @@ So, invoking a **Cover** aspect gives your target a +3 per invoke instead of a +
 
 **Scope** – +2 to O with Shoot when you can draw a bead on your target.
 
-##### Generic Smartgun 0 ¤
+##### Generic Smartgun 0 ¤
 
 An average interface enabled handgun.
 
@@ -994,7 +994,7 @@ Shoot 2, Hardening 2, Notice 1
 
 Ammo OO
 
-##### Generic Assault Rifle 2 ¤
+##### Generic Assault Rifle 2 ¤
 
 A standard issue assault rifle.
 
@@ -1008,7 +1008,7 @@ Ammo OOOO
 
 **Autofire** – Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
 
-##### Generic Shotgun 0 ¤
+##### Generic Shotgun 0 ¤
 
 A standard shot loaded shotgun with low penetration and high stopping power at close range.
 
@@ -1020,7 +1020,7 @@ Ammo OO
 
 **High-powered** – +2 to A targets in the same zone, but your attacks have **reduced penetration**.
 
-##### Generic Sniper Rifle 2 ¤
+##### Generic Sniper Rifle 2 ¤
 
 A standard interface-enabled rifle for long distance assassination.
 
@@ -1034,7 +1034,7 @@ Ammo OO
 
 {**Penetration** - +2 you deal more sever damage, though that's not all that interesting, or you get points to counteract cover based aspects and difficulties.}
 
-##### Colt-Sauer Striking Hawk Light Combat Pistol 2 ¤
+##### Colt-Sauer Striking Hawk Light Combat Pistol 2 ¤
 
 The Striking Hawk is a standout in the smart pistol arena. A favorite of sharpshooters and those looking to avoid unwanted casualties. It's highly accurate even at medium ranges and boasts an advanced civilian recognition system.
 
@@ -1048,7 +1048,7 @@ Ammo OO
 
 **Accuracy** – +2 for O with Shoot where accuracy is important.
 
-##### Stauuer Autorifle 3 ¤
+##### Stauuer Autorifle 3 ¤
 
 The Stauuer is a common sight amongst security forces because of its superior penetration against armor and even light cover. It does not, however, hold up well to field work or rough handling so be sure you have some duct tape handy.
 
@@ -1064,7 +1064,7 @@ Ammo OOOO
 
 **Penetration –** +2 to A targets defending with cover or armor.
 
-##### Maeglin Enforcer Combat Shotgun 3 ¤ 
+##### Maeglin Enforcer Combat Shotgun 3 ¤ 
 
 A shotgun designed for heavy combat situations. It features a large drum magazine and fully automatic mode.
 
@@ -1076,11 +1076,11 @@ Ammo OOOO
 
 **Extra Capacity** – +2 Ammo.
 
-**Autofire 1 ¤** – Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
+**Autofire 1 ¤** – Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
 
 **High-powered** – +2 to A targets in the same zone but your attacks have **Reduced Penetration**
 
-##### LarsTech Flechette Pistol 1 ¤
+##### LarsTech Flechette Pistol 1 ¤
 
 A dangerous little personal defense weapon which fires large bursts of tiny needles at a target. Great for tearing up unarmored targets, but mostly useless against rigid targets and hard armor.
 
@@ -1100,9 +1100,9 @@ Medium caliber firearms, ordinance such as mortars and rocket launchers. Anythin
 
 Which is a greatly expanded class of weapons thanks to the advent of cyberbodies. Because now an individual can carry and operate larger weapons.
 
-There are some weapons in here that have more than 4 ammo and have autofire2 ¤ and 3 ¤. Hehehe.
+There are some weapons in here that have more than 4 ammo and have autofire2 ¤ and 3 ¤. Hehehe.
 
-##### HK "Bennet" Super Auto 4 ¤
+##### HK "Bennet" Super Auto 4 ¤
 
 A common light machine gun, the super auto offers a high rate of fire in a small package, and with excellent heat dispersal. Super Autos are popular choice for small drones and for high spec cyborgs looking for firepower. Its even small enough to be used by unenhanced humans but they will suffer some Recoil.
 
@@ -1112,23 +1112,23 @@ Shoot 2, Notice 2, Hardening 2
 
 Ammo OOOOOO
 
-**Autofire 2 ¤** – Mark an extra ammo and take a +1 or mark 2 extra to affect an entire zone. You may mark up to 4 extra ammo for one action.
+**Autofire 2 ¤** – Mark an extra ammo and take a +1 or mark 2 extra to affect an entire zone. You may mark up to 4 extra ammo for one action.
 
-**Extra Capacity 2 ¤** – +4 extra ammo
+**Extra Capacity 2 ¤** – +4 extra ammo
 
 #### Explosives & Ordinance
 
 Grenades, landmines, claymores all kinds of fun things.
 
-##### Astra Arms Micro Missiles 1 ¤
+##### Astra Arms Micro Missiles 1 ¤
 
 This weapon fires a cloud of self-guided micro-missiles at a target up to 2 zones away. The launcher is often hidden in a cyberlimb or other compartment. This is a single use weapon and you'll have to replace it if you use it, which is likely to take a scene, at least.
 
 **Missile Weapon, Single Use, Illegal Military Weapon**
 
-**Micro Missiles 2 ¤** – +4 to A with a cloud of micro missiles.
+**Micro Missiles 2 ¤** – +4 to A with a cloud of micro missiles.
 
-##### Coava Mini Missile 3 ¤
+##### Coava Mini Missile 3 ¤
 
 Mini Missiles can be targeted on a location up to 1 mile away using coordinates, or it can be locked onto a target you have line of sight to. The missile can pursue its target at vehicle speeds rolling Move to navigate obstacles and Notice to find the target if they try to hide.
 
@@ -1138,7 +1138,7 @@ Explode 4, Move 4, Notice 4, Hardening 3
 
 **Autonomous** – Coava Mini Missiles can operate themselves.
 
-##### Jackard Air Burst EMP Mortar 1 ¤
+##### Jackard Air Burst EMP Mortar 1 ¤
 
 The Jackard mortar is useful for disabling vehicles, communications, and all manner of electronic defenses; not to mention inducing electric current in the cyber implants of hapless soldiers. Be careful not to be too close to the area of effect yourself.
 
@@ -1242,9 +1242,9 @@ A vest containing plates of composite armor material to protect your vital areas
 
 OPTIONAL:
 
-For +0 add **Combat Protection 1 ¤** and **Bulky**
+For +0 add **Combat Protection 1 ¤** and **Bulky**
 
-##### Lined Coat 2 ¤
+##### Lined Coat 2 ¤
 
 A favorite of operators everywhere. This armor is low profile composite plates designed for both ballistic and close quarters fighting concealed in a fairly large jacket or trench coat.
 
@@ -1252,9 +1252,9 @@ A favorite of operators everywhere. This armor is low profile composite plates d
 
 **Concealable** – You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
 
-**Ballistic Protection 1 ¤** – +2 to D against A from small and medium caliber firearms and shrapnel.
+**Ballistic Protection 1 ¤** – +2 to D against A from small and medium caliber firearms and shrapnel.
 
-**Close Quarters Protection 1 ¤ –** +2 to D against A from blades, clubs and other close quarters weapons.
+**Close Quarters Protection 1 ¤ –** +2 to D against A from blades, clubs and other close quarters weapons.
 
 ##### Mobeus Dragon Cloth™ {1, 2}
 
@@ -1268,7 +1268,7 @@ Typically entire suits of clothes are made of dragon cloth, which also gives it 
 
 **Concealable** – You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
 
-**Absorb Impact {1, 2} –** The armor has 1 2 ¤ Physical Stress boxes you may use provided the armor can help you.
+**Absorb Impact {1, 2} –** The armor has 1 2 ¤ Physical Stress boxes you may use provided the armor can help you.
 
 ##### Generic Flexible NanoScale {1, 2}
 
@@ -1294,23 +1294,23 @@ Combat armor is full coverage hard armor with toxin scrubbers.
 
 Assault armor is also full coverage hard armor, but with powered servos, built in power sources and weapons.
 
-##### Mobeus Combat Armor 6 ¤
+##### Mobeus Combat Armor 6 ¤
 
 A full suit of advanced combat armor which can defend against all kinds of attacks. It provides full coverage protection and it also provides some defense against battle field level dangers such as explosions and light weapons.
 
 **Combat Armor, Restricted Military, Expensive**
 
-**Ballistic Protection 2 ¤** – +4 to D against A from small and medium caliber firearms, and shrapel.
+**Ballistic Protection 2 ¤** – +4 to D against A from small and medium caliber firearms, and shrapel.
 
-Close Combat Protection 2 ¤ – +4 to D against
+Close Combat Protection 2 ¤ – +4 to D against
 
-**Combat Protection 1 ¤** – +2 to defend against explosives, light weapons.
+**Combat Protection 1 ¤** – +2 to defend against explosives, light weapons.
 
-**Laser Shielding 1 ¤ –** +2 to defend against laser weapons.
+**Laser Shielding 1 ¤ –** +2 to defend against laser weapons.
 
-**Toxin Scrubbers** **1 ¤** – +2 to Defend against toxin attacks, especially airborne ones.
+**Toxin Scrubbers** **1 ¤** – +2 to Defend against toxin attacks, especially airborne ones.
 
-##### Titania Lux™ Assault Armor 10 ¤
+##### Titania Lux™ Assault Armor 10 ¤
 
 If ever you find yourself needing to lead an assault on a dirtside target from low orbit, this is the armor you'll wish you had. Titania's Lux line is not just best-in-class powered assault armor rated at 90% survivability for uncontrolled Earth reentry; the stuff is just gorgeous and you will feel like a superhero flying it.
 
@@ -1318,19 +1318,19 @@ If ever you find yourself needing to lead an assault on a dirtside target from l
 
 Fly 4, Physique 4, Know {Navigation System} 3, Hardening 4
 
-**Ballistic Protection 2 ¤** – +4 to D against A from small and medium caliber firearms, and shrapnel.
+**Ballistic Protection 2 ¤** – +4 to D against A from small and medium caliber firearms, and shrapnel.
 
-**Close Combat Protection 2 ¤ –** +4 to D against close combat attacks.
+**Close Combat Protection 2 ¤ –** +4 to D against close combat attacks.
 
-**Combat Protection 2 ¤** – +4 to defend against explosives, light weapons.
+**Combat Protection 2 ¤** – +4 to defend against explosives, light weapons.
 
-**Energy Protection 1 ¤ –** +2 to D against energy weapons.
+**Energy Protection 1 ¤ –** +2 to D against energy weapons.
 
 **Strong Armor** – You may Roll Physique to D against attacks. This means you can use the suit's Physique rating with bonuses from other stunts as well.
 
-**Toxin Scrubbers** **1 ¤** – +2 to Defend against toxin attacks, especially airborne ones.
+**Toxin Scrubbers** **1 ¤** – +2 to Defend against toxin attacks, especially airborne ones.
 
-#### Thermoptic Camouflage Suit 1 ¤
+#### Thermoptic Camouflage Suit 1 ¤
 
 This is a full body suit which can be activated to hide the wearer from visual and thermographic detection. It can be activated and deactivated multiple times but you get only one free invoke per scene.
 
@@ -1342,7 +1342,7 @@ This is a full body suit which can be activated to hide the wearer from visual a
 
 #### Other Gear
 
-##### Smartmetal™ 1 ¤
+##### Smartmetal™ 1 ¤
 
 SmartMetal is a fist-sized blob of malleable metal/nanite mixture which has a built in power supply and a smartlink that allows you to configure the device into any shape with just a thought. As long as it has power SmartMetal will retain the shape you desire and is 500x harder than steel. It's sold commercially as a rich kid's toy and in large amounts for industrial purposes but when hacked to disable the safety features SmartMetal becomes a tool of surpassing versatility. Especially if you have a direct contact plate on your palm to control and recharge the thing.
 
@@ -1416,7 +1416,7 @@ A newer class of aircraft, the vectordyne is essentially the long awaited flying
 
 Vectordyne craft are more maneuverable then helicopters but are just as loud, if not louder. They can create more lift then a helicopter of similar size and their turborotors can be armored much more effectively then a helicopter's rotor. Vectordyne craft have top speeds ranging from 100 mph to 450 mph.
 
-##### Terradyne Shadow Dx 11 ¤
+##### Terradyne Shadow Dx 11 ¤
 
 A new favorite in the security industry, the Shadow Dx is a stealth oriented vectordyne that can quietly transport a small team to a target zone and provide them with light combat support. It's equipped with thermoptic camouflage and Terradyne's new SilentRunning™ TurboRotors to provide total stealth capability.
 
@@ -1428,7 +1428,7 @@ Pilot 3, Shoot 3, Notice 3, Barrier 3, Hardening 3, Physique 3, Move 4, Stealth 
 
 **Thermoptic Camouflage** – Activate Thermoptic invisibility at will. Get, at most, one free invoke per scene.
 
-**Vehicle Armor** **1 ¤** – Roll Physique to defend against an attack after failing with some other skill.
+**Vehicle Armor** **1 ¤** – Roll Physique to defend against an attack after failing with some other skill.
 
 **Autonomous** - The Shadow Dx can operate itself.
 
@@ -1436,9 +1436,9 @@ Pilot 3, Shoot 3, Notice 3, Barrier 3, Hardening 3, Physique 3, Move 4, Stealth 
 
 If you need to quickly stat-up a piece of gear these guidelines will be super helpful.
 
-Start with an Average 1 ¤ cost. Add upgrades, and subtract downgrades for the final cost rating.
+Start with an Average 1 ¤ cost. Add upgrades, and subtract downgrades for the final cost rating.
 
-### Average 1 ¤ Gear
+### Average 1 ¤ Gear
 
 #### Aspects
 

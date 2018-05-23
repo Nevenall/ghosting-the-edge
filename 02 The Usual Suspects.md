@@ -210,7 +210,7 @@ Check out the Gear chapter for more possibilities.
 
 ##### Free Upgrades
 
-A number of upgrades are available without using stunt slots. They are listed in with a cost of 0 ¤ in the Gear section.
+A number of upgrades are available without using stunt slots. They are listed in with a cost of 0 ¤ in the Gear section.
 
 For example, you may have a basic Interface implant for no cost. You may also have a standard, meaning non-combat, **Cyborg Replacement Body**, without using stunt slots. Such a body has both benefits and drawbacks.
 
