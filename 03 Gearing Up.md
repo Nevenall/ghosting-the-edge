@@ -108,7 +108,7 @@ A common add-on for interfaces is the {{Direct Contact Plate}} placed somewhere 
 
 The ThotCom is a fair example of an affordable commercial interface device.
 
-{{Neurological Implant, Weak Wireless Radio, Smart Device}}
+{{Neurological Implant, Weak Wireless Radio, Smart Device, Invasive}}
 
 Barrier 2, Investigate 1, Know 1, Notice 0, Hardening 1, Move 0 (Net only), Fight 0 (Net only)
 
@@ -132,37 +132,42 @@ Barrier 2, Investigate 2, Know 2, Hardening 1, Notice 1, Move 1 (Net only), Figh
 
 ##### Reflex Amplifiers \[1, 2, 3 ¤\]
 
+::: sidebar left
+Some possible brand names for Reflex Amplifiers: SlashRazor Hot Nerve Wires.
+:::
+
 Reflex Amplifiers usually means implanting nanofiber links directly from brain to muscle fibers, bypassing the syrupy slow human nervous system. Implanted sensory processors allow the brain actually integrate visual data fast enough to make the increased reaction time useful. Without these processors, reflex amplifiers feels like riding a hyperactive cyberhorse; with them you get the nearest thing to slowing down time we humans have yet achieved.
 
 See the fighting section for info about relay initiative.
 
-**Reflex Amplifiers** — When activated you get the aspect **Amplified Reflexes** for the remainder of the scene, and one free invoke per level of reflex amplifiers. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
+**Reflex Amplifiers** — When activated you get the aspect {{Amplified Reflexes}} for the remainder of the scene, and one free invoke per level of reflex amplifiers. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
 
-##### Sense Processors
+##### Sense Processors \[1 ¤ each\]
 
-Commonly the counterpart to boosted reflexes, this type of upgrade can also be implanted separately to help you deal with fast moving and highly detailed situations. Sense processors do additional acquisition and filtering of sensory data which is then provided directly to your brain to help you make decisions. Runners describe the info from these processors as being like a little voice in the back of your head compelling you to notice something you would have missed on your own, like that BikePunk sneaking up on you.
+Commonly the counterpart to reflex amplifiers, this type of upgrade can also be implanted separately to help you deal with fast moving and highly detailed situations. Sense processors do additional acquisition and filtering of sensory data which is then provided directly to your brain to help you make decisions. Runners describe the info from these processors as being like a little voice in the back of your head compelling you to notice something you would have missed on your own, like that BikePunk sneaking up on you.
 
-**Compensators \[1 ¤\]** – +2 to D against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
+**Compensators** — +2 to D against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
 
-**Hostile Target Alert System \[1 ¤\]** – This sense processor helps you determine friend from foe in a fast moving situation. [What's a good effect for this? Does it track active hostiles or does it detect hostiles before they get the drop on you?]
+**Hostile Tracking System** — This sense processor helps you determine friend from foe in a fast moving situation.
 
 ##### Skillwire \[1, 2, 3 ¤\]
 
 A natural extension of sense processor and interface technologies is the skillwire implant which allows you to instantly plug new skills directly into your brain. They can be information sets like: languages, maps, or the personnel profiles of an entire company. They can be semi-active skills like piloting a specific type of vehicle, or even very active skills, like Kung Fu.
 
-Some people find the nearly subconscious nudging of these kind of processors unsettling, especially ones that key into your motor activation centers because you can find your body doing things before your conscious mind catches up; assuming you disable the safety protocols.
+Some people find the nearly subconscious nudging of these kind of processors unsettling, especially ones that key into your motor activation centers because you can find your body doing things before your conscious mind catches up; assuming you disabled the safety protocols like most runners do.
 
-**Skillwire Slot** – For each Skillwire slot you can choose one program. You may change the program in a slot at any time, but it takes one scene for the new skill to become available to you.
+**Skillwire Slot** — For each Skillwire slot you can choose one program. You may change the program in a slot at any time, but it takes one scene for the new skill to become available to you.
 
-> **Language** – You can read and speak a specific language. Most tend towards the formal and correct and so are obviously programs; unless you are willing to pay extra for an up to date colloquialized version.
->
-> **Specialty** – These programs have everything you need to know about a specific topic such herbs, or military history. +2 to O and C actions involving that specialty.
->
-> **Pilot** – Contains the skills for pilot a specific type of vehicle. +2 to O for this specific model.
->
-> **Kung Fu** – An encyclopedic knowledge of Kung Fu moves looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. **Without cyberbody** +2 for O relating to Kung Fu. **With cyberbody** Kung Fu style Fight skill set to 2. If you already have a fight skill,
+###### Skillwire Programs \[1 ¤ each\]
 
-**Alternate Skillwire \[1 ¤\]** – You may swap the ratings of two pluggable skills between scenes. This may require a Resources roll to acquire a new skill program, and if there is no time really downtime between scenes you may have to use your original values for a while. Or, more interestingly, you might gain the trouble aspect {{Skills A and B are Swapping.}}
+- **Language** — You can read and speak a specific language. Most tend towards the formal and correct and obviously come from a program unless you are willing to pay extra for an up-to-date colloquialized version.
+- **Specialty** — These programs have everything you need to know about a specific topic such herbs, or military history. +2 to O and C actions involving that specialty.
+- **Pilot** — Contains the skills for pilot a specific type of vehicle. +2 to O for this specific model.
+- **Kung Fu** — An encyclopedic knowledge of Kung Fu moves looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. {{Without cyberbody}} +2 for O relating to Kung Fu. {{With cyberbody}} Kung Fu style Fight skill set to 2. If you already have a fight skill,
+
+##### Alternate Skillwire \[1 ¤\]
+
+**Alternate Skillwire** — You may swap the ratings of two pluggable skills between scenes. This may require a Resources roll to acquire a new skill program, and if there is no time really downtime between scenes you may have to use your original values for a while. Or, more interestingly, you might gain the trouble aspect {{Skills A and B are Swapping}}
 
 Most skills can be swapped except: Contact, Move, Physique, Resources, and Will.
 
