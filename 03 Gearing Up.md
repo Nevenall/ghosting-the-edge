@@ -6,49 +6,51 @@ Every piece of gear in Ghosting the Edge is treated as a character with its own 
 
 ### Gear is your Tool
 
-Unlike a character your gear can't operate independently (unless it has the **Sapience** stunt.) Most of the time it will simply be part of your character's action; providing justification for it, or providing you access to its aspects, skills, and stunts.
+Unlike a character, gear can't operate independently unless it has the **Sapience** stunt. Most of the time it will simply be a part of your action. Providing narrative justification for attempting something or assisting you with its aspects, skills, and stunts.
 
 ### Unrated Skills
 
-Devices, particularly **Sapient** ones, don't have the same store of general knowledge and problem solving abilities that humans do. Even in the near future, devices can only do what they've been programmed to do, which means they cannot use skills they don't have a rating for.
+Devices, particularly **Sapient** ones, don't have the same store of general knowledge and problem solving abilities that humans do. Even in the near future devices can only do what they've been programmed to do which means they cannot use skills they don't have a rating for.
 
 > For example, a **Sapient** vehicle without a rating in the Shoot skill is not programmed to handle the onboard weapons and cannot take any actions involving them.
 
 ### Gear Aspects
 
-[don't like this section. I want to make it a different thing. We want to say why gear aspects are different from most character aspects so we can say that for the most part we treat them like tags, or game details, but we can't assume tht people actually know what that means. We want to tell people what a game detail is and how that is different from an aspect. What we are doing is pre-addressing concerns that people might have around so many aspects, which is a thing that we may not really want to be doing. We don't need to defend ourselves.
+::: callout 
+don't like this section. I want to make it a different thing. We want to say why gear aspects are different from most character aspects so we can say that for the most part we treat them like tags, or game details, but we can't assume tht people actually know what that means. We want to tell people what a game detail is and how that is different from an aspect. What we are doing is pre-addressing concerns that people might have around so many aspects, which is a thing that we may not really want to be doing. We don't need to defend ourselves.
 
 But it is important to describe that we treat these aspects like game details and what game detail means. Ie, it's narrative.
 
-Also, we need to talk about some aspects which also have mechanical effects. Which is currently the last sentence of the section.]
+Also, we need to talk about some aspects which also have mechanical effects. Which is currently the last sentence of the section.
+:::
 
-Every piece of gear your character has can have several aspects of its own, but don't panic! If you are concerned about keeping track of them all, gear aspects can be treated like game details most of the time.
+Every piece of gear your character has might have several aspects of its own, but don't panic because gear aspects can be treated like game details most of the time.
 
-That said, there are a few gear aspects that come with extra rules, but nothing more complicated than a stunt.
+There are some gear aspects that come with extra rules, but nothing more complicated than a stunt.
 
 ### Cost Rating (¤)
 
-Gear has an abstract cost rating (¤) which is roughly equivalent to its total refresh value. Starting characters may pay this cost from their initial gear budget. In play, the cost is the base difficulty for acquiring it. 
+Gear has an abstract cost rating (¤) which is roughly equivalent to its total refresh value. Starting characters may pay this cost from their initial gear budget, but during play the cost rating is the base difficulty to acquire a specific item. 
 
-Some items, especially upgrades, have several costs listed meaning the item can be bought more then once is increasing levels.
+Some gear, especially upgrades, have mulitple costs listed which means the item can be bought more then once for increasingly powerful effects.
 
 #### Starting Gear
 
-Starting characters typically get 2 × their Resources rating to buy initial gear.
+Starting characters typically get 2 × their Resources rating in ¤ to buy initial gear.
 
-#### Free Gear
+##### Free Gear
 
-Some items have a 0 ¤ which means they may be had for free.
+Some items have a 0 ¤ cost which means they may be had for free during character creation.
 
 ## Gear Catalog
 
 ::: quote left Can-a-Bass. Dis Fixer
-You want to make it out there? Sure you do! So does every meatsack in the Dis and we both know surviving here takes a gritty mash of guts and gear. If you've got the guts, then I've got the gear for you boy'o. I've got yer Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires. I've even got your Titania Lux Spacedrop rated Assault Armor. You bet I do! 
+You want to make it the Dis do ya? Well so does every other meatsack and we both know surviving here takes a gritty mash of guts and gear. If you've got the guts, then I've got the gear for you boy'o. I've got yer Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires. I've even got your Titania Lux Spacedrop rated Assault Armor. You bet I do! 
 :::
 
 ### Upgrades
 
-All gear is great, but you're here because you want to be a better you. You want that special edge that only comes from blurring the line between flesh and machine. Lucky for you, all the bits you could possibly want to cram into your delicate self are right here. 
+Ordinary gear is great, but you're here because you want to be a better you. You want that special edge that only comes from blurring the line between flesh and machine. Lucky for you, all the bits you could possibly want to cram into your delicate self are right here. 
 
 #### Surgery & Reestablishment
 
@@ -64,7 +66,7 @@ The default consequence for an upgrade is moderate. This covers both the medical
 
 By adding 1 ¤ to the cost of the item the severity of the reestablishment consequence can be reduced by 1 severity. By adding 2 ¤ to the cost, it can be reduced by 2.
 
-Some upgrades are {{invasive}} or {{difficult to adjust to}} and for these the reestablishment severity is increased by 1. These tags each increase the minimum possible severity as well. Making a moderate reestablishment the best you can expect for any {{invasive}} and {{difficult to adjust to}} upgrades, such as wired reflexes.
+Some upgrades are {{invasive}} or {{difficult to adjust to}} and for these the reestablishment severity is increased by 1. These aspects each increase the minimum possible severity as well. Making a moderate reestablishment the best you can expect for any {{invasive}} and {{difficult to adjust to}} upgrades, such as wired reflexes.
 
 Other upgrades are the opposite; {{non-invasive}} or {{easy to adjust to}} and these reduce reestablishment by a severity.
 
@@ -108,7 +110,7 @@ A common add-on for interfaces is the {{Direct Contact Plate}} placed somewhere 
 
 The ThotCom is a fair example of an affordable commercial interface device.
 
-{{Neurological Implant, Weak Wireless Radio, Smart Device, Invasive}}
+{{Invasive, Weak Wireless Radio, Smart Device}}
 
 Barrier 2, Investigate 1, Know 1, Notice 0, Hardening 1, Move 0 (Net only), Fight 0 (Net only)
 
@@ -116,19 +118,19 @@ Barrier 2, Investigate 1, Know 1, Notice 0, Hardening 1, Move 0 (Net only), Figh
 
 A pretty standard interface for professional users. Most of the bells and whistles are more flash then substance, but the G-Gob is popular for its high quality defense barrier programming.
 
-{{Neurological Implant, Bells and Whistles, Smart Device}}
+{{All the Bells and Whistles, Invasive, Smart Device}}
 
 Barrier 3, Hardening 2, Investigate 1, Know 1, Notice 2, Move 2 (Net only), Fight 2 (Net only)
 
 ###### Ithcara Pearl Personal Interface \[2 ¤\]
 
-The Ithcara Pearl is not just an interface, it's a personal assistant experience. A favorite of corp execs. It features an autonomous computer intelligence which can perform a variety of tasks on command or as needed.
+The Ithcara Pearl is not just an interface, it's a personal assistive experience. It features an autonomous computer intelligence which can perform a variety of tasks independently. A current favorite amoungst ambitous corp types.
 
-{{Interface Implant; Pearl, Your Personal Net Assistant; Smart Device}}
+{{Invasive; Pearl, Your Personal Net Assistant; Smart Device}}
 
 Barrier 2, Investigate 2, Know 2, Hardening 1, Notice 1, Move 1 (Net only), Fight 0 (Net only), Stealth 0 (Net only)
 
-**Autonomous** – This interface has an independent persona named Pearl, by default, who acts as your personal assistant in the Net. It can perform research, send flowers, and even draft memos based upon your previous writing samples. Pearl can also manifest a distinct presence in the Net.
+**Autonomous** – This interface has an independent persona named Pearl who acts as your personal assistant in the Net. It can perform research, send flowers, and even draft memos based upon your previous writing samples. Pearl can also manifest a distinct presence in the Net.
 
 ##### Reflex Amplifiers \[1, 2, 3 ¤\]
 
