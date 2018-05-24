@@ -1,6 +1,10 @@
 # Ghosting the Edge
 
-A Fate Core Cyberpunk inspiration book
+A cyberpunk inspiration book for Fate Core. 
+
+## Read Online
+
+You can read the latest version online at https://ghosting.bookshelf.press/
 
 ## License
 
