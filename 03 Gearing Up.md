@@ -10,9 +10,9 @@ Unlike a character, gear can't operate independently unless it has the **Sapienc
 
 ### Unrated Skills
 
-Devices, particularly **Sapient** ones, don't have the same store of general knowledge and problem solving abilities that humans do. Even in the near future devices can only do what they've been programmed to do which means they cannot use skills they don't have a rating for.
+Devices, particularly sapient ones, don't have the same store of general knowledge and problem solving abilities that humans do. Even in the near future devices can only do what they've been programmed to do which means they cannot use skills they don't have a rating for.
 
-> For example, a **Sapient** vehicle without a rating in the Shoot skill is not programmed to handle the onboard weapons and cannot take any actions involving them.
+> For example, a sapient vehicle without a rating in the Shoot skill is not programmed to handle the onboard weapons and cannot take any actions involving them.
 
 ### Gear Aspects
 
@@ -32,11 +32,11 @@ There are some gear aspects that come with extra rules, but nothing more complic
 
 Gear has an abstract cost rating (¤) which is roughly equivalent to its total refresh value. Starting characters may pay this cost from their initial gear budget, but during play the cost rating is the base difficulty to acquire a specific item. 
 
-Some gear, especially upgrades, have mulitple costs listed which means the item can be bought more then once for increasingly powerful effects.
+Some things, especially upgrades, have mulitple costs listed which means they can be bought more then once for increasingly powerful effects.
 
 #### Starting Gear
 
-Starting characters typically get 2 × their Resources rating in ¤ to buy initial gear.
+Starting characters get 2 × Resources in ¤ to buy initial gear.
 
 ##### Free Gear
 
@@ -45,7 +45,7 @@ Some items have a 0 ¤ cost which means they may be had for free during charac
 ## Gear Catalog
 
 ::: quote left Can-a-Bass. Dis Fixer
-You want to make it the Dis do ya? Well so does every other meatsack and we both know surviving here takes a gritty mash of guts and gear. If you've got the guts, then I've got the gear for you boy'o. I've got yer Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires. I've even got your Titania Lux Spacedrop rated Assault Armor. You bet I do! 
+You want to make it in the Dis do ya? Well so does every other meatsack! Let me tell ya! Surviving here takes a gritty mash of guts and gear and if you've got the guts, then I've got the gear for you boy'o. I've got yer Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires. I've even got Titania Lux Assault Armor. You bet I do! 
 :::
 
 ### Upgrades
@@ -56,19 +56,24 @@ Ordinary gear is great, but you're here because you want to be a better you. You
 
 Upgrades are not just another piece of gear, they extend you; they are you. Even simple upgrades require an operation to connect them to your bodily systems, and following a process of recovery and adjustment to this new part of you called reestablishment.
 
-Characters are assumed to have gone through reestablishment for their initial upgrades, but will face it when aquiring new upgrades during play. Of course, the more you can pay the shorter you can make it.
+Characters are assumed to have gone through reestablishment for their initial upgrades, but will face it again when aquiring new upgrades during play. Of course, the more you can pay the shorter you can make it.
 
 ##### Reestablishment is a Consequence
 
-The default consequence for an upgrade is moderate. This covers both the medical procedure, recovery, and the time and training it takes to learn to use the new you.  
+A reestablishment consequence can reflect physical recovery or complications from the medical procedure, but it can also flow from the psychological difficulty in learning and adapting to you new device. 
+
+[Reality Disassociative Disorder (RDD). This is a great way to represent RDD]  
+
+ can  oThe default consequence for an upgrade is moderate. This covers both the medical procedure, recovery, and the time and training it takes to learn to use the new you.
 
 ###### Adjusting Reestablishment
 
-By adding 1 ¤ to the cost of the item the severity of the reestablishment consequence can be reduced by 1 severity. By adding 2 ¤ to the cost, it can be reduced by 2.
+By adding 1 ¤ to the cost of the item the severity of the reestablishment consequence can be reduced to mild. By adding 2 ¤ to the cost, it can be removed entirely.
 
-Some upgrades are {{invasive}} or {{difficult to adjust to}} and for these the reestablishment severity is increased by 1. These aspects each increase the minimum possible severity as well. Making a moderate reestablishment the best you can expect for any {{invasive}} and {{difficult to adjust to}} upgrades, such as wired reflexes.
+Some upgrades are {{non-invasive}} by their nature and these upgrades reduce the defualt reestablishment to mild.
 
-Other upgrades are the opposite; {{non-invasive}} or {{easy to adjust to}} and these reduce reestablishment by a severity.
+Many upgrades are {{invasive}} or {{difficult to adjust to}} and for these the reestablishment severity is increased by 1 each. These aspects are applied last so even if you have payed 2 ¤ extra to eliminate a reestablishment consequence an {{invasive}} upgrade will still result in a mild consequence. If an upgrade is both {{invasive}} and {{difficult to adjust to}} you will have to pay 1 ¤ to avoid taking an extreme consequence. 
+
 
 #### Neural Implants
 
