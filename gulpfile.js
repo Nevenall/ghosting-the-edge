@@ -104,7 +104,7 @@ md.use(containers, 'quote', {
       var m = tokens[idx].info.match(/\s*quote\s+(left|right)?\s(.*)/i);
       if (tokens[idx].nesting === 1) {
          if (m) {
-            return `<aside class="quoted ${m[1]}">\n<footer>${m[2]}</footer>\n`;
+            return `<aside class="quoted ${m[1]}">\n<footer>${md.render(m[2])}</footer>\n`;
          } else {
             return '<aside class="quoted">\n';
          }
@@ -115,16 +115,16 @@ md.use(containers, 'quote', {
 });
 
 
-md.use(containers, 'figure', {
+md.use(containers, 'table', {
    validate: function(params) {
-      return params.match(/\s*figure\s*/i);
+      return params.match(/\s*table\s*/i);
    },
 
    render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*figure\s+(.*)/i);
+      var m = tokens[idx].info.match(/\s*table\s+(.*)/i);
       if (tokens[idx].nesting === 1) {
          if (m) {
-            return `<figure>\n<figcaption>${md.render(m[1])}</figcaption>\n`;
+            return `<figure class="figure-table">\n<figcaption>${md.render(m[1])}</figcaption>\n`;
          } else {
             return '<figure>\n';
          }
