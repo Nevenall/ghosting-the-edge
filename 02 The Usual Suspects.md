@@ -6,7 +6,7 @@ This chapter is for everyone who's going to make a character. I've got some arch
 
 Don't have a solid character concept yet? Scan these six archetypical cyberpunk roles for inspiration.
 
-::: sidebar left 
+::: sidebar left
 #### Famous Faces
 
 ##### Varsha Patel
@@ -152,41 +152,40 @@ Players, these are the starting stats for making player characters. GMs, tweaks 
 
 Write 5 aspects for your character.
 
-If they have a cybernetic body write that into at least one aspect. **Cyborg Mercenary**, for example. This is important because character's without a **cybernetic body** are limited to 3 for their Physique and Move skills.
+#### Cybernetic Body
 
-{callout?}The answers to some of these questions about your character may lead you to good aspects.
+<!-- should maybe have a section for fate rule alterations that are supportive of cyberpunk -->
+If you have a cybernetic body write that into at least one aspect; {{Cyborg Mercenary}} for example. This is important because characters without a {{cybernetic body}} are limited to 3 for their Physique and Move skills. 
 
--   Where did they come from?
+::: callout left
+The answers to some of these questions about your character may lead you to good aspects.
 
--   Where are they headed?
-
--   What's their plan to get there?
-
--   What's their relationship to corporate power?
-
--   What's their relationship to the street?
-
--   Who is your character? Can you sum them up in a single phrase like **Broken Hacker**?
-
--   How much augmentation does your character have and does that affect them emotionally or mentally?
-
--   Where, how, and why did your character get their upgrades?
+- Where did they come from?
+- Where are they headed?
+- What's their plan to get there?
+- What's their relationship to corporate power?
+- What's their relationship to the street?
+- Who is your character? Can you sum them up in a single phrase like {{Broken Hacker}}?
+- Where, how, and why did your character get their upgrades?
+- How much augmentation does your character have and does that affect them emotionally or mentally? Do they suffer from some form of Reality Disassociative Disorder?
+:::
 
 ### Skills
 
-Pick skills for your character according to the traditional pyramid with an apex at 4, and one additional restriction; your Physique and Move are limited to 3, unless you have a **cybernetic body.**
+Pick skills for your character according to the traditional pyramid with an apex of 4, and one additional restriction; your Physique and Move are limited to 3, unless you have a {{cybernetic body}}.
 
-### Refresh + Stunts
+### Refresh & Stunts
 
 Your character gets 3 refresh and 3 stunts, with the option to cash in up to 2 refresh for more stunts.
 
 You'll spend stunt slots on most cyberware and other upgrades but not regular gear like guns and cars.
+<!-- is this still true? -->
 
-### Stress + Consequences
+### Stress & Consequences
 
 Your character start with 2 physical stress boxes and 2 mental stress boxes.
 
-Characters with a Physique of 4 or 5, and therefore a **cybernetic body**, get an extra stress box for a total of 3 physical stress. Characters with a Physique of 6 or 7, get 2 extra physical stress boxes for a total of 4.
+Characters with a Physique of 4 or 5, and therefore a {{cybernetic body}}, get an extra stress box for a total of 3 physical stress. Characters with a Physique of 6 or 7, get 2 extra physical stress boxes for a total of 4.
 
 Characters with a Will of 4 or 5 get 1 extra mental stress box for a total of 3.
 
@@ -194,15 +193,16 @@ Characters get 1 consequence slot of each level: Mild, Moderate, and Severe.
 
 #### The Future is Dangerous
 
-In the cyberpunk future even the tiniest mistake can be deadly, especially in a conflict. Confrontations are over fast, sometimes faster than human reflexes can keep up with. To reflect this reduced margin of safety characters get few then the usual stress boxes.
+In the cyberpunk future even the tiniest mistake can be deadly, especially in a conflict. Confrontations are over fast, sometimes faster than human reflexes can keep up with. To reflect this reduced margin of safety characters get fewer then the usual stress boxes.
 
 ### Gear
 
-Equipment that's not an upgrade is just ordinary gear and you use 2x your character's Resources rating as a budget for picking starting Gear.
+Equipment that's not an upgrade is just ordinary gear and you use 2 × your character's Resources rating as a budget for picking starting Gear.
 
 A character can also use skills to make, modify, or acquire gear during the game.
 
-#### Upgrades {revise}
+#### Upgrades
+<!-- this needs to be revised. You may use stunt slots, but you do not HAVE to -->
 
 Use stunt slots to buy your character personal augmentations like a G-Gob hardened Interface implant, or a mil-grade cyberarm that can rip through a steel fire door.
 
@@ -212,7 +212,7 @@ Check out the Gear chapter for more possibilities.
 
 A number of upgrades are available without using stunt slots. They are listed in with a cost of 0 ¤ in the Gear section.
 
-For example, you may have a basic Interface implant for no cost. You may also have a standard, meaning non-combat, **Cyborg Replacement Body**, without using stunt slots. Such a body has both benefits and drawbacks.
+For example, you may have a basic Interface implant for no cost. You may also have a standard, meaning non-combat, {{Cyborg Replacement Body}}, without using stunt slots. Such a body has both benefits and drawbacks.
 
 ##### How Much Can I Take?
 
@@ -224,89 +224,68 @@ There's only one new skill called Hack, but the names of several existing skills
 
 The existing Fate Core skills operate as usual and so aren't described in detail here with the exception of: Pilot, Physique and Resources. These skills have a complete description because their scope and importance in a cyberpunk game warrants it.
 
-### Skill List {callout}
+::: sidebar left
+### Skill List
 
 Bio (NEW)
-
-Contact (Contacts)
-
+Contacts
 Deceive
-
 Fight
-
 Friend (Rapport)
-
 Hack (NEW)
-
 Investigate
-
 Know (Lore)
-
 Move (Athletics)
-
 Notice
-
 Physique
-
 Pilot (Drive)
-
 Read (Empathy)
-
 Resources
-
 Shoot
-
 Sneak (Stealth)
-
 Steal (Burglary)
-
 Tech (Crafts)
-
 Troll (Provoke)
-
 Will
+:::
 
+::: callout right
 ### What Skill Do I Use In the Net?
 
 There isn't a skill specifically for using the Net because it's is just new place to use your old skills, at least the non-physical ones. If you searching the Net for someone you'll roll Investigate. If you are making nice in a forum, roll Friend.
 
-### What Skill Do I Use?
-
 Demolitions – tech
-
 Control a drone – pilot
-
 Take control of a drone – hack
-
 Heal a physical wound – bio
-
 Heal a mental wound – read
+:::
 
 ### Gear skills
 
-{incase we want to explain things about gear with skills, and gear using skills here. }
+<!-- incase we want to explain things about gear with skills, and gear using skills here.  -->
 
 ### Bio
 
 Bio is like the Tech skill, but for dealing with living stuff. Its medicine, biology, gardening, and genetic engineering.
 
-**Special.** To allow a physical consequence to start healing, roll Bio vs. the level of the consequence.
+**Special** — To allow a physical consequence to start healing, roll Bio vs. the level of the consequence.
 
 #### Bio and the Four Actions
 
-O to stop your friend from bleeding out, or to design a genetically enhanced liver.
+{{{O}}} — Stop your friend from bleeding out, or to design a genetically enhanced liver.
 
-C for old fashion body hacking like entering a **breath control trance**, or to use a mild stimulant concoction to **overcharge** your adrenal control bioimplant.
+{{{C}}} — Old-fashion body hacking like entering a {{breath control trance}}, or to use a mild stimulant concoction to {{overcharge}} your adrenal control bioimplant.
 
-A Not used for attacks.
+{{{A}}} — Not used for attacks.
 
-D Not generally used for defense.
+{{{D}}} — Not generally used for defense.
 
 #### Example Stunts 
 
-**Medic** – You get +2 to O rolls when giving first aid or other emergency medical attentions.
+**Medic** — You get +2 to {{{O}}} rolls when giving first aid or other emergency medical attentions.
 
-**Biofeedback** – You get +2 to C rolls that involve controlling the natural tendencies and limitations of your meat body.
+**Biofeedback** — You get +2 to {{{C}}} rolls that involve controlling the natural tendencies and limitations of your meat body.
 
 ### Hack
 
@@ -320,23 +299,23 @@ See the hacking on page XXX for more information.
 
 #### Hack and the Four Actions
 
-O to crack an attack barrier and get into the secure net it protects. To code an IC program to patrol your own personal castle in the Net, and a geisha construct to keep you company while you are there. Use it to hack your boss's memory so he'll think you've already completed project Daedalus.
+{{{O}}} — Crack an attack barrier and get into the secure net it protects. To code an IC program to patrol your own personal castle in the Net, and a geisha construct to keep you company while you are there. Use it to hack your boss's memory so he'll think you've already completed project Daedalus.
 
-C to stir up a localized **Packet Storm** that'll keep the system you just cracked from tracing your signal. To activate the **Fire Suppression System** as a distraction so your team can penetrate the Hyldyne Corporate building. Or hack the security controller and make yourself **Invisible to their Security Sensors**.
+{{{C}}} — Stir up a localized {{Packet Storm}} that'll keep the system you just cracked from tracing your signal. To activate the {{Fire Suppression System}} as a distraction so your team can penetrate the Hyldyne Corporate building. Or hack the security controller and make yourself {{Invisible to their Security Sensors}}.
 
-A programs and other hackers if you are both interfaced in the same system.
+{{{A}}} — Attack IC programs and other hackers if you are both interfaced in the same system.
 
-D against most actions another hacker tries to take if you are both in the same system. Defend your own brain from being hacked if someone gets past the defenses on your interface.
+{{{D}}} — Defend against most actions another hacker tries to take if you are both in the same system. Defend your own brain from being hacked if someone gets past the defenses on your interface.
 
 #### Example Stunts 
 
-**IC Master** – You write all your own security programs. Any net security you regularly maintain provides +2 opposition to intrusions.
+**IC Master** — You write all your own security programs. Any net security you regularly maintain provides +2 opposition to intrusions.
 
-**Ghost in the Net** – +2 to D against attempts to detect, locate, track, or otherwise id your handiwork in the Net.
+**Ghost in the Net** — +2 to {{{D}}} against attempts to detect, locate, track, or otherwise id your handiwork in the Net.
 
-**Code Shredder** – You get +2 to A hostile programs and other net constructs, though not live hackers.
+**Code Shredder** — You get +2 to {{{A}}} hostile IC and other net constructs, though not live hackers.
 
-**Deus Ex Machina** – You get +2 to C when you are creating a physical effect.
+**Deus Ex Machina** — You get +2 to {{{C}}} when you are creating a physical effect.
 
 ### Physique
 
@@ -344,51 +323,51 @@ Physique has a different meaning in the dark future. You can buy yourself a bran
 
 Physique is still a measure of a character's strength, endurance, toughness, but characters who are not cybernetically enhanced are limited to Physique of 3.
 
-**Special.** Unlike Fate Core, characters only get an extra physical stress box if their Physique is 4 or 5. A character gets 2 extra physical stress boxes if their Physique is 6 or 7. Something that is possible with a very high spec cybernetic body.
+**Special** — Unlike Fate Core, characters only get an extra physical stress box if their Physique is 4 or 5. A character gets 2 extra physical stress boxes if their Physique is 6 or 7 (Something that is possible with a very high spec cybernetic body).
 
 #### Physique and the Four Actions
 
-O obstacles that require the application of brute force—most often to overcome a situation aspect on a zone—or any other physical impedance, like prison bars or locked gates. Of course, Physique is the classic skill for arm-wrestling matches and other contests of applied strength, as well as marathons or other endurance-based challenges.
+{{{O}}} — Overcome obstacles that require the application of brute force—most often to overcome a situation aspect on a zone—or any other physical impedance, like prison bars or locked gates. Of course, Physique is the classic skill for arm-wrestling matches and other contests of applied strength, as well as marathons or other endurance-based challenges.
 
-C Physique has a lot of potential for advantages in physical conflict, usually related to grappling and holding someone in place, making them **Pinned** or **Locked Down**. You might also use it as a way of discovering physical impairments possessed by the target—grappling the old mercenary tells you that he has a **Bum Leg** or some such.
+{{{C}}} — Physique has a lot of potential for advantages in physical conflict, usually related to grappling and holding someone in place, making them {{Pinned}} or {{Locked Down}}. You might also use it as a way of discovering physical impairments possessed by the target—grappling the old mercenary tells you that he has a {{Bum Leg}} or some such.
 
-A Physique is not used to harm people directly—see the Fight skill for that.
+{{{A}}} — Physique is not used to harm people directly; use the Fight skill.
 
-D Though you don't generally use Physique to defend against attacks, you can use it to provide active opposition to someone else's movement, provided you're in a small enough space that you can effectively use your body to block access. You might also interpose something heavy and brace it to stop someone from getting through.
+{{{D}}} — Though you don't generally use Physique to defend against attacks, you can use it to provide active opposition to someone else's movement, provided you're in a small enough space that you can effectively use your body to block access. You might also interpose something heavy and brace it to stop someone from getting through.
 
 #### Example Stunts 
 
-**Servo Enhanced Cyberarticulation** – Your cyborg body is structurally enhanced and equipped with powerful load lifting servos. +2 to O rolls for carrying and lifting.
+**Servo Enhanced Cyberarticulation** — Your cyborg body is structurally enhanced and equipped with powerful load lifting servos. +2 to {{{O}}} rolls for carrying and lifting.
 
-**Toxin Scrubbers** – Your meat organs are supplemented with bioelectrical filters and toxin scrubbers. +2 to D against drugs and poisons, including alcohol.
+**Toxin Scrubbers** — Your meat organs are supplemented with bioelectrical filters and toxin scrubbers. +2 to {{{D}}} against drugs and poisons, including alcohol.
 
-**Grappler** – +2 to C on foes you are grappling with.
+**Grappler** — +2 to {{{C}}} on foes you are grappling with.
 
 ### Pilot
 
 Pilot replaces Drive and it's the skill for operating vehicles of all kinds; ground or air. Pilot applies if you are using a vehicle's manual controls, if you are controlling it through a direct interface, or if you are operating a vehicle through a remote interface.
 
-Many smart vehicles also have the Pilot skill and can use it to operate themselves according to human instruction, but only with safe operating parameters or to avoid danger.
+Many smart vehicles also have the Pilot skill and can use it to operate themselves according to human instruction, but only within safe operating parameters or to avoid danger.
 
 #### Pilot and the Four Actions
 
-O to navigate difficult terrain or perform exceptional maneuvers.
+{{{O}}} — Navigate difficult terrain or perform exceptional maneuvers.
 
-C to put yourself in prime position or to put a foe in a bad position.
+{{{C}}} — Put yourself in prime position or to put a foe in a bad position.
 
-A Pilot is not normally used for attacks, unless you are ramming a target with your vehicle. In which case both you, your target, and your vehicle take the same amount of stress.
+{{{A}}} — Pilot is not normally used for attacks, unless you are ramming a target with your vehicle. In which case both you, your target, and your vehicle take the same amount of stress.
 
-D to avoid attacks and advantages that target your vehicle.
+{{{D}}} — Avoid attacks and advantages that target your vehicle.
 
 #### Example Stunts 
 
-**Getaway Driver** – +2 to Pilot a ground vehicle when you're being chased.
+**Getaway Driver** — +2 to Pilot a ground vehicle when you're being chased.
 
-**Stunt Pilot** – +2 to C with Pilot if you are performing an acrobatic maneuver.
+**Stunt Pilot** — +2 to {{{C}}} with Pilot if you are performing an acrobatic maneuver.
 
-**Hot Pickup** – +2 to D when you are piloting into a hostile situation for a pick up or drop off.
+**Hot Pickup** — +2 to {{{D}}} when you are piloting into a hostile situation for a pick up or drop off.
 
-**Enhanced Drone Control Rig** – Your top of the line cyberware provides a strong and security signal for remotely interface piloting drones. You get +1 to pilot drones you are interfaced with.
+**Enhanced Drone Control Rig** — Your top of the line cyberware provides a strong and security signal for remotely interface piloting drones. You get +1 to pilot drones you are interfaced with.
 
 ### Resources
 
@@ -404,21 +383,21 @@ Resources can represent a character's personal wealth, but it can also be a stat
 
 #### Resources and the Four Actions
 
-O to acquire just about any good or service you can imagine, including a justice contract against someone who'd done wrong to you. Or just someone you don't like.
+{{{O}}} — Acquire just about any good or service you can imagine, including a justice contract against someone who'd done wrong to you. Or just someone you don't like.
 
-C to host an associate at an **Exclusive Restaurant** to give you an edge in your negotiations. Hire someone to get **Useful Dirt** on the Trellex board of directors.
+{{{C}}} — Host an associate at an {{Exclusive Restaurant}} to give you an edge in your negotiations. Hire someone to get {{Useful Dirt}} on the Trellex board of directors.
 
-A Resources is not used for direct attacks.
+{{{A}}} — Resources is not used for direct attacks.
 
-D to avoid just about any social consequence.
+{{{D}}} — Avoid many kinds of social consequences.
 
 #### Example Stunts 
 
-**Mr. Johnson** – Once per scenario you can deeply tap your corporate budget to get a +2 to Resources.
+**Mr. Johnson** — Once per scenario you can deeply tap your corporate budget to get a +2 to Resources.
 
-**Arms Dealer** – Get a +2 for Resource rolls involving weapons and armor.
+**Arms Dealer** — Get a +2 for Resource rolls involving weapons and armor.
 
-**Emergency Stash** – You have some assets safely concealed in case you lose access to your normal Resources. The stash represents a Resources of 2 that will last about one session. If you have an immediate need you can tap your stash for a +2 to Resources rolls for one session, but your stash will be gone until you spend a session without making Resources rolls to recharge it.
+**Emergency Stash** — You have some assets safely concealed in case you lose access to your normal Resources. The stash represents a Resources of 2 that will last about one session. If you have an immediate need you can tap your stash for a +2 to Resources rolls for one session, but your stash will be gone until you spend a session without making Resources rolls to recharge it.
 
 ### Tech
 
@@ -426,18 +405,18 @@ Tech is the skill for machines and science. Mechanical, and electrical. From a s
 
 #### Tech and the Four Actions
 
-O to repair a broken device, design and a build a new one, or place some explosives.
+{{{O}}} — Repair a broken device, design and a build a new one, or place some explosives.
 
-C to jury-rig a **turbo booster** for your VecD Shadow, or create some **simple mechanical advantage**.
+{{{C}}} — Jury-rig a {{Turbo Booster}} for your VecD Shadow, or create some {{Simple Mechanical Advantage}}.
 
-A tech is not used directly for attacks but it can help you make the most of an attack using or targeting a device.
+{{{A}}} — Tech is not used directly for attacks but it can help you make the most of an attack using or targeting a device.
 
-D tech is not normally used for defense.
+{{{D}}} — Tech is not normally used for defense.
 
 #### Example Stunts 
 
-**Cybermaster** – +2 to rolls dealing with cybernetics.
+**Cybermaster** — +2 to rolls dealing with cybernetics.
 
-**Grease monkey** – +2 to rolls involving cars.
+**Grease monkey** — +2 to rolls involving cars.
 
-**Drone Operator** – Use Tech instead of Pilot for operating drones.
+**Drone Operator** — Use Tech instead of Pilot for operating drones.

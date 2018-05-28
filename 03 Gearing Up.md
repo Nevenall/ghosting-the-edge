@@ -16,13 +16,11 @@ Devices, particularly sapient ones, don't have the same store of general knowled
 
 ### Gear Aspects
 
-::: callout 
-don't like this section. I want to make it a different thing. We want to say why gear aspects are different from most character aspects so we can say that for the most part we treat them like tags, or game details, but we can't assume tht people actually know what that means. We want to tell people what a game detail is and how that is different from an aspect. What we are doing is pre-addressing concerns that people might have around so many aspects, which is a thing that we may not really want to be doing. We don't need to defend ourselves.
+<!-- don't like this section. I want to make it a different thing. We want to say why gear aspects are different from most character aspects so we can say that for the most part we treat them like tags, or game details, but we can't assume tht people actually know what that means. We want to tell people what a game detail is and how that is different from an aspect. What we are doing is pre-addressing concerns that people might have around so many aspects, which is a thing that we may not really want to be doing. We don't need to defend ourselves.
 
 But it is important to describe that we treat these aspects like game details and what game detail means. Ie, it's narrative.
 
-Also, we need to talk about some aspects which also have mechanical effects. Which is currently the last sentence of the section.
-:::
+Also, we need to talk about some aspects which also have mechanical effects. Which is currently the last sentence of the section. -->
 
 Every piece of gear your character has might have several aspects of its own, but don't panic because gear aspects can be treated like game details most of the time.
 
@@ -62,17 +60,17 @@ Characters are assumed to have gone through reestablishment for their initial up
 
 A reestablishment consequence can reflect physical recovery or complications from the medical procedure, but it can also flow from the psychological difficulty in learning and adapting to you new device. 
 
-[Reality Disassociative Disorder (RDD). This is a great way to represent RDD]  
+<!-- [Reality Disassociative Disorder (RDD). This is a great way to represent RDD]  
 
- can  oThe default consequence for an upgrade is moderate. This covers both the medical procedure, recovery, and the time and training it takes to learn to use the new you.
+ can  oThe default consequence for an upgrade is moderate. This covers both the medical procedure, recovery, and the time and training it takes to learn to use the new you. -->
 
 ###### Adjusting Reestablishment
 
 By adding 1 ¤ to the cost of the item the severity of the reestablishment consequence can be reduced to mild. By adding 2 ¤ to the cost, it can be removed entirely.
 
-Some upgrades are {{non-invasive}} by their nature and these upgrades reduce the defualt reestablishment to mild.
+Some upgrades are {{Non-invasive}} by their nature and these upgrades reduce the defualt reestablishment to mild.
 
-Many upgrades are {{invasive}} or {{difficult to adjust to}} and for these the reestablishment severity is increased by 1 each. These aspects are applied last so even if you have payed 2 ¤ extra to eliminate a reestablishment consequence an {{invasive}} upgrade will still result in a mild consequence. If an upgrade is both {{invasive}} and {{difficult to adjust to}} you will have to pay 1 ¤ to avoid taking an extreme consequence. 
+Many upgrades are {{Invasive}} or {{Difficult to Adjust to}} and for these the reestablishment severity is increased by 1 each. These aspects are applied last so even if you have payed 2 ¤ extra to eliminate a reestablishment consequence an {{Invasive}} upgrade will still result in a mild consequence. If an upgrade is both {{Invasive}} and {{Difficult to Adjust to}} you will have to pay 1 ¤ to avoid taking an extreme consequence. 
 
 
 #### Neural Implants
@@ -91,7 +89,9 @@ It defines our era in another way as well. Everything you do with your interface
 
 ###### Unlocked Interfaces
 
-Most characters will have a "rooted interface" which has the usual corporate controls and safeguards removed. Giving the character complete control over their device and allowing them to do things like fiddle with the interface id to conceal their true identities.
+Most characters will have a {{Jailbroken Interface}} which circumvents the ever present corporate controls and safeguards. This gives a character complete control over their device and allows them to do things like fiddle with the interface id to conceal their true identities. 
+
+Jailbreaking an interface can be done with a Tech {{{O}}}.
 
 ###### Wirelessly interface with the Net and local nets
 
@@ -137,25 +137,23 @@ Barrier 2, Investigate 2, Know 2, Hardening 1, Notice 1, Move 1 (Net only), Figh
 
 **Autonomous** – This interface has an independent persona named Pearl who acts as your personal assistant in the Net. It can perform research, send flowers, and even draft memos based upon your previous writing samples. Pearl can also manifest a distinct presence in the Net.
 
-##### Reflex Amplifiers \[1, 2, 3 ¤\]
+##### SlashRazor Hot Nerve Wires \[1, 2, 3 ¤\]
 
-::: sidebar left
-Some possible brand names for Reflex Amplifiers: SlashRazor Hot Nerve Wires.
-:::
-
-Reflex Amplifiers usually means implanting nanofiber links directly from brain to muscle fibers, bypassing the syrupy slow human nervous system. Implanted sensory processors allow the brain actually integrate visual data fast enough to make the increased reaction time useful. Without these processors, reflex amplifiers feels like riding a hyperactive cyberhorse; with them you get the nearest thing to slowing down time we humans have yet achieved.
+Hot wiring your nerves means implanting nanofiber links directly from brain to muscle fibers, bypassing the syrupy slow human nervous system. Implanted sensory processors allow your brain to integrate visual data fast enough to make the increased reaction time useful. Without these processors, reflex amplifiers feels like riding a hyperactive cyberhorse; with them you get the nearest thing to slowing down time we humans have yet achieved.
 
 See the fighting section for info about relay initiative.
 
-**Reflex Amplifiers** — When activated you get the aspect {{Amplified Reflexes}} for the remainder of the scene, and one free invoke per level of reflex amplifiers. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
+**Reflex Amplifiers** — When activated you get the aspect {{Amplified Reflexes}} for the remainder of the scene, and one free invoke per level. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
 
 ##### Sense Processors \[1 ¤ each\]
+<!-- this section to be broken up. Each one should be a separate entry -->
 
 Commonly the counterpart to reflex amplifiers, this type of upgrade can also be implanted separately to help you deal with fast moving and highly detailed situations. Sense processors do additional acquisition and filtering of sensory data which is then provided directly to your brain to help you make decisions. Runners describe the info from these processors as being like a little voice in the back of your head compelling you to notice something you would have missed on your own, like that BikePunk sneaking up on you.
 
-**Compensators** — +2 to D against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
+**Compensators** — +2 to {{{D}}} against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
 
-**Hostile Tracking System** — This sense processor helps you determine friend from foe in a fast moving situation.
+**Hostile Tracking System** — This sense processor helps you determine friend from foe in a fast moving situation. 
+<!-- Seems this needs an effect. -->
 
 ##### Skillwire \[1, 2, 3 ¤\]
 
@@ -174,9 +172,9 @@ Some people find the nearly subconscious nudging of these kind of processors uns
 
 ##### Alternate Skillwire \[1 ¤\]
 
-**Alternate Skillwire** — You may swap the ratings of two pluggable skills between scenes. This may require a Resources roll to acquire a new skill program, and if there is no time really downtime between scenes you may have to use your original values for a while. Or, more interestingly, you might gain the trouble aspect {{Skills A and B are Swapping}}
+**Alternate Skillwire** — You can swap the ratings of two skills between scenes. This may require a Resources roll to acquire a new skill program. If there is no downtime between scenes you may might gain the trouble aspect {{Skills A and B are Swapping}}.
 
-Most skills can be swapped except: Contact, Move, Physique, Resources, and Will.
+Most skills can be swapped except: Contacts, Move, Physique, Resources, and Will.
 
 #### Eyes & Ears
 

@@ -1,7 +1,7 @@
 {
   "name": "ghosting-the-edge",
   "version": "1.0.0",
-  "description": "A Cyberpunk inspiration book for Fate Core",
+  "description": "A cyberpunk inspiration book for Fate Core",
   "main": "",
   "scripts": {},
   "repository": {
@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/Nevenall/ghosting-the-edge#readme",
   "devDependencies": {
+    "@types/gulp": "^4.0.5",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-count-stat": "^1.0.0",
@@ -26,10 +27,7 @@
     "markdown-it-container": "^2.0.0",
     "markdown-it-deflist": "^2.0.3",
     "markdown-it-special-terms": "^1.1.0",
-    "markdownlint": "^0.8.1",
-    "write-good": "^0.11.3"
-  },
-  "dependencies": {
-    "@types/gulp": "^4.0.5"
+    "markdownlint": "^0.9.0",
+    "write-good": "^0.13.0"
   }
 }

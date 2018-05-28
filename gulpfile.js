@@ -32,8 +32,8 @@ md.use(terms, {
    close_1: "</span>",
    open_2: '<span class="aspect">',
    close_2: "</span>",
-   // open_3: "<div class='stat-block'>",
-   // close_3: "</div>"
+   open_3: '<span class="fate-font">',
+   close_3: "</span>"
 });
 md.use(anchors);
 
