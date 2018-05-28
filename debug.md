@@ -23,7 +23,7 @@ We should be able to have {special terms} in here
 :::
 
 
-::: figure table 1-a {Stuff} About Stuff
+::: table A Table of {Awesome Stuff}
 1|2|3
 -|-|-
 a|b|c
