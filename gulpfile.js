@@ -104,7 +104,7 @@ md.use(containers, 'quote', {
       var m = tokens[idx].info.match(/\s*quote\s+(left|right)?\s(.*)/i);
       if (tokens[idx].nesting === 1) {
          if (m) {
-            return `<aside class="quoted ${m[1]}">\n<footer>${md.render(m[2])}</footer>\n`;
+            return `<aside class="quoted ${m[1]}">\n<footer>${m[2]}</footer>\n`;
          } else {
             return '<aside class="quoted">\n';
          }
