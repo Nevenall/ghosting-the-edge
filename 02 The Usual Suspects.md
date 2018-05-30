@@ -77,14 +77,16 @@ Some Ghosts have cracking and hacking skills, but they are specialized for defea
 Stealth, Notice, Investigate, Crime.
 
 ::: sidebar left
-#### Unsolved Hacker Crimes
-
-No matter how hard the corps try to lock down the Net hackers still find ways to stay anonymous but, that means the most notorious hackers are the ones who get caught. Here's a few notable hacker crimes which haven't been convincingly claimed by anyone…yet.
-
 ##### The blackout
 
 Ask your mom if she remembers the blackout. Back when someone didn't just crack the Eastern Power Grid secure net, they crashed it. Total system failure. Massive blackouts. Chaos and destruction everywhere.
 :::
+
+## Hacker
+
+**AKA**: Netrunner, Console Jockey, Code Cowboy, NIMrod (*archaic*. From **N**eural **I**nterface **M**odem, an older generation of interface technology), Decker (*archaic*. From cyberdeck another obsolete interface technology).
+
+In the old days you'd have programmed with keyboards and monitors but now, thanks to your interface, you soar through the endless virtual terrain of the Net like a vengeful god of info freedom. If they put up a wall, you tear it down with a thought. If they build a data prison, you code yourself a virtual grenade to blow the gates open. Thanks to your interface, you can do with just a thought, hacks that would have taken your granddaddy a week of coding.
 
 ::: callout right
 #### Legends of the Net
@@ -101,12 +103,6 @@ Let's be honest, most hackers get one big score before they become targets for B
 
 The monk is just a myth...right? A boogeyman of the Net. They say he keeps the ghosts of unfortunate hackers trapped in jars in some fortress in the Net, but no one can extract your consciousness through the Net, let alone keep it around after your meat brain dies...right?
 :::
-
-### Hacker
-
-**AKA**: Netrunner, Console Jockey, Code Cowboy, NIMrod (*archaic*. From **N**eural **I**nterface **M**odem, an older generation of interface technology), Decker (*archaic*. From cyberdeck another obsolete interface technology).
-
-In the old days you'd have programmed with keyboards and monitors but now, thanks to your interface, you soar through the endless virtual terrain of the Net like a vengeful god of info freedom. If they put up a wall, you tear it down with a thought. If they build a data prison, you code yourself a virtual grenade to blow the gates open. Thanks to your interface, you can do with just a thought, hacks that would have taken your granddaddy a week of coding.
 
 On the other hand, your granddaddy didn't have to worry about attack barriers and black IC that can use that magical interface of yours to hack your brain and mess you up in ways there aren't even words for. Brain death is just the beginning grandson.
 
