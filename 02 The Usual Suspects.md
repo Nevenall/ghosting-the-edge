@@ -217,26 +217,26 @@ The existing Fate Core skills operate as usual and so aren't described in detail
 ### Skill List
 
 ::: columns
-Bio (NEW)
-Contacts
-Deceive
-Fight
-Friend (Rapport)
-Hack (NEW)
-Investigate
-Know (Lore)
-Move (Athletics)
-Notice
-Physique
-Pilot (Drive)
-Read (Empathy)
-Resources
-Shoot
-Sneak (Stealth)
-Steal (Burglary)
-Tech (Crafts)
-Troll (Provoke)
-Will
+- Bio (NEW)
+- Contacts
+- Deceive
+- Fight
+- Friend (Rapport)
+- Hack (NEW)
+- Investigate
+- Know (Lore)
+- Move (Athletics)
+- Notice
+- Physique
+- Pilot (Drive)
+- Read (Empathy)
+- Resources
+- Shoot
+- Sneak (Stealth)
+- Steal (Burglary)
+- Tech (Crafts)
+- Troll (Provoke)
+- Will
 :::
 
 ::: sidebar right
