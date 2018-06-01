@@ -6,11 +6,13 @@ Cold metal drops as softly as a spider on to the back of your neck. A warning fl
 
 Welcome to the Edge
 
-# Ghosting the Edge
-
+:::sidebar left 
 *Ghosting* — slang for making a living (*feeding the meat* is a more colorful synonym).
 
 *The edge* — a the place where the stasis of corporate control meets the anarchic currents of the street.
+:::
+
+# Ghosting the Edge
 
 This chapter is for everyone. It's ground level concepts and questions to help you make this dystopian future your own.
 

@@ -20,9 +20,9 @@ Grace is an AI composer who says she began life as a corporate machine learning 
 
 ### Face
 
-Poise is power and you exploit that hard. Some think charisma is antique or that being the Face is just about lying, but you know the true, most people fall for the presentation not the facts and, you're a master of presentation.
+Poise is power and you exploit that hard. Some think charisma is an antiquated concept and that being the Face is just about propegating lies, but you know the true, most people fall for the presentation not the facts and, you're a master of presentation.
 
-As the Face you may find yourself in the Dis negotiating territory rights between the Vampyre's and the Magogs, playing a duet on a thought harp for millions of virtual concert goes, or change raising at a High Street Market stall.
+As the Face you may find yourself negotiating territory rights between a couple of gangs like the Vampyres and the Magogs, playing a duet on a thought harp for millions of virtual concert goes, or change raising at a High Street Market stall.
 
 The face role contains a multitude of sinners: media personalities, cult leaders, grifters, politicians, artists, rock stars, even your garden variety gigolo.
 
@@ -33,14 +33,6 @@ Charisma. The classic Face is all about personal charisma. If they make a deal, 
 #### Trademark Skills
 
 Friend, Read, Deceive
-
-::: sidebar right 
-#### Notable Deals
-
-##### The Founding of the Black Talon Security Corporation
-
-There didn't used to be a Black Talon Corporation; not until its eight legendary founders, the heads of security for eight different corporations, walked off the job with their respective departments to form a new company dedicated to providing security operations for any corporation. How the deal went down has never been revealed, but many suspect Black Talon CEO and founder, Sam James III, stole sensitive secrets for blackmail leverage in his daring revolt.
-:::
 
 ### Fixer
 
@@ -82,7 +74,7 @@ Stealth, Notice, Investigate, Crime.
 Ask your mom if she remembers the blackout. Back when someone didn't just crack the Eastern Power Grid secure net, they crashed it. Total system failure. Massive blackouts. Chaos and destruction everywhere.
 :::
 
-## Hacker
+### Hacker
 
 **AKA**: Netrunner, Console Jockey, Code Cowboy, NIMrod (*archaic*. From **N**eural **I**nterface **M**odem, an older generation of interface technology), Decker (*archaic*. From cyberdeck another obsolete interface technology).
 
@@ -116,7 +108,7 @@ Hack, Investigate, Tech or Crime.
 
 ### Samurai
 
-You can't reprogram a hostile meatbag and you can't charm your way passed a well-armed security drone. Sometimes the solution to a problem is the reasoned application of extreme violence and you, my Samurai friend, excel at such applications.
+You can't always reprogram a hostile meatbag and charm doesn't work on well-armed security drones. Sometimes the solution to a problem is the reasoned application of extreme violence and you, my Samurai friend, excel at such applications.
 
 You'll find yourself in a dazzling variety of lethal conflicts; drawing fire or taking a beat down for whoever happens to be paying the bills this week. Some of the older generation say you owe a worthy foe respect because of your mutual mastery of death, but you know there's more honor amongst thieves then killers like you.
 
@@ -124,7 +116,7 @@ As a Samurai you might be a bodyguard, soldier, security, gang enforcer, a pit f
 
 #### Trademark Skills
 
-Shoot or Fight, Move, Physique
+Shoot, Fight, Move, Physique
 
 ### Tech
 
@@ -143,17 +135,15 @@ Bio, Tech, Pilot, Know
 ## Your Baseline Specs
 
 Players, these are the starting stats for making player characters. GMs, tweaks for this baseline are discussed in the GM chapter on page XXX.
+<!-- should maybe have a section for fate rule alterations that are supportive of cyberpunk -->
 
 ### Aspects
 
 Write 5 aspects for your character.
 
-#### Cybernetic Body
-
-<!-- should maybe have a section for fate rule alterations that are supportive of cyberpunk -->
-If you have a cybernetic body write that into at least one aspect; {{Cyborg Mercenary}} for example. This is important because characters without a {{cybernetic body}} are limited to 3 for their Physique and Move skills. 
-
 ::: callout left
+#### Aspect Questions
+
 The answers to some of these questions about your character may lead you to good aspects.
 
 - Where did they come from?
@@ -165,6 +155,10 @@ The answers to some of these questions about your character may lead you to good
 - Where, how, and why did your character get their upgrades?
 - How much augmentation does your character have and does that affect them emotionally or mentally? Do they suffer from some form of Reality Disassociative Disorder?
 :::
+
+#### Cybernetic Body
+
+If you have a cybernetic body write that into at least one aspect; {{Cyborg Mercenary}} for example. This is important because characters without a {{cybernetic body}} are limited to 3 for their Physique and Move skills. 
 
 ### Skills
 
@@ -220,9 +214,9 @@ There's only one new skill called Hack, but the names of several existing skills
 
 The existing Fate Core skills operate as usual and so aren't described in detail here with the exception of: Pilot, Physique and Resources. These skills have a complete description because their scope and importance in a cyberpunk game warrants it.
 
-::: sidebar left
 ### Skill List
 
+::: 2 columns
 Bio (NEW)
 Contacts
 Deceive
@@ -245,7 +239,7 @@ Troll (Provoke)
 Will
 :::
 
-::: callout right
+::: sidebar right
 ### What Skill Do I Use In the Net?
 
 There isn't a skill specifically for using the Net because it's is just new place to use your old skills, at least the non-physical ones. If you searching the Net for someone you'll roll Investigate. If you are making nice in a forum, roll Friend.

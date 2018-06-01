@@ -37,6 +37,8 @@ md.use(terms, {
 });
 md.use(anchors);
 
+
+// Containers
 md.use(containers, 'sidebar', {
    validate: function(params) {
       return params.match(/\s*sidebar\s*/i);
@@ -74,7 +76,6 @@ md.use(containers, 'callout', {
       }
    }
 });
-
 
 md.use(containers, 'stat-block', {
    validate: function(params) {
@@ -114,7 +115,6 @@ md.use(containers, 'quote', {
    }
 });
 
-
 md.use(containers, 'table', {
    validate: function(params) {
       return params.match(/\s*table\s*/i);
@@ -133,6 +133,25 @@ md.use(containers, 'table', {
       }
    }
 });
+
+md.use(containers, 'columns', {
+   validate: function(params) {
+      return params.match(/\s*columns\s*/i);
+   },
+
+   render: function(tokens, idx) {
+      var m = tokens[idx].info.match(/\s*columns\s*/i);
+      if (tokens[idx].nesting === 1) {
+         if (m) {
+            return `<div class="columns">\n`;
+         } else {
+            return '<div class="columns">\n';
+         }
+      } else {
+         return "</div>\n"
+      }
+   }
+
 
 // any link to a .md resource, we will convert to a link to an .html resource
 // links with \ will be converted to /
