@@ -151,6 +151,7 @@ md.use(containers, 'columns', {
          return "</div>\n"
       }
    }
+});
 
 
 // any link to a .md resource, we will convert to a link to an .html resource

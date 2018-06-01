@@ -216,7 +216,7 @@ The existing Fate Core skills operate as usual and so aren't described in detail
 
 ### Skill List
 
-::: 2 columns
+::: columns
 Bio (NEW)
 Contacts
 Deceive
