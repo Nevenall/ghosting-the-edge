@@ -12,6 +12,7 @@ const deflist = require('markdown-it-deflist');
 const terms = require('markdown-it-special-terms');
 const anchors = require('markdown-it-anchor');
 const containers = require('markdown-it-container');
+const tables = require('markdown-it-multimd-table');
 
 const markdownLint = require('markdownlint');
 
@@ -36,6 +37,7 @@ md.use(terms, {
    close_3: "</span>"
 });
 md.use(anchors);
+md.use(tables);
 
 
 // Containers
