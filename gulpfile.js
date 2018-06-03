@@ -128,7 +128,7 @@ md.use(containers, 'table', {
          if (m) {
             return `<figure class="figure-table">\n<figcaption>${md.render(m[1])}</figcaption>\n`;
          } else {
-            return '<figure>\n';
+            return '<figure class="figure-table">\n';
          }
       } else {
          return "</figure>\n"
