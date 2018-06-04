@@ -1,6 +1,6 @@
 # The Usual Suspects
 
-This chapter is for everyone who's going to make a character. I've got some archetypes for you, I've got your cyberpunk skills and edgy stunts too.
+This chapter's got some classic roles for you to play, cyberpunk skills, and edgy stunts too.
 
 ## Roles
 
@@ -132,19 +132,30 @@ A Tech might have any number of jobs including: cyberware designer, trauma medic
 
 Bio, Tech, Pilot, Know
 
-## Your Baseline Specs
+:::sidebar left
+### Punkification
 
-Players, these are the starting stats for making player characters. GMs, tweaks for this baseline are discussed in the GM chapter on page XXX.
-<!-- should maybe have a section for fate rule alterations that are supportive of cyberpunk -->
+There are a couple rules here that differ from Fate Core. 
+
+#### Max Physique and Move
+Unlesss you have a cybernetic body you are limited to 
+:::
+
+## Your Baseline Specs
+<!-- are we going to address 'you' the character directly? or say your charcters?
+I think using you throughout really brings out the cyberpunk. a strange, controlled and intentional conflation of reality and not reality. 
+It's also more immediate and gripping narratively, I believe.  -->
+These are the starting stats for making player characters.
 
 ### Aspects
 
 Write 5 aspects for your character.
 
 ::: callout left
-#### Aspect Questions
+#### Ask a Question / Make an Aspect
+<!-- This is a great place to present a table of interesting answers! -->
 
-The answers to some of these questions about your character may lead you to good aspects.
+Answer some of these questions about your character.
 
 - Where did they come from?
 - Where are they headed?
@@ -242,7 +253,7 @@ The existing Fate Core skills operate as usual and so aren't described in detail
 ::: sidebar right
 ### What Skill Do I Use In the Net?
 
-There isn't a skill specifically for using the Net because it's is just new place to use your old skills, at least the non-physical ones. If you searching the Net for someone you'll roll Investigate. If you are making nice in a forum, roll Friend.
+There isn't a skill specifically for using the Net because it's is just new place to use your old skills, at least the xnon-physical ones. If you searching the Net for someone you'll roll Investigate. If you are making nice in a forum, roll Friend.
 
 Demolitions – tech
 Control a drone – pilot
