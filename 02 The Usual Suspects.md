@@ -11,24 +11,25 @@ Don't have a solid character concept yet? Scan these six archetypical cyberpunk 
 
 ##### Varsha Patel
 
-Varsha earned her role as the face of journalism for an entire generation for her unwavering and even handed coverage of the war between India and Pakistan and its nuclear escalation.
+Varsha earned her role as the face of journalism for an entire generation with her unwavering and coverage of the Ash Monsoon conflict between India and Pakistan <!-- a better name for this--> and its nuclear escalation.
 
 ##### Grace
 
-Grace is an AI composer who says she began life as a corporate machine learning system designed to absorb musical data and decipher the patterns of popularity. In interviews she has referred to her awaking as "a singular moment of gestalt arising from humanity's longing for affirmation as expressed through their music." Grace has faced a lot of scorn, many music reviewers love to call her an iComposer and imply that she's really a corporate construction designed to trick the listening public.
+Grace is an AI composer who claims to have begun life as an EARreverent, Inc. neural network responsible for digesting pop music. In interviews she has referred to her awaking as "a singular moment of gestalt longing" 
+Grace has faced plenty of scorn from all fronts since she went solo.
 :::
 
 ### Face
 
-Poise is power and you exploit that hard. Some think charisma is an antiquated concept and that being the Face is just about propegating lies, but you know the true, most people fall for the presentation not the facts and, you're a master of presentation.
+Some say charisma is an antiquated concept and your role is just propegating lies for the powerful, but you know poise is a power all its own.
 
-As the Face you may find yourself negotiating territory rights between a couple of gangs like the Vampyres and the Magogs, playing a duet on a thought harp for millions of virtual concert goes, or change raising at a High Street Market stall.
+As the Face you may find yourself negotiating territorial rights between a couple of corps in the core or gangs in the Dis, playing a thought harp duet for a million virtual concert goers, or recording a stimsense stunt in free-fall. 
 
 The face role contains a multitude of sinners: media personalities, cult leaders, grifters, politicians, artists, rock stars, even your garden variety gigolo.
 
 #### How is a Face different from a Fixer?
 
-Charisma. The classic Face is all about personal charisma. If they make a deal, lead a team, or convince someone of something, it's through their charm and affability. A fixer will offer you something you need, a Face will offer you something to believe in.
+Charisma. The classic Face is all about personal magnetism. Whatever you do, it's through charm and affability. A fixer might offer something you need, but you offer something to believe in.
 
 #### Trademark Skills
 
