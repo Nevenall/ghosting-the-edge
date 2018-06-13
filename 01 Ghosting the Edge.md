@@ -1,17 +1,15 @@
-Jet engines scream through the smog overhead and tonight's greasy rain on your mirrorshades smears the scavenged neon of High Street Market. Every face in the makeshift stalls gets sniffed from your visual cortex, matched against your target's facial data, then pumped back into your field of vision with a color-coded match percentage.
+Jet engines scream unseen in the smog overhead and tonight's greasy rain on your mirrorshades smears the scavenged neon of High Street Market. Every face in the makeshift stalls gets sniffed from your visual cortex by the client's program and pumped back into your field of vision with a color-coded match percentage. 58%...12%...70%...68%...95% — "Hey there, Friend."
 
-58%...12%...70%...68%...95% — "Hey there."
-
-Cold metal drops as softly as a spider on to the back of your neck. A warning floats across the bottom of your vision like a cobweb because this smartass hacked their safety-off function to broadcast a weapons-free alert. 
+Cold metal drops, soft as a spider, on the back of your neck and a warning floats across the bottom of your vision because this smartass hacked their safety-off to broadcast a weapons-free alert. 
 
 Welcome to the Edge
 
 :::sidebar left 
-*Ghosting* — slang for making a living (*feeding the meat* is a more colorful synonym).
+*Ghosting* — slang for making a living.
+*feeding the meat* is a more colorful synonym.
 
-*The edge* — a the place where the stasis of corporate control meets the anarchic currents of the street.
+*The edge* — a the place where the stasis of corporate control meets the anarchic currents of the street.
 :::
-
 
 <!-- more mood setting and less Is this cyberpunk essays. -->
 

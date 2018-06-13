@@ -1,6 +1,6 @@
 # The Usual Suspects
 
-This chapter's got some classic roles for you to play, cyberpunk skills, and edgy stunts too.
+This chapter is about characters. There's some classic roles for you to play, cyberpunk skills, and edgy stunts too.
 
 ## Roles
 
