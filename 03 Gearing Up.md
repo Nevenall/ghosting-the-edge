@@ -143,14 +143,14 @@ Hot wiring your nerves means implanting nanofiber links directly from brain to m
 
 See the fighting section for info about relay initiative.
 
-**Reflex Amplifiers** — When activated you get the aspect {{Amplified Reflexes}} for the remainder of the scene, and one free invoke per level. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
+**Reflex Amplifiers** – When activated you get the aspect {{Amplified Reflexes}} for the remainder of the scene, and one free invoke per level. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
 
 ##### Sense Processors \[1 ¤ each\]
 <!-- this section to be broken up. Each one should be a separate entry -->
 
 Commonly the counterpart to reflex amplifiers, this type of upgrade can also be implanted separately to help you deal with fast moving and highly detailed situations. Sense processors do additional acquisition and filtering of sensory data which is then provided directly to your brain to help you make decisions. Runners describe the info from these processors as being like a little voice in the back of your head compelling you to notice something you would have missed on your own, like that BikePunk sneaking up on you.
 
-**Compensators** — +2 to {{{D}}} against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
+**Compensators** – +2 to {{{D}}} against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
 
 **Hostile Tracking System** — This sense processor helps you determine friend from foe in a fast moving situation. 
 <!-- Seems this needs an effect. -->
@@ -166,9 +166,9 @@ Some people find the nearly subconscious nudging of these kind of processors uns
 ###### Skillwire Programs \[1 ¤ each\]
 
 - **Language** — You can read and speak a specific language. Most tend towards the formal and correct and obviously come from a program unless you are willing to pay extra for an up-to-date colloquialized version.
-- **Specialty** — These programs have everything you need to know about a specific topic such herbs, or military history. +2 to O and C actions involving that specialty.
-- **Pilot** — Contains the skills for pilot a specific type of vehicle. +2 to O for this specific model.
-- **Kung Fu** — An encyclopedic knowledge of Kung Fu moves looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. {{Without cyberbody}} +2 for O relating to Kung Fu. {{With cyberbody}} Kung Fu style Fight skill set to 2. If you already have a fight skill,
+- **Specialty** — These programs have everything you need to know about a specific topic such herbs, or military history. +2 to {{{O}}} and {{{C}}} actions involving that specialty.
+- **Pilot** — Contains the skills for pilot a specific type of vehicle. +2 to {{{O}}} for this specific model.
+- **Kung Fu** — An encyclopedic knowledge of Kung Fu moves looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. {{Without cyberbody}} +2 for {{{O}}} relating to Kung Fu. {{With cyberbody}} Kung Fu style Fight skill set to 2. If you already have a fight skill,
 
 ##### Alternate Skillwire \[1 ¤\]
 

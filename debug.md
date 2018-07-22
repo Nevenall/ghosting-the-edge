@@ -10,7 +10,7 @@ Armor plates embedded over or under your skin. Either way they are not very subt
 
 ::: sidebar left quoted
 This is some stuff that should appear associated with our text as it is an aside.
-— Leo
+– Leo
 :::
 
 Some other text bro.
@@ -32,3 +32,7 @@ Ea dolore consul forensibus eos, ut idque assum dignissimest. Assentior assuever
 | Third row     | Cell that spans across two columns  ||
 [Table caption, works as a reference][section-mmd-tables-table1]
 :::
+
+
+## New section ​— Dawg
+
