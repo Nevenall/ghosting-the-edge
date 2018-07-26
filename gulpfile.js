@@ -12,6 +12,7 @@ const deflist = require('markdown-it-deflist');
 const terms = require('markdown-it-special-terms');
 const anchors = require('markdown-it-anchor');
 const containers = require('markdown-it-container');
+const tables = require('markdown-it-multimd-table');
 
 const markdownLint = require('markdownlint');
 
@@ -28,22 +29,25 @@ var md = new MarkdownIt({
 
 md.use(deflist);
 md.use(terms, {
-   open_1: "<span class='game-term'>",
+   open_1: '<span class="game-term">',
    close_1: "</span>",
-   // open_2: "<aside class='callout'>",
-   // close_2: "</aside>",
-   // open_3: "<div class='stat-block'>",
-   // close_3: "</div>"
+   open_2: '<span class="game-term2">',
+   close_2: "</span>",
+   open_3: '<span class="game-term3">',
+   close_3: "</span>"
 });
 md.use(anchors);
+md.use(tables);
 
-md.use(containers, 'aside', {
+
+// Containers
+md.use(containers, 'sidebar', {
    validate: function(params) {
-      return params.match(/\s*aside\s*/i);
+      return params.match(/\s*sidebar\s*/i);
    },
 
    render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*aside\s+(.*)/i);
+      var m = tokens[idx].info.match(/\s*sidebar\s(left|right)?/i);
       if (tokens[idx].nesting === 1) {
          if (m) {
             return `<aside class="${m[1]}">\n`;
@@ -56,13 +60,13 @@ md.use(containers, 'aside', {
    }
 });
 
-md.use(containers, 'article', {
+md.use(containers, 'callout', {
    validate: function(params) {
-      return params.match(/\s*article\s*/i);
+      return params.match(/\s*callout\s*/i);
    },
 
    render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*article\s+(.*)/i);
+      var m = tokens[idx].info.match(/\s*callout\s(left|right)?/i);
       if (tokens[idx].nesting === 1) {
          if (m) {
             return `<article class="${m[1]}">\n`;
@@ -75,18 +79,56 @@ md.use(containers, 'article', {
    }
 });
 
-md.use(containers, 'figure', {
+md.use(containers, 'stat-block', {
    validate: function(params) {
-      return params.match(/\s*figure\s*/i);
+      return params.match(/\s*stat-block\s*/i);
    },
 
    render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*figure\s+(.*)/i);
+      var m = tokens[idx].info.match(/\s*stat-block\s(left|right)?/i);
       if (tokens[idx].nesting === 1) {
          if (m) {
-            return `<figure>\n<figcaption>${ md.render(m[1])}</figcaption>\n`;
+            return `<article class="stat-block ${m[1]}">\n`;
          } else {
-            return '<figure>\n';
+            return '<article class="stat-block">\n';
+         }
+      } else {
+         return "</article>\n"
+      }
+   }
+});
+
+md.use(containers, 'quote', {
+   validate: function(params) {
+      return params.match(/\s*quote\s*/i);
+   },
+
+   render: function(tokens, idx) {
+      var m = tokens[idx].info.match(/\s*quote\s+(left|right)?\s(.*)/i);
+      if (tokens[idx].nesting === 1) {
+         if (m) {
+            return `<aside class="quoted ${m[1]}">\n<footer>${m[2]}</footer>\n`;
+         } else {
+            return '<aside class="quoted">\n';
+         }
+      } else {
+         return `</aside>\n`
+      }
+   }
+});
+
+md.use(containers, 'table', {
+   validate: function(params) {
+      return params.match(/\s*table\s*/i);
+   },
+
+   render: function(tokens, idx) {
+      var m = tokens[idx].info.match(/\s*table\s+(.*)/i);
+      if (tokens[idx].nesting === 1) {
+         if (m) {
+            return `<figure class="figure-table">\n<figcaption>${md.render(m[1])}</figcaption>\n`;
+         } else {
+            return '<figure class="figure-table">\n';
          }
       } else {
          return "</figure>\n"
@@ -94,8 +136,25 @@ md.use(containers, 'figure', {
    }
 });
 
+md.use(containers, 'columns', {
+   validate: function(params) {
+      return params.match(/\s*columns\s*/i);
+   },
 
-// add container config for figure with a figure caption
+   render: function(tokens, idx) {
+      var m = tokens[idx].info.match(/\s*columns\s*/i);
+      if (tokens[idx].nesting === 1) {
+         if (m) {
+            return `<div class="columns">\n`;
+         } else {
+            return '<div class="columns">\n';
+         }
+      } else {
+         return "</div>\n"
+      }
+   }
+});
+
 
 // any link to a .md resource, we will convert to a link to an .html resource
 // links with \ will be converted to /
@@ -121,12 +180,6 @@ md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
 
 const source = ['**/*.md', '!node_modules/**', '!tools/**'];
 
-gulp.task('copy', ['build'], function() {
-   console.log("specify the path to copy to");
-  // return gulp.src('html/**').pipe(gulp.dest("c:/src/BookShelf-GhostingTheEdge/src/pages"));
-});
-
-
 gulp.task('clean', function() {
    return del('html/**');
 });
@@ -140,6 +193,11 @@ gulp.task('build', ['clean'], function() {
          return;
       }))
       .pipe(gulp.dest('./html'));
+});
+
+gulp.task('copy', ['build'], function() {
+   console.log("copy task not configured");
+  // return gulp.src('html/**').pipe(gulp.dest("c:/src/BookShelf-GhostingTheEdge/src/pages"));
 });
 
 gulp.task('spelling', function() {
