@@ -23,11 +23,11 @@
     "gulp-shell": "^0.6.5",
     "gulp-tap": "^1.0.1",
     "gulp-util": "^3.0.8",
-    "markdown-it": "^8.4.1",
+    "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^4.0.0",
     "markdown-it-container": "^2.0.0",
     "markdown-it-deflist": "^2.0.3",
-    "markdown-it-special-terms": "^1.1.0",
+    "markdown-it-special-terms": "^1.1.1",
     "markdownlint": "^0.8.1",
     "write-good": "^0.11.3"
   },
