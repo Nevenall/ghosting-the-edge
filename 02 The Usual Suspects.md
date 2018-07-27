@@ -101,7 +101,7 @@ On the other hand, your granddaddy didn't have to worry about attack barriers an
 
 As a hacker you'll find yourself using your skills to maybe crack Terradyne's secure net and steal a 3d model of their latest VecD rotor for your "employer," or sell to the highest bidder, or maybe both. Don't think your "employer" wouldn't do the same to you.
 
-Find the Hacking section for more details  about what you do.
+Find the Hacking section for more details about what you do.
 
 #### Trademark Skills
 
