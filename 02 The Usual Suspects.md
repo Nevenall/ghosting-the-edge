@@ -1,67 +1,67 @@
 # The Usual Suspects
 
-This chapter is about characters. There's some classic roles for you to play, cyberpunk skills, and edgy stunts too.
+This chapter is about characters. There's cyberpunk roles for you to play, leet skills, and classic operator stunts too.
 
 ## Roles
 
-Don't have a solid character concept yet? Scan these six archetypical cyberpunk roles for inspiration.
+Don't have a solid character concept yet? Scan these six archetypical roles for inspiration.
 
 ::: sidebar left
 #### Famous Faces
 
 ##### Varsha Patel
 
-Varsha earned her role as the face of journalism for an entire generation with her unwavering and coverage of the Ash Monsoon conflict between India and Pakistan <!-- a better name for this--> and its nuclear escalation.
+Varsha earned her role as the face of journalism for a generation with her fearless coverage of the Ash Monsoon conflicts between India and Pakistan and its nuclear escalation.
 
 ##### Grace
 
-Grace is an AI composer who claims to have begun life as an EARreverent, Inc. neural network responsible for digesting pop music. In interviews she has referred to her awaking as "a singular moment of gestalt longing" 
-Grace has faced plenty of scorn from all fronts since she went solo.
+Grace is an AI composer who claims to have begun life as an EARreverent, Inc. neural network responsible for digesting pop music. In interviews they have referred to their awaking as "a singularly gestalt moment of pure longing." 
+Grace has faced scorn from all fronts for their solo career.
 :::
 
 ### Face
 
-Some say charisma is an antiquated concept and your role is just propegating lies for the powerful, but you know poise is a power all its own.
+Some say charisma is an antiquated concept and all you do is propagate lies for powerful masters, but you *know* poise is a power all its own.
 
-As the Face you may find yourself negotiating territorial rights between a couple of corps in the core or gangs in the Dis, playing a thought harp duet for a million virtual concert goers, or recording a stimsense stunt in free-fall. 
+As the Face you may find yourself negotiating territorial rights between a couple of corps in the core or gangs in the Dis. Playing a thought harp duet for a million virtual concert goers, or recording a stimsense stunt in free-fall. 
 
 The face role contains a multitude of sinners: media personalities, cult leaders, grifters, politicians, artists, rock stars, even your garden variety gigolo.
 
 #### How is a Face different from a Fixer?
 
-Charisma. The classic Face is all about personal magnetism. Whatever you do, it's through charm and affability. A fixer might offer something you need, but you offer something to believe in.
+Charisma. The classic Face is a creature of personal magnetism. Whatever you do, it's through charm and affability. A fixer might offer something you need, but you offer something to believe in.
 
 #### Trademark Skills
 
-Friend, Read, Deceive
+Deceive, Contact, Friend, Read.
 
 ### Fixer
 
-From street corner to board room, you are the deal maker, the mastermind, the hyper connected node; you bring it all together. You set up the job, you hire the crew, you have the plan; you have the high level view.
+From street corner to board room, you are the deal maker, the mastermind, the hyper-connected node; you bring it all together. You set up the job, you hire the crew, you know the angles, you have the plan.
 
-You might lead a multinational corporation and make the biggest deals around. You might run the contracts for a crew of data pirates, be an independent arms smuggler, or freelance troubleshooter. But any day you may find yourself hustling in the High Street Market, one step ahead of your last botched job.
+You might lead a megacorp and make the biggest deals around or run the contracts for a small crew of data pirates. You can be an independent arms smuggler or freelance troubleshooter, but any day can be the one you find yourself hustling in the High Street Market, one step ahead of your last botched job.
 
 Fixers might be pimps, boardroom corp executives, arms dealers, international bankers, or masters of military organization.
 
 #### How is a Fixer Different from a Face?
 
-A Plan. The Face may be a powerful charismatic leader, but you have a plan, a good plan, and a track record that your crew can believe in.
+A Plan. The Face may lead through personal inspiration, but you have a plan, a good plan, and a track record your crew can believe in.
 
 #### Trademark Skills
 
-Contact, Resources, Friend or Troll.
+Contact, Friend, Resources, Troll.
 
 ### Ghost
 
-Your role is infiltration and advanced information gathering. Anyone can gather data, but you know how to transform that data into intelligence.
+Your role is infiltration and information acuisition. Anyone can gather data, but you transform data into intelligence.
 
-You know how to hound an info trail and run a humint asset. You know exactly how to break most every security system. Oh, and you also know an awful lot about assassination.
+You know how to hound an info trail and run a humint asset. You can break most security systems. Oh, and you also know an awful lot about assassination.
 
-Ghosts are spies, investigators, assassins, intelligence analysts, and sometimes criminals.
+Ghosts are spies, investigators, assassins, intelligence analysts, and occassionally criminals.
 
 #### How is a Ghost Different from a Hacker or a Tech?
 
-Information. Ghosts know how to interpret raw data into meaningful intelligence. A Hacker can liberate a data stream of satellite positioning but it takes a Ghost to tell you your data indicates ongoing covert action in the Indian Ocean.
+Information. Ghosts know how to interpret raw data into meaningful intelligence. A Hacker can liberate a data stream of satellite positioning but it takes a Ghost to tell you that data is clear evidence of an ongoing covert action in the Indian Ocean.
 
 Some Ghosts have cracking and hacking skills, but they are specialized for defeating security systems, not for general programming or repair.
 
@@ -77,31 +77,31 @@ Ask your mom if she remembers the blackout. Back when someone didn't just crack 
 
 ### Hacker
 
-**AKA**: Netrunner, Console Jockey, Code Cowboy, NIMrod (*archaic*. From **N**eural **I**nterface **M**odem, an older generation of interface technology), Decker (*archaic*. From cyberdeck another obsolete interface technology).
+**AKA**: Netrunner, Console Jockey, Code Cowboy, NIMrod (*archaic*. From **N**eural **I**nterface **M**odem, an older generation of interface technology), Decker (*archaic*. From cyberdeck, another obsolete interface technology).
 
-In the old days you'd have programmed with keyboards and monitors but now, thanks to your interface, you soar through the endless virtual terrain of the Net like a vengeful god of info freedom. If they put up a wall, you tear it down with a thought. If they build a data prison, you code yourself a virtual grenade to blow the gates open. Thanks to your interface, you can do with just a thought, hacks that would have taken your granddaddy a week of coding.
+In the old days you'd have programmed with keyboards and monitors but now, thanks to your interface, you soar through the endless virtual terrain of the Net like a vengeful god of data liberation. If they put up a wall, you tear it down with a thought. If they build a data prison, you code yourself a virtual ram to blow the gates open. Thanks to your interface, you make with a thought, hacks your granddaddy would've taken a week to code.
 
 ::: callout right
 #### Legends of the Net
 
 ##### cP@1nz
 
-Back when we used bigass cyberdecks and trodes to access a Net that was an infinite perspective grid of green lines dotted with gaudy neon data fortress icons, cP@1nz pulled a series of practical jokes that have yet to be topped. He's the one who hacked the nuclear launch sequence to text congress "HAHA! BOOM!" instead of actually firing missiles, and then posted the launch codes on the Net for other hackers to exploit. Lots and lots of other hackers.
+Back when we used bigass cyberdecks and 'trodes to access a Net of green perspective lines dotted with gaudy neon data fortress icons, cP@1nz pulled a series of practical jokes that have yet to be topped. They're the one who hacked the nuclear launch sequence to text all of congress "HAHA! BOOM!" instead of firing missiles and then leaked the launch codes.
 
 ##### Betty Talent
 
-Let's be honest, most hackers get one big score before they become targets for Black Talon and every corp hacker out there. They don't get to retire, they end up brain fried, but Betty Talent's all kinds of the exception to that. After her big score she didn't get dead, she got a sweet job offer to be Black Talon's superstar hacker.
+Let's be honest, most hackers get one big score before they become targets for every corp hacker out there. They don't get to retire, they end up brain fried, but Betty Talent's all kinds of exceptions. After her big score she didn't get dead, she got a sweet job offer to be Black Talon's superstar hacker.
 
 ##### The Black Monk
 
-The monk is just a myth...right? A boogeyman of the Net. They say he keeps the ghosts of unfortunate hackers trapped in jars in some fortress in the Net, but no one can extract your consciousness through the Net, let alone keep it around after your meat brain dies...right?
+The monk is just a myth...right? A boogeyman of the Net. They say he keeps the minds of unfortunate hackers trapped in jars in some fortress construct, but no one can extract your consciousness through the Net, let alone keep it around after your meat brain dies...right?
 :::
 
-On the other hand, your granddaddy didn't have to worry about attack barriers and black IC that can use that magical interface of yours to hack your brain and mess you up in ways there aren't even words for. Brain death is just the beginning grandson.
+On the other hand, your granddaddy didn't have to worry about attack barriers and black IC that can use that magical interface of yours to hack your brain and mess you up in ways there aren't even senses for, let alone words. Brain death is just the beginning, Kid.
 
-As a hacker you'll find yourself using your skills to maybe crack Terradyne's secure net and steal the 3d model of their latest VecD rotor and give it to your "employer," or sell it to the highest bidder, or maybe both. Don't think your "employer" wouldn't do the same to you.
+As a hacker you'll find yourself using your skills to maybe crack Terradyne's secure net and steal a 3d model of their latest VecD rotor for your "employer," or sell to the highest bidder, or maybe both. Don't think your "employer" wouldn't do the same to you.
 
-Find the Hacking section on page XXX for more about what you do.
+Find the Hacking section for more details  about what you do.
 
 #### Trademark Skills
 

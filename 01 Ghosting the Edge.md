@@ -11,7 +11,8 @@ Welcome to the Edge
 *The edge* — a the place where the stasis of corporate control meets the anarchic currents of the street.
 :::
 
-<!-- more mood setting and less Is this cyberpunk essays. -->
+<!-- more mood setting and less this is cyberpunk essays 
+the original point of this section was to help in the setting creation part of the game. something to think about. -->
 
 # Ghosting the Edge
 
