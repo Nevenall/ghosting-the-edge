@@ -17,9 +17,9 @@ md.use(deflist)
 md.use(terms, {
    open_1: '<span class="game-term">',
    close_1: "</span>",
-   open_2: '<span class="game-term2">',
+   open_2: '<span class="aspect">',
    close_2: "</span>",
-   open_3: '<span class="game-term3">',
+   open_3: '<span class="fate-font">',
    close_3: "</span>"
 })
 md.use(anchors)

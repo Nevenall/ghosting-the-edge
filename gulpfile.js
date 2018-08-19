@@ -19,7 +19,7 @@ const writeGood = require('write-good')
 const source = ['**/*.md', '!node_modules/**', '!tools/**']
 const destination = 'html/'
 const destinationGlob = 'html/**'
-const publishTarget = "c:/temp/forkandwrite"
+const publishTarget = "C:/src/BookShelf-GhostingTheEdge/src/pages"
 
 function build() {
    return src(source)
