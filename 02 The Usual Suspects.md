@@ -105,13 +105,13 @@ Find the Hacking section for more details about what you do.
 
 #### Trademark Skills
 
-Hack, Investigate, Tech or Crime.
+Hack, Investigate, Tech, Crime.
 
 ### Samurai
 
-You can't always reprogram a hostile meatbag and charm doesn't work on well-armed security drones. Sometimes the solution to a problem is the reasoned application of extreme violence and you, my Samurai friend, excel at such applications.
+You can't reprogram every hostile meatbag and charm doesn't work on security drones. Sometimes the only solution to a problem is the reasoned application of extreme violence and you, my Samurai friend, excel at such applications.
 
-You'll find yourself in a dazzling variety of lethal conflicts; drawing fire or taking a beat down for whoever happens to be paying the bills this week. Some of the older generation say you owe a worthy foe respect because of your mutual mastery of death, but you know there's more honor amongst thieves then killers like you.
+You'll find yourself in a dazzling variety of lethal situations; drawing fire and beat downs for whomever's paying the bills this week. Some old Samurai say you owe a worthy foe respect because of your mutual affiently with death or some bull, but you know, there's more honor amongst thieves then killers like you.
 
 As a Samurai you might be a bodyguard, soldier, security, gang enforcer, a pit fighter, a razor dancer, a mercenary trying to make a name for yourself, quick muscle for this one job, or just a straight up street thug.
 
@@ -121,26 +121,17 @@ Shoot, Fight, Move, Physique
 
 ### Tech
 
-Life on the edge is supported by a complex tapestry of interwoven technology and specialized knowledge which goes greatly underappreciated by everyone, everyone but you that is. You are the expert. You are the Tech.
+Life on the edge is supported by an intricate tapestry of interwoven technology and specialized knowledge which goes greatly underappreciated by everyone, everyone but you that is. You weave and reweave that tapestry with mastery. You are a Tech. 
 
-Your specialty might be medical cyberization, ancient Assyrian, or the sociology of Net based social movements, but changes are you know a little something about nearly everything.
+Your specialty might be medical cyberization, ancient Assyrian, or the sociology of Net based social movements, but chances are you also know a little something about nearly everything.
 
-As a Tech, you also have more the just theoretical knowledge, you have the skills to make, modify, maintain, and operate most devices. You can draft a new drone design, autofac it in a couple hours, and then be expertly piloting it in support of your team.
+As a Tech you have theoretical knowledge and the pratical skills to make, modify, maintain, and operate most devices. You can draft a new drone design, autofac it in a couple hours, and then be expertly piloting it in support of your team.
 
 A Tech might have any number of jobs including: cyberware designer, trauma medic, hot shot pilot, mechanic, archeology, or back alley gene splicer.
 
 #### Trademark Skills
 
 Bio, Tech, Pilot, Know
-
-:::sidebar left
-### Punkification
-
-There are a couple rules here that differ from Fate Core. 
-
-#### Max Physique and Move
-Unlesss you have a cybernetic body you are limited to 
-:::
 
 ## Your Baseline Specs
 <!-- are we going to address 'you' the character directly? or say your charcters?
@@ -152,21 +143,25 @@ These are the starting stats for making player characters.
 
 Write 5 aspects for your character.
 
-::: callout left
-#### Ask a Question / Make an Aspect
-<!-- This is a great place to present a table of interesting answers! -->
+:::sidebar right
+#### Cyberpunk Aspects
+<!-- nice list of cool cyberpunk aspects -->
+- 
+:::
+
+#### Ask a Question … Make an Aspect
 
 Answer some of these questions about your character.
 
-- Where did they come from?
-- Where are they headed?
-- What's their plan to get there?
-- What's their relationship to corporate power?
-- What's their relationship to the street?
-- Who is your character? Can you sum them up in a single phrase like {{Broken Hacker}}?
-- Where, how, and why did your character get their upgrades?
-- How much augmentation does your character have and does that affect them emotionally or mentally? Do they suffer from some form of Reality Disassociative Disorder?
-:::
+- Where did you come from?
+- Where are you headed?
+- What's your plan to get there?
+- What's your relationship to corporate power?
+- What's your relationship to the street?
+- In a single phrase, who are you?
+- Where, how, and why did you get your upgrades?
+- How much augmentation do you have?
+- Do you suffer some form of Reality Disassociative Disorder?
 
 #### Cybernetic Body
 
