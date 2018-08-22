@@ -137,18 +137,15 @@ Bio, Tech, Pilot, Know
 <!-- are we going to address 'you' the character directly? or say your charcters?
 I think using you throughout really brings out the cyberpunk. a strange, controlled and intentional conflation of reality and not reality. 
 It's also more immediate and gripping narratively, I believe.  -->
+
+<!-- also a good spot to inject some flavorful cyber aspects -->
 These are the starting stats for making player characters.
 
 ### Aspects
 
 Write 5 aspects for your character.
 
-:::sidebar right
-#### Cyberpunk Aspects
-<!-- nice list of cool cyberpunk aspects -->
-- 
-:::
-
+::: sidebar left
 #### Ask a Question … Make an Aspect
 
 Answer some of these questions about your character.
@@ -162,6 +159,7 @@ Answer some of these questions about your character.
 - Where, how, and why did you get your upgrades?
 - How much augmentation do you have?
 - Do you suffer some form of Reality Disassociative Disorder?
+:::
 
 #### Cybernetic Body
 
@@ -251,11 +249,11 @@ The existing Fate Core skills operate as usual and so aren't described in detail
 
 There isn't a skill specifically for using the Net because it's is just new place to use your old skills, at least the xnon-physical ones. If you searching the Net for someone you'll roll Investigate. If you are making nice in a forum, roll Friend.
 
-Demolitions – tech
-Control a drone – pilot
-Take control of a drone – hack
-Heal a physical wound – bio
-Heal a mental wound – read
+- Demolitions – tech
+- Control a drone – pilot
+- Take control of a drone – hack
+- Heal a physical wound – bio
+- Heal a mental wound – read
 :::
 
 ### Gear skills
@@ -266,13 +264,13 @@ Heal a mental wound – read
 
 Bio is like the Tech skill, but for dealing with living stuff. Its medicine, biology, gardening, and genetic engineering.
 
-**Special** — To allow a physical consequence to start healing, roll Bio vs. the level of the consequence.
+**Special**—To allow a physical consequence to start healing, roll Bio vs. the level of the consequence.
 
 #### Bio and the Four Actions
 
-{{{O}}} — Stop your friend from bleeding out, or to design a genetically enhanced liver.
+{{{O}}}—Stop your friend from bleeding out, or to design a genetically enhanced liver.
 
-{{{C}}} — Old-fashion body hacking like entering a {{breath control trance}}, or to use a mild stimulant concoction to {{overcharge}} your adrenal control bioimplant.
+{{{C}}}—Old-fashion body hacking like entering a {{breath control trance}}, or to use a mild stimulant concoction to {{overcharge}} your adrenal control bioimplant.
 
 {{{A}}} — Not used for attacks.
 
