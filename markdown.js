@@ -15,11 +15,11 @@ var md = new MarkdownIt({
 
 md.use(deflist)
 md.use(terms, {
-   open_1: '<span class="game-term">',
+   open_1: '<span class="aspect">',
    close_1: "</span>",
-   open_2: '<span class="aspect">',
+   open_2: '<span class="fate-icon">',
    close_2: "</span>",
-   open_3: '<span class="fate-font">',
+   open_3: '<span class="game-term">',
    close_3: "</span>"
 })
 md.use(anchors)

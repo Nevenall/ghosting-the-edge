@@ -70,7 +70,7 @@ By adding 1 ¤ to the cost of the item the severity of the reestablishment con
 
 Some upgrades are {{Non-invasive}} by their nature and these upgrades reduce the defualt reestablishment to mild.
 
-Many upgrades are {{Invasive}} or {{Difficult to Adjust to}} and for these the reestablishment severity is increased by 1 each. These aspects are applied last so even if you have payed 2 ¤ extra to eliminate a reestablishment consequence an {{Invasive}} upgrade will still result in a mild consequence. If an upgrade is both {{Invasive}} and {{Difficult to Adjust to}} you will have to pay 1 ¤ to avoid taking an extreme consequence. 
+Many upgrades are {Invasive} or {Difficult to Adjust to} and for these the reestablishment severity is increased by 1 each. These aspects are applied last so even if you have payed 2 ¤ extra to eliminate a reestablishment consequence an {Invasive} upgrade will still result in a mild consequence. If an upgrade is both {Invasive} and {Difficult to Adjust to} you will have to pay 1 ¤ to avoid taking an extreme consequence. 
 
 
 #### Neural Implants
@@ -89,9 +89,9 @@ It defines our era in another way as well. Everything you do with your interface
 
 ###### Unlocked Interfaces
 
-Most characters will have a {{Jailbroken Interface}} which circumvents the ever present corporate controls and safeguards. This gives a character complete control over their device and allows them to do things like fiddle with the interface id to conceal their true identities. 
+Most characters will have a {Jailbroken Interface} which circumvents the ever present corporate controls and safeguards. This gives a character complete control over their device and allows them to do things like fiddle with the interface id to conceal their true identities. 
 
-Jailbreaking an interface can be done with a Tech {{{O}}}.
+Jailbreaking an interface can be done with a Tech {{Overcome Obstacle}}.
 
 ###### Wirelessly interface with the Net and local nets
 
@@ -109,7 +109,7 @@ If you are a too out of date with your interface wiring however, you might have 
 
 ###### Direct Contact Plate
 
-A common add-on for interfaces is the {{Direct Contact Plate}} placed somewhere on your body (Finger tips and the palms are common). The plate is directly wired to your interface allowing you connect to a smart device through the contact plate instead of plugging in an external wire or using a wireless connection.
+A common add-on for interfaces is the {Direct Contact Plate} placed somewhere on your body (Finger tips and the palms are common). The plate is directly wired to your interface allowing you connect to a smart device through the contact plate instead of plugging in an external wire or using a wireless connection.
 
 ###### ThotCom Quality Interface \[0 ¤\]
 
@@ -143,14 +143,14 @@ Hot wiring your nerves means implanting nanofiber links directly from brain to m
 
 See the fighting section for info about relay initiative.
 
-**Reflex Amplifiers** – When activated you get the aspect {{Amplified Reflexes}} for the remainder of the scene, and one free invoke per level. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
+**Reflex Amplifiers** – When activated you get the aspect {Amplified Reflexes} for the remainder of the scene, and one free invoke per level. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
 
 ##### Sense Processors \[1 ¤ each\]
 <!-- this section to be broken up. Each one should be a separate entry -->
 
 Commonly the counterpart to reflex amplifiers, this type of upgrade can also be implanted separately to help you deal with fast moving and highly detailed situations. Sense processors do additional acquisition and filtering of sensory data which is then provided directly to your brain to help you make decisions. Runners describe the info from these processors as being like a little voice in the back of your head compelling you to notice something you would have missed on your own, like that BikePunk sneaking up on you.
 
-**Compensators** – +2 to {{{D}}} against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
+**Compensators** – +2 to {{Defend}} against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
 
 **Hostile Tracking System** — This sense processor helps you determine friend from foe in a fast moving situation. 
 <!-- Seems this needs an effect. -->
@@ -166,13 +166,13 @@ Some people find the nearly subconscious nudging of these kind of processors uns
 ###### Skillwire Programs \[1 ¤ each\]
 
 - **Language** — You can read and speak a specific language. Most tend towards the formal and correct and obviously come from a program unless you are willing to pay extra for an up-to-date colloquialized version.
-- **Specialty** — These programs have everything you need to know about a specific topic such herbs, or military history. +2 to {{{O}}} and {{{C}}} actions involving that specialty.
-- **Pilot** — Contains the skills for pilot a specific type of vehicle. +2 to {{{O}}} for this specific model.
-- **Kung Fu** — An encyclopedic knowledge of Kung Fu moves looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. {{Without cyberbody}} +2 for {{{O}}} relating to Kung Fu. {{With cyberbody}} Kung Fu style Fight skill set to 2. If you already have a fight skill,
+- **Specialty** — These programs have everything you need to know about a specific topic such herbs, or military history. +2 to {{Overcome Obstacle}} and {{Create Advantage}} actions involving that specialty.
+- **Pilot** — Contains the skills for pilot a specific type of vehicle. +2 to {{Overcome Obstacle}} for this specific model.
+- **Kung Fu** — An encyclopedic knowledge of Kung Fu moves looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. {Without cyberbody} +2 for {{Overcome Obstacle}} relating to Kung Fu. {With cyberbody} Kung Fu style Fight skill set to 2. If you already have a fight skill,
 
 ##### Alternate Skillwire \[1 ¤\]
 
-**Alternate Skillwire** — You can swap the ratings of two skills between scenes. This may require a Resources roll to acquire a new skill program. If there is no downtime between scenes you may might gain the trouble aspect {{Skills A and B are Swapping}}.
+**Alternate Skillwire** — You can swap the ratings of two skills between scenes. This may require a Resources roll to acquire a new skill program. If there is no downtime between scenes you may might gain the trouble aspect {Skills A and B are Swapping}.
 
 Most skills can be swapped except: Contacts, Move, Physique, Resources, and Will.
 
@@ -375,11 +375,11 @@ Whenever you use your weapon in an action you mark ammo whether your action succ
 
 If your opponent succeeds with style on a defend action against you, then can choose to trade their normal benefit to make you mark ammo.
 
-When you run out of ammo you can ditch that weapon or reload. Ditching your empty weapon and picking up another doesn't require an action unless there's some circumstance that could oppose you. Like you are {{pinned down by fire}}. In which case it will require an O with Shoot.
+When you run out of ammo you can ditch that weapon or reload. Ditching your empty weapon and picking up another doesn't require an action unless there's some circumstance that could oppose you. Like you are {pinned down by fire}. In which case it will require an O with Shoot.
 
 Reloading a weapon in a firefight does require an O action with Shoot. Free of any extenuating circumstances, reloading is a +0 difficulty.
 
-Weapons that are {{Hard to Load}} are trickier, their default opposition is to reload is +2.
+Weapons that are {Hard to Load} are trickier, their default opposition is to reload is +2.
 
 [If you succeed with style on a reloading action, you can trade your boost to do it in 0 time, that is an option, but it does kind of take away from the point of reloading]
 
@@ -405,7 +405,7 @@ The Nordic company Sifrid & Oast are purveyors of the finest in close quarters w
 
 **Penetration** – +2 to A targets defending with armor or cover.
 
-**Swordbreaker** – If you parry with style against most close combat weapons you can trade your boost to inflict a {{Weapon Destroyed}} aspect on your foe.
+**Swordbreaker** – If you parry with style against most close combat weapons you can trade your boost to inflict a {Weapon Destroyed} aspect on your foe.
 
 ##### Generic stunner \[1 ¤\]
 
