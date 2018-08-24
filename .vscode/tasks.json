@@ -112,6 +112,11 @@
       "type": "gulp",
       "task": "copy",
       "problemMatcher": []
+   },
+   {
+      "type": "gulp",
+      "task": "publish",
+      "problemMatcher": []
    }
 ]
 }

@@ -272,21 +272,21 @@ Bio is like the Tech skill, but for dealing with living stuff. Its medicine, bio
 
 {{Create Advantage}}—Old-fashion body hacking like entering a {breath control trance}, or to use a mild stimulant concoction to {overcharge} your adrenal control bioimplant.
 
-{{Attack}} — Not used for attacks.
+{{Attack}}​—Not used for attacks.
 
-{{Defend}} — Not generally used for defense.
+{{Defend}}​—Not generally used for defense.
 
 #### Example Stunts 
 
-**Medic** — You get +2 to {{Overcome Obstacle}} rolls when giving first aid or other emergency medical attentions.
+**Medic**–You get +2 to {{Overcome Obstacle}} rolls when giving first aid or other emergency medical attentions.
 
-**Biofeedback** — You get +2 to {{Create Advantage}} rolls that involve controlling the natural tendencies and limitations of your meat body.
+**Biofeedback**–You get +2 to {{Create Advantage}} rolls that involve controlling the natural tendencies and limitations of your meat body.
 
 ### Hack
 
 Hack is the skill for computer related activities like writing programs, setting up secure nets, cracking them, or hacking into the tapestry smart devices to make things happen.
 
-In the Net you can use Hack to get passed a security barrier and into the secure net it's guarding. You can use Hack for A and D actions against hostile programs, or other hackers who are interfaced in the same system.
+In the Net you can use Hack to get passed a security barrier and into the secure net it's guarding. You can use Hack for {{Attack}} and {{Defend}} actions against hostile programs, or other hackers who are interfaced in the same system.
 
 Hack requires equipment but that doesn't have to be an interface. You can use an old fashioned keyboard and monitor, and it will even be safer. It will just take more time.
 
@@ -294,49 +294,49 @@ See the hacking on page XXX for more information.
 
 #### Hack and the Four Actions
 
-{{Overcome Obstacle}} — Crack an attack barrier and get into the secure net it protects. To code an IC program to patrol your own personal castle in the Net, and a geisha construct to keep you company while you are there. Use it to hack your boss's memory so he'll think you've already completed project Daedalus.
+{{Overcome Obstacle}}​—Crack an attack barrier and get into the secure net it protects. To code an IC program to patrol your own personal castle in the Net, and a geisha construct to keep you company while you are there. Use it to hack your boss's memory so he'll think you've {already completed project Daedalus}.
 
-{{Create Advantage}} — Stir up a localized {Packet Storm} that'll keep the system you just cracked from tracing your signal. To activate the {Fire Suppression System} as a distraction so your team can penetrate the Hyldyne Corporate building. Or hack the security controller and make yourself {Invisible to their Security Sensors}.
+{{Create Advantage}}​—Stir up a localized {Packet Storm} that'll keep the system you just cracked from tracing your signal. To activate the {Fire Suppression System} as a distraction so your team can penetrate the Hyldyne Corporate building. Or hack the security controller and make yourself {Invisible to their Security Sensors}.
 
-{{Attack}} — Attack IC programs and other hackers if you are both interfaced in the same system.
+{{Attack}}​—Attack IC programs and other hackers if you are both interfaced in the same system.
 
-{{Defend}} — Defend against most actions another hacker tries to take if you are both in the same system. Defend your own brain from being hacked if someone gets past the defenses on your interface.
+{{Defend}}​—Defend against most actions another hacker tries to take if you are both in the same system. Defend your own brain from being hacked if someone gets past the defenses on your interface.
 
 #### Example Stunts 
 
-**IC Master** — You write all your own security programs. Any net security you regularly maintain provides +2 opposition to intrusions.
+**IC Master**​—You write all your own security programs. Any net security you regularly maintain provides +2 opposition to intrusions.
 
-**Ghost in the Net** — +2 to {{Defend}} against attempts to detect, locate, track, or otherwise id your handiwork in the Net.
+**Ghost in the Net**​—+2 to {{Defend}} against attempts to detect, locate, track, or otherwise id your handiwork in the Net.
 
-**Code Shredder** — You get +2 to {{Attack}} hostile IC and other net constructs, though not live hackers.
+**Code Shredder**​—You get +2 to {{Attack}} hostile IC and other net constructs, though not live hackers, or AI.
 
-**Deus Ex Machina** — You get +2 to {{Create Advantage}} when you are creating a physical effect.
+**Deus Ex Machina**​—You get +2 to {{Create Advantage}} when you are creating a physical effect.
 
 ### Physique
 
-Physique has a different meaning in the dark future. You can buy yourself a brand new cybernetic body that's stronger and tougher than any meat body could ever be.
+Physique has a different meaning in the dark future when you can buy yourself a brand new cybernetic body that's 10× stronger and tougher than any meat body could ever be.
 
 Physique is still a measure of a character's strength, endurance, toughness, but characters who are not cybernetically enhanced are limited to Physique of 3.
 
-**Special** — Unlike Fate Core, characters only get an extra physical stress box if their Physique is 4 or 5. A character gets 2 extra physical stress boxes if their Physique is 6 or 7 (Something that is possible with a very high spec cybernetic body).
+**Special**​—Unlike Fate Core, characters only get an extra physical stress box if their Physique is 4 or 5. A character gets 2 extra physical stress boxes if their Physique is 6 or 7 (Something that is possible with a very high spec cybernetic body).
 
 #### Physique and the Four Actions
 
-{{Overcome Obstacle}} — Overcome obstacles that require the application of brute force—most often to overcome a situation aspect on a zone—or any other physical impedance, like prison bars or locked gates. Of course, Physique is the classic skill for arm-wrestling matches and other contests of applied strength, as well as marathons or other endurance-based challenges.
+{{Overcome Obstacle}}​—Overcome obstacles that require the application of brute force—most often to overcome a situation aspect on a zone—or any other physical impedance, like prison bars or locked gates. Of course, Physique is the classic skill for arm-wrestling matches and other contests of applied strength, as well as marathons or other endurance-based challenges.
 
-{{Create Advantage}} — Physique has a lot of potential for advantages in physical conflict, usually related to grappling and holding someone in place, making them {Pinned} or {Locked Down}. You might also use it as a way of discovering physical impairments possessed by the target—grappling the old mercenary tells you that he has a {Bum Leg} or some such.
+{{Create Advantage}}​—Physique has a lot of potential for advantages in physical conflict, usually related to grappling and holding someone in place, making them {Pinned} or {Locked Down}. You might also use it as a way of discovering physical impairments possessed by the target—grappling the old mercenary tells you that he has a {Bum Leg} or some such.
 
-{{Attack}} — Physique is not used to harm people directly; use the Fight skill.
+{{Attack}}​—Physique is not used to harm people directly; use the Fight skill.
 
-{{Defend}} — Though you don't generally use Physique to defend against attacks, you can use it to provide active opposition to someone else's movement, provided you're in a small enough space that you can effectively use your body to block access. You might also interpose something heavy and brace it to stop someone from getting through.
+{{Defend}}​—Though you don't generally use Physique to defend against attacks, you can use it to provide active opposition to someone else's movement, provided you're in a small enough space that you can effectively use your body to block access. You might also interpose something heavy and brace it to stop someone from getting through.
 
 #### Example Stunts 
 
-**Servo Enhanced Cyberarticulation** — Your cyborg body is structurally enhanced and equipped with powerful load lifting servos. +2 to {{Overcome Obstacle}} rolls for carrying and lifting.
+**Servo Enhanced Cyberarticulation**—Your cyborg body is structurally enhanced and equipped with powerful load lifting servos. +2 to {{Overcome Obstacle}} rolls for carrying and lifting.
 
-**Toxin Scrubbers** — Your meat organs are supplemented with bioelectrical filters and toxin scrubbers. +2 to {{Defend}} against drugs and poisons, including alcohol.
+**Toxin Scrubbers**—Your meat organs are supplemented with bioelectrical filters and toxin scrubbers. +2 to {{Defend}} against drugs and poisons, including alcohol.
 
-**Grappler** — +2 to {{Create Advantage}} on foes you are grappling with.
+**Grappler**—+2 to {{Create Advantage}} on foes you are grappling with.
 
 ### Pilot
 
@@ -346,23 +346,23 @@ Many smart vehicles also have the Pilot skill and can use it to operate themselv
 
 #### Pilot and the Four Actions
 
-{{Overcome Obstacle}} — Navigate difficult terrain or perform exceptional maneuvers.
+{{Overcome Obstacle}}—Navigate difficult terrain or perform exceptional maneuvers.
 
-{{Create Advantage}} — Put yourself in prime position or to put a foe in a bad position.
+{{Create Advantage}}—Put yourself in prime position or to put a foe in a bad position.
 
-{{Attack}} — Pilot is not normally used for attacks, unless you are ramming a target with your vehicle. In which case both you, your target, and your vehicle take the same amount of stress.
+{{Attack}}—Pilot is not normally used for attacks, unless you are ramming a target with your vehicle. In which case both you, your target, and your vehicle take the same amount of stress.
 
-{{Defend}} — Avoid attacks and advantages that target your vehicle.
+{{Defend}}—Avoid attacks and advantages that target your vehicle.
 
 #### Example Stunts 
 
-**Getaway Driver** — +2 to Pilot a ground vehicle when you're being chased.
+**Getaway Driver**—+2 to Pilot a ground vehicle when you're being chased.
 
-**Stunt Pilot** — +2 to {{Create Advantage}} with Pilot if you are performing an acrobatic maneuver.
+**Stunt Pilot**—+2 to {{Create Advantage}} with Pilot if you are performing an acrobatic maneuver.
 
-**Hot Pickup** — +2 to {{Defend}} when you are piloting into a hostile situation for a pick up or drop off.
+**Hot Pickup**—+2 to {{Defend}} when you are piloting into a hostile situation for a pick up or drop off.
 
-**Enhanced Drone Control Rig** — Your top of the line cyberware provides a strong and security signal for remotely interface piloting drones. You get +1 to pilot drones you are interfaced with.
+**Enhanced Drone Control Rig**—Your top of the line cyberware provides a strong and security signal for remotely interface piloting drones. You get +1 to pilot drones you are interfaced with.
 
 ### Resources
 
@@ -378,21 +378,21 @@ Resources can represent a character's personal wealth, but it can also be a stat
 
 #### Resources and the Four Actions
 
-{{Overcome Obstacle}} — Acquire just about any good or service you can imagine, including a justice contract against someone who'd done wrong to you. Or just someone you don't like.
+{{Overcome Obstacle}}—Acquire just about any good or service you can imagine, including a justice contract against someone who'd done wrong to you. Or just someone you don't like.
 
-{{Create Advantage}} — Host an associate at an {Exclusive Restaurant} to give you an edge in your negotiations. Hire someone to get {Useful Dirt} on the Trellex board of directors.
+{{Create Advantage}}—Host an associate at an {Exclusive Restaurant} to give you an edge in your negotiations. Hire someone to get {Useful Dirt} on the Trellex board of directors.
 
-{{Attack}} — Resources is not used for direct attacks.
+{{Attack}}—Resources is not used for direct attacks.
 
-{{Defend}} — Avoid many kinds of social consequences.
+{{Defend}}—Avoid many kinds of social consequences.
 
 #### Example Stunts 
 
-**Mr. Johnson** — Once per scenario you can deeply tap your corporate budget to get a +2 to Resources.
+**Mr. Johnson**—Once per scenario you can deeply tap your corporate budget to get a +2 to Resources.
 
-**Arms Dealer** — Get a +2 for Resource rolls involving weapons and armor.
+**Arms Dealer**—Get a +2 for Resource rolls involving weapons and armor.
 
-**Emergency Stash** — You have some assets safely concealed in case you lose access to your normal Resources. The stash represents a Resources of 2 that will last about one session. If you have an immediate need you can tap your stash for a +2 to Resources rolls for one session, but your stash will be gone until you spend a session without making Resources rolls to recharge it.
+**Emergency Stash**—You have some assets safely concealed in case you lose access to your normal Resources. The stash represents a Resources of 2 that will last about one session. If you have an immediate need you can tap your stash for a +2 to Resources rolls for one session, but your stash will be gone until you spend a session without making Resources rolls to recharge it.
 
 ### Tech
 
@@ -400,18 +400,18 @@ Tech is the skill for machines and science. Mechanical, and electrical. From a s
 
 #### Tech and the Four Actions
 
-{{Overcome Obstacle}} — Repair a broken device, design and a build a new one, or place some explosives.
+{{Overcome Obstacle}}—Repair a broken device, design and a build a new one, or place some explosives.
 
-{{Create Advantage}} — Jury-rig a {Turbo Booster} for your VecD Shadow, or create some {Simple Mechanical Advantage}.
+{{Create Advantage}}—Jury-rig a {Turbo Booster} for your VecD Shadow, or create some {Simple Mechanical Advantage}.
 
-{{Attack}} — Tech is not used directly for attacks but it can help you make the most of an attack using or targeting a device.
+{{Attack}}—Tech is not used directly for attacks but it can help you make the most of an attack using or targeting a device.
 
-{{Defend}} — Tech is not normally used for defense.
+{{Defend}}—Tech is not normally used for defense.
 
 #### Example Stunts 
 
-**Cybermaster** — +2 to rolls dealing with cybernetics.
+**Cybermaster**—+2 to rolls dealing with cybernetics.
 
-**Grease monkey** — +2 to rolls involving cars.
+**Grease monkey**—+2 to rolls involving cars.
 
-**Drone Operator** — Use Tech instead of Pilot for operating drones.
+**Drone Operator**—Use Tech instead of Pilot for operating drones.

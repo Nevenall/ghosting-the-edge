@@ -12,7 +12,7 @@ Aspects are manually title-cased and wrapped in double braces. {The Ultimate Fat
 
 ## Stunts
 
-Stunts have 2 parts, a name and a mechanic. The name is bold title-case and set off from the desciption with an unspaced en-dash. 
+Stunts have 2 parts, a name and a mechanic. The name is bold title-case and set off from the desciption with an unspaced em-dash. 
 
 ## Fate Actions Names
 
@@ -26,11 +26,11 @@ It's possible to highlight other game terms using {{{Game Term}}}. On the BookSh
 
 ## En Dash –
 
-En-dashes are used to separate the name and mechanics parts of stunts and also to indicate a numeric range. Pages 21–34.
+En-dashes are used to indicate a numeric range. For example​—Pages 21–34.
 
 ## Em Dash ​—
 
-The Em-dash is used in Ghosting the Edge text in place of a :
+The Em-dash is commonly used in Ghosting the Edge text in place of a : to separate a word and a description. It is used without spaces, or with a thin space if needed.
 
 ## Containers
 

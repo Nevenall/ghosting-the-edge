@@ -26,19 +26,21 @@ Every piece of gear your character has might have several aspects of its own, bu
 
 There are some gear aspects that come with extra rules, but nothing more complicated than a stunt.
 
-### Cost Rating (¤)
 
-Gear has an abstract cost rating (¤) which is roughly equivalent to its total refresh value. Starting characters may pay this cost from their initial gear budget, but during play the cost rating is the base difficulty to acquire a specific item. 
+
+### Cost (¤)
+
+Gear has an abstract cost in Currency (¤) which is roughly equivalent to its total refresh value. Starting characters may pay this cost from their initial gear budget, but during play the cost is the base difficulty to acquire a specific item. 
 
 Some things, especially upgrades, have mulitple costs listed which means they can be bought more then once for increasingly powerful effects.
 
 #### Starting Gear
 
-Starting characters get 2 × Resources in ¤ to buy initial gear.
+Starting characters get 2 × Resources in Currency to buy initial gear.
 
 ##### Free Gear
 
-Some items have a 0 ¤ cost which means they may be had for free during character creation.
+Some items have a 0¤ cost which means they may be had for free during character creation.
 
 ## Gear Catalog
 
@@ -66,11 +68,11 @@ A reestablishment consequence can reflect physical recovery or complications fro
 
 ###### Adjusting Reestablishment
 
-By adding 1 ¤ to the cost of the item the severity of the reestablishment consequence can be reduced to mild. By adding 2 ¤ to the cost, it can be removed entirely.
+By adding 1¤ to the cost of the item the severity of the reestablishment consequence can be reduced to mild. By adding 2¤ to the cost, it can be removed entirely.
 
-Some upgrades are {{Non-invasive}} by their nature and these upgrades reduce the defualt reestablishment to mild.
+Some upgrades are {Non-invasive} by their nature and these upgrades reduce the default reestablishment to mild.
 
-Many upgrades are {Invasive} or {Difficult to Adjust to} and for these the reestablishment severity is increased by 1 each. These aspects are applied last so even if you have payed 2 ¤ extra to eliminate a reestablishment consequence an {Invasive} upgrade will still result in a mild consequence. If an upgrade is both {Invasive} and {Difficult to Adjust to} you will have to pay 1 ¤ to avoid taking an extreme consequence. 
+Many upgrades are {Invasive} or {Difficult to Adjust to} and for these the reestablishment severity is increased by 1 each. These aspects are applied last so even if you have payed 2¤ extra to eliminate a reestablishment consequence an {Invasive} upgrade will still result in a mild one. If an upgrade is both {Invasive} and {Difficult to Adjust to} you will have to pay 1¤ just to avoid taking an extreme consequence. 
 
 
 #### Neural Implants
@@ -111,19 +113,19 @@ If you are a too out of date with your interface wiring however, you might have 
 
 A common add-on for interfaces is the {Direct Contact Plate} placed somewhere on your body (Finger tips and the palms are common). The plate is directly wired to your interface allowing you connect to a smart device through the contact plate instead of plugging in an external wire or using a wireless connection.
 
-###### ThotCom Quality Interface \[0 ¤\]
+###### ThotCom Quality Interface \[0¤\]
 
 The ThotCom is a fair example of an affordable commercial interface device.
-
-{{Invasive, Weak Wireless Radio, Smart Device}}
+<!-- todo - see if not formatting the commas looks strange -->
+{Invasive}, {Weak Wireless Radio}, {Smart Device}
 
 Barrier 2, Investigate 1, Know 1, Notice 0, Hardening 1, Move 0 (Net only), Fight 0 (Net only)
 
-###### G-Gob Hardened Interface \[3 ¤\]
+###### G-Gob Hardened Interface \[3¤\]
 
 A pretty standard interface for professional users. Most of the bells and whistles are more flash then substance, but the G-Gob is popular for its high quality defense barrier programming.
 
-{{All the Bells and Whistles, Invasive, Smart Device}}
+{All the Bells and Whistles}, {Invasive}, {Smart Device}
 
 Barrier 3, Hardening 2, Investigate 1, Know 1, Notice 2, Move 2 (Net only), Fight 2 (Net only)
 
