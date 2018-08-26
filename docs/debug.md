@@ -2,11 +2,11 @@
 
 Armor plates embedded over or under your skin. Either way they are not very subtle and project your profession to whoever sees or scans you.
 
-**Dermal Plating 1 ¤** – You get a **Ballistic Armor** aspect and you may choose to roll Physique to D against ballistic attacks.
+**Dermal Plating 1¤** – You get a **Ballistic Armor** aspect and you may choose to roll Physique to D against ballistic attacks.
 
-**Dermal Plating 2 ¤** – As Dermal Plating 1 and you get a +2 to D against ballistic attacks.
+**Dermal Plating 2¤** – As Dermal Plating 1 and you get a +2 to D against ballistic attacks.
 
-**Dermal Plating 3 ¤** – As Dermal Plating 1 and you get a +4 to D against ballistic attacks.
+**Dermal Plating 3¤** – As Dermal Plating 1 and you get a +4 to D against ballistic attacks.
 
 ::: sidebar left quoted
 This is some stuff that should appear associated with our text as it is an aside.

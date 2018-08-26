@@ -4,7 +4,7 @@ These being notes about the application of typography as it relates to Ghosting 
 
 ## Currency ¤
 
-The general currency symbol is used to indicate absract currency. 
+The general currency symbol is used to indicate absract currency.
 
 ## Aspects
 
@@ -13,6 +13,14 @@ Aspects are manually title-cased and wrapped in double braces. {The Ultimate Fat
 ## Stunts
 
 Stunts have 2 parts, a name and a mechanic. The name is bold title-case and set off from the desciption with an unspaced em-dash. 
+
+### Compound Stunts
+
+There are some stunts, especially as upgrades, which can be taken more then once for increasing effect. These are numbered and presented in a compact format when there difference is effect is only numberic.
+
+#### Header for Gear [1, 2, 3¤]
+
+**Compound Stunt 1|2|3**​—+2|+4|+6 for describing stunts in a compact way.
 
 ## Fate Actions Names
 

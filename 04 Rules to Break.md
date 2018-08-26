@@ -372,7 +372,7 @@ Advanced barriers, like attack barriers, take extra time, and add 2 to the oppos
 
 If you're defending a system from being cracked, you can roll active opposition using the Barrier rating, or your Hack skill. This will replace the system's normal passive opposition though. You risk inadvertently making the system more vulnerable by rolling poorly.
 
-Alternately, if you have the time to prepare you can use a C action to make your system's barrier more difficult to crack. You can use your invokes to add to the barrier's passive opposition.
+Alternately, if you have the time to prepare you can use a {{Create Advantage}}action to make your system's barrier more difficult to crack. You can use your invokes to add to the barrier's passive opposition.
 
 ##### IC
 
