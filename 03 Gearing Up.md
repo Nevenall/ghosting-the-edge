@@ -723,11 +723,11 @@ A vest containing plates of composite armor material to protect your vital areas
 
 **Ballistic Protection 1**—+2 to {{Defend}} against attacks from small and medium caliber firearms, shrapnel, and most blades and blunt weapons.
 
-<!-- should be a it's own version of something.  -->
+<!-- todo - no generic gear -->
 
 OPTIONAL:
 
-For +0 add **Combat Protection [1¤]** and **Bulky**
+For +0 add **Combat Protection 1** and **Bulky**
 
 ##### Lined Coat [2¤]
 
@@ -749,7 +749,7 @@ Elite corp mercs also like it for its resilience. You make quite an impression w
 
 Typically entire suits of clothes are made of dragon cloth, which also gives it more coverage than most common personal armor.
 
-{Partial Coverage}, {Reactive Nanocloth}, {Really Expensive}**
+{Partial Coverage}, {Reactive Nanocloth}, {Really Expensive}
 
 **Concealable**—You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
 
@@ -757,7 +757,11 @@ Typically entire suits of clothes are made of dragon cloth, which also gives it 
 
 **Absorb Impact 2**​—The armor has 2 Physical Stress boxes you can use against impact-based attacks. 
 
-##### Generic Flexible NanoScale [1, 2¤]
+
+<!-- todo - does the armor material qualify as an aspect, or should the aspect be the qualities of that material?
+the material can be an advantage, but in some ways disadvantages -->
+
+##### Flexible NanoScale [1, 2¤]
 
 Flexible nanoscale armor is not usually used in combat situations, it's most commonly used as accident protection for construction workers and the like. It looks like a wetsuit or a skin tight jump suit and provides uniform protection against explosive force and accidents, or animal attacks.
 
@@ -765,15 +769,16 @@ Flexible nanoscale armor is not usually used in combat situations, it's most com
 
 **Protection 1**—+2 to {{Defend}} against blunt force, ripping, tearing, and slashing attacks.
 
-##### {Generic Nanofoam Armor {\_, \_}
+**Protection 2**—+4 to {{Defend}} against blunt force, ripping, tearing, and slashing attacks.
 
-Protects againsts explosives and blunt attacks. It's pretty easy to manufacture, but it decentigrates fast. It's often used as part of the gear for bomb disposal because it's ideal for that. But, you better have some other kind of protection if the bomb has shrapnel in it. }
+<!-- todo - these are just generic armor materials. not actual gear -->
+##### Nanofoam Armor
 
-##### {Generic Magnetorheological Fluid Armor {\_, \_}
+Protects againsts explosives and blunt attacks. It's pretty easy to manufacture, but it decentigrates fast. It's often used as part of the gear for bomb disposal because it's ideal for that. But, you better have some other kind of protection if the bomb has shrapnel in it.
 
-**Personal Armor, Magnetorheological Fluid, Bulky**
+##### Magnetorheological Fluid Armor
 
-This one probably shouldn't be generic, it's a strange concept. }
+ {Magnetorheological Fluid}, {Bulky}
 
 #### Combat and Assault Armor
 
@@ -787,43 +792,41 @@ A full suit of advanced combat armor which can defend against all kinds of attac
 
 {{Combat Armor, Restricted Military, Expensive}}
 
-**Ballistic Protection [2¤]**—+4 to {{Defend}} against A from small and medium caliber firearms, and shrapel.
+**Ballistic Protection 2**—+4 to {{Defend}} against small and medium caliber firearms, and shrapel.
 
-**Close Combat Protection [2¤]**—+4 to {{Defend}} against
+**Close Combat Protection 2**—+4 to {{Defend}} against close quarters weapons.
 
-**Combat Protection [1¤]**—+2 to defend against explosives, light weapons.
+**Combat Protection 1**—+2 to defend against explosives, light weapons.
 
-**Laser Shielding [1¤] –** +2 to defend against laser weapons.
+**Laser Shielding 1**​—+2 to defend against laser weapons.
 
-**Toxin Scrubbers [1¤]**—+2 to Defend against toxin attacks, especially airborne ones.
+**Toxin Scrubbers 1**​—+2 to Defend against toxin attacks, especially airborne ones.
 
 ##### Titania Lux™ Assault Armor [10¤]
 
 If ever you find yourself needing to lead an assault on a dirtside target from low orbit, this is the armor you'll wish you had. Titania's Lux line is not just best-in-class powered assault armor rated at 90% survivability for uncontrolled Earth reentry; the stuff is just gorgeous and you will feel like a superhero flying it.
 
-**Powered Assault Armor, Very Expensive, Highly Restricted Military**
+{Very Expensive}, {Highly Restricted Military}
 
-Fly 4, Physique 4, Know {Navigation System} 3, Hardening 4
+Fly 4, Physique 4, Navigation 3, Hardening 4
 
-**Ballistic Protection [2¤]**—+4 to {{Defend}} against A from small and medium caliber firearms, and shrapnel.
+**Ballistic Protection 2**—+4 to {{Defend}} against A from small and medium caliber firearms, and shrapnel.
 
-**Close Combat Protection [2¤] –** +4 to {{Defend}} against close combat attacks.
+**Close Combat Protection 2**​—+4 to {{Defend}} against close combat attacks.
 
-**Combat Protection [2¤]**—+4 to defend against explosives, light weapons.
+**Combat Protection 2**—+4 to defend against explosives, light weapons.
 
-**Energy Protection [1¤] –** +2 to {{Defend}} against energy weapons.
+**Energy Protection 1**​—+2 to {{Defend}} against energy weapons.
 
 **Strong Armor**—You may Roll Physique to {{Defend}} against attacks. This means you can use the suit's Physique rating with bonuses from other stunts as well.
 
-**Toxin Scrubbers** **1¤**—+2 to Defend against toxin attacks, especially airborne ones.
+**Toxin Scrubbers 1**—+2 to Defend against toxin attacks, especially airborne ones.
 
 #### Thermoptic Camouflage Suit [1¤]
 
 This is a full body suit which can be activated to hide the wearer from visual and thermographic detection. It can be activated and deactivated multiple times but you get only one free invoke per scene.
 
-**Camouflage Body Suit, Resticted**
-
-**Thermoptic Camouflage** –At any time you may activate your suit and gain the aspect **Invisible to Optical and Thermal Detection**.* You can turn this aspect on and off anytime, you will only get one free invoke per scene.
+**Thermoptic Camouflage**​—At any time you may activate your suit and gain the aspect {Invisible to Optical and Thermal Detection} You can toggle this aspect anytime but, you only get one free invoke per scene.
 
 ### Personal Devices
 
@@ -833,7 +836,7 @@ This is a full body suit which can be activated to hide the wearer from visual a
 
 SmartMetal is a fist-sized blob of malleable metal/nanite mixture which has a built in power supply and a smartlink that allows you to configure the device into any shape with just a thought. As long as it has power SmartMetal will retain the shape you desire and is 500x harder than steel. It's sold commercially as a rich kid's toy and in large amounts for industrial purposes but when hacked to disable the safety features SmartMetal becomes a tool of surpassing versatility. Especially if you have a direct contact plate on your palm to control and recharge the thing.
 
-**Malleable Metal, Smart Device, Very Expensive**
+{Malleable Metal}, {Smart Device}, {Very Expensive}
 
 ### Drugs & Other Biologicals
 
@@ -841,7 +844,7 @@ A couple of fun drug write-ups, just as examples.
 
 ### Drones & Robots
 
-[some text about them and the difference. No androids, or robots, really. This is more about]
+<!-- todo - some text about them and the difference. No androids, or robots, really. This is more about -->
 
 #### Drones
 
@@ -857,39 +860,26 @@ Robots
 
 Guardian Ls are roughly spherical robots about two and a half feet in diameter. They have eight extendable spider legs and one automatic weapon pod on each side, somewhat like arms. The Guardian L is programmed to defend with lethal force, hence the L in its name. They operate best in pairs so that one can pin down an intruder with automatic fire and the other can apply lethal force.
 
- 
+###### Good At (+2)
 
-**Good At (+2)**
+- Patrolling a facility or parameter
+- detecting unauthorized targets
+- Shooting at targets identified as unauthorized
+- Analyzing credentials
+- identifying falsified or invalid credentials
+- Defending against physical attacks
 
-Patrolling a facility or parameter
+###### Bad At (-2)
 
-detecting unauthorized targets
+- Fighting hand to hand
+- Quick reaction actions
+- Anything requiring hands and arms
 
-Shooting at targets identified as unauthorized
+**Autonomous**​—The Guardian L can operate itself and proceed according to its role as a facility guard.
 
-Analyzing credentials
+**2 Integrated HK Super Autos**​—+2 to create automatic fire based advantages.
 
-identifying falsified or invalid credentials
-
-Defending against physical attacks
-
- 
-
-**Bad At (-2)**
-
-Fighting hand to hand
-
-Quick reaction actions
-
-Anything requiring hands and arms
-
- 
-
-**Autonomous** - The Guardian L can operate itself and proceed according to its role as a facility guard.
-
-**2 Integrated HK Super Autos** - +2 to create automatic fire based advantages.
-
-**Armor Plating** - +2 to defend against ballistics. 
+**Armor Plating**​—+2 to defend against ballistics. 
 
 ##### micro air vehicles, or MAVs 
 
@@ -907,29 +897,31 @@ Vectordyne craft are more maneuverable then helicopters but are just as loud, if
 
 A new favorite in the security industry, the Shadow Dx is a stealth oriented vectordyne that can quietly transport a small team to a target zone and provide them with light combat support. It's equipped with thermoptic camouflage and Terradyne's new SilentRunning™ TurboRotors to provide total stealth capability.
 
-**Stealth/Combat Vectordyne, SilentRunning™ TurboRotors, Terri™ Advanced Operational Intelligence, Combat armor**
+{SilentRunning™ TurboRotors}, {Terri™ Advanced Operational Intelligence}
 
 Pilot 3, Shoot 3, Notice 3, Barrier 3, Hardening 3, Physique 3, Move 4, Stealth 2
 
-**Nose mounted MPD 50x Minigun on a swivel point**—+2 to A non-vehicle targets, or those not under hard cover.
+**Nose mounted MPD 50x Minigun on a swivel point**—+2 to {{Attack}} non-vehicle targets, or those not under hard cover.
 
 **Thermoptic Camouflage**—Activate Thermoptic invisibility at will. Get, at most, one free invoke per scene.
 
-**Vehicle Armor** **1¤**—Roll Physique to defend against an attack after failing with some other skill.
+**Vehicle Armor 1**—Roll Physique to defend against an attack after failing with some other skill.
 
-**Autonomous** - The Shadow Dx can operate itself.
+**Autonomous**​—The Shadow Dx can operate itself.
 
+
+::: callout left
 ## Gear Creation Guidelines
 
 If you need to quickly stat-up a piece of gear these guidelines will be super helpful.
 
-Start with an Average [1¤] cost. Add upgrades, and subtract downgrades for the final cost rating.
+Start with an Average \[1¤\] cost. Add upgrades, and subtract downgrades for the final cost rating.
 
-### Average [1¤] Gear
+### Average Gear [1¤]
 
 #### Aspects
 
-Take one trouble aspect and other balanced aspects such as **Smart Device** as appropriate.
+Take one trouble aspect and other balanced aspects such as {Smart Device} as appropriate.
 
 #### Skills
 
@@ -972,6 +964,7 @@ Remove 4 or 5 skill points and reduce the skill cap by 1.
 #### Stunts
 
 Remove a stunt
+:::
 
 ## Acquiring Gear
 

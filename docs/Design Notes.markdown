@@ -11,3 +11,5 @@ todo – consider revised layout
 
 
 todo – what if we changed up em-dashes with something programmy, like >>> or => like a modern index pointing finger. 
+
+todo - make a rendered page that shows the various markup stuff we want. Examples of all the stuff
