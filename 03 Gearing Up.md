@@ -339,6 +339,11 @@ These advantages apply to most cyberbodies, but may not depending on its exact c
 - You movements can be far more delicate and precise, you don't suffer the same constant adjustments and slight tremors that human bodies do. You can, in fact, move your body to a position and then have it freeze in place while you prepare your mind for the next precise movement.
 - You may weigh more, sometimes a lot more, then an equivalently sized meat body.
 - All your senses can work as normal or better. They may be far more sensitive than a normal human's and you may have senses no human has, such as infravision.
+
+##### Disadvantage
+
+- You tend to weight a lot
+- Your brain is hackable and supseptable to EMP
 :::
 
 #### Cyberbody Upgrades [1¤ each]
@@ -684,13 +689,21 @@ Strong and flexible, not all that light, also requires continuous power to maint
 <!-- stunt for defending against blunt attacks and explosives
 hardened armor that defends against penetrating attacks -->
 
-**Combat Protection 1|2**—+2|+4 to {{Defend}} against explosives and medium to large caliber firearms.
+**Combat Protection 1**—+2 to {{Defend}} against explosives and medium to large caliber firearms.
 
-**Thermal Insulation {1, 2}**—+2 {+4} to {{Defend}} against heat and fire and heat effects.
+**Combat Protection 2**—+4 to {{Defend}} against explosives and medium to large caliber firearms.
 
-**Induction Shielding {1, 2}**—+2 {+4} to {{Defend}} against electrical and EMP effects.
+**Thermal Insulation 1**—+2 to {{Defend}} against heat and fire and heat effects.
 
-**Sensor Protection {1, 2}**—+2 {+4} to {{Defend}} against electronic sensor detection and guided weapons.
+**Thermal Insulation 2**—+4 to {{Defend}} against heat and fire and heat effects.
+
+**Induction Shielding 1**—+2 to {{Defend}} against electrical and EMP effects.
+
+**Induction Shielding 2**—+4 to {{Defend}} against electrical and EMP effects.
+
+**Sensor Protection 1**—+2 to {{Defend}} against electronic sensor detection and guided weapons.
+
+**Sensor Protection 2**—+4 to {{Defend}} against electronic sensor detection and guided weapons.
 
 **Armor Expert**—You an expert at using your defenses to absorb attacks. If you have armor or cover you may roll Physique to {{Defend}} against most attacks, including uncommon types such as explosions.
 
@@ -702,13 +715,15 @@ Personal armor is not a perfect defense, it's a tradeoff between protection, mob
 
 Some character know how to use their armor to greater effect.
 
-##### Generic Ballistic Vest {1, 2}
+##### Generic Ballistic Vest [1, 2¤] 
 
 A vest containing plates of composite armor material to protect your vital areas from common street level threats. They also have slots that allow you to add heavier plates for protection against higher caliber weapons.
 
-**Personal Armor, Partial Coverage, Composite Plates, Degrades**
+{Partial Coverage}, {Composite Plates}, {Degrades}
 
-**Ballistic Protection {1, 2}**—+2 {+4} to {{Defend}} against A from small and medium caliber firearms, shrapnel, and most blades and blunt weapons.
+**Ballistic Protection 1**—+2 to {{Defend}} against attacks from small and medium caliber firearms, shrapnel, and most blades and blunt weapons.
+
+<!-- should be a it's own version of something.  -->
 
 OPTIONAL:
 
@@ -718,15 +733,15 @@ For +0 add **Combat Protection [1¤]** and **Bulky**
 
 A favorite of operators everywhere. This armor is low profile composite plates designed for both ballistic and close quarters fighting concealed in a fairly large jacket or trench coat.
 
-**Personal Armor, Partial Coverage, Composite Plates, Degrades**
+{Partial Coverage}, {Composite Plates}, {Degrades}
 
 **Concealable**—You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
 
-**Ballistic Protection [1¤]**—+2 to {{Defend}} against A from small and medium caliber firearms and shrapnel.
+**Ballistic Protection 1**—+2 to {{Defend}} against attacks from small and medium caliber firearms and shrapnel.
 
-**Close Quarters Protection [1¤] –** +2 to {{Defend}} against A from blades, clubs and other close quarters weapons.
+**Close Quarters Protection 1**​—+2 to {{Defend}} against attacks from blades, clubs and other close quarters weapons.
 
-##### Mobeus Dragon Cloth™ {1, 2}
+##### Mobeus Dragon Cloth™ [1, 2¤]
 
 One of the top sellers for this boutique brand is their patented dragon cloth. Under normal conditions it's a soft and pliable as ordinary cloth, but upon sudden impact the reactive nanofibers in the cloth hardens to absorb the attack. It works against nearly every kind of attack but it loses its protective qualities quickly when subject to too much force. However, what makes Dragon Cloth worth its exorbitant price is its self-repairing design. If allowed to rest, it's protective qualities will return.
 
@@ -734,19 +749,21 @@ Elite corp mercs also like it for its resilience. You make quite an impression w
 
 Typically entire suits of clothes are made of dragon cloth, which also gives it more coverage than most common personal armor.
 
-**Personal Armor, Partial Coverage, Reactive Nanocloth, Really Expensive**
+{Partial Coverage}, {Reactive Nanocloth}, {Really Expensive}**
 
 **Concealable**—You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
 
-**Absorb Impact {1, 2} –** The armor has 1 [2¤] Physical Stress boxes you may use provided the armor can help you.
+**Absorb Impact 1**​—The armor has 1 Physical Stress box you can use against impact-based attacks. 
 
-##### Generic Flexible NanoScale {1, 2}
+**Absorb Impact 2**​—The armor has 2 Physical Stress boxes you can use against impact-based attacks. 
+
+##### Generic Flexible NanoScale [1, 2¤]
 
 Flexible nanoscale armor is not usually used in combat situations, it's most commonly used as accident protection for construction workers and the like. It looks like a wetsuit or a skin tight jump suit and provides uniform protection against explosive force and accidents, or animal attacks.
 
-**Personal Armor, Flexible Nanoscale, Very Expensive**
+{Flexible Nanoscale}, {Very Expensive}
 
-**Protection**—+2 {+4} to {{Defend}} against blunt force, ripping, tearing, and slashing attacks.
+**Protection 1**—+2 to {{Defend}} against blunt force, ripping, tearing, and slashing attacks.
 
 ##### {Generic Nanofoam Armor {\_, \_}
 
