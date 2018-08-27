@@ -78,7 +78,7 @@ Many upgrades are {Invasive} or {Difficult to Adjust to} and for these the reest
 Neural implants are a hot mess of processors and nanofibers wired into every damned part of your brain and nervous system; they let you hack the basic functions of your brain.
 
 ##### Interfaces
-
+<!-- todo - the interface section is still a mess what belongs here and what belongs elseweres -->
 The interface implant allows a direct connection between a device and your brain. It's what enables augmented and virtual realities to feed directly into your senses, and allows you to control devices with your thoughts.
 
 A modern interface is a complex array of nanofibers implanted throughout your brain and merging into a hardware jack implanted at the back of your neck, behind your ear, or on your temple.
@@ -939,38 +939,22 @@ Take an appropriate stunt.
 
 ### For +1¤ Upgrade
 
-#### Aspects
-
-Add a positive aspect or take away a negative aspect.
-
-#### Skills
-
-Add 5 skill points and increase the skill cap by 1.
-
-#### Stunts
-
-Add a stunt.
+- Add a positive aspect or take away a negative aspect.
+- Add 5 skill points and increase the skill cap by 1.
+- Add a stunt.
 
 ### For -1¤ Downgrade
 
-#### Aspects
-
-Add a negative aspect or take away a positive aspect.
-
-#### Skills
-
-Remove 4 or 5 skill points and reduce the skill cap by 1.
-
-#### Stunts
-
-Remove a stunt
+- Add a negative aspect or take away a positive aspect.
+- Remove 4 or 5 skill points and reduce the skill cap by 1.
+- Remove a stunt
 :::
 
 ## Acquiring Gear
 
 During play characters can try all kinds of ways to get their hands on new gear. They can buy it outright with a Resources roll, or borrow it through some Contacts, or even design and fab it with an automated workshop and a Tech skill. They might even Steal one.
 
-The difficulty for acquiring any particular item will depend a lot on the circumstances of the method. For example, some items have aspects such as **restricted**, or **luxury item**, which increases the opposition for acquiring that item through just spending money.
+The difficulty for acquiring any particular item will depend a lot on the circumstances of the method. For example, some items have aspects such as {Restricted}, or {Luxury Item}, which increases the opposition for acquiring that item through just spending money.
 
 ## Building Gear
 
@@ -982,7 +966,7 @@ Characters have unlimited avenues of action available to them so reinforcing som
 
 ### Troubles
 
-Gear has negative aspects called troubles to represent its quirks, drawbacks, and incompatibilities. For example: **Prototype, Beta Software, Out of Date, Glitchy Interface Drivers, Bad Auto Piloting Algorithm, Slow to Reload, Strong Recoil.**
+Gear has negative aspects called troubles to represent its quirks, drawbacks, and incompatibilities. For example: {Prototype}, {Beta Software}, {Out of Date}, {Glitchy Interface Drivers}, {Bad Auto Piloting Algorithm}, {Slow to Reload}, {Strong Recoil}.
 
 Some troubles, like {Strong Recoil}, have distinct mechanical drawbacks in addition to being aspects. These are described in the appropriate section of the gear catalog.
 
@@ -992,19 +976,19 @@ There are other aspects that can be relevant to any kinds of gear.
 
 #### Cost
 
-**Luxury** items are harder to get, but they signal wealth and status to those in the know. These items can be used to impress or intimidate some people. **Cheap knock off** gear might not always been reliable, but it might help fit in at a party full of posers.
+{Luxury} items are harder to get, but they signal wealth and status to those in the know. These items can be used to impress or intimidate some people. {Cheap Knock Off} gear might not always been reliable, but it might help fit in at a party full of posers.
 
 #### The Tech Curve
 
-**Top of the line** and **prototype** are ways to say an item is ahead of the tech curve and is more advanced in some ways than similar devices. Though be ready for incompatibilities and unresolved beta issues. On the other hand, it might be easy to find a sale on **last year's model** if you are willing to deal with poor performance and lack of features.
+{Top of the line} and {Prototype} are ways to say an item is ahead of the tech curve and is more advanced in some ways than similar devices. Though be ready for incompatibilities and unresolved beta issues. On the other hand, it might be easy to find a sale on {Last Year's Model} if you are willing to deal with poor performance and lack of features.
 
 #### Smart Devices
 
-Any interface capable gear gets the **smart device** aspect.
+Any interface capable gear gets the {Smart Device} aspect.
 
-Smart devices have integrated computers, sensors, and motors which allow an interfaced character to control the device with their mind. This aspect's commonly invoked when using the **smart device**. However, **smart devices** and characters interfaced with them run the risk of being hacked, and interfaced character can also suffer feedback if, for example, the drone she's piloting gets blown up unexpectedly.
+Smart devices have integrated computers, sensors, and motors which allow an interfaced character to control the device with their mind. This aspect's commonly invoked when using the {Smart Device}. However, smart devices and characters interfaced with them run the risk of being hacked, and interfaced character can also suffer feedback if, for example, the drone she's piloting gets blown up unexpectedly.
 
-[being a smart device is different than having sapience]
+<!-- [being a smart device is different than having sapience] -->
 
 #### Legality and Restriction
 
@@ -1012,11 +996,11 @@ The concept of legality is outdated. Corporations are the law and they don't hav
 
 You may want categories of legality for your game, so here are some legality aspects. These are exactly the sort of things which would increase the opposition for a roll to acquire such an item.
 
-**Restricted** items are harder to get because they require licensing and permission. For example, you can't just buy explosives unless you are, say, a demolition contractor, and faking all the data to prove you are such a thing is going to take some work.
+{Restricted}​—items are harder to get because they require licensing and permission. For example, you can't just buy explosives unless you are, say, a demolition contractor, and faking all the data to prove you are such a thing is going to take some work.
 
-**Illegal** means no one allowed to own, sell, trade, possess, or produce the item.
+{Illegal}​—means no one allowed to own, sell, trade, possess, or produce the item.
 
-**Military** hardware is especially hard to get your hands on, but it's also usually more advanced and robust then civilian gear.
+{Military}​—hardware is especially hard to get your hands on, but it's also usually more advanced and robust then civilian gear.
 
 ### Skills
 
@@ -1044,7 +1028,7 @@ For example, a Magma Carta Personal Explosives™ Hand Grenade has the skill Exp
 
 Using gear with an effect skill typically calls for the character to take an {{Overcome Obstacle}} action to activate the item. If that's successful the character can pass the initiative baton to the device and roll for its effect. If the {{Overcome Obstacle}} succeeds with style, the boost can be passed to the device.
 
-{callout} The effect skill is only relevant when the character is pressed for time or resources, as during a conflict. When such conditions don't exist the character can simply roll an {{Overcome Obstacle}} to use the gear or accomplish their goal with no roll required. For example, a doctor using anesthetics under normal circumstances would not roll at all. They would simply administer the correct amount.
+The effect skill is only relevant when the character is pressed for time or resources, as during a conflict. When such conditions don't exist the character can simply roll an {{Overcome Obstacle}} to use the gear or accomplish their goal with no roll required. For example, a doctor using anesthetics under normal circumstances would not roll at all. They would simply administer the correct amount.
 
 #### Sapience
 
@@ -1062,13 +1046,13 @@ A barrier is a program that controls who is allowed to interface with a smart de
 
 ##### Drug
 
-Drugs have an effect skill to roll for A and {{Create Advantage}}actions against a target appropriate to the drug's class.
+Drugs have an effect skill to roll for {{Attack}} and {{Create Advantage}} actions against a target appropriate to the drug's class.
 
 Rename this skill according to the class of the drug. Soporific drugs put people to sleep. Analgesics kill pain. Anxiogenics induce anxiety, Hallucinogens induces hallucinations and erratic perceptions. Spasmolytic drugs relax a target's muscles and can make it very difficult for them to move or fight.
 
 ##### Explode
 
-A common effect skill for explosive devices. Roll it for A and {{Create Advantage}}actions related to blowing shit up.
+A common effect skill for explosive devices. Roll it for {{Attack}} and {{Create Advantage}} actions related to blowing shit up.
 
 ##### Friend
 
@@ -1094,7 +1078,7 @@ Devices usually have a limited version of the Know skill that only applies to a 
 
 ##### Notice
 
-**Smart Devices** with the Notice skill are equipped with sensors arrays, or algorithms that parse the senses of an interfaced human.
+{Smart Devices} with the Notice skill are equipped with sensors arrays, or algorithms that parse the senses of an interfaced human.
 
 Gear is generally programmed to detect specific things and so takes Notice as a specialized skill. For example: Notice Movement, Notice Falsified Identifications, or Notice Explosives.
 
@@ -1110,11 +1094,11 @@ Most devices can't dodge to avoid attacks, but they can defend against damage us
 
 ##### Toxin
 
-Toxins such as poisons and venoms have a specific effect skill they use for A and {{Create Advantage}}effects.
+Toxins such as poisons and venoms have a specific effect skill they use for {{Attack}} and {{Create Advantage}} actions.
 
 ##### Potency?
 
-This is a skill a drug or poison can use to {{Defend}} itself against A and {{Create Advantage}}actions that are intended to counter its effects or remove it from the target's system.
+This is a skill a drug or poison can use to {{Defend}} itself against {{Attack}} and {{Create Advantage}} actions that are intended to counter its effects or remove it from the target's system.
 
 ##### Pilot
 
@@ -1126,15 +1110,16 @@ A vehicle needs the **Sapience** stunt to independently operate itself, but with
 
 Smartguns can use Shoot for making attacks but they usually have to guide their human owner to move the gun into the correct position through interface. Weapons mounted on an articulator can control their own movements and fire at whatever target they can perceive.
 
-{this is a cool example. Might make a good callout} A smartgun and portable articular are a classic defense strategy.
+::: sidebar left 
+A smartgun and portable articular are a classic defense strategy. 
+<!-- Maybe this should be a quote? -->
+:::
 
 ### Stunts
 
-Special gear can have stunts which are available to its user, or to the item itself to use if it's a **Smart Device**.
-
 Here's some stunts that are of particular interest.
 
-#### sapience {0, 1, 2, 3, -}
+#### Sapience
 
 A class of stunts representing a device's level of self-operation and self-awareness.
 

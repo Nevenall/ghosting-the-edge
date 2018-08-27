@@ -2,19 +2,16 @@
 
 ## Throwing Down
 
-Fire fights in dark alleys, monosword duels on abandoned factory floors, wrestling matches in combat rated cyberbodies. This section covers various topics that might come up during conflicts.
+Fire fights in dark alleys, monosword duels on abandoned factory crane towers, wrestling matches in combat-rated cyberbodies. This section covers various topics that might come up during conflicts.
 
 ### The Initiative Relay
 
 The Boosted Reflexes upgrade mentions that you can do something called steal the initiative. Here's what that means.
 
-1.  A conflict starts with the most appropriate character. Commonly: the first one who decides to make it a fight, the one with the most wired reflexes, or the one with the highest Notice skill.
-
-2.  After a character has acted they pass the initiative to any character who hasn't gone yet, even a foe.
-
-3.  The last character to act chooses any character in the conflict to go first in the next the round.
-
-4.  If you haven't gone yet you can invoke an appropriate aspect to steal the initiative from someone who hasn't rolled yet. Characters that lose the initiative doesn't lose their action, but you do get to see some evidence of what they intended to do and who they intended to target before you interrupt them. You can steal the first action of the round even if you've been ambushed. Once they get the initiative again, they get to choose a different action.
+1. A conflict starts with the most appropriate character. Commonly: the first one who decides to make it a fight, the one with the most wired reflexes, or the one with the highest Notice skill.
+2. After a character has acted they pass the initiative to any character who hasn't gone yet, even a foe.
+3. The last character to act chooses any character in the conflict to go first in the next the round.
+4. If you haven't gone yet you can invoke an appropriate aspect to steal the initiative from someone who hasn't rolled yet. Characters that lose the initiative doesn't lose their action, but you do get to see some evidence of what they intended to do and who they intended to target before you interrupt them. You can steal the first action of the round even if you've been ambushed. Once they get the initiative again, they get to choose a different action.
 
 #### Initiative Relay and Gear with Effect Skills
 
@@ -22,7 +19,7 @@ Gear with effect skills such as grenades and drugs rely on your O action for eff
 
 ### Ammunition
 
-{This is a section about using the ammunition rules. Its an indepth discussion and it also including things like reloading. }
+<!-- {This is a section about using the ammunition rules. Its an indepth discussion and it also including things like reloading. } Can copy a good bit of this from gear chapter -->
 
 ### Guns
 
@@ -32,9 +29,11 @@ Fighting on the edge is swift and violent. Though firearms are still the most co
 
 Characters in Ghosting the Edge start with 2 physical stress and 2 mental stress as normal, but Physique and Will do not provide any additional stress boxes or consequence slots. Augmentation stunts can give a character additional physical stress boxes.
 
-#### {game callout} Optional – Ultra Deadly
+::: callout right
+#### Optional Rule​—Ultra Deadly
 
-If you want to emphasis this even more, reduce initial stress boxes to 1, or even 0. This will make armor and augmentations that provide stress boxes even more valuable.
+If you want to emphasis this even more, reduce initial stress boxes to 1, or even 0. This will make armor and augmentations even more valuable.
+:::
 
 #### Conceding
 
@@ -46,7 +45,7 @@ Zones are an intentionally abstract measure of distance. Weapons may have impres
 
 #### Grappling
 
-You and your foe are in intense physical contact. You need to establish a **grappled** aspect to achieve this level of range because it renders most weapons and a good many kinds of attacks ineffective. Or at least, increases their difficulty. Grappled characters can't succeed with most attacks unless they can O their **grappled** aspect.
+You and your foe are in intense physical contact. You need to establish a {Grappled} aspect to achieve this level of range because it renders most weapons and a good many kinds of attacks ineffective. Or at least, increases their difficulty. Grappled characters can't succeed with most attacks unless they can O their {Grappled} aspect.
 
 #### Close Quarters Combat (CQC)
 
@@ -70,7 +69,7 @@ Assassination is not a conflict. A conflict requires two parties who can act to 
 
 Treat an assassination as a skill challenge, commonly with a Shoot O for the actual kill and other skills for planning and escaping.
 
-Same thing goes even if you are sniping a group of targets who are actively taking cover to avoid you. It's not a conflict if they can't attack you back. They can **Take Cover** and setup obstacles to your sniping or O your **Concealment** to find you and target you with their own attacks, assuming their weapons have sufficient range.
+Same thing goes even if you are sniping a group of targets who are actively taking cover to avoid you. It's not a conflict if they can't attack you back. They can {Take Cover} and setup obstacles to your sniping or {{Overcome Obstacle}} your {Concealment} to find you and target you with their own attacks, assuming their weapons have sufficient range.
 
 #### Setting Difficulty 
 
@@ -88,16 +87,16 @@ Congrats! You finally made it to the hacking section. I hope a bunch of you skip
 
 For a hacker, everything here is common knowledge, but this is far from everything you'll run into. There are other things out there beyond the keen of your work-a-day hacker. Half-crazed Frankenstein IC lurking in forgotten servers, rogue AI who capture hackers and try to "debug" their minds, and rumors of ghost hacks that can rewrite your soul.
 
-#### {callout} Hacking Terms
+::: callout left
+#### Hacking Terms
+<!-- we can try deflist markup here. term\n~ def -->
+**Hack** 
+~ A general term for the act of performing unauthorized operations with computers or other electronics. Also a general term for a specific instance of hacking.
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Hack**                             A general term for the act of performing unauthorized operations with computers or other electronics. Also a general term for a specific instance of hacking.
-                                       
-  **Hacking**                          
-  ------------------------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Crack**                            To bypass a barrier program and gain unauthorized access to a system.
+**Crack** 
+~ To bypass a barrier program and gain unauthorized access to a system.
 
-  **Exploit**                          A program or other hack, to make a system do what you want it to do, especially if that's something the system has safeguards in place to prevent. Such as making a factorybot weld someone's face.
+**Exploit** A program or other hack, to make a system do what you want it to do, especially if that's something the system has safeguards in place to prevent. Such as making a factorybot weld someone's face.
 
   **System**                           An entity which can be interfaced with.
                                        
@@ -120,9 +119,11 @@ For a hacker, everything here is common knowledge, but this is far from everythi
   **Hardening**                        A measure of a system's defenses against hacking. Some systems are highly secure and some are less so.
 
   **Intrusion Countermeasures (IC)**   These are various classes of programs which patrol high level systems looking for hackers and taking actions against them ranging from capture to kill.
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+:::
 
-{callout} "For most people the interface is their whole life. Tells them where to be and who they know. It's like a having a magic wand you can wave and your house will come alive and clean itself and make you a cup of coffee. But, these people are not hackers. They only use 20% of what an interface is capable of. Hackers push it all the way to 110% percent. We have to. When we're on a run we're up against programs that can fry your brain faster than you can even start to THINK 'oh shit!'" – Betty Talent
+::: quote right Betty Talent
+"For most people the interface is their whole life. Tells them where to be and who they know. It's like a having a magic wand you can wave and your house will come alive and clean itself and make you a cup of coffee. But, these people are not hackers. They only use 20% of what an interface is capable of. Hackers push it all the way to 110% percent. We have to. When we're on a run we're up against programs that can fry your brain faster than you can even start to THINK 'oh shit!'"
+:::
 
 ### The Interface and You
 

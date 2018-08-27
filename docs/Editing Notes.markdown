@@ -5,6 +5,10 @@ These are editing notes
 * no generic gear, everything gets a special brand name
 * revisit illegal/hard to aquire tasks
 
+Magma Carta Personal Explosives™
+
+lol!
+
 
 if we compact the stunts for gear, i think it's easy to see where the cost diff is, but it we spell it otu 
 
