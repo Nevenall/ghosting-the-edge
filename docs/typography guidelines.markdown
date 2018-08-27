@@ -20,6 +20,8 @@ There are some stunts, especially as upgrades, which can be taken more then once
 
 #### Header for Gear [1, 2, 3¤]
 
+
+
 **Compound Stunt 1|2|3**​—+2|+4|+6 for describing stunts in a compact way.
 
 ## Fate Actions Names
@@ -39,6 +41,8 @@ En-dashes are used to indicate a numeric range. For example​—Pages 21–34.
 ## Em Dash ​—
 
 The Em-dash is commonly used in Ghosting the Edge text in place of a : to separate a word and a description. It is used without spaces, or with a thin space if needed.
+
+todo - seems like abel doesn't have a tm glyph because it's rendering in times new roman.  
 
 ## Containers
 
