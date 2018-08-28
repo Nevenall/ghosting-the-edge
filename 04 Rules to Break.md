@@ -79,7 +79,7 @@ Other forms of assassination, such as poisoning, will vary in difficulty dependi
 
 ### Scale & Effectiveness
 
-Some things are large and thickly armored, like an Extermine-8 Battle Tank and some things are small; like the caliber of the Saturday night special you found in your uncle's old shoe box. There will be times when you need a bigger gun or a smarter plan. If there's agreement about a particular attack being either effective or ineffective, such as a knife against an unenhanced person, a pocket pistol vs. a battle tank, or natural venoms against a cybernetic body, then the attack either works or, it won't work no matter what you roll. If there is doubt about whether something would work, you can require the application of another skill to make the attack plausible. For example, your uncle's old .38 might not be able to penetrate a suit of Assault Armor, but if you can identify a weak joint to aim for, your attack can be effective. This sounds like Creating an Advantage but it works better as an Overcome because without changing the situation you wouldn't be effective at all. You can think if it as rolling to overcome an advantage your foe already has.
+Some things are large and thickly armored, like an Extermine-8 Battle Tank and some things are small; like the caliber of the Saturday night special you found in your uncle's old shoe box. There will be times when you need a bigger gun or a smarter plan. If there's agreement about a particular attack being either effective or ineffective, such as a knife against an unenhanced person, a pocket pistol vs. a battle tank, or natural venoms against a cybernetic body, then the attack either works or, it won't work no matter what you roll. If there is doubt about whether something would work, you can require the application of another skill to make the attack plausible. For example, your uncle's old .38 might not be able to penetrate a suit of Assault Armor, but if you can identify a weak joint to aim for, your attack can be effective. This sounds like {{Creating an Advantage}} but it works better as an Overcome because without changing the situation you wouldn't be effective at all. You can think if it as rolling to overcome an advantage your foe already has.
 
 ## Hacking
 
@@ -89,40 +89,44 @@ For a hacker, everything here is common knowledge, but this is far from everythi
 
 ::: callout left
 #### Hacking Terms
-<!-- we can try deflist markup here. term\n~ def -->
-**Hack** 
+
+Hack 
 ~ A general term for the act of performing unauthorized operations with computers or other electronics. Also a general term for a specific instance of hacking.
 
-**Crack** 
+Crack
 ~ To bypass a barrier program and gain unauthorized access to a system.
 
-**Exploit** A program or other hack, to make a system do what you want it to do, especially if that's something the system has safeguards in place to prevent. Such as making a factorybot weld someone's face.
+Exploit 
+~ A program or other hack, to make a syst.em do what you want it to do, especially if that's something the system has safeguards in place to prevent. Such as making a factorybot weld someone's face.
 
-  **System**                           An entity which can be interfaced with.
+System
+~ An entity which can be interfaced with.
                                        
-  **Node**                             It can be a computer, a smart device, or even a brain.
+Node 
+~ It can be a computer, a smart device, or even a brain.
                                        
-                                       Most systems can contain data and many have skills they can perform, some of which can affect the physical world. A robot, for example, can be a system.
+  Most systems can contain data and many have skills they can perform, some of which can affect the physical world. A robot, for example, can be a system.
                                        
-                                       If you permanently link one system to another in network we generally refer to those systems as nodes.
+  If you permanently link one system to another in network we generally refer to those systems as nodes.
 
-  **Network**                          A collection of nodes that have been, more or less, permanently linked together.
-                                       
-  **secure net**                       
-                                       
-  **net**                              
+Network, secure net, net
+~ A collection of nodes that have been, more or less, permanently linked together.
+                        
+The Net
+~ The global network which nearly every system in the world is linked to in one way or another.
 
-  **The Net**                          The global network which nearly every system in the world is linked to in one way or another.
+Barrier
+~ A defensive program designed to prevent unauthorized access to a system. In a network, they guard the links between nodes.
 
-  **Barrier**                          A defensive program designed to prevent unauthorized access to a system. In a network, they guard the links between nodes.
+Hardening
+~ A measure of a system's defenses against hacking. Some systems are highly secure and some are less so.
 
-  **Hardening**                        A measure of a system's defenses against hacking. Some systems are highly secure and some are less so.
-
-  **Intrusion Countermeasures (IC)**   These are various classes of programs which patrol high level systems looking for hackers and taking actions against them ranging from capture to kill.
+Intrusion Countermeasures (IC)
+~ These are various classes of programs which patrol high level systems looking for hackers and taking actions against them ranging from capture to kill.
 :::
 
 ::: quote right Betty Talent
-"For most people the interface is their whole life. Tells them where to be and who they know. It's like a having a magic wand you can wave and your house will come alive and clean itself and make you a cup of coffee. But, these people are not hackers. They only use 20% of what an interface is capable of. Hackers push it all the way to 110% percent. We have to. When we're on a run we're up against programs that can fry your brain faster than you can even start to THINK 'oh shit!'"
+For most people the interface is their whole life. Tells them where to be and who they know. It's like a having a magic wand you can wave and your house will come alive and clean itself and make you a cup of coffee. But, these people are not hackers. They only use 20% of what an interface is capable of. Hackers push it all the way to 110% percent. We have to. When we're on a run we're up against programs that can fry your brain faster than you can think 'oh shit!'
 :::
 
 ### The Interface and You
