@@ -93,8 +93,9 @@ A quote is a specialized sidebar for rendering a quote or phrase that includes a
 quote_text
 :::
 ```
+quote_text should not include quote marks. 
 
-The attribution_text can include non-newline whitespace, but markup will not be rendered.
+The attribution_text can include non-newline whitespace, but markup will not be rendered. It should not include an attribution dash. 
 
 ### Table
 
