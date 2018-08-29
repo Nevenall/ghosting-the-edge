@@ -3170,7 +3170,7 @@ Characters who don't want to start getting outclassed by every ganger they throw
 # Afterwards
 
 {art: Something dramatic to draw you into the text. Maybe a letter frame, or a maybe an augmented reality email frame.
-![Tree of Life by Doomer from DeviantArt](Graphics\tree_of_digital_life_by_adoomer-d35ytew.png)
+![Tree of Life by Doomer from DeviantArt](assets/tree_of_digital_life_by_adoomer-d35ytew.png)
 
 Dearest Reader!
 

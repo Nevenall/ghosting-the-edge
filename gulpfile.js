@@ -17,11 +17,12 @@ const markdownLint = require('markdownlint')
 const writeGood = require('write-good')
 
 const source = ['**/*.md', '!node_modules/**', '!tools/**']
+const assetPath = ['assets/**']
 const destination = 'html/'
 const destinationGlob = 'html/**'
 const publishTarget = "C:/src/BookShelf-GhostingTheEdge/src/pages"
 
-function build() {
+function render() {
    return src(source)
       .pipe(tap((file) => {
          var result = markdown.render(file.contents.toString())
@@ -31,6 +32,11 @@ function build() {
          extname: ".html"
       }))
       .pipe(dest(destination))
+}
+
+function assets() {
+   return src(assetPath)
+      .pipe(dest(destination + "/assets"))
 }
 
 function clean(callback) {
@@ -63,33 +69,35 @@ function lint() {
                "line-length": false
             }
          }, function(err, result) {
-            var resultString = (result || "").toString();
+            var resultString = (result || "").toString()
             if (resultString) {
-               console.log(resultString);
+               console.log(resultString)
             }
-         });
+         })
       }))
 }
 
 function prose() {
    return src(source)
       .pipe(tap((file, t) => {
-         var text = file.contents.toString();
-         var suggestions = writeGood(text);
-         console.log(`"${file.path}"`);
+         var text = file.contents.toString()
+         var suggestions = writeGood(text)
+         console.log(`"${file.path}"`)
          suggestions.forEach(element => {
-            var toCount = text.substring(0, element.index + element.offset);
-            var line = toCount.match(/\n/g).length;
-            var column = toCount.substring(toCount.lastIndexOf('\n'), element.index).length;
-            console.log(`${line + 1}:${column}  ${element.reason}`);
-         });
-      }));
+            var toCount = text.substring(0, element.index + element.offset)
+            var line = toCount.match(/\n/g).length
+            var column = toCount.substring(toCount.lastIndexOf('\n'), element.index).length
+            console.log(`${line + 1}:${column}  ${element.reason}`)
+         })
+      }))
 }
 
-exports.build = series(clean, build)
-exports.publish = series(build, publish)
+const buildSeries = series(clean, render, assets)
+
+exports.build = buildSeries
+exports.publish = series(buildSeries, publish)
 exports.spelling = spelling
 exports.count = count
 exports.lint = lint
 exports.prose = prose
-exports.default = series(clean, build)
+exports.default = buildSeries

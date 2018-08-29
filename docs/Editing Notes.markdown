@@ -29,3 +29,6 @@ Skill 2
 
 Part of the issue is that this description issue is an issue with generic items. 
 if it's a very specific named item, then this is less of an issue. and in such cases the above base, plus options might be clearer
+
+
+todo - don't forget to include fate srd and font license sentances.
