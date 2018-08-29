@@ -41,8 +41,7 @@ function assets() {
 
 
 function clean(callback) {
-   del(destinationGlob, callback)
-   callback()
+   return del(destinationGlob, callback)
 }
 
 function publish() {
