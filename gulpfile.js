@@ -17,11 +17,12 @@ const markdownLint = require('markdownlint')
 const writeGood = require('write-good')
 
 const source = ['**/*.md', '!node_modules/**', '!tools/**']
+const assetPath = ['assets/**']
 const destination = 'html/'
 const destinationGlob = 'html/**'
 const publishTarget = "c:/temp/forkandwrite"
 
-function build() {
+function render() {
    return src(source)
       .pipe(tap((file) => {
          var result = markdown.render(file.contents.toString())
@@ -32,6 +33,12 @@ function build() {
       }))
       .pipe(dest(destination))
 }
+
+function assets() {
+   return src(assetPath)
+      .pipe(dest(destination + "/assets"))
+}
+
 
 function clean(callback) {
    del(destinationGlob, callback)
@@ -87,10 +94,12 @@ function prose() {
       }));
 }
 
-exports.build = series(clean, build)
-exports.publish = series(build, publish)
+const buildSeries = series(clean, render, assets)
+
+exports.build = buildSeries
+exports.publish = series(buildSeries, publish)
 exports.spelling = spelling
 exports.count = count
 exports.lint = lint
 exports.prose = prose
-exports.default = series(clean, build)
+exports.default = buildSeries
