@@ -26,7 +26,7 @@ There are some stunts, especially as upgrades, which can be taken more then once
 
 ## Fate Actions Names
 
-Attack, Defense, Overcome, and Create are encoded in text as {{Attack}}, {{Defend}}, {{Overcome Obstacle}} or {{Create Advantage}}.  
+Attack, Defense, Overcome, and Create are encoded in text as {{attack}}, {{defend}}, {{overcome}} or {{create}}.  
 
 On the BookShelf instance this translates to an icon from the Fate Font. 
 
@@ -41,8 +41,6 @@ En-dashes are used to indicate a numeric range. For example​—Pages 21–34.
 ## Em Dash ​—
 
 The Em-dash is commonly used in Ghosting the Edge text in place of a : to separate a word and a description. It is used without spaces, or with a thin space if needed.
-
-todo - seems like abel doesn't have a tm glyph because it's rendering in times new roman.  
 
 ## Containers
 

@@ -91,7 +91,7 @@ It defines our era in another way as well. Everything you do with your interface
 
 Most characters will have a {Jailbroken Interface} which circumvents the ever present corporate controls and safeguards. This gives a character complete control over their device and allows them to do things like fiddle with the interface id to conceal their true identities. 
 
-Jailbreaking an interface can be done with a Tech {{Overcome Obstacle}}.
+Jailbreaking an interface can be done with a Tech {{overcome}}.
 
 ###### Wirelessly interface with the Net and local nets
 
@@ -151,7 +151,7 @@ See the fighting section for info about relay initiative.
 
 Commonly the counterpart to reflex amplifiers, this type of upgrade can also be implanted separately to help you deal with fast moving and highly detailed situations. Sense processors do additional acquisition and filtering of sensory data which is then provided directly to your brain to help you make decisions. Runners describe the info from these processors as being like a little voice in the back of your head compelling you to notice something you would have missed on your own, like that BikePunk sneaking up on you.
 
-**Compensators**​—+2 to {{Defend}} against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
+**Compensators**​—+2 to {{defend}} against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
 
 **Hostile Tracking System**​—This sense processor helps you determine friend from foe in a fast moving situation. 
 <!-- Seems this needs an effect. -->
@@ -167,9 +167,9 @@ Some people find the nearly subconscious nudging of these kind of processors uns
 ###### Skillwire Programs [1¤ each]
 
 - **Language**—You can read and speak a specific language. Most tend towards the formal and correct and obviously come from a program unless you are willing to pay extra for an up-to-date colloquialized version.
-- **Specialty**—These programs have everything you need to know about a specific topic such herbs, or military history. +2 to {{Overcome Obstacle}} and {{Create Advantage}} actions involving that specialty.
-- **Pilot**—Contains the skills for pilot a specific type of vehicle. +2 to {{Overcome Obstacle}} for this specific model.
-- **Kung Fu**—An {encyclopedic knowledge of Kung Fu moves} looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. Without cyberbody +2 for {{Overcome Obstacle}} relating to Kung Fu. {With cyberbody} Kung Fu style Fight skill set to 2. If you already have a fight skill 
+- **Specialty**—These programs have everything you need to know about a specific topic such herbs, or military history. +2 to {{overcome}} and {{create}} actions involving that specialty.
+- **Pilot**—Contains the skills for pilot a specific type of vehicle. +2 to {{overcome}} for this specific model.
+- **Kung Fu**—An {encyclopedic knowledge of Kung Fu moves} looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. Without cyberbody +2 for {{overcome}} relating to Kung Fu. {With cyberbody} Kung Fu style Fight skill set to 2. If you already have a fight skill 
 
 ##### Alternate Skillwire [1¤]
 
@@ -183,7 +183,7 @@ Cybereyes and ears were a lot more popular before we cracked the brain's sense p
 
 Cybereyes and ears are fairly similar mechanically, the initial upgrade gives you a bonus to notice and one extra capability. An additional stunt gives you two extra capabilities. You can treat these capabilities as aspects if you find that appropriate or they can just be game details.
 
-**Cybereyes 1**—+1 to Notice for sight based {{Overcome Obstacle}} and one extra capability. 
+**Cybereyes 1**—+1 to Notice for sight based {{overcome}} and one extra capability. 
 
 **Cybereyes 2**—Add two extra capabilities. For a total of 3.
 
@@ -194,7 +194,7 @@ Cybereyes and ears are fairly similar mechanically, the initial upgrade gives yo
 
 #### Ears [1,2¤] 
 
-**Cyberears 1**—+1 to Notice for hearing based {{Overcome Obstacle}} and one extra capability.
+**Cyberears 1**—+1 to Notice for hearing based {{overcome}} and one extra capability.
 
 **Cyberears 2**—Add two extra capabilities. For a total of 3.
 
@@ -228,41 +228,41 @@ Defensive upgrades also come in many kinds: sub dermal plates affixes to a chara
 
 Armor plates embedded over or under your skin. Either way they are not very subtle and project your profession to whoever sees or scans you.
 
-**Dermal Plating 1**—You get a {Ballistic Armor} aspect and you may choose to roll Physique to {{Defend}} against ballistic attacks.
+**Dermal Plating 1**—You get a {Ballistic Armor} aspect and you may choose to roll Physique to {{defend}} against ballistic attacks.
 
-**Dermal Plating 2**—As **Dermal Plating 1** and you get a +2 to {{Defend}} against ballistic attacks.
+**Dermal Plating 2**—As **Dermal Plating 1** and you get a +2 to {{defend}} against ballistic attacks.
 
-**Dermal Plating 3**—As **Dermal Plating 2** and you get a +4 to {{Defend}} against ballistic attacks.
+**Dermal Plating 3**—As **Dermal Plating 2** and you get a +4 to {{defend}} against ballistic attacks.
 
 ##### Thermal Insulation [1, 2¤]
 
 This might layers of heat dispersing material in a cyborg body, or advanced skin weaving
 
-**Thermal Insulation 1**—+2 to {{Defend}} against heat and fire and heat based effects.
+**Thermal Insulation 1**—+2 to {{defend}} against heat and fire and heat based effects.
 
-**Thermal Insulation 2**—+4 to {{Defend}} against heat and fire and heat based effects.
+**Thermal Insulation 2**—+4 to {{defend}} against heat and fire and heat based effects.
 
 ##### Induction Shielding [1, 2¤]
 
 These might be implanted dispersion nets, or simply hardened circuitry.
 
-**Induction Shielding 1**—+2 to {{Defend}} against electrical and EMP effects.
+**Induction Shielding 1**—+2 to {{defend}} against electrical and EMP effects.
 
-**Induction Shielding 2**—+4 to {{Defend}} against electrical and EMP effects.
+**Induction Shielding 2**—+4 to {{defend}} against electrical and EMP effects.
 
 ##### Sensor Defense [1, 2¤]
 
 These defenses create interference that makes it more difficult for electronic sensors to detect the character. It might be an active "noise" generating device, or it might be a cleverly engineered skin coating that baffles sensors.
 
-**Sensor Defense 1**—+2 to {{Defend}} against electronic sensor detection and guided weapons.
+**Sensor Defense 1**—+2 to {{defend}} against electronic sensor detection and guided weapons.
 
-**Sensor Defense 2**—+4 to {{Defend}} against electronic sensor detection and guided weapons.
+**Sensor Defense 2**—+4 to {{defend}} against electronic sensor detection and guided weapons.
 
 #### Implanted Weapons
 
 There's a truly startling number of implanted weapon scenarios. Poison gas false teeth, toe-grenades, razor sharp finger-scalpels, the tried and true cyberarm missile launcher for messy assassinations, or a simple bomb at the base of your brain for instant self-destruct.
 
-**Finger Razors [1¤]**—Small scalpel blades implanted beneath your fingernails remain hidden until you extend them with a thought. There are not terribly dangerous on their own, but they can surprise the unwary and be handy for incapacitating wrists, or blinding a target. +2 to {{Create Advantage}} with Fight when you can apply your razors.
+**Finger Razors [1¤]**—Small scalpel blades implanted beneath your fingernails remain hidden until you extend them with a thought. There are not terribly dangerous on their own, but they can surprise the unwary and be handy for incapacitating wrists, or blinding a target. +2 to {{create}} with Fight when you can apply your razors.
 
 **Concealed Weapon [1¤]**—You have a generic smart weapon concealed in a cyberlimb, forearms are a common choice, which you can reveal and fire with simply a thought. Your weapon gets +2 to resist being detected.
 
@@ -350,9 +350,9 @@ These advantages apply to most cyberbodies, but may not depending on its exact c
 
 There's a number of upgrades that are common amongst cyberbodies.
 
-**Combat Cyborg**—You have advanced filters against pain sensations and a body constructed for combat. Roll Physique to {{Defend}} against any attack.
+**Combat Cyborg**—You have advanced filters against pain sensations and a body constructed for combat. Roll Physique to {{defend}} against any attack.
 
-**Ballistic Armor**—You have obvious or concealed armor against small arms attacks. +2 to {{Defend}} against Ballistic attacks.
+**Ballistic Armor**—You have obvious or concealed armor against small arms attacks. +2 to {{defend}} against Ballistic attacks.
 
 **Solid Construction**—You're cyberbody is designed to resist more damage than most and remain fully operational. +1 Stress Box.
 
@@ -380,9 +380,9 @@ Whenever you use your weapon in an action you mark ammo whether your action succ
 
 If your opponent succeeds with style on a defend action against you, then can choose to trade their normal benefit to make you mark ammo.
 
-When you run out of ammo you can ditch that weapon or reload. Ditching your empty weapon and picking up another doesn't require an action unless there's some circumstance that could oppose you. Like you are {pinned down by fire}. In which case it will require an {{Overcome Obstacle}} with Shoot.
+When you run out of ammo you can ditch that weapon or reload. Ditching your empty weapon and picking up another doesn't require an action unless there's some circumstance that could oppose you. Like you are {pinned down by fire}. In which case it will require an {{overcome}} with Shoot.
 
-Reloading a weapon in a firefight does require an {{Overcome Obstacle}} action with Shoot. Free of any extenuating circumstances, reloading is a +0 difficulty.
+Reloading a weapon in a firefight does require an {{overcome}} action with Shoot. Free of any extenuating circumstances, reloading is a +0 difficulty.
 
 Weapons that are {Hard to Load} are trickier, their opposition to reload is +2.
 
@@ -400,13 +400,13 @@ The Nordic company Sifrid & Oast are purveyors of the finest in close quarters w
 
 {Well Designed and Constructed}, {Expensive}
 
-**Penetration**—+2 to {{Attack}} targets defending with armor or cover.
+**Penetration**—+2 to {{attack}} targets defending with armor or cover.
 
 **Swordbreaker**—If you parry with style against most close combat weapons you can trade your boost to inflict a {Weapon Destroyed} aspect on your foe.
 
 ##### Merrzin Pocket Stunner [1¤]
 
-A common personal defense weapon. Make an {{Overcome Obstacle}} to hit your target in a vulnerable spot then roll Stun vs. Physique to {{Attack}} or {{Create Advantage}} against them.
+A common personal defense weapon. Make an {{overcome}} to hit your target in a vulnerable spot then roll Stun vs. Physique to {{attack}} or {{create}} against them.
 
 Stun 4
 
@@ -428,13 +428,13 @@ Here's a number of aspects and stunts specifically for small arms. Some are rela
 
 Weapons with {Recoil} tend to make you lose your aim with every shot. Many aspects created with such a weapon are reduced to boosts. Aspects regarding careful aim are chief amongst the affected, but also, providing {Covering Fire}, {Setting up a Killzone}, and {Pinning Them Down} all turn into boosts.
 
-{Strong Recoil}​—Weapons with this aspect don't just suffer from recoil, they suffer from lots of recoil. Every shot with a {Strong Recoil} weapon requires you to give an opponent a boost against you are {Driven Back}, you become {Unbalanced}, or your {Arm Turns Numb}. If you succeed with style on an {{Attack}} you can trade a normal boost from that for not giving a foe a recoil based boost.
+{Strong Recoil}​—Weapons with this aspect don't just suffer from recoil, they suffer from lots of recoil. Every shot with a {Strong Recoil} weapon requires you to give an opponent a boost against you are {Driven Back}, you become {Unbalanced}, or your {Arm Turns Numb}. If you succeed with style on an {{attack}} you can trade a normal boost from that for not giving a foe a recoil based boost.
 
 {Strong Recoil} counts as two negative aspects.
 
 {Strong Recoil} can also apply to unenhanced humans using large weapons that are designed for cyborgs or vehicles.
 
-You can roll an {{Overcome Obstacle}} action to counteract recoil aspects. Cyborgs with a high Physique may be able to brace themselves it and crafty characters could jury-rig a weapon harness or some recoil compensation. {Strong Recoil} counts as two aspects so requires an {{Overcome Obstacle}} of at least +4.
+You can roll an {{overcome}} action to counteract recoil aspects. Cyborgs with a high Physique may be able to brace themselves it and crafty characters could jury-rig a weapon harness or some recoil compensation. {Strong Recoil} counts as two aspects so requires an {{overcome}} of at least +4.
 
 {Reduced Penetration}​—This aspect makes attacks less effective at penetrating armor and cover. Any bonuses from armor or cover related stunts or aspects get a +3 instead of a +2.
 
@@ -442,7 +442,7 @@ So, invoking a {Cover} aspect gives your target a +3 per invoke instead of a +2.
 
 {Hard to Load}​—Weapons that are {Hard to Load} increase the opposition to reload them by +2.
 
-{Limited Range}​—Defenders get a +1 to {{Defend}} for every zone they are distant from the attacker. This could be because the weapon is inaccurate or because it disperses quickly or loses its energy quickly.
+{Limited Range}​—Defenders get a +1 to {{defend}} for every zone they are distant from the attacker. This could be because the weapon is inaccurate or because it disperses quickly or loses its energy quickly.
 
 {Extra Capacity}​—+2 Ammo.
 
@@ -456,9 +456,9 @@ So, invoking a {Cover} aspect gives your target a +3 per invoke instead of a +2.
 
 {Penetration}​—+2 to A targets defending with cover or armor.
 
-**Accuracy**—+2 for {{Overcome Obstacle}} with Shoot where accuracy is important.
+**Accuracy**—+2 for {{overcome}} with Shoot where accuracy is important.
 
-**Scope**—+2 to {{Overcome Obstacle}} with Shoot when you can draw a bead on your target.
+**Scope**—+2 to {{overcome}} with Shoot when you can draw a bead on your target.
 
 ##### Generic Smartgun [0¤]
 
@@ -506,7 +506,7 @@ Shoot 3, Notice 3, Hardening 2
 
 Ammo ☐☐
 
-**High Powered Scope**—+2 to {{Overcome Obstacle}} with Shoot against slow or stationary targets.
+**High Powered Scope**—+2 to {{overcome}} with Shoot against slow or stationary targets.
 
 ##### Colt-Sauer Striking Hawk Light Combat Pistol [2¤]
 
@@ -520,7 +520,7 @@ Ammo ☐☐
 
 **FamilySafe™ Non-Target Recognition**—+2 to Notice for classifying targets for example, distinguishing friendly targets from foes.
 
-**Accuracy**—+2 for {{Overcome Obstacle}} with Shoot where accuracy is important.
+**Accuracy**—+2 for {{overcome}} with Shoot where accuracy is important.
 
 ##### Stauuer Autorifle [3¤]
 
@@ -598,7 +598,7 @@ This weapon fires a cloud of self-guided micro-missiles at a target up to 2 zone
 
 {Single Use}, {Illegal Military Weapon}
 
-**Micro Missiles 2**—+4 to {{Attack}} with a cloud of micro missiles.
+**Micro Missiles 2**—+4 to {{attack}} with a cloud of micro missiles.
 
 ##### Coava Mini Missile [3¤]
 
@@ -614,7 +614,7 @@ Explode 4, Move 4, Notice 4, Hardening 3
 
 The Jackard mortar is useful for disabling vehicles, communications, and all manner of electronic defenses; not to mention inducing electric current in the cyber implants of hapless soldiers. Be careful not to be too close to the area of effect yourself.
 
-Launching and activating the shell is easy enough to not require a roll, assuming you know some something about mortars. Once launched, roll the EMP skill against electronics in the target zone. You can roll it as an {{Overcome Obstacle}} if you are just trying to knockout the defenses of some area, as a C, or even as an attack against those with cyber implants. The shell is powerful enough to affect a large building.
+Launching and activating the shell is easy enough to not require a roll, assuming you know some something about mortars. Once launched, roll the EMP skill against electronics in the target zone. You can roll it as an {{overcome}} if you are just trying to knockout the defenses of some area, as a C, or even as an attack against those with cyber implants. The shell is powerful enough to affect a large building.
 
 {Single Use}, {Illegal Military Weapon}
 
@@ -678,34 +678,34 @@ Strong and flexible, not all that light, also requires continuous power to maint
 
 {Bulky}—This armor will affect your speed and mobility.
 
-**Ballistic Protection 1**—+2 to {{Defend}} against attacks from small and medium caliber firearms and shrapnel.
+**Ballistic Protection 1**—+2 to {{defend}} against attacks from small and medium caliber firearms and shrapnel.
 
-**Ballistic Protection 2**—+4 to {{Defend}} against attacks from small and medium caliber firearms and shrapnel.
+**Ballistic Protection 2**—+4 to {{defend}} against attacks from small and medium caliber firearms and shrapnel.
 
-**Close Quarters Protection 1**​—+2 to {{Defend}} against attacks from blades, clubs and other close quarters weapons.
+**Close Quarters Protection 1**​—+2 to {{defend}} against attacks from blades, clubs and other close quarters weapons.
 
-**Close Quarters Protection 2**​—+4 to {{Defend}} against attacks from blades, clubs and other close quarters weapons.
+**Close Quarters Protection 2**​—+4 to {{defend}} against attacks from blades, clubs and other close quarters weapons.
 
 <!-- stunt for defending against blunt attacks and explosives
 hardened armor that defends against penetrating attacks -->
 
-**Combat Protection 1**—+2 to {{Defend}} against explosives and medium to large caliber firearms.
+**Combat Protection 1**—+2 to {{defend}} against explosives and medium to large caliber firearms.
 
-**Combat Protection 2**—+4 to {{Defend}} against explosives and medium to large caliber firearms.
+**Combat Protection 2**—+4 to {{defend}} against explosives and medium to large caliber firearms.
 
-**Thermal Insulation 1**—+2 to {{Defend}} against heat and fire and heat effects.
+**Thermal Insulation 1**—+2 to {{defend}} against heat and fire and heat effects.
 
-**Thermal Insulation 2**—+4 to {{Defend}} against heat and fire and heat effects.
+**Thermal Insulation 2**—+4 to {{defend}} against heat and fire and heat effects.
 
-**Induction Shielding 1**—+2 to {{Defend}} against electrical and EMP effects.
+**Induction Shielding 1**—+2 to {{defend}} against electrical and EMP effects.
 
-**Induction Shielding 2**—+4 to {{Defend}} against electrical and EMP effects.
+**Induction Shielding 2**—+4 to {{defend}} against electrical and EMP effects.
 
-**Sensor Protection 1**—+2 to {{Defend}} against electronic sensor detection and guided weapons.
+**Sensor Protection 1**—+2 to {{defend}} against electronic sensor detection and guided weapons.
 
-**Sensor Protection 2**—+4 to {{Defend}} against electronic sensor detection and guided weapons.
+**Sensor Protection 2**—+4 to {{defend}} against electronic sensor detection and guided weapons.
 
-**Armor Expert**—You an expert at using your defenses to absorb attacks. If you have armor or cover you may roll Physique to {{Defend}} against most attacks, including uncommon types such as explosions.
+**Armor Expert**—You an expert at using your defenses to absorb attacks. If you have armor or cover you may roll Physique to {{defend}} against most attacks, including uncommon types such as explosions.
 
 #### Personal Armor
 
@@ -721,7 +721,7 @@ A vest containing plates of composite armor material to protect your vital areas
 
 {Partial Coverage}, {Composite Plates}, {Degrades}
 
-**Ballistic Protection 1**—+2 to {{Defend}} against attacks from small and medium caliber firearms, shrapnel, and most blades and blunt weapons.
+**Ballistic Protection 1**—+2 to {{defend}} against attacks from small and medium caliber firearms, shrapnel, and most blades and blunt weapons.
 
 <!-- todo - no generic gear -->
 
@@ -737,9 +737,9 @@ A favorite of operators everywhere. This armor is low profile composite plates d
 
 **Concealable**—You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
 
-**Ballistic Protection 1**—+2 to {{Defend}} against attacks from small and medium caliber firearms and shrapnel.
+**Ballistic Protection 1**—+2 to {{defend}} against attacks from small and medium caliber firearms and shrapnel.
 
-**Close Quarters Protection 1**​—+2 to {{Defend}} against attacks from blades, clubs and other close quarters weapons.
+**Close Quarters Protection 1**​—+2 to {{defend}} against attacks from blades, clubs and other close quarters weapons.
 
 ##### Mobeus Dragon Cloth™ [1, 2¤]
 
@@ -767,9 +767,9 @@ Flexible nanoscale armor is not usually used in combat situations, it's most com
 
 {Flexible Nanoscale}, {Very Expensive}
 
-**Protection 1**—+2 to {{Defend}} against blunt force, ripping, tearing, and slashing attacks.
+**Protection 1**—+2 to {{defend}} against blunt force, ripping, tearing, and slashing attacks.
 
-**Protection 2**—+4 to {{Defend}} against blunt force, ripping, tearing, and slashing attacks.
+**Protection 2**—+4 to {{defend}} against blunt force, ripping, tearing, and slashing attacks.
 
 <!-- todo - these are just generic armor materials. not actual gear -->
 ##### Nanofoam Armor
@@ -792,9 +792,9 @@ A full suit of advanced combat armor which can defend against all kinds of attac
 
 {{Combat Armor, Restricted Military, Expensive}}
 
-**Ballistic Protection 2**—+4 to {{Defend}} against small and medium caliber firearms, and shrapel.
+**Ballistic Protection 2**—+4 to {{defend}} against small and medium caliber firearms, and shrapel.
 
-**Close Combat Protection 2**—+4 to {{Defend}} against close quarters weapons.
+**Close Combat Protection 2**—+4 to {{defend}} against close quarters weapons.
 
 **Combat Protection 1**—+2 to defend against explosives, light weapons.
 
@@ -810,15 +810,15 @@ If ever you find yourself needing to lead an assault on a dirtside target from l
 
 Fly 4, Physique 4, Navigation 3, Hardening 4
 
-**Ballistic Protection 2**—+4 to {{Defend}} against A from small and medium caliber firearms, and shrapnel.
+**Ballistic Protection 2**—+4 to {{defend}} against A from small and medium caliber firearms, and shrapnel.
 
-**Close Combat Protection 2**​—+4 to {{Defend}} against close combat attacks.
+**Close Combat Protection 2**​—+4 to {{defend}} against close combat attacks.
 
 **Combat Protection 2**—+4 to defend against explosives, light weapons.
 
-**Energy Protection 1**​—+2 to {{Defend}} against energy weapons.
+**Energy Protection 1**​—+2 to {{defend}} against energy weapons.
 
-**Strong Armor**—You may Roll Physique to {{Defend}} against attacks. This means you can use the suit's Physique rating with bonuses from other stunts as well.
+**Strong Armor**—You may Roll Physique to {{defend}} against attacks. This means you can use the suit's Physique rating with bonuses from other stunts as well.
 
 **Toxin Scrubbers 1**—+2 to Defend against toxin attacks, especially airborne ones.
 
@@ -901,7 +901,7 @@ A new favorite in the security industry, the Shadow Dx is a stealth oriented vec
 
 Pilot 3, Shoot 3, Notice 3, Barrier 3, Hardening 3, Physique 3, Move 4, Stealth 2
 
-**Nose mounted MPD 50x Minigun on a swivel point**—+2 to {{Attack}} non-vehicle targets, or those not under hard cover.
+**Nose mounted MPD 50x Minigun on a swivel point**—+2 to {{attack}} non-vehicle targets, or those not under hard cover.
 
 **Thermoptic Camouflage**—Activate Thermoptic invisibility at will. Get, at most, one free invoke per scene.
 
@@ -1026,9 +1026,9 @@ Some gear, like explosives, missiles and grenades, has a skill which measures it
 
 For example, a Magma Carta Personal Explosives™ Hand Grenade has the skill Explode 4. When the grenade goes off, roll Explode to A everyone in the same zone.
 
-Using gear with an effect skill typically calls for the character to take an {{Overcome Obstacle}} action to activate the item. If that's successful the character can pass the initiative baton to the device and roll for its effect. If the {{Overcome Obstacle}} succeeds with style, the boost can be passed to the device.
+Using gear with an effect skill typically calls for the character to take an {{overcome}} action to activate the item. If that's successful the character can pass the initiative baton to the device and roll for its effect. If the {{overcome}} succeeds with style, the boost can be passed to the device.
 
-The effect skill is only relevant when the character is pressed for time or resources, as during a conflict. When such conditions don't exist the character can simply roll an {{Overcome Obstacle}} to use the gear or accomplish their goal with no roll required. For example, a doctor using anesthetics under normal circumstances would not roll at all. They would simply administer the correct amount.
+The effect skill is only relevant when the character is pressed for time or resources, as during a conflict. When such conditions don't exist the character can simply roll an {{overcome}} to use the gear or accomplish their goal with no roll required. For example, a doctor using anesthetics under normal circumstances would not roll at all. They would simply administer the correct amount.
 
 #### Sapience
 
@@ -1042,17 +1042,17 @@ Below is a partial list of gear skills.
 
 ##### Barrier
 
-A barrier is a program that controls who is allowed to interface with a smart device. Hackers must succeed in an {{Overcome Obstacle}} action against the barrier to gain access to the protected system.
+A barrier is a program that controls who is allowed to interface with a smart device. Hackers must succeed in an {{overcome}} action against the barrier to gain access to the protected system.
 
 ##### Drug
 
-Drugs have an effect skill to roll for {{Attack}} and {{Create Advantage}} actions against a target appropriate to the drug's class.
+Drugs have an effect skill to roll for {{attack}} and {{create}} actions against a target appropriate to the drug's class.
 
 Rename this skill according to the class of the drug. Soporific drugs put people to sleep. Analgesics kill pain. Anxiogenics induce anxiety, Hallucinogens induces hallucinations and erratic perceptions. Spasmolytic drugs relax a target's muscles and can make it very difficult for them to move or fight.
 
 ##### Explode
 
-A common effect skill for explosive devices. Roll it for {{Attack}} and {{Create Advantage}} actions related to blowing shit up.
+A common effect skill for explosive devices. Roll it for {{attack}} and {{create}} actions related to blowing shit up.
 
 ##### Friend
 
@@ -1094,11 +1094,11 @@ Most devices can't dodge to avoid attacks, but they can defend against damage us
 
 ##### Toxin
 
-Toxins such as poisons and venoms have a specific effect skill they use for {{Attack}} and {{Create Advantage}} actions.
+Toxins such as poisons and venoms have a specific effect skill they use for {{attack}} and {{create}} actions.
 
 ##### Potency?
 
-This is a skill a drug or poison can use to {{Defend}} itself against {{Attack}} and {{Create Advantage}} actions that are intended to counter its effects or remove it from the target's system.
+This is a skill a drug or poison can use to {{defend}} itself against {{attack}} and {{create}} actions that are intended to counter its effects or remove it from the target's system.
 
 ##### Pilot
 
