@@ -192,7 +192,7 @@ Cybereyes and ears are fairly similar mechanically, the initial upgrade gives yo
 - **Nightvision**—These cybereyes amplify existing light. You can see normally even in very low light, but not complete darkness. You may also experience overload when the compensators are unable to deal with a sudden bright light.
 - **Telescopic**—Take a much closer look at something interesting. Trade your peripheral vision for it though so be careful.
 
-#### Ears [1,2¤] 
+#### Ears [1, 2¤] 
 
 **Cyberears 1**—+1 to Notice for hearing based {{overcome}} and one extra capability.
 
@@ -308,7 +308,7 @@ A cyberbody doesn't require any stunt slots, but does require an aspect indicati
 
 #### Basic Cybernetic Body
 
-You can have a basic cybernetic body simply by writing it into one of your aspects. Examples: {{Medical Prosthetic Body, Crazed Combat Cyborg, Prototype Aria Cyberbody, or Heavy Construction Cyborg, Deep Water Spider Body, Gev-Tallen Designer Cyberbody}}
+You can have a basic cybernetic body simply by writing it into one of your aspects. Examples: {Medical Prosthetic Body}, {Crazed Combat Cyborg}, {Prototype Aria Cyberbody}, or {Heavy Construction Cyborg}, {Deep Water Spider Body}, {Gev-Tallen Designer Cyberbody}
 
 A basic cyberbody will look and operate more or less like a normal human one. Some bodies are human looking but fall into the Uncanny Valley and give most people the creeps, lots of designer bodies are flawlessly beautiful fantasies come true, but cyberbodies can be designed for all manner of purposes. Some are humanoid but gigantic, metallic and ugly, designed with practicality for heavy dangerous construction work, or they can be completely inhuman robot bodies, like the many legged spider bodies that are used for construction and repair in space and underwater.
 
