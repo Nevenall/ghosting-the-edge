@@ -485,13 +485,13 @@ Once you know the outcome of the montage, you can narrate the highlights of the 
 
 The opposition for a hacking montage is generally the highest barrier or hardening rating out of all the nodes being hacked. You can crack through multiple barrier programs in a single montage.
 
-The system can present active opposition as appropriate, and many will. If there are noteworthy defenses beyond just the barrier program, give the system an aspect for those and bump up the opposition. **Black IC**, or **Hackers Watching Everything** for example.
+The system can present active opposition as appropriate, and many will. If there are noteworthy defenses beyond just the barrier program, give the system an aspect for those and bump up the opposition. {Black IC}, or {Hackers Watching Everything} for example.
 
 ##### Succeeding At a Cost
 
 You can use the {{{succeed at a cost}}} concept from {{overcome}} actions when someone fails a hacking montage, even if they're trying to {{attack}}.
 
-The cost to succeed can be based on the qualities of the system you're hacking. For example, most serious secure nets have **Black IC** which can inflict stress as a cost. One or two for a minor cost, and perhaps even a major consequence for a major cost.
+The cost to succeed can be based on the qualities of the system you're hacking. For example, most serious secure nets have {Black IC} which can inflict stress as a cost. One or two for a minor cost, and perhaps even a major consequence for a major cost.
 
 ###### Example Costs
 
@@ -519,12 +519,16 @@ For one opposed action in cyberspace:
 
 You can move around the zones of a locale using your Move skill if you're following the rules, or your Hack skill if you are not. Moving by Hack gives you a distinct advantage because you can ignore the programmed rules of movement and do things like teleport, or move through walls.
 
-Wherever you are in a system, the transfer menu is always available and if you want to get into a node or locale protected by a barrier you can roll to crack it and move to that entity. {should locale and node really become one term. A system is just a fractal network of nodes, and so is a construct or a program. It's just another fractal network of nodes and links. }
+Wherever you are in a system, the transfer menu is always available and if you want to get into a node or locale protected by a barrier you can roll to crack it and move to that entity. 
+
+<!-- {should locale and node really become one term. A system is just a fractal network of nodes, and so is a construct or a program. It's just another fractal network of nodes and links. } -->
 
 ##### Stress
 
 Hackers, programs, systems, these things all have stress tracks.
 
-Programs get unraveled as they take stress and if they are important enough to have consequences, those will represent various bugs and malfunctions that take away parts of the programs function. This might be **Lost Chunks of Data**, or **Broken Voice Feature**. Programs that are taken out are completely at your mercy. You can delete the program, or capture it and rewrite it to be loyal to you.
+Programs get unraveled as they take stress and if they are important enough to have consequences, those will represent various bugs and malfunctions that take away parts of the programs function. This might be {Lost Chunks of Data}, or {Broken Voice Feature}. Programs that are taken out are completely at your mercy. You can delete the program, or capture it and rewrite it to be loyal to you.
 
-Systems have stress as well, and larger corp system can take significant amounts, but, as with programs, taking out an entire system can crash it, and everything in it, irrevocably, or it could mean you get to take over the entire system. {this is essencially what Case was doing with the Chinese ICE breaker. A huge attack on the TA core system so that it could be taken over.}
+Systems have stress as well, and larger corp system can take significant amounts, but, as with programs, taking out an entire system can crash it, and everything in it, irrevocably, or it could mean you get to take over the entire system.
+
+ <!-- {this is essencially what Case was doing with the Chinese ICE breaker. A huge attack on the TA core system so that it could be taken over.} -->

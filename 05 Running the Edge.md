@@ -8,17 +8,23 @@ If you want to take your game to a higher level of enhancement, you can expand t
 
 You can modify the initial gear budget as well.
 
-Make it 3x resources, or give the players a sponsor budget to use for their corp resources.
+Make it 3×Resources, or give the players a sponsor budget to use for their corp resources.
 
-Or, for characters down on their luck, maybe they only have 1x their resources, or less as a gear budget.
+Or, for characters down on their luck, maybe they only have 1×Resources, or less as a gear budget.
+
+<!-- sponsorship is clearly the most interesting one here -->
 
 ## Background
 
-This section contains setting details that are assumed to be true. It's not at all necessary for you to know them or use them, but players and GMs can take them as common knowledge for educated characters. Nothing here is secret, but there's no guarantee that these details are all true, or are the whole story, they are only assumed to be true. {I'm going to move this after character stuff. Because it's background stuff. So, the game creation stuff can stay though because game creation and character creation go very much hand in hand.}
+This section contains setting details that are assumed to be true. It's not at all necessary for you to know them or use them, but players and GMs can take them as common knowledge for educated characters. Nothing here is secret, but there's no guarantee that these details are all true, or are the whole story, they are only assumed to be true. 
+
+<!-- {I'm going to move this after character stuff. Because it's background stuff. So, the game creation stuff can stay though because game creation and character creation go very much hand in hand.} -->
 
 ### Tech
 
-{value: Way back everyone was scared cloning would confuse the value of human life but, it was the neuroscientists they really should have been worried about.}
+::: sidebar left
+Way back everyone was scared cloning would confuse the value of human life but, it was the neuroscientists they really should have been worried about.
+:::
 
 #### Your Mind Laid Bare
 
@@ -28,9 +34,9 @@ This one advancement spawned three main branches of tech: artificial intelligenc
 
 #### You are Interfaced
 
-{value: "Interface technology has radically altered the way we interact with machines and each other." Alternately to that. "Interface technology lets us hack nets with our minds, share our thoughts, simulate entire worlds right down to physical sensation, and infect someone's brain with a computer virus." Or, something more metagamey about the game role of the interface. }
+ <!-- "Interface technology has radically altered the way we interact with machines and each other." Alternately to that. "Interface technology lets us hack nets with our minds, share our thoughts, simulate entire worlds right down to physical sensation, and infect someone's brain with a computer virus."  -->
 
-{I've established the value prop for interface tech so now we do a quick run down of what you can do with it, what it makes possible. Maybe imply ways that it affects society. }
+<!-- I've established the value prop for interface tech so now we do a quick run down of what you can do with it, what it makes possible. Maybe imply ways that it affects society. -->
 
 We can sniff your sensory centers and record everything you experience. And we can feed external data into your brain so you can plug a machine right into your brain and it will talk to you so only you can hear and show you things only you can see. You can project your consciousness into a machine, or the Net, or a fantasy world. You can control machines with your mind, and even share your thoughts and memories with other people.
 
@@ -48,13 +54,15 @@ The modern interface implant is a vast network of nano-wires connected to the se
 
 That's the implant part; the interface itself is a small computer that locks into your socket and knows how to translate between brain-speak and machine-speak.
 
-Socket implants let you swap out one interface for another without needing to redo all your expensive brain wiring every time. That's the idea anyway, but interfaces are made by Corps and Corps will lock you into coming back to them anytime they can, so most interfaces are only compatible with sockets from the same Corp. There's always third-party adapters, but you've heard all kinds of horror stories about those. *After all, an interface is a thing that can literally mess with your mind.* {proposed blockquote}{pay off that statement. What are the stories? Callout?}
+Socket implants let you swap out one interface for another without needing to redo all your expensive brain wiring every time. That's the idea anyway, but interfaces are made by Corps and Corps will lock you into coming back to them anytime they can, so most interfaces are only compatible with sockets from the same Corp. There's always third-party adapters, but you've heard all kinds of horror stories about those. *After all, an interface is a thing that can literally mess with your mind.*
+
+ <!-- {proposed blockquote}{pay off that statement. What are the stories? Callout?} -->
 
 There will still be times when you need to have wiring work done because neuron growth moves the wires around or the next generation of implant tech has hit the market and the new features require new wiring.
 
 ##### The Interface
 
-The interface itself is a small computer that seats into your implant socket. Most models are about 5 cm high, 5 cm wide, and 2 cm thick; but many are even smaller. They don't need external controls because A properly working interface device will project it's UI into directly into your brain.
+The interface itself is a small computer that seats into your implant socket. Most models are about 5cm high, 5cm wide, and 2cm thick; but many are even smaller. They don't need external controls because A properly working interface device will project it's UI into directly into your brain.
 
 Models from previous generations of interface tech do have indicator lights for error states because they were designed for implants that were bare sockets and lacked the onboard intelligence to tell you the state of your interface/implant connection.
 
@@ -82,7 +90,9 @@ You can go dark by disabling your wireless radio, GPS, and other sensors to prev
 
 Every interface is imprinted with a unique identifier and personal data it will present to any system you interface with. You never need keys because your apartment, your office, your car, and any other system can be told to recognize (and record) your unique interface signal and open for your automatically, or report your attempt to enter an unauthorized area.
 
-Interface ids can be spoofed to fool systems into thinking you are someone else. There's a thriving black market for unlocked interfaces that allow you to present a fake or stolen identity. *Getting your first unlocked interface is like getting your hacker diploma.* {should make that sentence, or something like it, a block quote. }
+Interface ids can be spoofed to fool systems into thinking you are someone else. There's a thriving black market for unlocked interfaces that allow you to present a fake or stolen identity. *Getting your first unlocked interface is like getting your hacker diploma.* 
+
+<!-- {should make that sentence, or something like it, a block quote. } -->
 
 Secure physical locations add security to your interface identity by requiring you to present a biometric like a fingerprint or retinal scan.
 
@@ -106,7 +116,7 @@ Anything you can imagine can be overlain into your field of vision through an in
 
 Augmented reality is by far the most common manner of interacting with devices, nets, and even the Net. Total immersion interfacing is more of a special occasion reserved for visiting interesting constructs or for dramatic narratives in senima.
 
-{more then just vision? What about information from other kinds of neural devices…What's it like to use AR to move through nets and interact with the Net? What does it feel and look like. }
+<!-- {more then just vision? What about information from other kinds of neural devices…What's it like to use AR to move through nets and interact with the Net? What does it feel and look like. } -->
 
 #### nets
 
@@ -114,7 +124,7 @@ Short for networks; nets with a little 'n' exist anywhere two devices share info
 
 Take that big black corp headquarters building down in the core for example. It's got a densely layered system of nets. There's the public net for visitors with every interface and smartdevice in range connected to it. Usually with some cheesy AR persona welcoming you and offering to "guide you through your first visit to our…" blah blah blah… Then there's the private net for employees with all their interfaces and smartdevices, plus employee workstations and business machines connected to the big servers that run the operations and store data. Layer on to that, all the systems that operate the building's physical features: doors, security, fire prevention, and climate control. And on top of that, connect this building to the corp's larger global net which reaches into every other corp facility and employee there is.
 
-{we can expand on this from the hacking section too. Anything else that we'd like to know? What they look like through an interface. Focus on how net interface is built from AR}
+<!-- {we can expand on this from the hacking section too. Anything else that we'd like to know? What they look like through an interface. Focus on how net interface is built from AR} -->
 
 #### Sensorium
 
@@ -122,11 +132,13 @@ Sensorium is the entirety of your sense input. Every bit of sensory data that re
 
 Edited sensorium recordings, and completely synthetic ones, called senima or sen-cin (for sense cinema) are produced for public entertainment. Purists make noise about the superior depth and subtly of unedited sensorium.
 
-{there are extra sections that we can talk about here. Thoughts and memories. Transference/transmission of memories. Or do we leave that for the cybernetic body section.}
+<!-- {there are extra sections that we can talk about here. Thoughts and memories. Transference/transmission of memories. Or do we leave that for the cybernetic body section.} -->
 
-##### {callout} Thoughts and Memories
+:::callout left
+##### Thoughts and Memories
 
 Do sensorium recordings include thoughts and even recalled memories? And if they do are they routinely edited out for commercial products, and what if someone didn't? This is a question for you to answer for your own game.
+:::
 
 #### Constructs (AKA: Virtual Realities)
 
@@ -136,15 +148,15 @@ Interface with nets is mostly a visual experience. Senima gives you all the sens
 
 You might wonder how much bandwidth is required to send a completely detailed virtual environment into your brain but, it's less than you'd expect. The brain is a machine that's perfected its ability to take confusing and incomplete sensory input, filter it, fill in the gaps, and knit it all together to a sensorium that seems complete and consistent to you. A lot of the power of VR is based on exploiting the brain's ability to interpolate. You can create a VR with missing bits and details and let the brains of the users fill them in.
 
-##### Virutal Horizons – What Can You do in A Construct
+##### Virutal Horizons​—What Can You do in A Construct
 
 The default is that you can do whatever want, but construct programmers will often restrict or use negative feedback to prevent some behaviors. Many public constructs are continuously monitored and policing is as easy as running a program.
 
-#### Everything is Interfaced - The Global Network 
+#### Everything is Interfaced​—The Global Network 
 
 There is the vast web upon web of nets with a little n but then there is The Net with a capital N. Really, The Net is a diverse set of infrastructure which weaves nearly every little net in the world into a single global tapestry of connections.
 
-{art: doomers tree of life.}
+
 
 ##### Persistently Connected
 
