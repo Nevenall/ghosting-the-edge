@@ -156,17 +156,13 @@ The default is that you can do whatever want, but construct programmers will oft
 
 There is the vast web upon web of nets with a little n but then there is The Net with a capital N. Really, The Net is a diverse set of infrastructure which weaves nearly every little net in the world into a single global tapestry of connections.
 
-
-
 ##### Persistently Connected
 
 The Net makes your personalized data and services accessible to you whenever and wherever you want them through a wireless interface. You can check the internal temperature of your apartment while skiing the slopes of a private enclave.
 
-The
-
 A The Net is more than a virtual shadow of the real world, it's more like billions of worlds all interconnected in a web as vast as the night sky.
 
-{What is it like? Using nets and the Net? }
+<!-- {What is it like? Using nets and the Net? } -->
 
 #### Your Mind Networked
 
@@ -186,7 +182,7 @@ Death doesn't scare us all that much anymore, at least not the "us" that matters
 
 ##### Cyberware and Bioware
 
-{this is a section about the state of other augmentations? Do we really need it? Maybe it's assumed. But then again. Maybe we want to explicitly call it out so we know this is a cyberpunk setting}
+<!-- {this is a section about the state of other augmentations? Do we really need it? Maybe it's assumed. But then again. Maybe we want to explicitly call it out so we know this is a cyberpunk setting} -->
 
 #### Artificial Intelligence 
 
@@ -262,13 +258,15 @@ The sad thing is almost no one noticed when the last congress was gaveled out of
 
 Public interest went bankrupt, the debts were paid out to big corporate lenders, and finally, the global market is free of its shackles.
 
-{callout} No Government
+:::sidebar left
+##### No Government
 
 The default background of Ghosting the Edge assumes the United States government no longer at all. Other places in the world might have some functioning governments but if they have anything valuable they will likely face extreme pressure from corporate powers.
 
 There's no explicit reason given for the demise of the United States, but it's implied that it was marginalized by ever increase corporate power.
 
 There's lots of other possibilities: Could be the USA still exists but only as a puppet government. Could be that it fragmented into various smaller countries.
+:::
 
 ##### Neo Fudalism
 
@@ -278,7 +276,9 @@ Of course, if you can't or won't produce value for a corporate master, then you 
 
 There are some few families who divide corporate shareholdship amongst themselves. They form our modern nobility. They decide who will be the executives, and if those executives don't serve well, they will be replaced. Sometimes these families will pull from the second children of their own ranks for executives, but not too commonly.
 
-{callout} The vast majority of people are serfs who work to produce at a low cost and consume at a high cost to generate wealth for the vassals who own corporations, which are the structures of wealth creation. However, there are entire marginalized groups who aren't let in on even serfdom because the work is not simple like farming, it's technical. – {some historian, who obviously never met a farmer}
+::: quote right some historian who obviously never met a farmer
+The vast majority of people are serfs who work to produce at a low cost and consume at a high cost to generate wealth for the vassals who own corporations, which are the structures of wealth creation. However, there are entire marginalized groups who aren't let in on even serfdom because the work is not simple like farming, it's technical.
+:::
 
 ##### Crime and Justice
 
@@ -346,6 +346,8 @@ Restaurants here are trendy, and the shopping exclusive. The services are exquis
 
 ##### The District
 
+<!-- this is a pretty important section for the setting -->
+
 The entirety of what was once the state of New Jersey was going to solve the problem of all those people the corp world couldn't find a use for. All those without the technical skills or the capital to afford an interface implant. All those people, who didn't want to have anything to with corp world. The criminals, the poor, the rebels, and the "alternative." Everyone was going to have a place in the new self-sustaining enclave called the district.
 
 It was going to be a beautiful blend of farm and city, powered by the most advanced wireless power grid technology. Or course, it didn't turn out exactly like that. Many historians believe it was trying the build the district that caused the bankruptcy of the federal government.
@@ -358,9 +360,11 @@ The district can be many things to your game. It can be an urban wasteland ruled
 
 You can find all kinds of crazy stuff in the District, there's even rumors that there's a snyth-concrete cathedral constructed by nano-bots.
 
-{statblock?} **Abandoned Self-Sustaining Urban Enclave, No Law but What You Can Make For Yourself**
+{Abandoned Self-Sustaining Urban Enclave}, {No Law but What You Can Make For Yourself}
 
-{callout}The Dis? The Dis is a ruin no one can abandon. The last gasp of a government losing its grip. They wanted to turn what was left of New Jersey and the new eastern seaboard into a modern enclave, safe, clean, efficient, and self-sustaining. Really, it was a dumping ground for those who couldn't, or wouldn't, participate in the new global culture. The undereducated and the misfits. Reality, it was the biggest projects ever created. Well, attempted anyway. No police, nothing official in the Dis, just the law of the street. Its urban decay, poverty, crime, black market, and freedom from corp influence. It's where you go for shady biz, or to hide, and it's where you end up when you can't make it anywhere else. The corps use it too, for them it's dumping ground and proving ground and a place for their darkest deals and nastiest ops.
+::: quote right attribution
+The Dis? The Dis is a ruin no one can abandon. The last gasp of a government losing its grip. They wanted to turn what was left of New Jersey and the new eastern seaboard into a modern enclave, safe, clean, efficient, and self-sustaining. Really, it was a dumping ground for those who couldn't, or wouldn't, participate in the new global culture. The undereducated and the misfits. Reality, it was the biggest projects ever created. Well, attempted anyway. No police, nothing official in the Dis, just the law of the street. Its urban decay, poverty, crime, black market, and freedom from corp influence. It's where you go for shady biz, or to hide, and it's where you end up when you can't make it anywhere else. The corps use it too, for them it's dumping ground and proving ground and a place for their darkest deals and nastiest ops.
+:::
 
 But it's also a place you can go to be free and people have made their own little community in there. Communities that police themselves and grow their own food and look after themselves and look out for strangers and hangers. It's a bit like a Wild West frontier right here in the heart of the sprawl.
 
@@ -376,7 +380,7 @@ Most powerful executives usually maintain a private residence as well. Usually i
 
 Situated underwater, this ostentatious resort city is a classic playground enclave for the rich and powerful.
 
-##### Factoryland ({translation?})
+##### Factoryland (工厂用地)
 
 There's this rumor about this entire province in China that's nothing but automated factories and cargo drones flying in raw materials in and flying finished product out. There's not a human in the place, even security and repairs are handled by remote drones.
 
@@ -392,11 +396,16 @@ Why not live in space? It's amazing and if you have a cyberbody, you don't need 
 
 One of the original poser gangs.
 
-{callout} Kinds of Gangs
+::: callout left 
+###### Types of Gangs
 
-Poser gangs – definition
+Poser gangs
+~ definition
 
-Biker gangs – definition
+Biker gangs
+~ definition
+:::
+
 
 ##### The Order of Hob
 
@@ -423,209 +432,112 @@ ka, Phr33k, Piffle, Prince, Prop, Ren, Ry, Ryu, Sable, Samzel, Shara, Shift, Sio
 
 Cyberpunk's a lot about personal style. You can use this list to give a character unique and recognizable traits.
 
+::: callout left
 #### 100 NPC Drives
 
-100 Drives is taken, with some cyberpunk hacks, from Dungeon World by Sage LaTorra & Adam Koebel under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/)
-
-1\. To avenge
-
-2\. To spread the good word
-
-3\. To reunite with a loved one
-
-4\. To make money
-
-5\. To make amends
-
-6\. To explore the Net
-
-7\. To uncover a hidden truth
-
-8\. To locate a lost thing
-
-9\. To kill a hated foe
-
-10\. To restore democracy
-
-11\. To cure an illness
-
-12\. To design a masterwork
-
-13\. To survive just one more day
-
-14\. To earn affection
-
-15\. To prove a point
-
-16\. To be smarter, faster and stronger
-
-17\. To heal an old wound
-
-18\. To start a corporation
-
-19\. To hide from a shameful fact
-
-20\. To evangelize
-
-21\. To spread suffering
-
-22\. To prove worth
-
-23\. To rise in status
-
-24\. To be praised
-
-25\. To discover the truth
-
-26\. To make good on a bet
-
-27\. To get out of an obligation
-
-28\. To convince someone to do their dirty work
-
-29\. To steal something valuable
-
-30\. To overcome a bad habit
-
-31\. To commit an atrocity
-
-32\. To earn renown
-
-33\. To accumulate power
-
-34\. To transcend the physical body
-
-35\. To teach
-
-36\. To settle down
-
-37\. To get just one more score
-
-38\. To destroy a corporation
-
-39\. To discover
-
-40\. To devour
-
-41\. To restore the family name
-
-42\. To live a quiet life
-
-43\. To help others
-
-44\. To atone
-
-45\. To prove their worth
-
-46\. To gain honor
-
-47\. To become CEO
-
-48\. To move to a secure Enclave
-
-49\. To retreat from society
-
-50\. To escape
-
-51\. To party
-
-52\. To return home
-
-53\. To serve
-
-54\. To reclaim what was taken
-
-55\. To do what must be done
-
-56\. To be a champion
-
-57\. To avoid notice
-
-58\. To help a family member
-
-59\. To perfect a skill
-
-60\. To travel
-
-61\. To overcome a disadvantage
-
-62\. To play the game
-
-63\. To establish a dynasty
-
-64\. To build a community
-
-65\. To retire
-
-66\. To recover a lost memory
-
-67\. To battle
-
-68\. To become a terror to criminals
-
-69\. To give birth to an AI
-
-70\. To live up to expectations
-
-71\. To become someone else
-
-72\. To do what can't be done
-
-73\. To score a corp job
-
-74\. To be forgotten
-
-75\. To find true love
-
-76\. To lose their mind
-
-77\. To indulge
-
-78\. To make the best of it
-
-79\. To find the one
-
-80\. To reveal an unwelcome secret
-
-81\. To show them all
-
-82\. To get lost in the Net
-
-83\. To fly
-
-84\. To find the six-fingered man
-
-85\. To unify human consciousness
-
-86\. To entertain
-
-87\. To follow an order
-
-88\. To die gloriously
-
-89\. To be careful
-
-90\. To show kindness
-
-91\. To not screw it all up
-
-92\. To uncover the past
-
-93\. To go where no man has gone before
-
-94\. To do good
-
-95\. To become a beast
-
-96\. To spill blood
-
-97\. To live forever
-
-98\. To hunt the most dangerous game
-
-99\. To hate
-
-100\. To run away
+100 Drives is taken, with some cyberpunk liberties, from Dungeon World by Sage LaTorra & Adam Koebel under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/)
+
+1. To avenge
+2. To spread the good word
+3. To reunite with a loved one
+4. To make money
+5. To make amends
+6. To explore the Net
+7. To uncover a hidden truth
+8. To locate a lost thing
+9. To kill a hated foe
+10. To restore democracy
+11. To cure an illness
+12. To design a masterwork
+13. To survive just one more day
+14. To earn affection
+15. To prove a point
+16. To be smarter, faster and stronger
+17. To heal an old wound
+18. To start a corporation
+19. To hide from a shameful fact
+20. To evangelize
+21. To spread suffering
+22. To prove worth
+23. To rise in status
+24. To be praised
+25. To discover the truth
+26. To make good on a bet
+27. To get out of an obligation
+28. To convince someone to do their dirty work
+29. To steal something valuable
+30. To overcome a bad habit
+31. To commit an atrocity
+32. To earn renown
+33. To accumulate power
+34. To transcend the physical body
+35. To teach
+36. To settle down
+37. To get just one more score
+38. To destroy a corporation
+39. To discover
+40. To devour
+41. To restore the family name
+42. To live a quiet life
+43. To help others
+44. To atone
+45. To prove their worth
+46. To gain honor
+47. To become CEO
+48. To move to a secure Enclave
+49. To retreat from society
+50. To escape
+51. To party
+52. To return home
+53. To serve
+54. To reclaim what was taken
+55. To do what must be done
+56. To be a champion
+57. To avoid notice
+58. To help a family member
+59. To perfect a skill
+60. To travel
+61. To overcome a disadvantage
+62. To play the game
+63. To establish a dynasty
+64. To build a community
+65. To retire
+66. To recover a lost memory
+67. To battle
+68. To become a terror to criminals
+69. To give birth to an AI
+70. To live up to expectations
+71. To become someone else
+72. To do what can't be done
+73. To score a corp job
+74. To be forgotten
+75. To find true love
+76. To lose their mind
+77. To indulge
+78. To make the best of it
+79. To find the one
+80. To reveal an unwelcome secret
+81. To show them all
+82. To get lost in the Net
+83. To fly
+84. To find the six-fingered man
+85. To unify human consciousness
+86. To entertain
+87. To follow an order
+88. To die gloriously
+89. To be careful
+90. To show kindness
+91. To not screw it all up
+92. To uncover the past
+93. To go where no man has gone before
+94. To do good
+95. To become a beast
+96. To spill blood
+97. To live forever
+98. To hunt the most dangerous game
+99. To hate
+100. To run away
+:::
 
 #### Templates
 
@@ -805,7 +717,7 @@ You are the master of all forms of stealing.
 
 ###### Peak Skills
 
-Sneak, Steal, Tech {}
+Sneak, Steal, Tech
 
 ###### Tech
 
@@ -901,17 +813,17 @@ Location has a prominent place in shaping a cyberpunk atmosphere.
 
 Here are some guidelines for GMs on quickly creating interesting locations for your game. They are presented as facets of a location for you to think about and most of them can be expressed through aspects on the location.
 
-{We could say, make a build system like DW steadings, or better yet monsters. Start with some templates, answer some questions and add aspects and skills, based on those maybe write a stunt or two. But…that would be like an great stretch goal or expansion kind of thing. I think a little geneal advice is good enough. Maybe even too much.
+<!-- {We could say, make a build system like DW steadings, or better yet monsters. Start with some templates, answer some questions and add aspects and skills, based on those maybe write a stunt or two. But…that would be like an great stretch goal or expansion kind of thing. I think a little geneal advice is good enough. Maybe even too much.
 
-I kinda feel like I should pay off some of the stuff from the world section by having specific location stats. Maybe I should include a few as examples. Like a corp headquarters statblock that forms a good example for building other corp building from. I feel like I'm just talking. Why would anyone want to read this? It's kind of the Steve long problem. Lots of words and general stuff, but that's not all that useful. It's more like an essay on cyberpunk then it is a setting or a game or a supliement, but that's part of the goal. To inspire more then give you a concrete setting. Maybe that's not a terrible thing. Its true to my original objective, and I don't know that I want to start second guissing my intent at this point. But, how useful is it? There's not all that much unspecific stuff. Just this location section and the theme section. Which is fine really, that might even be a nice mix of concrete and expository content. }
+I kinda feel like I should pay off some of the stuff from the world section by having specific location stats. Maybe I should include a few as examples. Like a corp headquarters statblock that forms a good example for building other corp building from. I feel like I'm just talking. Why would anyone want to read this? It's kind of the Steve long problem. Lots of words and general stuff, but that's not all that useful. It's more like an essay on cyberpunk then it is a setting or a game or a supliement, but that's part of the goal. To inspire more then give you a concrete setting. Maybe that's not a terrible thing. Its true to my original objective, and I don't know that I want to start second guissing my intent at this point. But, how useful is it? There's not all that much unspecific stuff. Just this location section and the theme section. Which is fine really, that might even be a nice mix of concrete and expository content. } -->
 
 #### Inequity 
 
-If you decide nothing else about a location, you should place it on one or the other extreme in terms of wealth. Wherever your characters go, there is either **urban decay** and **neglected infrastructure** or **pretentious exclusivity** and **constant monitoring and security**. You might occasionally find an area where people cast out of the corporate monoculture have **repurposed abandoned urban habitat**, but those are rare oases of humanity in a wasteland of **lawless ruins** and **soulless corporate enclaves**.
+If you decide nothing else about a location, you should place it on one or the other extreme in terms of wealth. Wherever your characters go, there is either {urban decay} and {neglected infrastructure} or {pretentious exclusivity} and {constant monitoring and security}. You might occasionally find an area where people cast out of the corporate monoculture have {repurposed abandoned urban habitat}, but those are rare oases of humanity in a wasteland of {lawless ruins} and {soulless corporate enclaves**.
 
 #### Age
 
-Is the place **so new the bugs aren't worked out** or is it an old repurposed building that **should be condemned**.
+Is the place {so new the bugs aren't worked out} or is it an old repurposed building that {should be condemned}.
 
 #### Purpose
 
@@ -945,7 +857,8 @@ Just about everything is a division or shell corporation or something larger. Wh
 
 ## Appendix 0
 
-A section of optional rules you may find interesting. {these may well become callouts in other parts of the manuscript.}
+A section of optional rules you may find interesting.
+ <!-- {these may well become callouts in other parts of the manuscript.} -->
 
 ### Sponsor Standing
 
@@ -955,7 +868,7 @@ If a character enjoys the benefits of a sponsor, consider making their standing 
 
 If you want characters to feel how sharp the edge can be show them the cost of not maintaining and upgrading their tech.
 
-Between scenarios every character gets a negative aspect attached to one of their upgrades. It might be **Obsolete Wired Reflexes** because someone invented a way to make them faster and you can bet all the potential adversaries out there won't waste any time getting the new wiring. Or, it can be a maintenance related aspect such as **Sticky Cyberarm Articulator**, which is sure to lockup at the most inconvenient time if it goes unaddressed.
+Between scenarios every character gets a negative aspect attached to one of their upgrades. It might be {Obsolete Wired Reflexes} because someone invented a way to make them faster and you can bet all the potential adversaries out there won't waste any time getting the new wiring. Or, it can be a maintenance related aspect such as {Sticky Cyberarm Articulator}, which is sure to lockup at the most inconvenient time if it goes unaddressed.
 
-Characters who don't want to start getting outclassed by every ganger they throw down on will take the time to make an O with Resources or Tech to remove these aspects.
+Characters who don't want to start getting outclassed by every ganger they throw down on will take the time to make an {{overcome}} with Resources or Tech to remove these aspects.
 
