@@ -15,7 +15,7 @@ The Boosted Reflexes upgrade mentions that you can do something called steal the
 
 #### Initiative Relay and Gear with Effect Skills
 
-Gear with effect skills such as grenades and drugs rely on your O action for effective deliver but afterwards can act on their own. When you activate devices like this insert them into the pool of characters who have not acted. You may pass device the initiative so it goes immediately after you, but fast acting foes may still use an aspect to steal the initiative away from your device.
+Gear with effect skills such as grenades and drugs rely on your {{overcome}} action for effective deliver but afterwards can act on their own. When you activate devices like this insert them into the pool of characters who have not acted. You may pass device the initiative so it goes immediately after you, but fast acting foes may still use an aspect to steal the initiative away from your device.
 
 ### Ammunition
 
@@ -45,7 +45,7 @@ Zones are an intentionally abstract measure of distance. Weapons may have impres
 
 #### Grappling
 
-You and your foe are in intense physical contact. You need to establish a {Grappled} aspect to achieve this level of range because it renders most weapons and a good many kinds of attacks ineffective. Or at least, increases their difficulty. Grappled characters can't succeed with most attacks unless they can O their {Grappled} aspect.
+You and your foe are in intense physical contact. You need to establish a {Grappled} aspect to achieve this level of range because it renders most weapons and a good many kinds of attacks ineffective. Or at least, increases their difficulty. Grappled characters can't succeed with most attacks unless they can {{overcome}} their {Grappled} aspect.
 
 #### Close Quarters Combat (CQC)
 
@@ -79,7 +79,7 @@ Other forms of assassination, such as poisoning, will vary in difficulty dependi
 
 ### Scale & Effectiveness
 
-Some things are large and thickly armored, like an Extermine-8 Battle Tank and some things are small; like the caliber of the Saturday night special you found in your uncle's old shoe box. There will be times when you need a bigger gun or a smarter plan. If there's agreement about a particular attack being either effective or ineffective, such as a knife against an unenhanced person, a pocket pistol vs. a battle tank, or natural venoms against a cybernetic body, then the attack either works or, it won't work no matter what you roll. If there is doubt about whether something would work, you can require the application of another skill to make the attack plausible. For example, your uncle's old .38 might not be able to penetrate a suit of Assault Armor, but if you can identify a weak joint to aim for, your attack can be effective. This sounds like {{Creating an Advantage}} but it works better as an Overcome because without changing the situation you wouldn't be effective at all. You can think if it as rolling to overcome an advantage your foe already has.
+Some things are large and thickly armored, like an Extermine-8 Battle Tank and some things are small; like the caliber of the Saturday night special you found in your uncle's old shoe box. There will be times when you need a bigger gun or a smarter plan. If there's agreement about a particular attack being either effective or ineffective, such as a knife against an unenhanced person, a pocket pistol vs. a battle tank, or natural venoms against a cybernetic body, then the attack either works or, it won't work no matter what you roll. If there is doubt about whether something would work, you can require the application of another skill to make the attack plausible. For example, your uncle's old .38 might not be able to penetrate a suit of Assault Armor, but if you can identify a weak joint to aim for, your attack can be effective. This sounds like {{create}} but it works better as an Overcome because without changing the situation you wouldn't be effective at all. You can think if it as rolling to overcome an advantage your foe already has.
 
 ## Hacking
 
@@ -175,13 +175,13 @@ Turning off your wireless means you can only hack or be hacked though systems yo
 
 You got me. Fight, and Move, but especially Physique, don't work the same in the Net as they do in the real world…Or do they? An interface is wired to the motor centers of your brain just like it is to your sensory centers, so, it's reasonable to say someone's fighting and athletic skills could transfer to the Net. Maybe they transfer, but are limited to being no higher than your Hack rating.
 
-Here's a bunch of options for transferring physical skills to the Net, or not.
+<!-- Here's a bunch of options for transferring physical skills to the Net, or not.
 
 Fight and Move work just the same
 
 Fight and Move work the same but are limited by your Hack rating
 
-Fight and Shoot work the same but do Mental stress instead of Physical, or
+Fight and Shoot work the same but do Mental stress instead of Physical, or -->
 
 <!-- {this maybe be better as a whole section and it may belong more in the hacking section then the skills section at least this second half. } -->
 
