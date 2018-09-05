@@ -5,9 +5,13 @@ Cold metal drops, soft as a spider, on the back of your neck and a warning float
 Welcome to the Edge
 
 :::sidebar left 
-*Ghosting*​—slang for making a living.
-*Feeding the meat* is a more colorful synonym.
-*The edge*​—a place where the stasis of corporate control meets the anarchic currents of the street.
+Ghosting​ 
+~ slang for making a living. 
+  
+  *Feeding the meat* is a more colorful synonym.
+
+The edge 
+~ a place where the stasis of corporate control meets the anarchic currents of the street.
 :::
 
 <!-- more mood and setting and less this is cyberpunk essays 

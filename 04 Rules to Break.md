@@ -137,15 +137,13 @@ The interface is what makes hacking, as we know it today, possible. Sure there a
 
 A wireless interface implant can let you hack a secure net in Moscow while you're driving a car in Tokyo but the companies that manufacture them don't want you doing that sort of thing, which is why commercial interfaces are really highly restricted tools of social control.
 
-With a {Commercial Interface} there are places in the Net you cannot visit. They are filtered out of your perception. There are things you cannot do, like share your thoughts with another person, and nothing you can do is anonymous. Your identity is embedded in your interface so that every place your go in the Net, every secure net you connect to, everything you buy, everything you eat, and everything you throw out are all recorded and linked to your identity. The {Really Cheap Commercial Interfaces} even allow a constant stream advertisements to whisper in your ear like a demon on your shoulder. Some interfaces even have special protocols corps can use to temporarily deactivate your brain if you get caught hacking. Go read your terms and conditions if you don't believe me.
+With a {Commercial Interface} there are places in the Net you cannot visit. They are filtered out of your perception. There are things you cannot do, like share your thoughts with another person, and nothing you can do is anonymous. Your identity is embedded in your interface so that every place your go in the Net, every secure net you connect to, everything you buy, everything you eat, and everything you throw out are all recorded and linked to your identity. The {Really Cheap Commercial Interfaces} even allow a constant stream of advertisements to whisper in your ear like a demon on your shoulder. Some interfaces even have special protocols corps can use to temporarily deactivate your brain if you get caught hacking. Go read your terms and conditions if you don't believe me.
 
 People accept this intrusion because they don't intend to do any hacking with their interface anyway, and most of the tracking data is just used to sell them things and improve the quality of their services. Imagine that twice in row you order a pizza after an evening work out, but the third time your interface asks if you'd like it to order the pizza for you every time you work out after 6 pm? They also accept it because they need their interface to do their job. Their corp job which is the only thing standing between them and moving into the district.
 
 Anyway, this all means that the first thing you need to be a hacker is an {Unlocked Interface}. One that you have complete control over. You can block ads, and turn off any perception filtering in the Net so you can visit all those nasty hacker hangouts the corp overloads didn't want you to know existed. And what's even better is you have control over the identity of your interface. You can mask it, which will get you rejected from most commercial systems. Or you can present a fake identity, hackers buy them by the dozen. Or you can spoof somebody else's id and get them fingered for your hacker crimes. Of course, most secure nets will raise an alert if a duplicate id connects and lock you both down until the situation can be sorted out. Which is, in fact, a common hacker prank called {Deduping}.
 
 Of course, if you're lucky enough to have a high level job as say, a corp hacker, you can get an {Unrestricted Interface}, which still tracks you, but which doesn't filter you.
-
-<!-- {callout} Any character with a Hack skill is assumed to have an **unlocked interface** or an **unrestricted interface**. -->
 
 You can unlock one yourself by using Tech, or pay someone you trust to do it for you.
 
@@ -167,9 +165,14 @@ Some of the cheaper commercial interface implants have {Weak Wireless Radio} whi
 
 This is the default mode for most interface implants and it means they'll automatically connect and share information with whatever secure net or device comes into range.
 
+:::sidebar right
+which's how Mode-Little-En hacked JelRazor; by sticking a magnetic wireless repeater on Jel's {Direct Contact Plate} and frying his brain.
+<!--make this a gear thing? or a quote. -->
+:::
+
 ##### Isolation Mode
 
-Turning off your wireless means you can only hack or be hacked though systems you are physically linked to, which can include direct contact plates. That's how Mode Little En hacked JelRazor; by sticking a magnetic wireless repeater on Jel's {Direct Contact Plate} and frying his brain.
+Turning off your wireless means you can only hack or be hacked by systems you are physically linked to. This can include direct contact plates.
 
 ### But what about fighting in the Net?
 
