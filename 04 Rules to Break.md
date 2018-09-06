@@ -167,7 +167,6 @@ This is the default mode for most interface implants and it means they'll automa
 
 :::sidebar right
 which's how Mode-Little-En hacked JelRazor; by sticking a magnetic wireless repeater on Jel's {Direct Contact Plate} and frying his brain.
-<!--make this a gear thing? or a quote. -->
 :::
 
 ##### Isolation Mode
