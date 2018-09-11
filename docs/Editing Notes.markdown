@@ -45,6 +45,21 @@ todo - color and flavor text should be moved to sidebars.
 todo - examples should probabbly be moved to callouts.
 todo - move interesting settings likes, like the Dis further up in the text. 
 todo - for that matter consider rearranging the text for web. 
+todo - Title case aspect text
+todo - Do we need some bookshelf markup for images? align right/left, wrap and such? 
+todo – consider revised layout
+
+1. chapter 1 - The Usual Suspects
+  1) an simple intro to stuff
+  2) basic basic concepts like Currency and the Dis
+
+2. chapter last - essays about cyberpunk. If fucking want them.  
+
+
+
+todo – what if we changed up em-dashes with something programmy, like >>> or => like a modern index pointing finger. 
+todo - make a rendered page that shows the various markup stuff we want. Examples of all the stuff
+todo - make sure that all aspects are title cased, manually
 
 
 
