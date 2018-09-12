@@ -130,7 +130,7 @@ Take that big black corp headquarters building down in the core for example. It'
 
 Sensorium is the entirety of your sense input. Every bit of sensory data that reaches your brain, conscious or not, that is your sensorium and we can record it, we can store it, we can search it, and we can even hack it and play it back to you, or to your boss.
 
-Edited sensorium recordings, and completely synthetic ones, called senima or sen-cin (for sense cinema) are produced for public entertainment. Purists make noise about the superior depth and subtly of unedited sensorium.
+Edited sensorium recordings, and completely synthetic ones, called senima or sen-cin are produced for public entertainment. Purists make noise about the superior depth and subtly of unedited sensorium.
 
 <!-- {there are extra sections that we can talk about here. Thoughts and memories. Transference/transmission of memories. Or do we leave that for the cybernetic body section.} -->
 
@@ -148,11 +148,11 @@ Interface with nets is mostly a visual experience. Senima gives you all the sens
 
 You might wonder how much bandwidth is required to send a completely detailed virtual environment into your brain but, it's less than you'd expect. The brain is a machine that's perfected its ability to take confusing and incomplete sensory input, filter it, fill in the gaps, and knit it all together to a sensorium that seems complete and consistent to you. A lot of the power of VR is based on exploiting the brain's ability to interpolate. You can create a VR with missing bits and details and let the brains of the users fill them in.
 
-##### Virutal Horizons​—What Can You do in A Construct
+##### Virutal Horizons​​—What Can You do in A Construct
 
 The default is that you can do whatever want, but construct programmers will often restrict or use negative feedback to prevent some behaviors. Many public constructs are continuously monitored and policing is as easy as running a program.
 
-#### Everything is Interfaced​—The Global Network 
+#### Everything is Interfaced​​—The Global Network 
 
 There is the vast web upon web of nets with a little n but then there is The Net with a capital N. Really, The Net is a diverse set of infrastructure which weaves nearly every little net in the world into a single global tapestry of connections.
 
@@ -819,11 +819,11 @@ I kinda feel like I should pay off some of the stuff from the world section by h
 
 #### Inequity 
 
-If you decide nothing else about a location, you should place it on one or the other extreme in terms of wealth. Wherever your characters go, there is either {urban decay} and {neglected infrastructure} or {pretentious exclusivity} and {constant monitoring and security}. You might occasionally find an area where people cast out of the corporate monoculture have {repurposed abandoned urban habitat}, but those are rare oases of humanity in a wasteland of {lawless ruins} and {soulless corporate enclaves**.
+If you decide nothing else about a location, you should place it on one or the other extreme in terms of wealth. Wherever your characters go, there is either {Urban Decay} and {NeglectedIinfrastructure} or {Pretentious Exclusivity} and {Constant Monitoring and Security}. You might occasionally find an area where people cast out of the corporate monoculture have {Repurposed Abandoned Urban Habitat}, but those are rare oases of humanity in a wasteland of {Lawless Ruins} and {Soulless Corporate Enclaves}.
 
 #### Age
 
-Is the place {so new the bugs aren't worked out} or is it an old repurposed building that {should be condemned}.
+Is the place {So, the Bugs Aren't All Worked Out} or is it an old repurposed building that {Should have been Condemned}.
 
 #### Purpose
 
@@ -835,7 +835,7 @@ Many locations are associated with some kind of faction.
 
 #### Issues
 
-Locations can help you tap into more than just issues of inequity, buildings can have complex relationships with other themes like a
+Locations can help you tap into more than just issues of inequity, buildings can have complex relationships with other themes. <!-- for example --> 
 
 #### Cyberspace
 

@@ -1,4 +1,3 @@
-![Shibuya at Night](assets/Shibuya_Night.jpg)
 Jet engines scream throught the smog overhead and tonight's greasy rain on your mirrorshades smears the scavenged neon of High Street Market. Every face in the twisting makeshift stalls gets sniffed from your visual cortex by the program your client provided and pumped back into your field of vision with a color-coded match percentage. 58%...12%...70%...68%...95% — "Hey there, Friend."
 
 Cold metal drops, soft as a spider, on the back of your neck and a warning floats across the bottom of your vision because this smartass hacked their safety-off to broadcast a weapons-free alert. 

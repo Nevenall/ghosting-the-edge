@@ -229,7 +229,7 @@ Barriers are defensive programs that protect a system, or a locale, from unautho
 
 Barriers can be programmed to allow access in other ways, like old fashioned usernames and passwords, some secret passphrase, or even through certain shared human memories that can be analyzed by the barrier program. Some barriers are maze barriers which anyone could get through given enough time
 
-If you succeed in cracking a barrier program then no one will be the wiser and the system will accept you as an authorized user until you fail some other hacking action. However, many barriers are programmed to react to failed intrusion attempts with varying degrees of hostility. There's Flytrap barriers which trap hackers and prevent them from logging out or moving at all. There's sophisticated Honeypot barriers which trick you into thinking you cracked them by shunting you into a dummy version of the system tracing exactly what you try do. And, of course, there's the ubiquitous attack barrier which inflicts its rating in stress on any hacker who failed or ties when trying to O it.
+If you succeed in cracking a barrier program then no one will be the wiser and the system will accept you as an authorized user until you fail some other hacking action. However, many barriers are programmed to react to failed intrusion attempts with varying degrees of hostility. There's Flytrap barriers which trap hackers and prevent them from logging out or moving at all. There's sophisticated Honeypot barriers which trick you into thinking you cracked them by shunting you into a dummy version of the system tracing exactly what you try do. And, of course, there's the ubiquitous attack barrier which inflicts its rating in stress on any hacker who failed or ties when trying to {{overcome}} it.
 
 ##### Attack Barriers
 
@@ -257,7 +257,7 @@ By themselves, maze barriers are not terribly secure, but when they are used, th
 
 IC stands for Intrusion Countermeasures, which, unlike static barriers, are free roaming security programs designed to do various things from capture to kill unidentified hackers in a system. Common IC comes in a variety of shades: Green, Red, Grey, and Black depending on what they do.
 
-##### Green IC 
+##### Green IC
 
 (AKA: Tracers, shadows, ghosts, spooks, ninjas) are harmless on their own. When they detect and intruder they follow it around and trace where it goes and what it does and reports that back to its central authority.
 
