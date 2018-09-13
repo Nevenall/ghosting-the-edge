@@ -253,17 +253,23 @@ A less dangerous form of barrier is the maze barrier. Creating these is a common
 
 By themselves, maze barriers are not terribly secure, but when they are used, they are commonly filled with IC.
 
-#### IC
+#### Intrusion Countermeasures (IC)
 
-IC stands for Intrusion Countermeasures, which, unlike static barriers, are free roaming security programs designed to do various things from capture to kill unidentified hackers in a system. Common IC comes in a variety of shades: Green, Red, Grey, and Black depending on what they do.
+Intrusion Countermeasures, unlike static barriers, are free roaming security programs designed to do various things from capture to kill unidentified hackers in a system. Common IC comes in a variety of shades: Green, Red, Grey, and Black depending on what they do.
 
-##### Green IC
+##### Green IC​ 
+::: sidebar left
+*aka* tracers, shadows, ghosts, spooks, ninjas
+:::
 
-(AKA: Tracers, shadows, ghosts, spooks, ninjas) are harmless on their own. When they detect and intruder they follow it around and trace where it goes and what it does and reports that back to its central authority.
+Green IC is harmless on its own. When they detect and intruder they follow it around and trace where it goes and what it does and reports that back to its central authority.
 
 ##### Red IC
+::: sidebar right
+*aka* rushers, come-ons, flashers, distract-o-bots
+:::
 
-(AKA: Rushers, come-ons, flashers, distractbots) are less common forms of IC. They are designed to distract intruders. Often by flooding their brains with sensory overloads of, say, pleasure.
+Red IC re less common forms of IC. They are designed to distract intruders. Often by flooding their brains with sensory overloads of, say, pleasure.
 
 ##### Grey IC 
 
