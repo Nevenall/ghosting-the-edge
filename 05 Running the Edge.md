@@ -54,7 +54,7 @@ The modern interface implant is a vast network of nano-wires connected to the se
 
 That's the implant part; the interface itself is a small computer that locks into your socket and knows how to translate between brain-speak and machine-speak.
 
-Socket implants let you swap out one interface for another without needing to redo all your expensive brain wiring every time. That's the idea anyway, but interfaces are made by Corps and Corps will lock you into coming back to them anytime they can, so most interfaces are only compatible with sockets from the same Corp. There's always third-party adapters, but you've heard all kinds of horror stories about those. *After all, an interface is a thing that can literally mess with your mind.*
+Socket implants let you swap out one interface for another without needing to redo all your expensive brain wiring every time. That's the idea anyway, but interfaces are made by Corps and Corps will lock you into coming back to them anytime they can, so most interfaces are only compatible with sockets from the same Corp. There's always third-party adapters, but you've heard all kinds of horror stories about those. After all, an interface is a thing that can literally mess with your mind.
 
  <!-- {proposed blockquote}{pay off that statement. What are the stories? Callout?} -->
 
@@ -90,7 +90,7 @@ You can go dark by disabling your wireless radio, GPS, and other sensors to prev
 
 Every interface is imprinted with a unique identifier and personal data it will present to any system you interface with. You never need keys because your apartment, your office, your car, and any other system can be told to recognize (and record) your unique interface signal and open for your automatically, or report your attempt to enter an unauthorized area.
 
-Interface ids can be spoofed to fool systems into thinking you are someone else. There's a thriving black market for unlocked interfaces that allow you to present a fake or stolen identity. *Getting your first unlocked interface is like getting your hacker diploma.* 
+Interface ids can be spoofed to fool systems into thinking you are someone else. There's a thriving black market for unlocked interfaces that allow you to present a fake or stolen identity. Getting your first unlocked interface is like getting your hacker diploma.
 
 <!-- {should make that sentence, or something like it, a block quote. } -->
 
@@ -108,7 +108,7 @@ It wasn't always wires planted directly into your brain. Before we had the nanot
 
 Smart devices are interface enabled machines with the capability to allow you to control them with your brain and to provide you information back. Some devices have a more immersive experience than others, and your degree of control over them is limited to what they've been programmed to control and the extent to which you can hack through some of the safety features to allow you to control things the manufacturer didn't want you to.
 
-Any standard smart-car can project a virtual instrument panel into your vision and give you all the information you want. Cars equipped with autopilots can also allow you to control them with your mind because the steering and acceleration is under computer control. *The pinnacle, of course, is the car especially rigged for total interface.* Every sensor reports to your brain as it was part of your own body. *Low fuel like a gnawing hunger in your gut, the pure adrenaline thrill of acceleration.*
+Any standard smart-car can project a virtual instrument panel into your vision and give you all the information you want. Cars equipped with autopilots can also allow you to control them with your mind because the steering and acceleration is under computer control. The pinnacle, of course, is the car especially rigged for total interface. Every sensor reports to your brain as it was part of your own body. Low fuel like a gnawing hunger in your gut, the pure adrenaline thrill of acceleration.
 
 #### Augmented Reality
 
@@ -374,7 +374,7 @@ Enclaves are the ultra-secure places where corp executives bask in their power a
 
 Some enclaves are vacation resorts and others are neo-modern gated communities.
 
-Most powerful executives usually maintain a private residence as well. Usually in an
+Most powerful executives usually maintain a private residence as well. 
 
 ###### Deep Blue City
 
@@ -595,11 +595,11 @@ Customized interface implant with lots of fake IIDs and a good safehouse.
 
 Believe all data should be free. For them, hacking is a moral obligation.
 
-Peak Skills
+###### Peak Skills
 
 Hack, Investigate, Troll
 
-Tech
+###### Tech
 
 Interface implant with lots of fake IIDs and some programmable disguise gear.
 
@@ -835,7 +835,7 @@ Many locations are associated with some kind of faction.
 
 #### Issues
 
-Locations can help you tap into more than just issues of inequity, buildings can have complex relationships with other themes. <!-- for example --> 
+Locations can help you tap into more than just issues of inequity, buildings can have complex relationships with other themes. 
 
 #### Cyberspace
 

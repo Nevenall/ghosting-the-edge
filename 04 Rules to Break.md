@@ -266,18 +266,22 @@ Green IC is harmless on its own. When they detect and intruder they follow it ar
 
 ##### Red IC
 ::: sidebar right
-*aka* rushers, come-ons, flashers, distract-o-bots
+*aka* rushers, come-ons, flashers, distract-o-bots, honeypots
 :::
 
 Red IC re less common forms of IC. They are designed to distract intruders. Often by flooding their brains with sensory overloads of, say, pleasure.
 
 ##### Grey IC 
-
-(AKA: Glue, chains, cages) captures intruders until someone can come along and decide what to do with them.
+::: sidebar left
+ *aka* glue, chains, cages
+:::
+Grey IC captures intruders until someone can come along and decide what to do with them.
 
 ##### Black IC 
-
-(AKA: Killers, black knights) black IC are the enforcers of a system. They are designed to attack and kill the brains of intruders.
+::: sidebar right
+ *aka*  killers, burners, black knights
+:::
+Black IC programs are the enforcers of a system. They are designed to attack and kill the brains of intruders.
 
 IC programs can be obstacles to overcome, or treated as NPCs with their own skills, aspects, and sometimes stunts.
 
@@ -309,35 +313,25 @@ Like a construct, a persona is a fully detailed and interactive entity that live
 
 ### Oh the Things You Will Do
 
-<!-- {This is a section about the things you can do, in detail. Ranging from writing programs to ghosting hacking} -->
-
-#### 11 things you can do with a hack skill
+<!-- should this list be a callout in the description of the hacking skill? -->
+::: callout left
+#### 12 things you can do with a hack skill
 
 Now you know a bit about the tools of your trade. Here's list of things you can do with your Hack skill.
 
 1. Crack a secure net. I.e., get past the system barrier so you can run an exploit on the system.
-
 2. Code a program to do something, like conceal your presence in the net, or duplicate your signal to interfere with a system's defensive programs. Maybe escalate your access so you crack the next layer of system. Or create a weapon that will help you deal with some nasty IC. Or a net to lock it down long enough for you to log out. Or create an IC program to monitor your home net. Or create a virus that will create false memories or sensations in someone with an interface. Write a barrier program.
-
 3. Deal stress to the system you're interfaced with to try to take it down.
-
 4. Deal stress to another interfaced hacker, program, or net construct.
-
 5. Exploit the system to make it do what you want. Cause a smartgun's targeting software to suggest shooting who you want, or cause a building's fire suppression system to activate, or cause a total security lockdown, hack some data and make it look like it was always that way.
-
 6. Try to disconnect, this is an action because it can opposed. There are some programs created specifically to keep you from escaping.
-
 7. Cover your tracks, remove or cover up the traces of your activity in a secure net.
-
 8. Monitor a system for other hacker activity and oppose it.
-
 9. Build and secure a net or other net construct.
-
 10. Defend against actions by hackers, programs, AI, and other net constructs
-
 11. Trace an interface signal, or other hacking action, back to its device of origin and possibly even its geographic location.
-
 12. Analyze the source. Look at the guts of an exploit or program to learn more about who wrote it. Think of it like an antique, you can learn how skilled the hacker was. Based on what it is and how it's constructed you can learn things about where it came from. If it's a commercial program, or the hacker was lazy and used bits from a commercial program, that can be identified which gives you a company and a lead, and sometimes you can even find the hacker equivalent of a maker's mark.
+:::
 
 #### Detection, Tracing and Getting Traced
 
@@ -357,9 +351,7 @@ Some programs are more detailed and autonomous. They have skills of their own an
 
 A crafting system which basically expands the succeed at cost. When you are crafting you make a roll against the difficulty of the thing. Which we can set at whatever. The number of new innovations, or the base number of refresh the thing costs…whatevers. Maybe not an opposed action though. Just a standard overcome. If you fail with style, then you know you have failed. If you tie, you succeed but the thing has an extra negative aspect, which you are probably aware of.
 
-If you fail, then either you fail and waste all that time and resources or your thing has some immediate defect which you may not be aware of. Consider a promise of a future compel against you.
-
-} -->
+If you fail, then either you fail and waste all that time and resources or your thing has some immediate defect which you may not be aware of. Consider a promise of a future compel against you. -->
 
 ##### Hacks & Exploits
 
@@ -393,7 +385,7 @@ Intrusion Countermeasures are a class of autonomous programs designed to detect 
 
 ##### Viruses
 
-Maleficent programs designed to do some manner of harm to a system or a person and usually to be pretty sneaky about it.
+Malicious programs designed to do some manner of harm to a system or a person and usually to be pretty sneaky about it.
 
 #### Ghost hacking 
 
@@ -445,7 +437,7 @@ Hacking on the edge is as dangerous as any other profession these days. What wit
 
 ### Hacking in Play
 
-There are two way you can adjudicate a hack: as a scene that incorporates many distinct hacking actions, or as a montage which condenses all the hacking actions into one roll. There's actually nothing new about this, it's the same distinction you might make between resolving something as an O or as a conflict.
+There are two way you can adjudicate a hack: as a scene that incorporates many distinct hacking actions, or as a montage which condenses all the hacking actions into one roll. There's actually nothing new about this, it's the same distinction you might make between resolving something as an {{overcome}} or as a conflict.
 
 Use a hack action by itself, or as a part of a skill challenge, when the intent is to affect a scene whose primary action is taking place in reality. Run hacking as a contest or a conflict scene when the main action is happening in the Net.
 
