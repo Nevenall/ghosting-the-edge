@@ -495,17 +495,17 @@ The cost to succeed can be based on the qualities of the system you're hacking. 
 
 ###### Example Costs
 
-  Minor                     | Major
-   -------------------------|-------------------------------
-  Couple of Stress          | A consequence
-  The system has {Detected Your Intrusion} | The system has {Captured} you
-  The system has traced you and is sending security | You and your team get attacked by a security detail the system sent
+  Minor                           | Major
+   -------------------------------|-------------------------------
+  Couple of Stress                | A consequence
+  You are {Detected}              | The system has {Captured} you
+  Your location has been {Traced} | There is a security team at your door
 
 #### Hacking Sequence
 
 If your action is set in cyberspace then you can run it is a scene. If, for example, your entire team is interfaced with the objective of cracking Chibutsu's AI Persona storage and slipping an extra command directive into their top selling personal assistant AI; that would make a great scene. If you're just trying to activate a building's fire defense system to create {Big Billowing Clouds of Fire Suppressant Gas} that will cover your team as they escape; you'd be better served by the quick resolution of a hacking montage.
 
-Hacking as scene builds on hacking as an action, and everything that's true for an action is true for a scene. After all, a scene *is* a sequence of actions, but when you run hacking as a scene you handle the troubles a hacker faces in a more interesting and detailed way.
+Hacking as scene builds on hacking as an action, and everything that's true for an action is true for a scene. After all, a scene is a sequence of actions, but when you run hacking as a scene you handle the troubles a hacker faces in a more interesting and detailed way.
 
 When it comes to a scene we can turn a bunch of aspects into more detailed opposition. Black IC programs that have stats of their own. And you can fight them in the net. But, then we have the question again of what skill you use. Hack. Hack stunts will make a big difference.
 
