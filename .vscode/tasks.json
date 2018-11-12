@@ -45,7 +45,7 @@
       "type": "shell",
       "command": "Write-Output \"${file}\"; OddSpell \"${file}\";",
       "presentation": {
-        "reveal": "silent",
+        "reveal": "always",
         "focus": false,
         "panel": "dedicated"
       },
