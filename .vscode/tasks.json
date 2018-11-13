@@ -43,7 +43,7 @@
     {
       "label": "spell check this file",
       "type": "shell",
-      "command": "Write-Output \"${file}\"; OddSpell \"${file}\";",
+      "command": "Write-Output '${file}'; OddSpell '${file}';",
       "presentation": {
         "reveal": "always",
         "focus": false,
@@ -55,7 +55,7 @@
         "fileLocation": "absolute",
         "pattern": [
           {
-            "regexp": "\"(.+)\"",
+            "regexp": "(.+)",
             "file": 1
           },
           {
