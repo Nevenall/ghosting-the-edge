@@ -33,3 +33,11 @@ Thin space             | `&thinsp;`| | M.J. -> M.&thinsp;J.
 ## fork and write would probably be way easier as an npm package. 
 
 except for the tasks and problem matcher actions. 
+
+
+
+# TODO
+
+- can remove gulp-shell and just use child_processes.exec to execute the shell commands. 
+- maybe switch to remarkjs have to recreate our extentions but might be a cleaner structure.
+- can also expand the special terms to use /term/ for some things 
