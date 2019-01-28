@@ -17,11 +17,11 @@
   "devDependencies": {
     "@types/gulp": "^4.0.5",
     "delete": "^1.1.0",
+    "fancylog": "^3.1.1",
     "gulp": "^4.0.0",
     "gulp-count-stat": "^1.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-shell": "^0.6.5",
-    "gulp-tap": "^1.0.1",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-container": "^2.0.0",
@@ -30,7 +30,7 @@
     "markdown-it-special-terms": "^1.1.1",
     "markdownlint": "^0.11.0",
     "natives": "^1.1.6",
-    "write-good": "^0.13.1"
+    "write-good": "^1.0.1"
   },
   "dependencies": {}
 }
