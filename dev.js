@@ -1,13 +1,18 @@
 const visit = require('unist-util-visit')
 
-const attacher = () => transform
+const attacher = (options) => {
+   return transform
+}
+
+const transform = (tree, file) => {
+
+   console.log(file)
 
 
-const transform = (tree) => {
    const vistor = (node) => {
       console.log(node)
    }
-   visit(tree, 'paragraph', vistor)
+   visit(tree, null, vistor)
 }
 
-exports.default = attacher
+module.exports = attacher

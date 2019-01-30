@@ -9,7 +9,9 @@ const fs = require('fs')
 
 var processor = unified()
    .use(markdown)
-   .use(dev)
+   .use(dev, {
+      test: "hello world"
+   })
    .use(remark2rehype)
    .use(html)
 
