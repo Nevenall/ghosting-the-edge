@@ -4,6 +4,7 @@ var markdown = require('remark-parse')
 var dev = require('./dev')
 var remark2rehype = require('remark-rehype')
 var html = require('rehype-stringify')
+var report = require('vfile-reporter')
 
 const fs = require('fs')
 
@@ -16,10 +17,7 @@ var processor = unified()
    .use(html)
 
 
-// or use vfile?
 processor.process(fs.readFileSync("readme.md"), function(err, file) {
-   if (err) {
-      throw err
-   }
-   //console.log(String(file))
+   console.error(report(err || file))
+  // console.log(String(file))
 })
