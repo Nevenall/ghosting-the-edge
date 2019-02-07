@@ -27,8 +27,10 @@ function plugin(options) {
       console.log(value)
 
       // if this.escape doens't include the special term markers then add them so we can escape these characters. But will this work for doubles?
+      // todo - find matches and eat them
+      // match doubles first, 
+      // can we eat mutliples?
 
-      
 
 
       eat(value)
