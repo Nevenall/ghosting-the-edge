@@ -13,18 +13,18 @@ const fs = require('fs')
 
 var processor = unified()
    .use(markdown)
-   // .use(dev)
-   .use(example)
+   .use(dev)
+   // .use(example)
    .use(remark2rehype)
    .use(html)
 
 
 
 
-processor.process("# Title with ^superscript^ with some ^text^ after.", function(err, file) {
-   console.error(report(err || file))
-   console.log(String(file))
-})
+// processor.process("# Title with ^superscript^ with some ^text^ after.", function(err, file) {
+//    console.error(report(err || file))
+//    console.log(String(file))
+// })
 
 
 
@@ -44,7 +44,7 @@ processor.process("# Title with ^superscript^ with some ^text^ after.", function
 //    console.log(String(file))
 // })
 
-// processor.process("# Title with //term// with some text after.", function(err, file) {
-//    console.error(report(err || file))
-//    console.log(String(file))
-// })
+processor.process("# Title with //term// with some //text// after.", function(err, file) {
+   console.error(report(err || file))
+   console.log(String(file))
+})

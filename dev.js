@@ -19,6 +19,9 @@ const markers = {
 
 }
 
+
+const doubleSlash = /\/\/.*\/\//gm;
+
 function plugin(options) {
 
    console.log(options)
@@ -31,7 +34,10 @@ function plugin(options) {
       // match doubles first, 
       // can we eat mutliples?
 
-
+      var m = value.match(/\/\/.*\/\//gm)
+      m.forEach((match, index) => {
+         console.log(match)
+      })
 
       eat(value)
    }
