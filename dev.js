@@ -20,23 +20,36 @@ const markers = {
 }
 
 
-const doubleSlash = /\/\/.*\/\//gm;
+const doubleSlash = /\/\/.*?\/\//gm;
 
 function plugin(options) {
 
-   console.log(options)
+   // console.log(options)
 
    function termsTokenizer(eat, value, silent) {
-      console.log(value)
+      // console.log(value)
 
       // if this.escape doens't include the special term markers then add them so we can escape these characters. But will this work for doubles?
       // todo - find matches and eat them
       // match doubles first, 
       // can we eat mutliples?
 
-      var m = value.match(/\/\/.*\/\//gm)
+      var m = value.match(doubleSlash)
       m.forEach((match, index) => {
          console.log(match)
+
+         const [matched, abbr, reference] = match
+
+
+
+         // eat(match)({
+         //    type: 'double_slash',
+         //    children: [],
+         //    data: {
+         //       hName: 'double_slash'
+         //    }
+         // })
+
       })
 
       eat(value)
@@ -53,7 +66,5 @@ function plugin(options) {
 
 
 }
-
-
 
 module.exports = plugin

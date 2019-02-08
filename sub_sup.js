@@ -50,13 +50,16 @@ function inlinePlugin () {
       /* istanbul ignore if - never used (yet) */
       if (silent) return true
 
-      eat(value.substring(0, endMarkerIndex + 1))({
+      eat(value.substring(0, endMarkerIndex + 1)) 
+      
+      ({
         type: markers[marker],
         children: this.tokenizeInline(value.substring(1, endMarkerIndex), now),
         data: {
           hName: markers[marker],
         },
       })
+      
     }
   }
 
