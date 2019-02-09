@@ -14,6 +14,12 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "Run App",
+      "program": "${workspaceFolder}/app.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "Gulp build",
       "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
       "args": [

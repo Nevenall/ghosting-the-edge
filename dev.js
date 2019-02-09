@@ -11,16 +11,8 @@
 // what about /{term}/ ? that should wrap the text {term} in the 
 // markup for one slash terms. 
 
-const markers = {
-   '/': 'one_slash',
-   '//': 'two_slash',
-   '{': 'one_brace',
-   '{{': 'two_brace',
 
-}
-
-
-const doubleSlash = /\/\/.*?\/\//gm;
+const doubleSlash = /\/\/(.*?)\/\//gm;
 
 function plugin(options) {
 
@@ -34,25 +26,29 @@ function plugin(options) {
       // match doubles first, 
       // can we eat mutliples?
 
-      var m = value.match(doubleSlash)
-      m.forEach((match, index) => {
-         console.log(match)
+      var m = doubleSlash.exec(value)
+      if (m) {
+         eat
+         const [match, term] = m
 
-         const [matched, abbr, reference] = match
+         eat(match)({
+            type: 'double_slash',
+            term: term,
+            children: [{
+               type: 'text',
+               value: term
+            }],
+            data: {
+               hName: 'double_slash'
+            }
+            //todo - might have children if we continue to parse terms, but I don't think we do.
+            // children: [
+            //    {type:'text'}
+            // ]
+         })
+      }
 
 
-
-         // eat(match)({
-         //    type: 'double_slash',
-         //    children: [],
-         //    data: {
-         //       hName: 'double_slash'
-         //    }
-         // })
-
-      })
-
-      eat(value)
    }
 
 
