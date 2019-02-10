@@ -13,7 +13,7 @@ const shell = require('gulp-shell')
 const stats = require('gulp-count-stat')
 const log = require('fancy-log')
 
-const markdown = require('./markdown')
+const markdown = require('./remark-config')
 
 const markdownLint = require('markdownlint')
 const writeGood = require('write-good')
