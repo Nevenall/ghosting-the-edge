@@ -17,10 +17,10 @@ var processor = unified()
    .use(html)
 
 
-   processor.process("//", function(err, file) {
-      console.error(report(err || file))
-      console.log(String(file))
-   })
+processor.process("//", function(err, file) {
+   console.error(report(err || file))
+   console.log(String(file))
+})
 
 processor.process("////", function(err, file) {
    console.error(report(err || file))
@@ -36,6 +36,20 @@ processor.process("{{}}", function(err, file) {
    console.error(report(err || file))
    console.log(String(file))
 })
+
+
+processor.process(`{term phrase with
+    a new line}`, function(err, file) {
+   console.error(report(err || file))
+   console.log(String(file))
+})
+
+processor.process(`/term phrase with
+   a new line/`, function(err, file) {
+   console.error(report(err || file))
+   console.log(String(file))
+})
+
 
 
 processor.process("//term/", function(err, file) {

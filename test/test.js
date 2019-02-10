@@ -27,6 +27,11 @@ describe('special terms parsing', function() {
       {
          md: "// term with a space//",
          expected: "<p><span class='term-2'> term with a space</span>"
+      },
+      {
+         md: `// term phrase with 
+         a new line//`,
+         expected: "<p><span class='term-2'> term with a space</span>"
       }
    ]
 

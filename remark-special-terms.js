@@ -1,4 +1,4 @@
-const singleBraceRegex = /\{(.+?)(?!\})\}/s
+const singleBraceRegex = /\{(.+?)\}/s
 const doubleBraceRegex = /\{\{(.+?)\}\}/s
 const singleSlashRegex = /\/(?!\/)(.+?)\//s
 const doubleSlashRegex = /\/\/(.+?)\/\//s
