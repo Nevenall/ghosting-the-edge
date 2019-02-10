@@ -6,45 +6,54 @@ var html = require('rehype-stringify')
 var report = require('vfile-reporter')
 
 
-var dev = require('./dev')
-var example = require('./sub_sup')
+var dev = require('./remark-special-terms')
 
 const fs = require('fs')
 
 var processor = unified()
    .use(markdown)
    .use(dev)
-   // .use(example)
    .use(remark2rehype)
    .use(html)
 
 
+   processor.process("//", function(err, file) {
+      console.error(report(err || file))
+      console.log(String(file))
+   })
+
+processor.process("////", function(err, file) {
+   console.error(report(err || file))
+   console.log(String(file))
+})
+
+processor.process("{}", function(err, file) {
+   console.error(report(err || file))
+   console.log(String(file))
+})
+
+processor.process("{{}}", function(err, file) {
+   console.error(report(err || file))
+   console.log(String(file))
+})
 
 
-// processor.process("# Title with ^superscript^ with some ^text^ after.", function(err, file) {
-//    console.error(report(err || file))
-//    console.log(String(file))
-// })
+processor.process("//term/", function(err, file) {
+   console.error(report(err || file))
+   console.log(String(file))
+})
 
+processor.process("/term//", function(err, file) {
+   console.error(report(err || file))
+   console.log(String(file))
+})
 
+processor.process("{/term/}", function(err, file) {
+   console.error(report(err || file))
+   console.log(String(file))
+})
 
-
-// processor.process("# Title with {term} with some text after.", function(err, file) {
-//    console.error(report(err || file))
-//    console.log(String(file))
-// })
-
-// processor.process("# Title with {{term}} with some text after.", function(err, file) {
-//    console.error(report(err || file))
-//    console.log(String(file))
-// })
-
-// processor.process("# Title with /term/ with some text after.", function(err, file) {
-//    console.error(report(err || file))
-//    console.log(String(file))
-// })
-
-processor.process("# Title with //term// with some //text// after.", function(err, file) {
+processor.process("/{term}/", function(err, file) {
    console.error(report(err || file))
    console.log(String(file))
 })

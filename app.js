@@ -1,10 +1,8 @@
-const str = "# Title with //term// with some //text// after."
-const doubleSlash = /\/\/(.*?)\/\//;
+var a = ['a', 'b', 'c']
 
-var m = doubleSlash.exec(str)
 
-console.log('', m)
 
-const [matched, term] = m
+a.splice(a.indexOf('b'), 0, 'b2')
+a.splice(a.indexOf('b'), 0, 'b3')
 
-var s = ''
+console.log("", a)
