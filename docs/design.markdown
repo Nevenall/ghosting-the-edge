@@ -41,3 +41,10 @@ except for the tasks and problem matcher actions.
 - can remove gulp-shell and just use child_processes.exec to execute the shell commands. 
 - maybe switch to remarkjs have to recreate our extentions but might be a cleaner structure.
 - can also expand the special terms to use /term/ for some things 
+
+- need container support plugin for remark 
+
+::: tags and such
+:::
+
+also need something to fix up links. 

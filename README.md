@@ -18,7 +18,3 @@ Includes custom tweaks to convert internal links to .md files to .html files upo
 ## Visual Studio Code Integration
 
 Includes vs code integration to execute Gulp tasks and a problem matcher for spell checking.
-
-
-todo - what if we make markdown.js a local gulp plugin? 
-could do the same for the other functions too
