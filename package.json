@@ -33,7 +33,7 @@
     "remark-parse-yaml": "0.0.2",
     "remark-rehype": "^4.0.0",
     "remark-sub-super": "^1.0.17",
-    "remark-terms": "^1.0.1",
+    "remark-terms": "^1.0.2",
     "unified": "^7.1.0",
     "unified-stream": "^1.0.4",
     "unist-util-visit": "^1.4.0",
