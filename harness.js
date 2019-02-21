@@ -1,6 +1,6 @@
 const report = require('vfile-reporter')
 
-var processor = require('./remark-config')
+var processor = require('./markdown')
 
 
 processor.process(`
@@ -16,13 +16,15 @@ order: 1
 
 [next](/next.md)
 
+::: figure figure-table
 one | two | three
 ----|-----|---
 a   | b   | c
+:::
 
 `, function(err, file) {
    console.error(report(err || file))
-   console.log("", file.data.frontmatter)
+   console.log(file.data.frontmatter)
    console.log(String(file))
 })
 

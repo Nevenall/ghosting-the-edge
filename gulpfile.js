@@ -9,13 +9,12 @@ const del = require('delete')
 const through2 = require('through2');
 
 const rename = require('gulp-rename')
-const shell = require('gulp-shell')
 const stats = require('gulp-count-stat')
+const remark = require('gulp-remark')
 const log = require('fancy-log')
 
-const markdown = require('./remark-config')
+const markdown = require('./markdown')
 
-const markdownLint = require('markdownlint')
 const writeGood = require('write-good')
 
 const source = ['src/**/*.md']
@@ -29,19 +28,34 @@ const publishTarget = "c:/temp/forkandwrite/src/pages"
 
 
 function render(callback) {
+
    return src(source)
-      // inline plugin
-      .pipe(through2.obj(function(file, _, callback) {
-         if (file.isBuffer()) {
-            var result = markdown.render(file.contents.toString())
-            file.contents = Buffer.from(result)
-         }
-         callback(null, file)
-      }))
+      .pipe(remark())
       .pipe(rename({
          extname: ".html"
       }))
       .pipe(dest(destination))
+
+
+   // return src(source)
+   //    // inline plugin
+   //    .pipe(through2.obj(function(file, _, callback) {
+   //       if (file.isBuffer()) {
+
+   //          var result = markdown.render(file.contents.toString())
+
+
+   //          file.contents = Buffer.from(result)
+
+
+
+   //       }
+   //       callback(null, file)
+   //    }))
+   //    .pipe(rename({
+   //       extname: ".html"
+   //    }))
+   //    .pipe(dest(destination))
 }
 
 
