@@ -16,15 +16,13 @@ order: 1
 
 [next](/next.md)
 
-::: figure figure-table
-one | two | three
-----|-----|---
-a   | b   | c
+::: quote right dan 'the man' behlings
+this is a thing that I said that was awesome!
 :::
 
 `, function(err, file) {
    console.error(report(err || file))
-   console.log(file.data.frontmatter)
+   // console.log(file.data.frontmatter)
    console.log(String(file))
 })
 
