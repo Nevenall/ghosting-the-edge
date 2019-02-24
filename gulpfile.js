@@ -15,6 +15,8 @@ const log = require('fancy-log')
 
 const markdown = require('./markdown')
 
+const linter = require('remark-lint')
+
 const writeGood = require('write-good')
 
 const source = ['src/**/*.md']
@@ -30,32 +32,17 @@ const publishTarget = "c:/temp/forkandwrite/src/pages"
 function render(callback) {
 
    return src(source)
-      .pipe(remark())
+      .pipe(through2.obj(function(file, _, callback) {
+         if (file.isBuffer()) {
+            markdown.process(file, function(err, file) {
+               callback(err, file)
+            })
+         }
+      }))
       .pipe(rename({
          extname: ".html"
       }))
       .pipe(dest(destination))
-
-
-   // return src(source)
-   //    // inline plugin
-   //    .pipe(through2.obj(function(file, _, callback) {
-   //       if (file.isBuffer()) {
-
-   //          var result = markdown.render(file.contents.toString())
-
-
-   //          file.contents = Buffer.from(result)
-
-
-
-   //       }
-   //       callback(null, file)
-   //    }))
-   //    .pipe(rename({
-   //       extname: ".html"
-   //    }))
-   //    .pipe(dest(destination))
 }
 
 
