@@ -10,8 +10,8 @@ const through2 = require('through2');
 
 const rename = require('gulp-rename')
 const stats = require('gulp-count-stat')
-const remark = require('gulp-remark')
 const log = require('fancy-log')
+const convert = require('convert-vinyl-to-vfile')
 
 const markdown = require('./markdown')
 
@@ -29,13 +29,40 @@ const destinationGlob = 'html/**'
 const publishTarget = "c:/temp/forkandwrite/src/pages"
 
 
+// vfile to vinyl 
+
 function render(callback) {
 
+   var frontmatter = {}
+
    return src(source)
-      .pipe(through2.obj(function(file, _, callback) {
-         if (file.isBuffer()) {
-            markdown.process(file, function(err, file) {
-               callback(err, file)
+      .pipe(through2.obj(function(vinyl, _, callback) {
+         if (vinyl.isStream()) {
+            return callback(new PluginError(name, 'Streaming not supported'))
+         }
+
+         if (vinyl.isBuffer()) {
+            var vfile = convert(vinyl)
+
+            markdown.process(vfile, function(err, parsed) {
+               var contents
+
+               if (err) {
+                  return callback(new PluginError(name, err || 'Unsuccessful running'))
+               }
+
+               contents = parsed.contents
+
+               /* istanbul ignore else - There aren’t any unified compilers
+                * that output buffers, but this logic is here to keep allow them
+                * (and binary files) to pass through untouched. */
+               if (typeof contents === 'string') {
+                  contents = Buffer.from(contents, 'utf8')
+               }
+
+               vinyl.contents = contents
+
+               callback(null, vinyl)
             })
          }
       }))
