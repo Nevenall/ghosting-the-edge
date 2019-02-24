@@ -30,11 +30,10 @@ const publishTarget = "c:/temp/forkandwrite/src/pages"
 
 
 // vfile to vinyl 
+var frontmatter = []
 
 function render(callback) {
-
-   var frontmatter = {}
-
+   frontmatter = []
    return src(source)
       .pipe(through2.obj(function(vinyl, _, callback) {
          if (vinyl.isStream()) {
@@ -62,6 +61,10 @@ function render(callback) {
 
                vinyl.contents = contents
 
+               var fm = parsed.data.frontmatter
+               fm.path = parsed.path
+               frontmatter.push(fm)
+
                callback(null, vinyl)
             })
          }
@@ -70,8 +73,21 @@ function render(callback) {
          extname: ".html"
       }))
       .pipe(dest(destination))
+
 }
 
+function makeBook(callback) {
+
+   // take frontmatter and make a book obj out of it
+   // minus the file contents themselves
+   // then save that to the html dir so we can import it
+   // in the bookshelf instance
+   // can make the book class a git repo that this and bookshelf can npm i
+   // to share the code. 
+
+   callback()
+
+}
 
 function assets() {
    return src(assetsPath).pipe(dest(destination + "/assets"))
@@ -140,7 +156,7 @@ function prose(callback) {
 }
 
 
-const build = series(clean, render, assets)
+const build = series(clean, render, makeBook, assets)
 
 exports.build = build
 exports.publish = series(build, publish)
