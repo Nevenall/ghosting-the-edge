@@ -29,70 +29,67 @@ var processor = unified()
          doubleBrace: "game-term-4"
       }
    })
-   .use(containers)
    .use(containers, {
-      type: 'sidebar',
-      element: 'aside',
-      transform: function(node, config, tokenize) {
-         node.data.hProperties = {
-            className: config || 'left'
+      default: true,
+      custom: [{
+         type: 'sidebar',
+         element: 'aside',
+         transform: function(node, config, tokenize) {
+            node.data.hProperties = {
+               className: config || 'left'
+            }
          }
-      }
-   })
-   .use(containers, {
-      type: 'callout',
-      element: 'article',
-      transform: function(node, config, tokenize) {
-         node.data.hProperties = {
-            className: config || 'left'
+      }, {
+         type: 'callout',
+         element: 'article',
+         transform: function(node, config, tokenize) {
+            node.data.hProperties = {
+               className: config || 'left'
+            }
          }
-      }
-   })
-   .use(containers, {
-      type: 'columns',
-      element: 'div',
-      transform: function(node, config, tokenize) {
-         node.data.hProperties = {
-            className: columns
+      }, {
+         type: 'columns',
+         element: 'div',
+         transform: function(node, config, tokenize) {
+            node.data.hProperties = {
+               className: columns
+            }
          }
-      }
-   })
-   .use(containers, {
-      type: 'quote',
-      element: 'aside',
-      transform: function(node, config, tokenize) {
-         var words = tokenizeWords.parse(config)
+      }, {
+         type: 'quote',
+         element: 'aside',
+         transform: function(node, config, tokenize) {
+            var words = tokenizeWords.parse(config)
 
-         node.data.hProperties = {
-            className: `quoted ${words.shift()}`
+            node.data.hProperties = {
+               className: `quoted ${words.shift()}`
+            }
+            node.children.push({
+               type: 'footer',
+               data: {
+                  hName: 'footer'
+               },
+               children: tokenize(words.join(' '))
+            })
          }
-         node.children.push({
-            type: 'footer',
-            data: {
-               hName: 'footer'
-            },
-            children: tokenize(words.join(' '))
-         })
-      }
-   })
-   .use(containers, {
-      type: 'figure-table',
-      element: 'figure',
-      transform: function(node, config, tokenize) {
+      }, {
+         type: 'figure-table',
+         element: 'figure',
+         transform: function(node, config, tokenize) {
 
-         node.data.hProperties = {
-            className: `figure-table`
+            node.data.hProperties = {
+               className: `figure-table`
+            }
+            node.children.push({
+               type: 'figcaption',
+               data: {
+                  hName: 'figcaption'
+               },
+               children: tokenize(config)
+            })
          }
-         node.children.push({
-            type: 'figcaption',
-            data: {
-               hName: 'figcaption'
-            },
-            children: tokenize(config)
-         })
-      }
+      }]
    })
-
    .use(sub_super)
    .use(frontmatter, {
       type: 'yaml',

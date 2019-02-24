@@ -17,7 +17,7 @@ order: 1
 [next](/next.md)
 
 ::: quote right dan 'the man' behlings
-this is a thing that I said that was awesome!
+this is a thing that I said that was awesome!c
 :::
 
 `, function(err, file) {
