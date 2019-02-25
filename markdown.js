@@ -76,7 +76,6 @@ var processor = unified()
          type: 'figure-table',
          element: 'figure',
          transform: function(node, config, tokenize) {
-
             node.data.hProperties = {
                className: `figure-table`
             }
@@ -119,7 +118,7 @@ function copyFrontmatter() {
    return function(ast, file) {
       visit(ast, 'yaml', item => {
          // copy parsed frontmatter to the file data
-         file.data.frontmatter = item.data.parsedValue
+         file.data.metadata = item.data.parsedValue
       })
    }
 }

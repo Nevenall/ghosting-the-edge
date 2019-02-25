@@ -22,7 +22,7 @@ this is a thing that I said that was awesome!c
 
 `, function(err, file) {
    console.error(report(err || file))
-    console.log(file.data.frontmatter)
+   console.log(file.data.metadata)
    console.log(String(file))
 })
 

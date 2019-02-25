@@ -4,36 +4,26 @@ const {
    src,
    dest
 } = require('gulp')
-
 const del = require('delete')
 const through2 = require('through2');
-
 const rename = require('gulp-rename')
 const stats = require('gulp-count-stat')
 const log = require('fancy-log')
 const convert = require('convert-vinyl-to-vfile')
-
 const markdown = require('./markdown')
-
 const linter = require('remark-lint')
-
 const writeGood = require('write-good')
 
 const source = ['src/**/*.md']
-
 const assetsPath = ['assets/**']
-
 const destination = 'html/'
 const destinationGlob = 'html/**'
+const publishTarget = "c:/temp/write/src/pages"
 
-const publishTarget = "c:/temp/forkandwrite/src/pages"
-
-
-// vfile to vinyl 
-var frontmatter = []
+var book = new Book{title: "Temporary Title"} []
 
 function render(callback) {
-   frontmatter = []
+   book = []
    return src(source)
       .pipe(through2.obj(function(vinyl, _, callback) {
          if (vinyl.isStream()) {
@@ -61,9 +51,11 @@ function render(callback) {
 
                vinyl.contents = contents
 
-               var fm = parsed.data.frontmatter
-               fm.path = parsed.path
-               frontmatter.push(fm)
+               var fm = parsed.data.metadata
+               // todo - frontmatter may need to be a map based on filename maybe?
+               fm.sourcePath = parsed.path
+
+               vinyl.metadata = fm
 
                callback(null, vinyl)
             })
@@ -73,6 +65,11 @@ function render(callback) {
          extname: ".html"
       }))
       .pipe(dest(destination))
+      .pipe(through2.obj(function(vinyl, _, callback) {
+         vinyl.metadata.path = vinyl.path
+         book.push(vinyl.metadata)
+         callback(null, vinyl)
+      }))
 
 }
 
@@ -86,7 +83,6 @@ function makeBook(callback) {
    // to share the code. 
 
    callback()
-
 }
 
 function assets() {
