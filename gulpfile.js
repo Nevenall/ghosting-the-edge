@@ -13,6 +13,7 @@ const convert = require('convert-vinyl-to-vfile')
 const markdown = require('./markdown')
 const linter = require('remark-lint')
 const writeGood = require('write-good')
+const path = require('path')
 const {
    Book,
    Page
@@ -27,7 +28,7 @@ const publishTarget = "c:/temp/write/src/pages"
 var book = null
 
 function render(callback) {
-   book = new Book('Temporary Title')
+   book = new Book('Temporary Title', path.resolve(destination))
 
    return src(source)
       .pipe(through2.obj(function(vinyl, _, callback) {
