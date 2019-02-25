@@ -13,6 +13,10 @@ const convert = require('convert-vinyl-to-vfile')
 const markdown = require('./markdown')
 const linter = require('remark-lint')
 const writeGood = require('write-good')
+const {
+   Book,
+   Page
+} = require('book')
 
 const source = ['src/**/*.md']
 const assetsPath = ['assets/**']
@@ -20,10 +24,11 @@ const destination = 'html/'
 const destinationGlob = 'html/**'
 const publishTarget = "c:/temp/write/src/pages"
 
-var book = new Book{title: "Temporary Title"} []
+var book = null
 
 function render(callback) {
-   book = []
+   book = new Book('Temporary Title')
+
    return src(source)
       .pipe(through2.obj(function(vinyl, _, callback) {
          if (vinyl.isStream()) {
@@ -52,9 +57,7 @@ function render(callback) {
                vinyl.contents = contents
 
                var fm = parsed.data.metadata
-               // todo - frontmatter may need to be a map based on filename maybe?
                fm.sourcePath = parsed.path
-
                vinyl.metadata = fm
 
                callback(null, vinyl)
@@ -67,7 +70,7 @@ function render(callback) {
       .pipe(dest(destination))
       .pipe(through2.obj(function(vinyl, _, callback) {
          vinyl.metadata.path = vinyl.path
-         book.push(vinyl.metadata)
+         book.addPage(new Page(vinyl.metadata.title, vinyl.metadata.path, vinyl.metadata.order))
          callback(null, vinyl)
       }))
 
