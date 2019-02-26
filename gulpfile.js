@@ -13,24 +13,26 @@ const convert = require('convert-vinyl-to-vfile')
 const markdown = require('./markdown')
 const linter = require('remark-lint')
 const writeGood = require('write-good')
+
 const path = require('path')
+const fs = require('fs')
 const {
    Book,
    Page
 } = require('book')
 
-const source = ['src/**/*.md']
-const assetsPath = ['assets/**']
+const sourceGlob = ['src/**/*.md']
+const assetsGlob = ['src/assets/**']
 const destination = 'html/'
 const destinationGlob = 'html/**'
-const publishTarget = "c:/temp/write/src/pages"
+const publishTarget = "publish/"
 
 var book = null
 
 function render(callback) {
    book = new Book('Temporary Title', path.resolve(destination))
 
-   return src(source)
+   return src(sourceGlob)
       .pipe(through2.obj(function(vinyl, _, callback) {
          if (vinyl.isStream()) {
             return callback(new PluginError(name, 'Streaming not supported'))
@@ -85,14 +87,18 @@ function makeBook(callback) {
    // in the bookshelf instance
    // can make the book class a git repo that this and bookshelf can npm i
    // to share the code. 
+   // Write this instance of Book to the dest in a way that can be moduled
+
+   fs.writeFile("html/book.js", `module.exports = Object.assign(new Book, ${JSON.stringify(book)})`, err => {
+      console.log("done")
+   })
 
    callback()
 }
 
 function assets() {
-   return src(assetsPath).pipe(dest(destination + "/assets"))
+   return src(assetsGlob).pipe(dest(destination + "/assets"))
 }
-
 
 function clean(callback) {
    return del(destinationGlob, callback)
@@ -105,17 +111,17 @@ function publish() {
 }
 
 function spelling() {
-   return src(source)
+   return src(sourceGlob)
       .pipe(shell(['echo "<%= file.path %>"', 'OddSpell "<%= file.path %>"']))
 }
 
 function count() {
-   return src(source)
+   return src(sourceGlob)
       .pipe(stats())
 }
 
 function lint(callback) {
-   return src(source)
+   return src(sourceGlob)
 
       .pipe(through2.obj(function(file, _, callback) {
 
@@ -139,7 +145,7 @@ function lint(callback) {
 }
 
 function prose(callback) {
-   return src(source)
+   return src(sourceGlob)
       .pipe(through2.obj(function(file, _, callback) {
          var text = file.contents.toString();
          var suggestions = writeGood(text);

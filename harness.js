@@ -1,6 +1,12 @@
 const report = require('vfile-reporter')
 
 var processor = require('./markdown')
+var {
+   Book,
+   Page
+} = require('book')
+
+var book = require('./html/book')
 
 
 processor.process(`
@@ -17,7 +23,7 @@ order: 1
 [next](/next.md)
 
 ::: quote right dan 'the man' behlings
-this is a thing that I said that was awesome!c
+this is a thing that I said that was awesome!
 :::
 
 `, function(err, file) {

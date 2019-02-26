@@ -1,11 +1,10 @@
-# Fork and Write
+# Write
 
 My very template environment for markdown projects; just fork and write!
 
 ## External Dependencies
 
 - [OddSpell](https://github.com/Nevenall/OddSpell) for spell checking.
-- [ValeLint](https://github.com/ValeLint/vale/) for style checking.
 
 ## Compiles to Html
 
