@@ -6,7 +6,7 @@ var {
    Page
 } = require('book')
 
-var book = require('./html/book')
+var book = Object.assign(new Book, require('./html/book'))
 
 
 processor.process(`

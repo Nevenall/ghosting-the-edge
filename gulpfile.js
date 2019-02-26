@@ -89,7 +89,7 @@ function makeBook(callback) {
    // to share the code. 
    // Write this instance of Book to the dest in a way that can be moduled
 
-   fs.writeFile("html/book.js", `module.exports = Object.assign(new Book, ${JSON.stringify(book)})`, err => {
+   fs.writeFile("html/book.js", `module.exports = ${JSON.stringify(book)}`, err => {
       console.log("done")
    })
 
