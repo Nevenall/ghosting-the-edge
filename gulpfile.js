@@ -125,7 +125,7 @@ function spelling() {
                   console.log(`${idx + 1}:${err.start} ${word} -> ${suggestions.join(' ')}`)
                })
             })
-            callback()
+            callback(null, file)
          }
       }))
 
@@ -138,7 +138,7 @@ function count() {
 
 function lint(callback) {
    return src(sourceGlob)
-
+      // todo - need to update this to use remark linter
       .pipe(through2.obj(function(file, _, callback) {
 
          markdownLint({
