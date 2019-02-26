@@ -1,7 +1,6 @@
  {
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
-    //  pandoc manuscript.docx -t markdown -o manuscript.md --wrap=none --atx-headers
     "version": "2.0.0",
     "tasks": [{
           "type": "gulp",
@@ -13,29 +12,27 @@
           "problemMatcher": []
        },
        {
-          "task": "spelling",
-          "type": "gulp",
+          "label": "spelling",
+          "type": "shell",
+          "command": "gulp",
+          "args": ["spelling", "-S"],
+          "isBackground": true,
           "presentation": {
-             "reveal": "silent",
-             "focus": false,
+             "reveal": "always",
+             "focus": true,
              "panel": "dedicated"
           },
           "problemMatcher": {
-             "owner": "spellchecker",
+             "owner": "spelling",
              "severity": "warning",
-             "fileLocation": ["relative", "${workspaceFolder}"],
+             "fileLocation": ["relative", "${workspaceFolder}/src"],
              "pattern": [{
-                   "regexp": "(.+)",
-                   "file": 1
-                },
-                {
-                   "regexp": "(\\d+):(\\d+) (.+ ->.*)",
-                   "line": 1,
-                   "column": 2,
-                   "message": 3,
-                   "loop": true
-                }
-             ]
+                "regexp": "'(.+?)' (\\d+):(\\d+) (.+ ->.*)",
+                "file": 1,
+                "line": 2,
+                "column": 3,
+                "message": 4
+             }]
           }
        },
        {
@@ -83,24 +80,22 @@
           }
        },
        {
-          "type": "gulp",
-          "task": "prose",
+          "label": "prose",
+          "type": "shell",
+          "command": "gulp",
+          "args": ["prose", "-S"],
           "problemMatcher": {
-             "owner": "write-good",
+             "owner": "prose",
              "severity": "warning",
-             "fileLocation": "absolute",
+             "fileLocation": ["relative", "${workspaceFolder}/src"],
              "pattern": [{
-                   "regexp": "\"(.+)\"",
-                   "file": 1
-                },
-                {
-                   "regexp": "(\\d+):(\\d+) (.+)",
-                   "line": 1,
-                   "column": 2,
-                   "message": 3,
-                   "loop": true
-                }
-             ]
+                "regexp": "'(.+)' (\\d+):(\\d+):(\\d+) -> (.*)",
+                "file": 1,
+                "line": 2,
+                "column": 3,
+                "endColumn": 4,
+                "message": 5
+             }]
           }
        }
     ]

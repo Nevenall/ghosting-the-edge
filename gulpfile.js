@@ -77,7 +77,6 @@ function render(callback) {
          book.addPage(new Page(vinyl.metadata.title, vinyl.metadata.path, vinyl.metadata.order))
          callback(null, vinyl)
       }))
-
 }
 
 function makeBook(callback) {
@@ -105,30 +104,22 @@ function publish() {
 function spelling() {
    return src(sourceGlob)
       .pipe(through2.obj(function(file, _, callback) {
-
          if (file.isStream()) {
             return callback(new PluginError(name, 'Streaming not supported'))
          }
 
-         //todo - consider using string decoder instead of just tostring?
-         // spell check emoji characters?
-
          if (file.isBuffer()) {
-            console.log(file.path)
-            console.log(file.basename)
             file.contents.toString().split("\n").forEach((line, idx) => {
                let misspellings = spellchecker.checkSpelling(line)
                misspellings.forEach(err => {
                   let word = line.substring(err.start, err.end)
                   let suggestions = spellchecker.getCorrectionsForMisspelling(word)
-                  //todo - place the basename before each line and use relative for the problem matcher?
-                  console.log(`${idx + 1}:${err.start} ${word} -> ${suggestions.join(' ')}`)
+                  console.log(`'${file.basename}' ${idx + 1}:${err.start + 1} ${word} -> ${suggestions.join(' ')}`)
                })
             })
             callback(null, file)
          }
       }))
-
 }
 
 function count() {
@@ -163,17 +154,20 @@ function lint(callback) {
 function prose(callback) {
    return src(sourceGlob)
       .pipe(through2.obj(function(file, _, callback) {
-         var text = file.contents.toString();
-         var suggestions = writeGood(text);
-         console.log(`"${file.path}"`);
-         suggestions.forEach(element => {
-            var toCount = text.substring(0, element.index + element.offset);
-            var line = toCount.match(/\n/g).length;
-            var column = toCount.substring(toCount.lastIndexOf('\n'), element.index).length;
-            console.log(`${line + 1}:${column}  ${element.reason}`);
-         });
+         if (file.isStream()) {
+            return callback(new PluginError(name, 'Streaming not supported'))
+         }
 
-         callback(null, file)
+         if (file.isBuffer()) {
+            file.contents.toString().split("\n").forEach((line, idx) => {
+               let suggestions = writeGood(line)
+               suggestions.forEach(sug => {
+                  console.log(`'${file.basename}' ${idx + 1}:${sug.index + 1}:${sug.offset + sug.index + 1} -> ${sug.reason}`)
+               })
+            })
+            
+            callback(null, file)
+         }
       }))
 }
 
@@ -183,6 +177,7 @@ const build = series(clean, render, makeBook, assets)
 exports.build = build
 exports.publish = series(build, publish)
 exports.spelling = spelling
+exports.spell = spelling
 exports.count = count
 exports.lint = lint
 exports.prose = prose
