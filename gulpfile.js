@@ -118,11 +118,14 @@ function spelling() {
             console.log(file.basename)
             file.contents.toString().split("\n").forEach((line, idx) => {
                let misspellings = spellchecker.checkSpelling(line)
-               misspellings.forEach(err => console.log(`${idx + 1}:${err.start} -> suggestions`))
-
-               
+               misspellings.forEach(err => {
+                  let word = line.substring(err.start, err.end)
+                  let suggestions = spellchecker.getCorrectionsForMisspelling(word)
+                  //todo - place the basename before each line and use relative for the problem matcher?
+                  console.log(`${idx + 1}:${err.start} ${word} -> ${suggestions.join(' ')}`)
+               })
             })
-            callback(null, file)
+            callback()
          }
       }))
 
