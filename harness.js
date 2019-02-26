@@ -8,6 +8,12 @@ var {
 
 var book = Object.assign(new Book, require('./html/book'))
 
+const spellchecker = require('node-spellchecker')
+
+
+
+
+spellchecker.
 
 processor.process(`
 

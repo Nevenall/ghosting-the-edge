@@ -26,6 +26,7 @@
     "gulp-count-stat": "^1.0.0",
     "gulp-rename": "^1.4.0",
     "natives": "^1.1.6",
+    "node-spellchecker": "git+https://github.com/atom/node-spellchecker.git",
     "rehype-slug": "^2.0.2",
     "rehype-stringify": "^5.0.0",
     "rehype-urls": "^1.0.0",

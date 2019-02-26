@@ -13,6 +13,7 @@ const convert = require('convert-vinyl-to-vfile')
 const markdown = require('./markdown')
 const linter = require('remark-lint')
 const writeGood = require('write-good')
+const spellchecker = require('node-spellchecker')
 
 const path = require('path')
 const fs = require('fs')
