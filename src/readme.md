@@ -10,3 +10,4 @@ frontPage: true
 
 This is a markdown writing template which can compile a set of pages to a package consumable by BookShelf. 
 
+🌎🌎🌎

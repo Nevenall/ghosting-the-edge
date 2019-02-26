@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Nevenall/ForkAndWrite#readme",
   "dependencies": {
     "@types/gulp": "^4.0.5",
+    "@types/node": "^11.9.5",
     "book": "git+https://github.com/nevenall/Book.git",
     "convert-vinyl-to-vfile": "^2.0.0",
     "delete": "^1.1.0",
@@ -26,7 +27,6 @@
     "gulp-count-stat": "^1.0.0",
     "gulp-rename": "^1.4.0",
     "natives": "^1.1.6",
-    "node-spellchecker": "git+https://github.com/atom/node-spellchecker.git",
     "rehype-slug": "^2.0.2",
     "rehype-stringify": "^5.0.0",
     "rehype-urls": "^1.0.0",
@@ -38,6 +38,7 @@
     "remark-rehype": "^4.0.0",
     "remark-sub-super": "^1.0.17",
     "remark-terms": "^1.0.2",
+    "spellchecker": "^3.5.1",
     "unified": "^7.1.0",
     "unified-stream": "^1.0.4",
     "unist-util-visit": "^1.4.0",

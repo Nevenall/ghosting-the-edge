@@ -13,7 +13,7 @@ const convert = require('convert-vinyl-to-vfile')
 const markdown = require('./markdown')
 const linter = require('remark-lint')
 const writeGood = require('write-good')
-const spellchecker = require('node-spellchecker')
+const spellchecker = require('spellchecker')
 
 const path = require('path')
 const fs = require('fs')
@@ -81,19 +81,10 @@ function render(callback) {
 }
 
 function makeBook(callback) {
-
-   // take frontmatter and make a book obj out of it
-   // minus the file contents themselves
-   // then save that to the html dir so we can import it
-   // in the bookshelf instance
-   // can make the book class a git repo that this and bookshelf can npm i
-   // to share the code. 
-   // Write this instance of Book to the dest in a way that can be moduled
-
    fs.writeFile("html/book.js", `module.exports = ${JSON.stringify(book)}`, err => {
-      console.log("done")
+      if (err) throw err
+      log.info(`wrote book.js`)
    })
-
    callback()
 }
 
@@ -113,7 +104,28 @@ function publish() {
 
 function spelling() {
    return src(sourceGlob)
-      .pipe(shell(['echo "<%= file.path %>"', 'OddSpell "<%= file.path %>"']))
+      .pipe(through2.obj(function(file, _, callback) {
+
+         if (file.isStream()) {
+            return callback(new PluginError(name, 'Streaming not supported'))
+         }
+
+         //todo - consider using string decoder instead of just tostring?
+         // spell check emoji characters?
+
+         if (file.isBuffer()) {
+            console.log(file.path)
+            console.log(file.basename)
+            file.contents.toString().split("\n").forEach((line, idx) => {
+               let misspellings = spellchecker.checkSpelling(line)
+               misspellings.forEach(err => console.log(`${idx + 1}:${err.start} -> suggestions`))
+
+               
+            })
+            callback(null, file)
+         }
+      }))
+
 }
 
 function count() {

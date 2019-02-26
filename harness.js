@@ -6,16 +6,10 @@ var {
    Page
 } = require('book')
 
-var book = Object.assign(new Book, require('./html/book'))
 
-const spellchecker = require('node-spellchecker')
+const spellchecker = require('spellchecker')
 
-
-
-
-spellchecker.
-
-processor.process(`
+var text = `
 
 ---
 Title: "chapter one"
@@ -29,13 +23,30 @@ order: 1
 [next](/next.md)
 
 ::: quote right dan 'the man' behlings
-this is a thing that I said that was awesome!
+this is a thingz that I said that was awesome!
 :::
 
-`, function(err, file) {
+`
+
+
+
+spellchecker.checkSpellingAsync(text).then(function(value)  {
+   console.log(JSON.stringify(value))
+
+   var word = text.substring(value[0].start, value[0].end)
+   console.log(word)
+
+   var suggestions = spellchecker.getCorrectionsForMisspelling(word)
+   console.log(JSON.stringify(suggestions))
+
+})
+
+
+
+processor.process(text, function(err, file) {
    console.error(report(err || file))
-   console.log(file.data.metadata)
-   console.log(String(file))
+   // console.log(file.data.metadata)
+   // console.log(String(file))
 })
 
 
