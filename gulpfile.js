@@ -47,6 +47,7 @@ function render(callback) {
             var vfile = convert(vinyl)
 
             markdown.process(vfile, function(err, parsed) {
+               logWarnings(parsed)
                var contents
 
                if (err) {
@@ -81,6 +82,12 @@ function render(callback) {
          book.addPage(new Page(vinyl.metadata.title, vinyl.metadata.path, vinyl.metadata.order))
          callback(null, vinyl)
       }))
+
+   function logWarnings(parsed) {
+      parsed.messages.forEach(msg => {
+         console.log(`'${parsed.basename}' ${msg.location.start.line},${msg.location.start.column},${msg.location.end.line||msg.location.start.line},${msg.location.end.column||msg.location.start.column} markdown-lint: ${msg.reason}`)
+      })
+   }
 }
 
 function makeBook(callback) {
@@ -118,7 +125,7 @@ function spelling() {
                misspellings.forEach(err => {
                   let word = line.substring(err.start, err.end)
                   let suggestions = spellchecker.getCorrectionsForMisspelling(word)
-                  console.log(`'${file.basename}' ${idx + 1}:${err.start + 1} ${word} -> ${suggestions.join(' ')}`)
+                  console.log(`'${file.basename}' ${idx + 1}:${err.start + 1} spelling: ${word} -> ${suggestions.join(' ')}`)
                })
             })
             callback(null, file)
@@ -129,47 +136,6 @@ function spelling() {
 function count() {
    return src(sourceGlob)
       .pipe(stats())
-}
-
-function lint(callback) {
-   return src(sourceGlob)
-      // todo - need to update this to use remark linter
-      .pipe(through2.obj(function(vinyl, _, callback) {
-         if (vinyl.isStream()) {
-            return callback(new PluginError(name, 'Streaming not supported'))
-         }
-
-         if (vinyl.isBuffer()) {
-            var vfile = convert(vinyl)
-
-            linter.process(vfile, function(err, data) {
-
-               if (err) {
-                  return callback(new PluginError(name, err || 'Unsuccessful running'))
-               }
-
-               console.log(JSON.stringify(data.messages, null, 2))
-               callback(null, vinyl)
-            })
-         }
-
-
-         // markdownLint({
-         //    files: [file.path],
-         //    config: {
-         //       default: true,
-         //       "line-length": false
-         //    }
-         // }, function(err, result) {
-         //    var resultString = (result || "").toString()
-         //    if (resultString) {
-         //       console.log(resultString)
-         //    }
-         // });
-
-      }))
-
-
 }
 
 function prose(callback) {
@@ -183,7 +149,7 @@ function prose(callback) {
             file.contents.toString().split("\n").forEach((line, idx) => {
                let suggestions = writeGood(line)
                suggestions.forEach(sug => {
-                  console.log(`'${file.basename}' ${idx + 1}:${sug.index + 1}:${sug.offset + sug.index + 1} -> ${sug.reason}`)
+                  console.log(`'${file.basename}' ${idx + 1}:${sug.index + 1}:${sug.offset + sug.index + 1} prose-lint: ${sug.reason}`)
                })
             })
 
@@ -192,7 +158,6 @@ function prose(callback) {
       }))
 }
 
-
 const build = series(clean, render, makeBook, assets)
 
 exports.build = build
@@ -200,7 +165,6 @@ exports.publish = series(build, publish)
 exports.spelling = spelling
 exports.spell = spelling
 exports.count = count
-exports.lint = lint
 exports.prose = prose
 exports.render = render
 exports.default = build

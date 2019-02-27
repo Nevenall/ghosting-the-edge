@@ -23,6 +23,7 @@ const urls = require('rehype-urls')
 
 const markdown = unified()
    .use(parse)
+   .use(guide)
 
    .use(terms, {
       classes: {

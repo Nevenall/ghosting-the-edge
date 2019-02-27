@@ -45,7 +45,6 @@
     "unified": "^7.1.0",
     "unified-stream": "^1.0.4",
     "unist-util-visit": "^1.4.0",
-    "vfile-reporter": "^5.1.1",
     "write-good": "^1.0.1"
   }
 }
