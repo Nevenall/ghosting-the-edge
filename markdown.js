@@ -1,7 +1,9 @@
 // base
 const unified = require('unified')
-const markdown = require('remark-parse')
+const remark = require('remark')
+const parse = require('remark-parse')
 const remark2rehype = require('remark-rehype')
+const format = require('rehype-format')
 const html = require('rehype-stringify')
 const path = require('path')
 const visit = require('unist-util-visit')
@@ -13,13 +15,14 @@ const containers = require('remark-containers')
 const sub_super = require('remark-sub-super')
 const frontmatter = require('remark-frontmatter')
 const parseFrontmatter = require('remark-parse-yaml')
+const guide = require('remark-preset-lint-markdown-style-guide')
 
 // html plugins
 const slug = require('rehype-slug')
 const urls = require('rehype-urls')
 
-var processor = unified()
-   .use(markdown)
+const markdown = unified()
+   .use(parse)
 
    .use(terms, {
       classes: {
@@ -102,8 +105,12 @@ var processor = unified()
    .use(slug)
    .use(urls, fixupLinks)
 
+   .use(format)
    .use(html)
 
+
+const linter = remark()
+   .use(guide)
 
 
 function fixupLinks(url) {
@@ -123,4 +130,7 @@ function copyFrontmatter() {
    }
 }
 
-module.exports = processor
+module.exports = {
+   markdown,
+   linter
+}

@@ -8,6 +8,6 @@ frontPage: true
 
 # Write
 
-This is a markdown writing template which can compile a set of pages to a package consumable by BookShelf. 
+This is a markdown writing _template_ which can compile a set of pages to a package consumable by BookShelf. 
 
 🌎🌎🌎
