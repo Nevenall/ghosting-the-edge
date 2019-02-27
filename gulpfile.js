@@ -11,10 +11,7 @@ const stats = require('gulp-count-stat')
 const log = require('fancy-log')
 const convert = require('convert-vinyl-to-vfile')
 
-const {
-   markdown,
-   linter
-} = require('./markdown')
+const markdown = require('./markdown')
 
 const writeGood = require('write-good')
 const spellchecker = require('spellchecker')
@@ -34,6 +31,7 @@ const publishTarget = "publish/"
 
 var book = null
 
+// todo - what if we run all the linters when we build and make one generic problem output? 
 function render(callback) {
    book = new Book('Temporary Title', path.resolve(destination))
 

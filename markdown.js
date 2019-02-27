@@ -109,11 +109,6 @@ const markdown = unified()
    .use(format)
    .use(html)
 
-
-const linter = remark()
-   .use(guide)
-
-
 function fixupLinks(url) {
    if (url.pathname && path.extname(url.pathname) === '.md') {
       // if the link is internal to an .md file, change it to an .html file
@@ -131,7 +126,4 @@ function copyFrontmatter() {
    }
 }
 
-module.exports = {
-   markdown,
-   linter
-}
+module.exports = markdown
