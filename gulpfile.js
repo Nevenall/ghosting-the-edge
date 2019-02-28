@@ -97,9 +97,9 @@ function render(callback) {
    }
 }
 
-function makeBook(callback) {
+function writeBook(callback) {
    // todo - write out a list of pages in order so that consuming apps can construct a book object?
-   fs.writeFile("html/book.js", `module.exports = ${JSON.stringify(book)}`, err => {
+   fs.writeFile("html/book.js", `module.exports = ${JSON.stringify(book,null,3)}`, err => {
       if (err) throw err
       log.info(`wrote book.js`)
    })
@@ -165,7 +165,7 @@ function prose(callback) {
       }))
 }
 
-const build = series(clean, render, makeBook, assets)
+const build = series(clean, render, writeBook, assets)
 
 exports.build = build
 exports.publish = series(build, publish)
