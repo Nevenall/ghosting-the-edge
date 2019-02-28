@@ -30,7 +30,7 @@
        "problemMatcher": {
          "owner": "spelling",
          "source": "spelling",
-         "severity": "warning",
+         "severity": "error",
          "fileLocation": ["relative", "${workspaceFolder}/src"],
          "pattern": [{
            "regexp": "'(.+?)' (\\d+):(\\d+) (.+ ->.*)",
@@ -41,32 +41,32 @@
          }]
        }
      },
-     {
-       "label": "spell check this file",
-       "type": "shell",
-       "command": "Write-Output '${file}'; OddSpell '${file}';",
-       "presentation": {
-         "reveal": "always",
-         "focus": false,
-         "panel": "dedicated"
-       },
-       "problemMatcher": {
-         "severity": "warning",
-         "fileLocation": "absolute",
-         "pattern": [{
-             "regexp": "(.+)",
-             "file": 1
-           },
-           {
-             "regexp": "(\\d+):(\\d+) (.+ ->.*)",
-             "line": 1,
-             "column": 2,
-             "message": 3,
-             "loop": true
-           }
-         ]
-       }
-     },
+   //   {
+   //     "label": "spell check this file",
+   //     "type": "shell",
+   //     "command": "Write-Output '${file}'; OddSpell '${file}';",
+   //     "presentation": {
+   //       "reveal": "always",
+   //       "focus": false,
+   //       "panel": "dedicated"
+   //     },
+   //     "problemMatcher": {
+   //       "severity": "warning",
+   //       "fileLocation": "absolute",
+   //       "pattern": [{
+   //           "regexp": "(.+)",
+   //           "file": 1
+   //         },
+   //         {
+   //           "regexp": "(\\d+):(\\d+) (.+ ->.*)",
+   //           "line": 1,
+   //           "column": 2,
+   //           "message": 3,
+   //           "loop": true
+   //         }
+   //       ]
+   //     }
+   //   },
 
      {
        "label": "prose",
