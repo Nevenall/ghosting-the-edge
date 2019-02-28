@@ -15,7 +15,7 @@ const containers = require('remark-containers')
 const sub_super = require('remark-sub-super')
 const frontmatter = require('remark-frontmatter')
 const parseFrontmatter = require('remark-parse-yaml')
-const guide = require('remark-preset-lint-markdown-style-guide')
+const guide = require('./markdown-lint')
 
 // html plugins
 const slug = require('rehype-slug')
