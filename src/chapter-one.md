@@ -1,6 +1,7 @@
 ---
 title: "Chapter One"
-order: 1
+order: 01
+
 ---
 
 # Welcome to Chapter One

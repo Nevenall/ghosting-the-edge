@@ -11,6 +11,7 @@
        },
        "problemMatcher": {
          "owner": "build",
+         "source": "markdown-lint",
          "severity": "warning",
          "fileLocation": ["relative", "${workspaceFolder}/src"],
          "pattern": [{
@@ -28,6 +29,7 @@
 
        "problemMatcher": {
          "owner": "spelling",
+         "source": "spelling",
          "severity": "warning",
          "fileLocation": ["relative", "${workspaceFolder}/src"],
          "pattern": [{
@@ -73,6 +75,7 @@
 
        "problemMatcher": {
          "owner": "prose",
+         "source": "prose-lint",
          "severity": "warning",
          "fileLocation": ["relative", "${workspaceFolder}/src"],
          "pattern": [{
