@@ -23,6 +23,8 @@ const {
    Page
 } = require('book')
 
+const title = 'Title of this Book'
+
 const sourceGlob = ['src/**/*.md']
 const assetsGlob = ['src/assets/**']
 const destination = 'html/'
@@ -33,7 +35,7 @@ var book = null
 
 // todo - what if we run all the linters when we build and make one generic problem output? 
 function render(callback) {
-   book = new Book('Temporary Title', path.resolve(destination))
+   book = new Book(title, path.resolve(destination))
 
    return src(sourceGlob)
       .pipe(through2.obj(function(vinyl, _, callback) {
@@ -63,10 +65,12 @@ function render(callback) {
 
                vinyl.contents = contents
 
-               // todo - fix error if no front matter
-               var fm = parsed.data.metadata
-               fm.sourcePath = parsed.path
-               vinyl.metadata = fm
+               if (parsed.data.metadata) {
+                  // record the original .md file path
+                  vinyl.pageData = parsed.data.metadata
+                  vinyl.pageData.sourcePath = parsed.path
+
+               }
 
                callback(null, vinyl)
             })
@@ -77,8 +81,12 @@ function render(callback) {
       }))
       .pipe(dest(destination))
       .pipe(through2.obj(function(vinyl, _, callback) {
-         vinyl.metadata.path = vinyl.path
-         book.addPage(new Page(vinyl.metadata.title, vinyl.metadata.path, vinyl.metadata.order))
+         if (vinyl.pageData) {
+            let page = new Page(vinyl.pageData.title, vinyl.path, vinyl.pageData.order)
+            page.data = vinyl.pageData
+            book.addPage(page)
+         }
+
          callback(null, vinyl)
       }))
 
