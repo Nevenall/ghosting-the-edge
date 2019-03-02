@@ -39,21 +39,17 @@ function render(callback) {
 
    return src(sourceGlob)
       .pipe(through2.obj(function(vinyl, _, callback) {
-         if (vinyl.isStream()) {
-            return callback(new PluginError(name, 'Streaming not supported'))
-         }
-
          if (vinyl.isBuffer()) {
             var vfile = convert(vinyl)
 
             markdown.process(vfile, function(err, parsed) {
-               logWarnings(parsed)
                var contents
 
                if (err) {
-                  return callback(new PluginError(name, err || 'Unsuccessful running'))
+                  return callback(new Error(err))
                }
 
+               logWarnings(parsed)
                contents = parsed.contents
 
                /* istanbul ignore else - There aren’t any unified compilers

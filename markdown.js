@@ -56,7 +56,7 @@ const markdown = unified()
          element: 'div',
          transform: function(node, config, tokenize) {
             node.data.hProperties = {
-               className: columns
+               className: 'columns'
             }
          }
       }, {
