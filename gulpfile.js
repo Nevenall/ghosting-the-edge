@@ -124,9 +124,6 @@ function publish() {
 function spelling() {
    return src(sourceGlob)
       .pipe(through2.obj(function(file, _, callback) {
-         if (file.isStream()) {
-            return callback(new PluginError(name, 'Streaming not supported'))
-         }
          if (file.isBuffer()) {
             file.contents.toString().split("\n").forEach((line, idx) => {
                let misspellings = spellchecker.checkSpelling(line)
@@ -149,10 +146,6 @@ function count() {
 function prose(callback) {
    return src(sourceGlob)
       .pipe(through2.obj(function(file, _, callback) {
-         if (file.isStream()) {
-            return callback(new PluginError(name, 'Streaming not supported'))
-         }
-
          if (file.isBuffer()) {
             file.contents.toString().split("\n").forEach((line, idx) => {
                let suggestions = writeGood(line)
@@ -160,7 +153,6 @@ function prose(callback) {
                   console.log(`'${file.basename}' ${idx + 1}:${sug.index + 1}:${sug.offset + sug.index + 1} ${sug.reason}`)
                })
             })
-
             callback(null, file)
          }
       }))
