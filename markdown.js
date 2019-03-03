@@ -25,14 +25,17 @@ const markdown = unified()
    .use(parse)
    .use(guide)
 
-   .use(terms, {
-      classes: {
-         singleSlash: "game-term-1",
-         doubleSlash: "game-term-2",
-         singleBrace: "game-term-3",
-         doubleBrace: "game-term-4"
-      }
-   })
+   .use(terms, [{
+      open: '{',
+      close: '}',
+      element: 'span',
+      class: 'term-1'
+   }, {
+      open: '{{',
+      close: '}}',
+      element: 'span',
+      class: 'term-2'
+   }])
    .use(containers, {
       default: true,
       custom: [{
