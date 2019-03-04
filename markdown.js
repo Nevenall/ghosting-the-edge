@@ -29,12 +29,12 @@ const markdown = unified()
       open: '{',
       close: '}',
       element: 'span',
-      class: 'term-1'
+      class: 'aspect'
    }, {
       open: '{{',
       close: '}}',
       element: 'span',
-      class: 'term-2'
+      class: 'fate-icon'
    }])
    .use(containers, {
       default: true,
