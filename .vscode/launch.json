@@ -6,23 +6,23 @@
   "configurations": [{
       "type": "node",
       "request": "launch",
-      "name": "Run Harness",
+      "name": "Harness",
       "program": "${workspaceFolder}/harness.js"
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Gulp build",
-      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
-      "args": [
-        "build"
-      ]
+      "name": "App",
+      "program": "${workspaceFolder}/app.js"
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
-      "program": "${workspaceFolder}/gulpfile.js"
+      "name": "Gulp",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "build"
+      ]
     }
   ]
 }

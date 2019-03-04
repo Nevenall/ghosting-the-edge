@@ -1,166 +1,132 @@
-const MarkdownIt = require('markdown-it')
-const deflist = require('markdown-it-deflist')
-const terms = require('markdown-it-special-terms')
-const anchors = require('markdown-it-anchor')
-const containers = require('markdown-it-container')
-const tables = require('markdown-it-multimd-table')
+// base
+const unified = require('unified')
+const remark = require('remark')
+const parse = require('remark-parse')
+const remark2rehype = require('remark-rehype')
+const format = require('rehype-format')
+const html = require('rehype-stringify')
+const path = require('path')
+const visit = require('unist-util-visit')
+const tokenizeWords = require('space-separated-tokens')
 
-var md = new MarkdownIt({
-   html: true,
-   xhtmlOut: true,
-   breaks: true,
-   typographer: true,
-   linkify: true
-})
+// markdown plugins
+const terms = require('remark-terms')
+const containers = require('remark-containers')
+const sub_super = require('remark-sub-super')
+const frontmatter = require('remark-frontmatter')
+const parseFrontmatter = require('remark-parse-yaml')
+const guide = require('./markdown-lint')
 
-md.use(deflist)
-md.use(terms, {
-   open_1: '<span class="aspect">',
-   close_1: "</span>",
-   open_2: '<span class="fate-icon">',
-   close_2: "</span>",
-   open_3: '<span class="game-term">',
-   close_3: "</span>"
-})
-md.use(anchors)
-md.use(tables)
+// html plugins
+const slug = require('rehype-slug')
+const urls = require('rehype-urls')
 
+const markdown = unified()
+   .use(parse)
+   .use(guide)
 
-// Containers
-md.use(containers, 'sidebar', {
-   validate: function(params) {
-      return params.match(/\s*sidebar\s*/i)
-   },
-
-   render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*sidebar\s(left|right)?/i)
-      if (tokens[idx].nesting === 1) {
-         if (m) {
-            return `<aside class="${m[1]}">\n`
-         } else {
-            return '<aside>\n'
+   .use(terms, [{
+      open: '{',
+      close: '}',
+      element: 'span',
+      class: 'term-1'
+   }, {
+      open: '{{',
+      close: '}}',
+      element: 'span',
+      class: 'term-2'
+   }])
+   .use(containers, {
+      default: true,
+      custom: [{
+         type: 'sidebar',
+         element: 'aside',
+         transform: function(node, config, tokenize) {
+            node.data.hProperties = {
+               className: config || 'left'
+            }
          }
-      } else {
-         return "</aside>\n"
-      }
-   }
-})
-
-md.use(containers, 'callout', {
-   validate: function(params) {
-      return params.match(/\s*callout\s*/i)
-   },
-
-   render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*callout\s(left|right)?/i)
-      if (tokens[idx].nesting === 1) {
-         if (m) {
-            return `<article class="${m[1]}">\n`
-         } else {
-            return '<article>\n'
+      }, {
+         type: 'callout',
+         element: 'article',
+         transform: function(node, config, tokenize) {
+            node.data.hProperties = {
+               className: config || 'left'
+            }
          }
-      } else {
-         return "</article>\n"
-      }
-   }
-})
-
-md.use(containers, 'stat-block', {
-   validate: function(params) {
-      return params.match(/\s*stat-block\s*/i)
-   },
-
-   render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*stat-block\s(left|right)?/i)
-      if (tokens[idx].nesting === 1) {
-         if (m) {
-            return `<article class="stat-block ${m[1]}">\n`
-         } else {
-            return '<article class="stat-block">\n'
+      }, {
+         type: 'columns',
+         element: 'div',
+         transform: function(node, config, tokenize) {
+            node.data.hProperties = {
+               className: 'columns'
+            }
          }
-      } else {
-         return "</article>\n"
-      }
-   }
-})
+      }, {
+         type: 'quote',
+         element: 'aside',
+         transform: function(node, config, tokenize) {
+            var words = tokenizeWords.parse(config)
 
-md.use(containers, 'quote', {
-   validate: function(params) {
-      return params.match(/\s*quote\s*/i)
-   },
-
-   render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*quote\s+(left|right)?\s(.*)/i)
-      if (tokens[idx].nesting === 1) {
-         if (m) {
-            return `<aside class="quoted ${m[1]}">\n<footer>${m[2]}</footer>\n`
-         } else {
-            return '<aside class="quoted">\n'
+            node.data.hProperties = {
+               className: `quoted ${words.shift()}`
+            }
+            node.children.push({
+               type: 'footer',
+               data: {
+                  hName: 'footer'
+               },
+               children: tokenize(words.join(' '))
+            })
          }
-      } else {
-         return `</aside>\n`
-      }
-   }
-})
-
-md.use(containers, 'table', {
-   validate: function(params) {
-      return params.match(/\s*table\s*/i)
-   },
-
-   render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*table\s+(.*)/i)
-      if (tokens[idx].nesting === 1) {
-         if (m) {
-            return `<figure class="figure-table">\n<figcaption>${md.render(m[1])}</figcaption>\n`
-         } else {
-            return '<figure class="figure-table">\n'
+      }, {
+         type: 'figure-table',
+         element: 'figure',
+         transform: function(node, config, tokenize) {
+            node.data.hProperties = {
+               className: `figure-table`
+            }
+            node.children.push({
+               type: 'figcaption',
+               data: {
+                  hName: 'figcaption'
+               },
+               children: tokenize(config)
+            })
          }
-      } else {
-         return "</figure>\n"
-      }
+      }]
+   })
+   .use(sub_super)
+   .use(frontmatter, {
+      type: 'yaml',
+      marker: '-'
+   })
+   .use(parseFrontmatter)
+   .use(copyFrontmatter)
+
+   .use(remark2rehype)
+
+   .use(slug)
+   .use(urls, fixupLinks)
+
+   .use(format)
+   .use(html)
+
+function fixupLinks(url) {
+   if (url.pathname && path.extname(url.pathname) === '.md') {
+      // if the link is internal to an .md file, change it to an .html file
+      return url.pathname.replace('.md', '.html')
    }
-})
-
-md.use(containers, 'columns', {
-   validate: function(params) {
-      return params.match(/\s*columns\s*/i)
-   },
-
-   render: function(tokens, idx) {
-      var m = tokens[idx].info.match(/\s*columns\s*/i)
-      if (tokens[idx].nesting === 1) {
-         if (m) {
-            return `<div class="columns">\n`
-         } else {
-            return '<div class="columns">\n'
-         }
-      } else {
-         return "</div>\n"
-      }
-   }
-})
-
-
-// any link to a .md resource, we will convert to a link to an .html resource
-// links with \ will be converted to /
-var defaultRender = md.renderer.rules.link_open || function(tokens, idx, options, env, self) {
-   return self.renderToken(tokens, idx, options)
+   return url.href
 }
 
-md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
-   var aIndex = tokens[idx].attrIndex('href')
-   var href = tokens[idx].attrs[aIndex][1]
-
-   tokens[idx].attrs[aIndex][1] = href.replace('\\', '/')
-
-   if (href.endsWith(".md")) {
-      tokens[idx].attrs[aIndex][1] = href.replace(".md", ".html")
+function copyFrontmatter() {
+   return function(ast, file) {
+      visit(ast, 'yaml', item => {
+         // copy parsed frontmatter to the file data
+         file.data.metadata = item.data.parsedValue
+      })
    }
-
-   // pass token to default renderer.
-   return defaultRender(tokens, idx, options, env, self)
 }
 
-
-module.exports = md
+module.exports = markdown
