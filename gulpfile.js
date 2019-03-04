@@ -4,39 +4,110 @@ const {
    src,
    dest
 } = require('gulp')
-
 const del = require('delete')
-const tap = require('gulp-tap')
+const through2 = require('through2');
 const rename = require('gulp-rename')
-const shell = require('gulp-shell')
 const stats = require('gulp-count-stat')
+const log = require('fancy-log')
+const convert = require('convert-vinyl-to-vfile')
 
 const markdown = require('./markdown')
 
-const markdownLint = require('markdownlint')
 const writeGood = require('write-good')
+const spellchecker = require('spellchecker')
 
-const source = ['**/*.md', '!node_modules/**', '!tools/**']
-const assetPath = ['assets/**']
+const path = require('path')
+const fs = require('fs')
+const {
+   Book,
+   Page
+} = require('book')
+
+const title = 'Ghosting the Edge'
+
+const sourceGlob = ['src/**/*.md']
+const assetsGlob = ['src/assets/**']
 const destination = 'html/'
 const destinationGlob = 'html/**'
 const publishTarget = "C:/src/BookShelf-GhostingTheEdge/src/pages"
 
-function render() {
-   return src(source)
-      .pipe(tap((file) => {
-         var result = markdown.render(file.contents.toString())
-         file.contents = Buffer.from(result)
+var book = null
+
+// todo - what if we run all the linters when we build and make one generic problem output? 
+function render(callback) {
+   book = new Book(title, path.resolve(destination))
+
+   return src(sourceGlob)
+      .pipe(through2.obj(function(vinyl, _, callback) {
+         if (vinyl.isBuffer()) {
+            var vfile = convert(vinyl)
+
+            markdown.process(vfile, function(err, parsed) {
+               var contents
+
+               if (err) {
+                  return callback(new Error(err))
+               }
+
+               logWarnings(parsed)
+               contents = parsed.contents
+
+               /* istanbul ignore else - There aren’t any unified compilers
+                * that output buffers, but this logic is here to keep allow them
+                * (and binary files) to pass through untouched. */
+               if (typeof contents === 'string') {
+                  contents = Buffer.from(contents, 'utf8')
+               }
+
+               vinyl.contents = contents
+
+               if (parsed.data.metadata) {
+                  // record the original .md file path
+                  vinyl.pageData = parsed.data.metadata
+               } else {
+                  vinyl.pageData = {
+                     name: vinyl.stem,
+                     order: book.allPages.length + 1
+                  }
+               }
+               vinyl.pageData.sourcePath = parsed.path
+
+               callback(null, vinyl)
+            })
+         }
       }))
       .pipe(rename({
          extname: ".html"
       }))
       .pipe(dest(destination))
+      .pipe(through2.obj(function(vinyl, _, callback) {
+         if (vinyl.pageData) {
+            let page = new Page(vinyl.pageData.title, vinyl.path, vinyl.pageData.order)
+            page.data = vinyl.pageData
+            book.addPage(page)
+         }
+
+         callback(null, vinyl)
+      }))
+
+   function logWarnings(parsed) {
+      parsed.messages.forEach(msg => {
+         console.log(`'${parsed.basename}' ${msg.location.start.line},${msg.location.start.column},${msg.location.end.line||msg.location.start.line},${msg.location.end.column||msg.location.start.column} ${msg.reason}`)
+      })
+   }
+}
+
+function writeBook(callback) {
+   // todo - write out a list of pages in order so that consuming apps can construct a book object?
+   fs.writeFile("html/book.js", `module.exports = ${JSON.stringify(book,null,3)}`, err => {
+      if (err) throw err
+      log.info(`wrote book.js`)
+   })
+   callback()
 }
 
 function assets() {
-   return src(assetPath)
-      .pipe(dest(destination + "/assets"))
+   return src(assetsGlob).pipe(dest(destination + "/assets"))
 }
 
 function clean(callback) {
@@ -44,60 +115,55 @@ function clean(callback) {
 }
 
 function publish() {
-   console.log(`publishing to ${publishTarget}`)
+   log.info(`publishing to ${publishTarget}`)
    return src(destinationGlob)
       .pipe(dest(publishTarget))
 }
 
 function spelling() {
-   return src(source)
-      .pipe(shell(['echo "<%= file.path %>"', 'OddSpell "<%= file.path %>"']))
+   return src(sourceGlob)
+      .pipe(through2.obj(function(file, _, callback) {
+         if (file.isBuffer()) {
+            file.contents.toString().split("\n").forEach((line, idx) => {
+               let misspellings = spellchecker.checkSpelling(line)
+               misspellings.forEach(err => {
+                  let word = line.substring(err.start, err.end)
+                  let suggestions = spellchecker.getCorrectionsForMisspelling(word)
+                  console.log(`'${file.basename}' ${idx + 1}:${err.start + 1} ${word} -> ${suggestions.join(' ')}`)
+               })
+            })
+            callback(null, file)
+         }
+      }))
 }
 
 function count() {
-   return src(source)
+   return src(sourceGlob)
       .pipe(stats())
 }
 
-function lint() {
-   return src(source)
-      .pipe(tap((file) => {
-         markdownLint({
-            files: [file.path],
-            config: {
-               default: true,
-               "line-length": false
-            }
-         }, function(err, result) {
-            var resultString = (result || "").toString()
-            if (resultString) {
-               console.log(resultString)
-            }
-         })
+function prose(callback) {
+   return src(sourceGlob)
+      .pipe(through2.obj(function(file, _, callback) {
+         if (file.isBuffer()) {
+            file.contents.toString().split("\n").forEach((line, idx) => {
+               let suggestions = writeGood(line)
+               suggestions.forEach(sug => {
+                  console.log(`'${file.basename}' ${idx + 1}:${sug.index + 1}:${sug.offset + sug.index + 1} ${sug.reason}`)
+               })
+            })
+            callback(null, file)
+         }
       }))
 }
 
-function prose() {
-   return src(source)
-      .pipe(tap((file, t) => {
-         var text = file.contents.toString()
-         var suggestions = writeGood(text)
-         console.log(`"${file.path}"`)
-         suggestions.forEach(element => {
-            var toCount = text.substring(0, element.index + element.offset)
-            var line = toCount.match(/\n/g).length
-            var column = toCount.substring(toCount.lastIndexOf('\n'), element.index).length
-            console.log(`${line + 1}:${column}  ${element.reason}`)
-         })
-      }))
-}
+const build = series(clean, render, writeBook, assets)
 
-const buildSeries = series(clean, render, assets)
-
-exports.build = buildSeries
-exports.publish = series(buildSeries, publish)
+exports.build = build
+exports.publish = series(build, publish)
 exports.spelling = spelling
+exports.spell = spelling
 exports.count = count
-exports.lint = lint
 exports.prose = prose
-exports.default = buildSeries
+exports.render = render
+exports.default = build

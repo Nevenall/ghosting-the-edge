@@ -1,5 +1,9 @@
-// Place your settings in this file to overwrite default and user settings.
 {
-  "editor.quickSuggestions": false,
-  "editor.snippetSuggestions": "top"
+   "spellright.language": [
+      "en"
+   ],
+   "spellright.documentTypes": [
+      "latex",
+      "plaintext"
+   ]
 }
