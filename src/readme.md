@@ -1,15 +1,27 @@
----
-title: 'Introduction'
-order: 0
-frontPage: true
----
+# Ghosting the Edge
 
-![Continental_Standard_typewriter_keyboard.jpg: Sommereggerderivative work: Nils von Barth (nbarth) CC BY-SA 3.0](assets/256px-Continental_Standard_typewriter_keyboard_-_key_detail.jpg)
+A cyberpunk toolkit for Fate Core. 
 
-# Write
+## Read Online
 
-This is a markdown writing _template_ which can compile a set of pages to a package consumable by BookShelf. 
+You can read the latest version online at https://ghosting.bookshelf.press/
 
-So, the cat was was killed.
+## Licenses
 
-🌎🌎🌎
+### This Work 
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+### Fate Core
+
+![Powered by Fate Logo](assets/Powered-by-Fate-Final-Light-BG-300x117.png)
+
+Fate™ is a trademark of Evil Hat Productions, LLC. The Powered by Fate logo is © Evil Hat Productions, LLC and is used with permission.
+
+This work is based on Fate Core System and Fate Accelerated Edition (found at http://www.faterpg.com/), products of Evil Hat Productions, LLC, developed, authored, and edited by Leonard Balsera, Brian Engard, Jeremy Keller, Ryan Macklin, Mike Olson, Clark Valentine, Amanda Valentine, Fred Hicks, and Rob Donoghue, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
+
+### Fate Font
+
+The Fate Core font is © Evil Hat Productions, LLC and is used with permission. The Four Actions icons were designed by Jeremy Keller.
+
+
