@@ -65,7 +65,6 @@ function render(callback) {
                   // record the original .md file path
                   vinyl.pageData = parsed.data.metadata
                } else {
-                  //todo - if there is no frontmatter, we stil need to include this page
                   vinyl.pageData = {
                      name: vinyl.stem,
                      order: book.allPages.length + 1
