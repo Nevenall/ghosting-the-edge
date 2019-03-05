@@ -39,21 +39,17 @@ function render(callback) {
 
    return src(sourceGlob)
       .pipe(through2.obj(function(vinyl, _, callback) {
-         if (vinyl.isStream()) {
-            return callback(new PluginError(name, 'Streaming not supported'))
-         }
-
          if (vinyl.isBuffer()) {
             var vfile = convert(vinyl)
 
             markdown.process(vfile, function(err, parsed) {
-               logWarnings(parsed)
                var contents
 
                if (err) {
-                  return callback(new PluginError(name, err || 'Unsuccessful running'))
+                  return callback(new Error(err))
                }
 
+               logWarnings(parsed)
                contents = parsed.contents
 
                /* istanbul ignore else - There aren’t any unified compilers
@@ -69,7 +65,6 @@ function render(callback) {
                   // record the original .md file path
                   vinyl.pageData = parsed.data.metadata
                } else {
-                  //todo - if there is no frontmatter, we stil need to include this page
                   vinyl.pageData = {
                      name: vinyl.stem,
                      order: book.allPages.length + 1
@@ -129,9 +124,6 @@ function publish() {
 function spelling() {
    return src(sourceGlob)
       .pipe(through2.obj(function(file, _, callback) {
-         if (file.isStream()) {
-            return callback(new PluginError(name, 'Streaming not supported'))
-         }
          if (file.isBuffer()) {
             file.contents.toString().split("\n").forEach((line, idx) => {
                let misspellings = spellchecker.checkSpelling(line)
@@ -154,10 +146,6 @@ function count() {
 function prose(callback) {
    return src(sourceGlob)
       .pipe(through2.obj(function(file, _, callback) {
-         if (file.isStream()) {
-            return callback(new PluginError(name, 'Streaming not supported'))
-         }
-
          if (file.isBuffer()) {
             file.contents.toString().split("\n").forEach((line, idx) => {
                let suggestions = writeGood(line)
@@ -165,7 +153,6 @@ function prose(callback) {
                   console.log(`'${file.basename}' ${idx + 1}:${sug.index + 1}:${sug.offset + sug.index + 1} ${sug.reason}`)
                })
             })
-
             callback(null, file)
          }
       }))
