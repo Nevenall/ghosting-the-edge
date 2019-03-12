@@ -92,7 +92,7 @@ function render(callback) {
 
    function logWarnings(parsed) {
       parsed.messages.forEach(msg => {
-         console.log(`'${parsed.basename}' ${msg.location.start.line},${msg.location.start.column},${msg.location.end.line||msg.location.start.line},${msg.location.end.column||msg.location.start.column} ${msg.reason}`)
+         console.log(`'${parsed.path}' ${msg.location.start.line},${msg.location.start.column},${msg.location.end.line||msg.location.start.line},${msg.location.end.column||msg.location.start.column} ${msg.reason}`)
       })
    }
 }
@@ -130,7 +130,7 @@ function spelling() {
                misspellings.forEach(err => {
                   let word = line.substring(err.start, err.end)
                   let suggestions = spellchecker.getCorrectionsForMisspelling(word)
-                  console.log(`'${file.basename}' ${idx + 1}:${err.start + 1} ${word} -> ${suggestions.join(' ')}`)
+                  console.log(`'${file.path}' ${idx + 1}:${err.start + 1} ${word} -> ${suggestions.join(' ')}`)
                })
             })
             callback(null, file)
@@ -150,7 +150,7 @@ function prose(callback) {
             file.contents.toString().split("\n").forEach((line, idx) => {
                let suggestions = writeGood(line)
                suggestions.forEach(sug => {
-                  console.log(`'${file.basename}' ${idx + 1}:${sug.index + 1}:${sug.offset + sug.index + 1} ${sug.reason}`)
+                  console.log(`'${file.path}' ${idx + 1}:${sug.index + 1}:${sug.offset + sug.index + 1} ${sug.reason}`)
                })
             })
             callback(null, file)
