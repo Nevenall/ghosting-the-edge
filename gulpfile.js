@@ -158,6 +158,15 @@ function prose(callback) {
       }))
 }
 
+function save(callback) {
+
+   console.log('this is a task which will commit the current src/ changes to git')
+   console.log('and we might start adding interesting info to the commit message, like time, word count and such')
+
+
+   callback()
+}
+
 const build = series(clean, render, writeBook, assets)
 
 exports.build = build
@@ -167,4 +176,6 @@ exports.spell = spelling
 exports.count = count
 exports.prose = prose
 exports.render = render
+exports.check = series(spelling, prose, render, count)
+exports.save = save
 exports.default = build
