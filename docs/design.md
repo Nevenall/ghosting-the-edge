@@ -1,3 +1,3 @@
 #Design notes and ideas
 
-todo - filenames with spaces break our problem matching. Specifically spelling. 
+todo - what if we setup a watch task which could do an occasional git commit with info like word count? 
