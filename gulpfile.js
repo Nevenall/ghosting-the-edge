@@ -18,10 +18,13 @@ const spellchecker = require('spellchecker')
 
 const path = require('path')
 const fs = require('fs')
+
 const {
    Book,
    Page
 } = require('book')
+
+const git=  require('gulp-git')
 
 const title = 'Title of this Book'
 
@@ -33,7 +36,6 @@ const publishTarget = "publish/"
 
 var book = null
 
-// todo - what if we run all the linters when we build and make one generic problem output? 
 function render(callback) {
    book = new Book(title, path.resolve(destination))
 
@@ -163,6 +165,8 @@ function save(callback) {
    console.log('this is a task which will commit the current src/ changes to git')
    console.log('and we might start adding interesting info to the commit message, like time, word count and such')
 
+   return src(sourceGlob)
+   .pipe(git.add())
 
    callback()
 }

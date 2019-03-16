@@ -25,6 +25,7 @@
     "fancylog": "^4.0.2",
     "gulp": "^4.0.0",
     "gulp-count-stat": "^1.0.0",
+    "gulp-git": "^2.9.0",
     "gulp-rename": "^1.4.0",
     "natives": "^1.1.6",
     "rehype-format": "^2.3.1",
