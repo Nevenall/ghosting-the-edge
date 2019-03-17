@@ -170,14 +170,11 @@ function save() {
       options.m = 'page edits'
    }
 
-   var message = `${options.m}
-{todo: Add interesting data: time, location, weather, word count}`
+   var addtional = `{todo: Add interesting data: time, location, weather, word count}`
 
    return src(sourceGlob)
-      .pipe(git.add())
-      .pipe(git.commit(message, {
-         multiline: true
-      }))
+      //.pipe(git.add())
+      .pipe(git.commit([options.m, addtional]))
 }
 
 const build = series(clean, render, writeBook, assets)
