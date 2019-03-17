@@ -21,7 +21,8 @@
       "name": "Gulp",
       "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
       "args": [
-        "build"
+        "save",
+        "m"
       ]
     }
   ]

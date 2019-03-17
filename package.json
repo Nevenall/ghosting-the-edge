@@ -27,6 +27,7 @@
     "gulp-count-stat": "^1.0.0",
     "gulp-git": "^2.9.0",
     "gulp-rename": "^1.4.0",
+    "minimist": "^1.2.0",
     "natives": "^1.1.6",
     "rehype-format": "^2.3.1",
     "rehype-slug": "^2.0.2",

@@ -24,7 +24,8 @@ const {
    Page
 } = require('book')
 
-const git=  require('gulp-git')
+const git = require('gulp-git')
+const min = require('minimist')
 
 const title = 'Title of this Book'
 
@@ -36,7 +37,7 @@ const publishTarget = "publish/"
 
 var book = null
 
-function render(callback) {
+function render() {
    book = new Book(title, path.resolve(destination))
 
    return src(sourceGlob)
@@ -145,7 +146,7 @@ function count() {
       .pipe(stats())
 }
 
-function prose(callback) {
+function prose() {
    return src(sourceGlob)
       .pipe(through2.obj(function(file, _, callback) {
          if (file.isBuffer()) {
@@ -160,15 +161,23 @@ function prose(callback) {
       }))
 }
 
-function save(callback) {
+function save() {
+   var options = min(process.argv.slice(2), {
+      string: 'm'
+   });
 
-   console.log('this is a task which will commit the current src/ changes to git')
-   console.log('and we might start adding interesting info to the commit message, like time, word count and such')
+   if (!options.m) {
+      options.m = 'page edits'
+   }
+
+   var message = `${options.m}
+{todo: Add interesting data: time, location, weather, word count}`
 
    return src(sourceGlob)
-   .pipe(git.add())
-
-   callback()
+      .pipe(git.add())
+      .pipe(git.commit(message, {
+         multiline: true
+      }))
 }
 
 const build = series(clean, render, writeBook, assets)
