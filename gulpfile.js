@@ -176,7 +176,8 @@ function save() {
       //.pipe(git.add())
 
       .pipe(git.commit([options.m, addtional], {
-         multiline: true
+         multiline: true,
+         disableMessageRequirement: true
       }))
 }
 
