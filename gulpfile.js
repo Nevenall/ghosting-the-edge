@@ -174,7 +174,10 @@ function save() {
 
    return src(sourceGlob)
       //.pipe(git.add())
-      .pipe(git.commit([options.m, addtional]))
+
+      .pipe(git.commit([options.m, addtional], {
+         multiline: true
+      }))
 }
 
 const build = series(clean, render, writeBook, assets)
