@@ -24,7 +24,8 @@ const {
    Page
 } = require('book')
 
-const git = require('gulp-git')
+const glob = require('fast-glob')
+const git = require('simple-git')()
 const min = require('minimist')
 
 const title = 'Title of this Book'
@@ -161,24 +162,28 @@ function prose() {
       }))
 }
 
-function save() {
+function save(callback) {
    var options = min(process.argv.slice(2), {
       string: 'm'
-   });
+   })
 
    if (!options.m) {
       options.m = 'page edits'
    }
 
-   var addtional = `{todo: Add interesting data: time, location, weather, word count}`
 
-   return src(sourceGlob)
-      //.pipe(git.add())
+   var additional = `{todo: Add interesting data: time, location, weather, word count}`
 
-      .pipe(git.commit([options.m, addtional], {
-         multiline: true,
-         disableMessageRequirement: true
-      }))
+   const files = glob.sync(sourceGlob)
+
+   git.commit([options.m, additional], files, {}, (err, data) => {
+      if (err) {
+         callback(err)
+      }
+      console.log(JSON.stringify(data, null, 2))
+      callback()
+   })
+
 }
 
 const build = series(clean, render, writeBook, assets)
