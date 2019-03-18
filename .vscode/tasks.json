@@ -1,92 +1,65 @@
  {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    "version": "2.0.0",
-    "tasks": [{
-          "type": "gulp",
-          "task": "build",
-          "group": {
-             "kind": "build",
-             "isDefault": true
-          },
-          "problemMatcher": {
-             "owner": "build",
-             "source": "markdown-lint",
-             "severity": "warning",
-             "fileLocation": "absolute",
-             "pattern": [{
-                "regexp": "'(.+?)' (\\d+,\\d+,\\d+,\\d+) (.*)",
-                "file": 1,
-                "location": 2,
-                "message": 3
-             }]
-          }
+   // See https://go.microsoft.com/fwlink/?LinkId=733558
+   // for the documentation about the tasks.json format
+   "version": "2.0.0",
+   "tasks": [{
+       "label": "build",
+       "type": "gulp",
+       "task": "build",
+       "group": {
+         "kind": "build",
+         "isDefault": true
        },
-       {
-          "label": "spelling",
-          "type": "gulp",
-          "task": "spelling",
-
-          "problemMatcher": {
-             "owner": "spelling",
-             "source": "spelling",
-             "severity": "error",
-             "fileLocation": "absolute",
-             "pattern": [{
-                "regexp": "'(.+?)' (\\d+):(\\d+) (.+ ->.*)",
-                "file": 1,
-                "line": 2,
-                "column": 3,
-                "message": 4
-             }]
-          }
-       },
-       //   {
-       //     "label": "spell check this file",
-       //     "type": "shell",
-       //     "command": "Write-Output '${file}'; OddSpell '${file}';",
-       //     "presentation": {
-       //       "reveal": "always",
-       //       "focus": false,
-       //       "panel": "dedicated"
-       //     },
-       //     "problemMatcher": {
-       //       "severity": "warning",
-       //       "fileLocation": "absolute",
-       //       "pattern": [{
-       //           "regexp": "(.+)",
-       //           "file": 1
-       //         },
-       //         {
-       //           "regexp": "(\\d+):(\\d+) (.+ ->.*)",
-       //           "line": 1,
-       //           "column": 2,
-       //           "message": 3,
-       //           "loop": true
-       //         }
-       //       ]
-       //     }
-       //   },
-
-       {
-          "label": "prose",
-          "type": "gulp",
-          "task": "prose",
-
-          "problemMatcher": {
-             "owner": "prose",
-             "source": "prose-lint",
-             "severity": "warning",
-             "fileLocation": "absolute",
-             "pattern": [{
-                "regexp": "'(.+)' (\\d+):(\\d+):(\\d+) (.*)",
-                "file": 1,
-                "line": 2,
-                "column": 3,
-                "endColumn": 4,
-                "message": 5
-             }]
-          }
+       "problemMatcher": {
+         "owner": "build",
+         "source": "markdown-lint",
+         "severity": "warning",
+         "fileLocation": "absolute",
+         "pattern": [{
+           "regexp": "'(.+?)' (\\d+,\\d+,\\d+,\\d+) (.*)",
+           "file": 1,
+           "location": 2,
+           "message": 3
+         }]
        }
-    ]
+     },
+     {
+       "label": "spell check",
+       "type": "gulp",
+       "task": "spelling",
+       "problemMatcher": {
+         "owner": "spelling",
+         "source": "spelling",
+         "severity": "error",
+         "fileLocation": "absolute",
+         "pattern": [{
+           "regexp": "'(.+?)' (\\d+):(\\d+) (.+ ->.*)",
+           "file": 1,
+           "line": 2,
+           "column": 3,
+           "message": 4
+         }]
+       }
+     },
+     {
+       "label": "prose",
+       "type": "gulp",
+       "task": "prose",
+
+       "problemMatcher": {
+         "owner": "prose",
+         "source": "prose-lint",
+         "severity": "warning",
+         "fileLocation": "absolute",
+         "pattern": [{
+           "regexp": "'(.+)' (\\d+):(\\d+):(\\d+) (.*)",
+           "file": 1,
+           "line": 2,
+           "column": 3,
+           "endColumn": 4,
+           "message": 5
+         }]
+       }
+     }
+   ]
  }

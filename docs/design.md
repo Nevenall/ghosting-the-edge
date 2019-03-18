@@ -1,3 +1,5 @@
 #Design notes and ideas
 
-todo - filenames with spaces break our problem matching. Specifically spelling. 
+todo - what if we setup a watch task which could do an occasional git commit with info like word count?  Cory doctowrow's version is python scripts called flashbake. 
+it tracks various things like weather, what you are listening too, time/timezone
+
