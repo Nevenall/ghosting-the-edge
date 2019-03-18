@@ -27,6 +27,28 @@ const {
 const glob = require('fast-glob')
 const git = require('simple-git')()
 const min = require('minimist')
+const geolocation = require('geolocator')
+
+geolocation.config({
+   language: "en",
+   google: {
+      version: "3",
+      key: process.env.google_api
+   }
+})
+
+const locateOptions = {
+   enableHighAccuracy: true,
+   timeout: 5000,
+   maximumWait: 10000, // max wait time for desired accuracy
+   maximumAge: 0, // disable cache
+   desiredAccuracy: 30, // meters
+   fallbackToIP: true, // fallback to IP if Geolocation fails or rejected
+   addressLookup: true, // requires Google API key if true
+   timezone: true, // requires Google API key if true
+   map: "map-canvas", // interactive map element id (or options object)
+   staticMap: true // get a static map image URL (boolean or options object)
+}
 
 const title = 'Title of this Book'
 
@@ -171,8 +193,13 @@ function save(callback) {
       options.m = 'page edits'
    }
 
+   geolocation.locate(options, function(err, location) {
+      if (err) return console.log(err);
+      console.log(location);
+   });
 
-   var additional = `{todo: Add interesting data: time, location, weather, word count}`
+   // todo - we'll add interesting stuff to the additional data like location and weather and word count. 
+   var additional = ``
 
    const files = glob.sync(sourceGlob)
 
