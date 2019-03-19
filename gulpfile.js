@@ -27,6 +27,7 @@ const {
 const glob = require('fast-glob')
 const git = require('simple-git')()
 const min = require('minimist')
+const Shell = require('node-powershell')
 
 const title = 'Title of this Book'
 
@@ -172,6 +173,7 @@ function save(callback) {
    }
 
    // todo - we'll add interesting stuff to the additional data like location and weather and word count. 
+   var location = getLocation()
    var additional = ``
 
    const files = glob.sync(sourceGlob)
@@ -183,6 +185,31 @@ function save(callback) {
       console.log(JSON.stringify(data, null, 2))
       callback()
    })
+
+}
+
+function getLocation() {
+   let ps = new Shell({
+      executionPolicy: 'Bypass',
+      noProfile: true
+   })
+
+   ps.addCommand(`Add-Type -AssemblyName System.Device #Required to access System.Device.Location namespace
+   $Geo = New-Object System.Device.Location.GeoCoordinateWatcher #Create the required object
+   $Geo.Start() #Begin resolving current locaton
+   
+   while (($Geo.Status -ne 'Ready') -and ($Geo.Permission -ne 'Denied')) {
+      Start-Sleep -Milliseconds 100 #Wait for discovery.
+   }  
+   
+   if ($Geo.Permission -eq 'Denied') {
+      Write-Output('{}')
+   }
+   else {
+      $Geo.Position.Location | ConvertTo-Json
+   }`)
+
+   ps.invoke().then(out => console.log(out)).catch(err => console.log(err))
 
 }
 
