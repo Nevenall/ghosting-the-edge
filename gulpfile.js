@@ -175,8 +175,10 @@ async function save(callback) {
 
    // todo - we'll add interesting stuff to the additional data like location and weather and word count. 
    // maybe location as json? 
+   // other hand, do I really want my exact location on every commit to a public repo? 
    var location = await getLocation()
-   var additional = `LatLong: ${location.Latitude},${location.Longitude} Altitude: ${location.Altitude} Address: ${location.address}`
+   // var additional = `LatLong: ${location.Latitude},${location.Longitude} Altitude: ${location.Altitude} Address: ${location.address}`
+   var additional = ``
 
    const files = await glob.async(sourceGlob)
 
