@@ -174,6 +174,7 @@ async function save(callback) {
    }
 
    // todo - we'll add interesting stuff to the additional data like location and weather and word count. 
+   // maybe location as json? 
    var location = await getLocation()
    var additional = `LatLong: ${location.Latitude},${location.Longitude} Altitude: ${location.Altitude} Address: ${location.address}`
 
