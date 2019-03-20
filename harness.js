@@ -1,7 +1,7 @@
 const Shell = require('node-powershell')
+const fetch = require('node-fetch')
 
-
-function getLocation() {
+async function getLocation() {
    var ret = {}
 
    let ps = new Shell({
@@ -9,25 +9,25 @@ function getLocation() {
       noProfile: true
    })
 
-   ps.addCommand('./geolocation.ps1')
-   // create a promise that we can use maybe with async to get the lat long and the google api reverse geo coded address.
-   ps.invoke()
-      .then(out => {
-         var loc = JSON.parse(out.replace(/\bNaN\b/g, 'null'))
-         // console.log()
-         ps.dispose()
-         ret = loc
+   await ps.addCommand('./geolocation.ps1')
 
-      })
-      .catch(err => {
-         console.log(err)
-         ps.dispose()
-      })
+   ret = await ps.invoke()
+   ret = JSON.parse(ret.replace(/\bNaN\b/g, 'null'))
+   ps.dispose()
+
+
+   const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${ret.Latitude},${ret.Longitude}&key=${process.env.google_api}`
+
+   const loc = await (await fetch(url)).json()
+   ret.address = (loc.results[0] || {
+      formatted_address: ''
+   }).formatted_address
    return ret
 }
 
 
-console.log(getLocation())
+getLocation().then(loc => console.log(loc))
+
 // const https = require('https')
 
 // https.get('https://maps.googleapis.com/maps/api/geocode/json?latlng=45.47888,-122.71236&key=AIzaSyB6R5V7v-vIB2FFZFhNSGBbWOWvL25DLuo', (res) => {

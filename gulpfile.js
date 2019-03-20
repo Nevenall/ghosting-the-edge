@@ -28,6 +28,7 @@ const glob = require('fast-glob')
 const git = require('simple-git')()
 const min = require('minimist')
 const Shell = require('node-powershell')
+const fetch = require('node-fetch')
 
 const title = 'Title of this Book'
 
@@ -163,7 +164,7 @@ function prose() {
       }))
 }
 
-function save(callback) {
+async function save(callback) {
    var options = min(process.argv.slice(2), {
       string: 'm'
    })
@@ -173,10 +174,10 @@ function save(callback) {
    }
 
    // todo - we'll add interesting stuff to the additional data like location and weather and word count. 
-   var location = getLocation()
-   var additional = ``
+   var location = await getLocation()
+   var additional = `LatLong: ${location.Latitude},${location.Longitude} Altitude: ${location.Altitude} Address: ${location.address}`
 
-   const files = glob.sync(sourceGlob)
+   const files = await glob.async(sourceGlob)
 
    git.commit([options.m, additional], files, {}, (err, data) => {
       if (err) {
@@ -188,29 +189,28 @@ function save(callback) {
 
 }
 
-function getLocation() {
+async function getLocation() {
+   var ret = {}
+
    let ps = new Shell({
       executionPolicy: 'Bypass',
       noProfile: true
    })
 
-   ps.addCommand(`Add-Type -AssemblyName System.Device #Required to access System.Device.Location namespace
-   $Geo = New-Object System.Device.Location.GeoCoordinateWatcher #Create the required object
-   $Geo.Start() #Begin resolving current locaton
-   
-   while (($Geo.Status -ne 'Ready') -and ($Geo.Permission -ne 'Denied')) {
-      Start-Sleep -Milliseconds 100 #Wait for discovery.
-   }  
-   
-   if ($Geo.Permission -eq 'Denied') {
-      Write-Output('{}')
-   }
-   else {
-      $Geo.Position.Location | ConvertTo-Json
-   }`)
+   await ps.addCommand('./geolocation.ps1')
 
-   ps.invoke().then(out => console.log(out)).catch(err => console.log(err))
+   ret = await ps.invoke()
+   ret = JSON.parse(ret.replace(/\bNaN\b/g, 'null'))
+   ps.dispose()
 
+
+   const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${ret.Latitude},${ret.Longitude}&key=${process.env.google_api}`
+
+   const loc = await (await fetch(url)).json()
+   ret.address = (loc.results[0] || {
+      formatted_address: ''
+   }).formatted_address
+   return ret
 }
 
 const build = series(clean, render, writeBook, assets)
