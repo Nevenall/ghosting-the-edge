@@ -27,6 +27,8 @@ const {
 const glob = require('fast-glob')
 const git = require('simple-git')()
 const min = require('minimist')
+const Shell = require('node-powershell')
+const fetch = require('node-fetch')
 
 const title = 'Ghosting the Edge'
 
@@ -162,7 +164,7 @@ function prose() {
       }))
 }
 
-function save(callback) {
+async function save(callback) {
    var options = min(process.argv.slice(2), {
       string: 'm'
    })
@@ -172,9 +174,13 @@ function save(callback) {
    }
 
    // todo - we'll add interesting stuff to the additional data like location and weather and word count. 
+   // maybe location as json? 
+   // other hand, do I really want my exact location on every commit to a public repo? 
+   var location = await getLocation()
+   // var additional = `LatLong: ${location.Latitude},${location.Longitude} Altitude: ${location.Altitude} Address: ${location.address}`
    var additional = ``
 
-   const files = glob.sync(sourceGlob)
+   const files = await glob.async(sourceGlob)
 
    git.commit([options.m, additional], files, {}, (err, data) => {
       if (err) {
@@ -184,6 +190,30 @@ function save(callback) {
       callback()
    })
 
+}
+
+async function getLocation() {
+   var ret = {}
+
+   let ps = new Shell({
+      executionPolicy: 'Bypass',
+      noProfile: true
+   })
+
+   await ps.addCommand('./geolocation.ps1')
+
+   ret = await ps.invoke()
+   ret = JSON.parse(ret.replace(/\bNaN\b/g, 'null'))
+   ps.dispose()
+
+
+   const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${ret.Latitude},${ret.Longitude}&key=${process.env.google_api}`
+
+   const loc = await (await fetch(url)).json()
+   ret.address = (loc.results[0] || {
+      formatted_address: ''
+   }).formatted_address
+   return ret
 }
 
 const build = series(clean, render, writeBook, assets)
