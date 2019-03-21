@@ -18,7 +18,7 @@
   "homepage": "https://github.com/Nevenall/ghosting-the-edge#readme",
   "dependencies": {
     "@types/gulp": "^4.0.6",
-    "@types/node": "^11.11.3",
+    "@types/node": "^11.11.4",
     "book": "git+https://github.com/nevenall/Book.git",
     "convert-vinyl-to-vfile": "^2.0.0",
     "delete": "^1.1.0",
