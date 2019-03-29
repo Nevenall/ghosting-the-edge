@@ -18,7 +18,7 @@
   "homepage": "https://github.com/Nevenall/ForkAndWrite#readme",
   "dependencies": {
     "@types/gulp": "^4.0.6",
-    "@types/node": "^11.11.3",
+    "@types/node": "^11.12.1",
     "book": "git+https://github.com/nevenall/Book.git",
     "convert-vinyl-to-vfile": "^2.0.0",
     "delete": "^1.1.0",
@@ -45,7 +45,7 @@
     "remark-rehype": "^4.0.0",
     "remark-sub-super": "^1.0.17",
     "remark-terms": "^2.0.0",
-    "simple-git": "^1.107.0",
+    "simple-git": "^1.110.0",
     "spellchecker": "^3.5.1",
     "unified": "^7.1.0",
     "unified-stream": "^1.0.4",
