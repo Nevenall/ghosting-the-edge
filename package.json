@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nevenall/ForkAndWrite.git"
+    "url": "git+https://github.com/Nevenall/write.git"
   },
   "author": "Dan Behlings",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Nevenall/ForkAndWrite/issues"
+    "url": "https://github.com/Nevenall/write/issues"
   },
-  "homepage": "https://github.com/Nevenall/ForkAndWrite#readme",
+  "homepage": "https://github.com/Nevenall/write#readme",
   "dependencies": {
     "@types/gulp": "^4.0.6",
     "@types/node": "^11.13.13",
