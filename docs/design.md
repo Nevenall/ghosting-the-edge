@@ -14,3 +14,13 @@ what about existing clones and forks?
 todo - need a markdown container for inline images. 
 So, we could do things like dropcaps paragraph leaders. or at least size and wrap.  
 todo - maybe syntax for definition lists?
+
+
+What if we made the entire book one document? and we parsed the md for the hiearchy for our nav? 
+It's easier to navigate docs when you are writing I find. No reason we couldn't sew them together at compile time though. That would be pretty easy. Order would be a thing though. 
+Would want to supress the, one # header per doc though.
+What about directories? 
+
+If we have one doc per manuscript we could have all the md files in one repo. 
+
+well, worth looking into anyway. 
