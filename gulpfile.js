@@ -36,7 +36,7 @@ const sourceGlob = ['src/**/*.md']
 const assetsGlob = ['src/assets/**']
 const destination = 'html/'
 const destinationGlob = 'html/**'
-const publishTarget = "C:/src/BookShelf-GhostingTheEdge/src/pages"
+const publishTarget = "C:/src/bookshelf-ghosting-the-edge/src/pages"
 
 var book = null
 
