@@ -18,7 +18,7 @@
   "homepage": "https://github.com/Nevenall/write#readme",
   "dependencies": {
     "@types/gulp": "^4.0.6",
-    "@types/node": "^12.6.9",
+    "@types/node": "^12.7.4",
     "book": "git+https://github.com/nevenall/Book.git",
     "convert-vinyl-to-vfile": "^2.0.0",
     "delete": "^1.1.0",
@@ -45,11 +45,11 @@
     "remark-rehype": "^5.0.0",
     "remark-sub-super": "^1.0.19",
     "remark-terms": "^2.0.0",
-    "simple-git": "^1.124.0",
+    "simple-git": "^1.126.0",
     "spellchecker": "^3.7.0",
     "unified": "^8.3.2",
     "unified-stream": "^1.0.5",
     "unist-util-visit": "^2.0.0",
-    "write-good": "^1.0.1"
+    "write-good": "^1.0.2"
   }
 }
