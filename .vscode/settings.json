@@ -6,5 +6,6 @@
       "latex",
       "plaintext"
    ],
-   "search.usePCRE2": true
+   "search.usePCRE2": true,
+   "workbench.colorCustomizations": {}
 }

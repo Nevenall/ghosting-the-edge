@@ -88,7 +88,7 @@ function render() {
       .pipe(dest(destination))
       .pipe(through2.obj(function(vinyl, _, callback) {
          if (vinyl.pageData) {
-            let page = new Page(vinyl.pageData.title, vinyl.path, vinyl.pageData.order)
+            let page = new Page(vinyl.pageData.title, path.relative(book.root, vinyl.path), vinyl.pageData.order)
             page.data = vinyl.pageData
             book.addPage(page)
          }
