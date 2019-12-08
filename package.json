@@ -18,11 +18,11 @@
   "homepage": "https://github.com/Nevenall/ghosting-the-edge#readme",
   "dependencies": {
     "@types/gulp": "^4.0.6",
-    "@types/node": "^11.11.8",
+    "@types/node": "^12.7.1",
     "book": "git+https://github.com/nevenall/Book.git",
     "convert-vinyl-to-vfile": "^2.0.0",
     "delete": "^1.1.0",
-    "fancylog": "^4.0.3",
+    "fancylog": "^4.0.2",
     "fast-glob": "^3.0.4",
     "gulp": "^4.0.2",
     "gulp-count-stat": "^1.0.0",
