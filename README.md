@@ -2,10 +2,6 @@
 
 My very template environment for markdown projects; just fork and write!
 
-## External Dependencies
-
-- [OddSpell](https://github.com/Nevenall/OddSpell) for spell checking.
-
 ## Compiles to Html
 
 Uses Gulp and Markdown-It to compile markdown to html and execute other tasks such as spell checking and word counting.
