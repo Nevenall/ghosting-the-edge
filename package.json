@@ -51,6 +51,5 @@
     "unified-stream": "^1.0.6",
     "unist-util-visit": "^2.0.3",
     "write-good": "^1.0.3"
-  },
-  "devDependencies": {}
+  }
 }

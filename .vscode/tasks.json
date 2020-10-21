@@ -50,6 +50,7 @@
       "label": "prose",
       "type": "gulp",
       "task": "prose",
+      "runOptions": {},
       "problemMatcher": {
         "owner": "prose",
         "source": "prose-lint",
