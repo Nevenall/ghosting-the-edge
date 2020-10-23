@@ -128,6 +128,14 @@ function publish() {
 }
 
 function spelling() {
+
+   var options = min(process.argv.slice(2), {
+      string: 'file'
+   })
+
+   //todo - now we have a --file arg we can send a specific file to the task
+   console.log(options.file)
+
    return src(sourceGlob)
       .pipe(through2.obj(function (file, _, callback) {
          if (file.isBuffer()) {

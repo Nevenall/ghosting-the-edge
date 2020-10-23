@@ -22,6 +22,7 @@
     "book": "git+https://github.com/nevenall/Book.git",
     "convert-vinyl-to-vfile": "^2.1.2",
     "delete": "^1.1.0",
+    "esm": "^3.2.25",
     "fancylog": "^4.0.5",
     "fast-glob": "^3.2.4",
     "gulp": "^4.0.2",
