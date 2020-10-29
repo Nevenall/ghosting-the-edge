@@ -27,7 +27,24 @@
       }
     },
     {
-      "label": "spelling​",
+      "label": "check",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "spell",
+        "prose",
+        "lint"
+      ]
+    },
+    {
+      "label": "spell",
       "type": "shell",
       "command": "gulp spelling --file '${file}'",
       "problemMatcher": {
@@ -87,7 +104,7 @@
       }
     },
     {
-      "label": "spelling​—all​",
+      "label": "spell—all​",
       "type": "gulp",
       "task": "spelling",
       "problemMatcher": {
