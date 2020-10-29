@@ -3,8 +3,28 @@
   // for the documentation about the tasks.json format
   "version": "2.0.0",
   "tasks": [
+    // {
+    //   "label": "build",
+    //   "type": "shell",
+    //   "command": "gulp build --file '${file}'",
+    //   "group": "build",
+    //   "problemMatcher": {
+    //     "owner": "build",
+    //     "source": "markdown-lint",
+    //     "severity": "warning",
+    //     "fileLocation": "absolute",
+    //     "pattern": [
+    //       {
+    //         "regexp": "'(.+?)' (\\d+,\\d+,\\d+,\\d+) (.*)",
+    //         "file": 1,
+    //         "location": 2,
+    //         "message": 3
+    //       }
+    //     ]
+    //   }
+    // },
     {
-      "label": "build",
+      "label": "build​—all",
       "type": "gulp",
       "task": "build",
       "group": {
@@ -27,7 +47,48 @@
       }
     },
     {
-      "label": "spell check",
+      "label": "spelling​",
+      "type": "shell",
+      "command": "gulp spelling --file '${file}'",
+      "problemMatcher": {
+        "owner": "spelling",
+        "source": "spelling",
+        "severity": "error",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": "'(.+?)' (\\d+):(\\d+) (.+ ->.*)",
+            "file": 1,
+            "line": 2,
+            "column": 3,
+            "message": 4
+          }
+        ]
+      }
+    },
+    {
+      "label": "prose",
+      "type": "shell",
+      "command": "gulp prose --file '${file}'",
+      "problemMatcher": {
+        "owner": "prose",
+        "source": "prose-lint",
+        "severity": "warning",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": "'(.+)' (\\d+):(\\d+):(\\d+) (.*)",
+            "file": 1,
+            "line": 2,
+            "column": 3,
+            "endColumn": 4,
+            "message": 5
+          }
+        ]
+      }
+    },
+    {
+      "label": "spelling​—all​",
       "type": "gulp",
       "task": "spelling",
       "problemMatcher": {
@@ -47,10 +108,9 @@
       }
     },
     {
-      "label": "prose",
+      "label": "prose​—all",
       "type": "gulp",
       "task": "prose",
-      "runOptions": {},
       "problemMatcher": {
         "owner": "prose",
         "source": "prose-lint",
