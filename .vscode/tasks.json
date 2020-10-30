@@ -41,7 +41,8 @@
         "spell",
         "prose",
         "lint"
-      ]
+      ],
+      "problemMatcher": []
     },
     {
       "label": "spell",
@@ -162,6 +163,6 @@
           }
         ]
       }
-    },
+    }
   ]
 }
