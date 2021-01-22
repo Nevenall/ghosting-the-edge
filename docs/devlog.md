@@ -15,3 +15,10 @@ had to roll back to v12 node to keep the spellchecker working.  rawr! got the ac
 We have a prose lint, but I think I'd like to have a task specificly for markdown linting. 
 
 - add a gulp and vs task for linting the markdown
+
+
+## 1.22.2021, danb
+
+When we compile our book, create the book.json with everything but explicit content. We can do relative pathing, I think. 
+Also do complete table of contents with pages and sections of pages. 
+I wonder if we can use a toc markdown module to gather that data?
