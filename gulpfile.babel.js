@@ -135,7 +135,7 @@ function lint() {
                }
 
                vinyl.contents = contents
-               
+
                callback(null, vinyl)
             })
          }
