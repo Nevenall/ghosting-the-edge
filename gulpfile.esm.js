@@ -106,7 +106,6 @@ function render() {
 
 
 function lint() {
-
    var options = min(process.argv.slice(2), {
       string: 'file'
    })
