@@ -1,34 +1,27 @@
-const {
-   parallel,
-   series,
-   src,
-   dest
-} = require('gulp')
-const del = require('delete')
-const through2 = require('through2');
-const rename = require('gulp-rename')
-const stats = require('gulp-count-stat')
-const log = require('fancy-log')
-const convert = require('convert-vinyl-to-vfile')
+import gulp from 'gulp'
+let { parallel, series, src, dest } = gulp
 
-const markdown = require('./markdown')
+import del from 'delete'
+import through from 'through2'
+import rename from 'gulp-rename'
+import stats from 'gulp-count-stat'
+import log from 'fancy-log'
+import convert from 'convert-vinyl-to-vfile'
 
-const writeGood = require('write-good')
-const spellchecker = require('spellchecker')
+import markdown from './markdown.js'
 
-const path = require('path')
-const fs = require('fs')
+import writeGood from 'write-good'
+import spellchecker from 'spellchecker'
 
-const {
-   Book,
-   Page
-} = require('book')
+import path from 'path'
+import fs from 'fs'
 
-const glob = require('fast-glob')
-const git = require('simple-git')()
-const min = require('minimist')
-const Shell = require('node-powershell')
-const fetch = require('node-fetch')
+import { Book, Page } from 'book'
+
+import glob from 'fast-glob'
+import git from 'simple-git'
+import min from 'minimist'
+import fetch from 'node-fetch'
 
 const title = 'Title of this Book'
 
@@ -42,57 +35,39 @@ var book = null
 
 function render() {
    book = new Book(title, path.resolve(destination))
-
-   return src(sourceGlob)
-      .pipe(through2.obj(function (vinyl, _, callback) {
-         if (vinyl.isBuffer()) {
-            var vfile = convert(vinyl)
-
-            markdown.process(vfile, function (err, parsed) {
-               var contents
-
-               if (err) {
-                  return callback(new Error(err))
+   return src(sourceGlob).pipe(through.obj(function (vinyl, encoding, callback) {
+      if (vinyl.isBuffer()) {
+         var vfile = convert(vinyl)
+         markdown.process(vfile).then(parsed => {
+            logWarnings(parsed)
+            vinyl.contents = Buffer.from(parsed.value, encoding)
+            if (parsed.data.metadata) {
+               // record the original .md file path
+               vinyl.pageData = parsed.data.metadata
+            } else {
+               vinyl.pageData = {
+                  name: vinyl.stem,
+                  order: book.allPages.length + 1
                }
+            }
+            vinyl.pageData.sourcePath = parsed.path
 
-               logWarnings(parsed)
-               contents = parsed.contents
-
-               /* istanbul ignore else - There aren’t any unified compilers
-                * that output buffers, but this logic is here to keep allow them
-                * (and binary files) to pass through untouched. */
-               if (typeof contents === 'string') {
-                  contents = Buffer.from(contents, 'utf8')
-               }
-
-               vinyl.contents = contents
-
-               if (parsed.data.metadata) {
-                  // record the original .md file path
-                  vinyl.pageData = parsed.data.metadata
-               } else {
-                  vinyl.pageData = {
-                     name: vinyl.stem,
-                     order: book.allPages.length + 1
-                  }
-               }
-               vinyl.pageData.sourcePath = parsed.path
-
-               callback(null, vinyl)
-            })
-         }
-      }))
+            callback(null, vinyl)
+         }, error => {
+            return callback(new Error(error))
+         })
+      }
+   }))
       .pipe(rename({
          extname: ".html"
       }))
       .pipe(dest(destination))
-      .pipe(through2.obj(function (vinyl, _, callback) {
+      .pipe(through.obj(function (vinyl, encoding, callback) {
          if (vinyl.pageData) {
             let page = new Page(vinyl.pageData.title, path.relative(book.root, vinyl.path), vinyl.pageData.order)
             page.data = vinyl.pageData
             book.addPage(page)
          }
-
          callback(null, vinyl)
       }))
 
@@ -137,7 +112,7 @@ function spelling() {
    console.log(options.file)
 
    return src(sourceGlob)
-      .pipe(through2.obj(function (file, _, callback) {
+      .pipe(through.obj(function (file, _, callback) {
          if (file.isBuffer()) {
             file.contents.toString().split("\n").forEach((line, idx) => {
                let misspellings = spellchecker.checkSpelling(line)
@@ -159,7 +134,7 @@ function count() {
 
 function prose() {
    return src(sourceGlob)
-      .pipe(through2.obj(function (file, _, callback) {
+      .pipe(through.obj(function (file, _, callback) {
          if (file.isBuffer()) {
             file.contents.toString().split("\n").forEach((line, idx) => {
                let suggestions = writeGood(line)
@@ -224,15 +199,20 @@ async function getLocation() {
    return ret
 }
 
-const build = series(clean, render, writeBook, assets)
+let build = series(clean, render, writeBook, assets)
+let publishEx = series(build, publish)
+let check = series(spelling, prose, render, count)
 
-exports.build = build
-exports.publish = series(build, publish)
-exports.spelling = spelling
-exports.spell = spelling
-exports.count = count
-exports.prose = prose
-exports.render = render
-exports.check = series(spelling, prose, render, count)
-exports.save = save
-exports.default = build
+export {
+   build as build,
+   publishEx as publish,
+   spelling as spelling,
+   spelling as spell,
+   count as count,
+   prose as prose,
+   render as render,
+   check as check,
+   save as save,
+   build as default
+}
+
