@@ -14,7 +14,7 @@ import writeGood from 'write-good'
 import spellchecker from 'spellchecker'
 
 import path from 'path'
-import fs from 'fs'
+import fs from 'fs/promises'
 
 import { Book, Page } from 'book'
 
@@ -78,14 +78,20 @@ function render() {
    }
 }
 
-function writeBook(callback) {
+async function writeBook() {
    // todo - write out a list of pages in order so that consuming apps can construct a book object?
    // could also write an export for each page 
-   fs.writeFile("html/book.js", `module.exports = ${JSON.stringify(book, null, 3)}`, err => {
-      if (err) throw err
-      log.info(`wrote book.js`)
-   })
-   callback()
+   try {
+      await fs.writeFile('html/book.js', `module.exports = ${JSON.stringify(book, null, 3)}`)
+   } catch (err) {
+      await Promise.reject(err)
+   }
+   await Promise.resolve()
+   // await fs.writeFile("html/book.js", `module.exports = ${JSON.stringify(book, null, 2)}`, err => {
+   //    if (err) throw err
+   //    log.info(`wrote book.js`)
+   // })
+   // callback()
 }
 
 function assets() {
@@ -159,7 +165,7 @@ async function save(callback) {
    // todo - we'll add interesting stuff to the additional data like location and weather and word count. 
    // maybe location as json? 
    // other hand, do I really want my exact location on every commit to a public repo? 
-   var location = await getLocation()
+   // var location = await getLocation()
    // var additional = `LatLong: ${location.Latitude},${location.Longitude} Altitude: ${location.Altitude} Address: ${location.address}`
    var additional = ``
 

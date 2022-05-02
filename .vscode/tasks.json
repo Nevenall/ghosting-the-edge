@@ -11,6 +11,10 @@
         "kind": "build",
         "isDefault": true
       },
+      "dependsOn": [
+        "spelling",
+        "prose"
+      ],
       "problemMatcher": {
         "owner": "build",
         "source": "markdown-lint",
@@ -27,7 +31,7 @@
       }
     },
     {
-      "label": "spell check",
+      "label": "spelling",
       "type": "gulp",
       "task": "spelling",
       "problemMatcher": {
