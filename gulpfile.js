@@ -87,11 +87,6 @@ async function writeBook() {
       await Promise.reject(err)
    }
    await Promise.resolve()
-   // await fs.writeFile("html/book.js", `module.exports = ${JSON.stringify(book, null, 2)}`, err => {
-   //    if (err) throw err
-   //    log.info(`wrote book.js`)
-   // })
-   // callback()
 }
 
 function assets() {

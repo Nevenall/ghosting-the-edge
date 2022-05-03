@@ -1,16 +1,17 @@
 // base
-import {unified} from 'unified'
+import { unified } from 'unified'
 import parse from 'remark-parse'
 import remark2rehype from 'remark-rehype'
 import format from 'rehype-format'
 import html from 'rehype-stringify'
 
 import path from 'path'
-import {visit} from 'unist-util-visit'
+import { visit } from 'unist-util-visit'
 
 // markdown plugins
 import terms from 'remark-terms'
 import containers from 'remark-containers'
+import directive from 'remark-directive'
 import frontmatter from 'remark-frontmatter'
 import parseFrontmatter from 'remark-parse-yaml'
 
@@ -19,11 +20,13 @@ import lint from './markdown-lint.js'
 // html plugins
 import slug from 'rehype-slug'
 import urls from 'rehype-urls'
+import document from 'rehype-document'
 
 const markdown = unified()
    .use(parse)
-   .use(lint)
 
+   // markdown plugins
+   .use(lint)
    // .use(terms, [{
    //    open: '{',
    //    close: '}',
@@ -35,6 +38,9 @@ const markdown = unified()
    //    element: 'span',
    //    class: 'term-2'
    // }])
+   .use(directive )
+   .use(htmlDirective)
+   
    // .use(containers, {
    //    default: true,
    //    custom: [{
@@ -102,10 +108,11 @@ const markdown = unified()
    .use(parseFrontmatter)
    .use(copyFrontmatter)
 
+   // html plugins
    .use(remark2rehype)
-
    .use(slug)
    .use(urls, fixupLinks)
+   // .use(document)
 
    .use(format)
    .use(html)
@@ -119,11 +126,27 @@ function fixupLinks(url) {
 }
 
 function copyFrontmatter() {
-   return function(ast, file) {
+   return function (ast, file) {
       visit(ast, 'yaml', item => {
          // copy parsed frontmatter to the file data
          file.data.metadata = item.data.parsedValue
       })
+   }
+}
+
+function htmlDirective() {
+   return transform
+
+   function transform(tree) {
+      visit(tree, ['textDirective', 'leafDirective', 'containerDirective'], ondirective)
+   }
+
+   function ondirective(node) {
+      var data = node.data || (node.data = {})
+      var hast = h(node.name, node.attributes)
+
+      data.hName = hast.tagName
+      data.hProperties = hast.properties
    }
 }
 
