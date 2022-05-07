@@ -14,106 +14,36 @@ import containers from 'remark-containers'
 import directive from 'remark-directive'
 import frontmatter from 'remark-frontmatter'
 import parseFrontmatter from 'remark-parse-yaml'
+import supersub from 'remark-supersub'
+import { toc } from 'mdast-util-toc'
 
 import lint from './markdown-lint.js'
 
 // html plugins
 import slug from 'rehype-slug'
 import urls from 'rehype-urls'
-import document from 'rehype-document'
+import autolink from 'rehype-autolink-headings'
 
 const markdown = unified()
    .use(parse)
 
    // markdown plugins
    .use(lint)
-   // .use(terms, [{
-   //    open: '{',
-   //    close: '}',
-   //    element: 'span',
-   //    class: 'term-1'
-   // }, {
-   //    open: '{{',
-   //    close: '}}',
-   //    element: 'span',
-   //    class: 'term-2'
-   // }])
-   .use(directive )
+   .use(supersub)
+   .use(directive)
    .use(htmlDirective)
-   
-   // .use(containers, {
-   //    default: true,
-   //    custom: [{
-   //       type: 'sidebar',
-   //       element: 'aside',
-   //       transform: function(node, config, tokenize) {
-   //          node.data.hProperties = {
-   //             className: config || 'left'
-   //          }
-   //       }
-   //    }, {
-   //       type: 'callout',
-   //       element: 'article',
-   //       transform: function(node, config, tokenize) {
-   //          node.data.hProperties = {
-   //             className: config || 'left'
-   //          }
-   //       }
-   //    }, {
-   //       type: 'columns',
-   //       element: 'div',
-   //       transform: function(node, config, tokenize) {
-   //          node.data.hProperties = {
-   //             className: 'columns'
-   //          }
-   //       }
-   //    }, {
-   //       type: 'quote',
-   //       element: 'aside',
-   //       transform: function(node, config, tokenize) {
-   //          var words = tokenizeWords.parse(config)
-
-   //          node.data.hProperties = {
-   //             className: `quoted ${words.shift()}`
-   //          }
-   //          node.children.push({
-   //             type: 'footer',
-   //             data: {
-   //                hName: 'footer'
-   //             },
-   //             children: tokenize(words.join(' '))
-   //          })
-   //       }
-   //    }, {
-   //       type: 'figure-table',
-   //       element: 'figure',
-   //       transform: function(node, config, tokenize) {
-   //          node.data.hProperties = {
-   //             className: `figure-table`
-   //          }
-   //          node.children.push({
-   //             type: 'figcaption',
-   //             data: {
-   //                hName: 'figcaption'
-   //             },
-   //             children: tokenize(config)
-   //          })
-   //       }
-   //    }]
-   // })
-   .use(frontmatter, {
-      type: 'yaml',
-      marker: '-'
-   })
+   .use(frontmatter, 'yaml')
    .use(parseFrontmatter)
    .use(copyFrontmatter)
+   .use(tableOfContents)
 
    // html plugins
    .use(remark2rehype)
    .use(slug)
+   .use(autolink)
    .use(urls, fixupLinks)
-   // .use(document)
 
+   // post process
    .use(format)
    .use(html)
 
@@ -147,6 +77,17 @@ function htmlDirective() {
 
       data.hName = hast.tagName
       data.hProperties = hast.properties
+   }
+}
+
+function tableOfContents() {
+   return transform
+
+   function transform(tree) {
+      // todo - might be easier to manually generate the data we want from this. 
+      // 
+      let table = toc(tree)
+      console.log(JSON.stringify(table, null, 3))
    }
 }
 

@@ -33,6 +33,10 @@ const publishTarget = "publish/"
 
 var book = null
 
+// todo - remark-smartypants to do "" transforms. Or remark-textr `does that same thing
+// todo - remark-toc for a table of contents, maybe use it to generate a full menu
+// wiki link can do handy internal page links
+
 function render() {
    book = new Book(title, path.resolve(destination))
    return src(sourceGlob).pipe(through.obj(function (vinyl, encoding, callback) {
