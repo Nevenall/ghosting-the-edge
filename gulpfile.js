@@ -34,7 +34,6 @@ const publishTarget = "publish/"
 var book = null
 
 // todo - remark-smartypants to do "" transforms. Or remark-textr `does that same thing
-// todo - remark-toc for a table of contents, maybe use it to generate a full menu
 // wiki link can do handy internal page links
 
 function render() {
@@ -108,10 +107,7 @@ function publish() {
 }
 
 function spelling() {
-
-   var options = min(process.argv.slice(2), {
-      string: 'file'
-   })
+   var options = min(process.argv.slice(2), { string: 'file' })
 
    //todo - now we have a --file arg we can send a specific file to the task
    console.log(options.file)
@@ -133,8 +129,7 @@ function spelling() {
 }
 
 function count() {
-   return src(sourceGlob)
-      .pipe(stats())
+   return src(sourceGlob).pipe(stats())
 }
 
 function prose() {
@@ -153,9 +148,7 @@ function prose() {
 }
 
 async function save(callback) {
-   var options = min(process.argv.slice(2), {
-      string: 'm'
-   })
+   var options = min(process.argv.slice(2), { string: 'm' })
 
    if (!options.m) {
       options.m = 'page edits'

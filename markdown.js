@@ -85,7 +85,6 @@ function tableOfContents() {
 
    function transform(tree) {
       // todo - might be easier to manually generate the data we want from this. 
-      // 
       let table = toc(tree)
       console.log(JSON.stringify(table, null, 3))
    }
