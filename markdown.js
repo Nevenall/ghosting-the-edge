@@ -1,114 +1,53 @@
 // base
-const unified = require('unified')
-const remark = require('remark')
-const parse = require('remark-parse')
-const remark2rehype = require('remark-rehype')
-const format = require('rehype-format')
-const html = require('rehype-stringify')
-const path = require('path')
-const visit = require('unist-util-visit')
-const tokenizeWords = require('space-separated-tokens')
+import { unified } from 'unified'
+import parse from 'remark-parse'
+import remark2rehype from 'remark-rehype'
+import format from 'rehype-format'
+import html from 'rehype-stringify'
+
+import path from 'path'
+import { visit } from 'unist-util-visit'
 
 // markdown plugins
-const terms = require('remark-terms')
-const containers = require('remark-containers')
-const sub_super = require('remark-sub-super')
-const frontmatter = require('remark-frontmatter')
-const parseFrontmatter = require('remark-parse-yaml')
-const guide = require('./markdown-lint')
+import directive from 'remark-directive'
+import frontmatter from 'remark-frontmatter'
+import parseFrontmatter from 'remark-parse-yaml'
+import supersub from 'remark-supersub'
+import { toc } from 'mdast-util-toc'
+import remarkTextr from 'remark-textr'
+
+import lint from './markdown-lint.js'
 
 // html plugins
-const slug = require('rehype-slug')
-const urls = require('rehype-urls')
+import slug from 'rehype-slug'
+import urls from 'rehype-urls'
+import autolink from 'rehype-autolink-headings'
+
+// textr plugins
+// does basic typography substitution, " -> “ for example. 
+import typographicBase from 'typographic-base'
 
 const markdown = unified()
    .use(parse)
-   .use(guide)
 
-   .use(terms, [{
-      open: '{',
-      close: '}',
-      element: 'span',
-      class: 'aspect'
-   }, {
-      open: '{{',
-      close: '}}',
-      element: 'span',
-      class: 'fate-icon'
-   }])
-   .use(containers, {
-      default: true,
-      custom: [{
-         type: 'sidebar',
-         element: 'aside',
-         transform: function(node, config, tokenize) {
-            node.data.hProperties = {
-               className: config || 'left'
-            }
-         }
-      }, {
-         type: 'callout',
-         element: 'article',
-         transform: function(node, config, tokenize) {
-            node.data.hProperties = {
-               className: config || 'left'
-            }
-         }
-      }, {
-         type: 'columns',
-         element: 'div',
-         transform: function(node, config, tokenize) {
-            node.data.hProperties = {
-               className: 'columns'
-            }
-         }
-      }, {
-         type: 'quote',
-         element: 'aside',
-         transform: function(node, config, tokenize) {
-            var words = tokenizeWords.parse(config)
-
-            node.data.hProperties = {
-               className: `quoted ${words.shift()}`
-            }
-            node.children.push({
-               type: 'footer',
-               data: {
-                  hName: 'footer'
-               },
-               children: tokenize(words.join(' '))
-            })
-         }
-      }, {
-         type: 'figure-table',
-         element: 'figure',
-         transform: function(node, config, tokenize) {
-            node.data.hProperties = {
-               className: `figure-table`
-            }
-            node.children.push({
-               type: 'figcaption',
-               data: {
-                  hName: 'figcaption'
-               },
-               children: tokenize(config)
-            })
-         }
-      }]
-   })
-   .use(sub_super)
-   .use(frontmatter, {
-      type: 'yaml',
-      marker: '-'
-   })
+   // markdown plugins
+   .use(lint)
+   .use(supersub)
+   .use(directive)
+   .use(defaultDirective)
+   .use(frontmatter, 'yaml')
    .use(parseFrontmatter)
    .use(copyFrontmatter)
+   .use(tableOfContents)
+   .use(remarkTextr, { plugins: [typographicBase] })
 
+   // html plugins
    .use(remark2rehype)
-
    .use(slug)
+   .use(autolink)
    .use(urls, fixupLinks)
 
+   // post process
    .use(format)
    .use(html)
 
@@ -121,7 +60,7 @@ function fixupLinks(url) {
 }
 
 function copyFrontmatter() {
-   return function(ast, file) {
+   return function (ast, file) {
       visit(ast, 'yaml', item => {
          // copy parsed frontmatter to the file data
          file.data.metadata = item.data.parsedValue
@@ -129,4 +68,32 @@ function copyFrontmatter() {
    }
 }
 
-module.exports = markdown
+// a basic transform for directive nodes. It turns a directive name into an html tag, and adds any attributes that are declared. 
+function defaultDirective() {
+   return transform
+
+   function transform(tree) {
+      visit(tree, ['textDirective', 'leafDirective', 'containerDirective'], ondirective)
+   }
+
+   function ondirective(node) {
+      var data = node.data || (node.data = {})
+      var hast = h(node.name, node.attributes)
+
+      data.hName = hast.tagName
+      data.hProperties = hast.properties
+   }
+}
+
+function tableOfContents() {
+   return transform
+
+   function transform(tree) {
+      // todo - might be easier to manually generate the data we want from this. 
+      let table = toc(tree)
+      // is there a way we can expose this data to gulp? 
+      // 
+   }
+}
+
+export default markdown
