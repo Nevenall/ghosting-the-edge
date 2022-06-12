@@ -20,7 +20,11 @@
       "type": "node",
       "request": "launch",
       "name": "Harness",
-      "program": "${workspaceFolder}/harness.js"
+      "program": "${workspaceFolder}/harness.mjs",
+      "args": [
+        "--trace-warnings",
+        "--experimental-modules"
+      ]
     },
     {
       "type": "node",

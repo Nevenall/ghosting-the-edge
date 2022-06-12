@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build",
+      "label": "build​",
       "type": "gulp",
       "task": "build",
       "group": {
@@ -51,10 +51,9 @@
       }
     },
     {
-      "label": "prose",
+      "label": "prose​—all",
       "type": "gulp",
       "task": "prose",
-      "runOptions": {},
       "problemMatcher": {
         "owner": "prose",
         "source": "prose-lint",
@@ -68,6 +67,25 @@
             "column": 3,
             "endColumn": 4,
             "message": 5
+          }
+        ]
+      }
+    },
+    {
+      "label": "lint​—all",
+      "type": "gulp",
+      "task": "lint",
+      "problemMatcher": {
+        "owner": "build",
+        "source": "markdown-lint",
+        "severity": "warning",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": "'(.+?)' (\\d+,\\d+,\\d+,\\d+) (.*)",
+            "file": 1,
+            "location": 2,
+            "message": 3
           }
         ]
       }
