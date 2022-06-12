@@ -9,13 +9,12 @@ import path from 'path'
 import { visit } from 'unist-util-visit'
 
 // markdown plugins
-import terms from 'remark-terms'
-import containers from 'remark-containers'
 import directive from 'remark-directive'
 import frontmatter from 'remark-frontmatter'
 import parseFrontmatter from 'remark-parse-yaml'
 import supersub from 'remark-supersub'
 import { toc } from 'mdast-util-toc'
+import remarkTextr from 'remark-textr'
 
 import lint from './markdown-lint.js'
 
@@ -24,6 +23,10 @@ import slug from 'rehype-slug'
 import urls from 'rehype-urls'
 import autolink from 'rehype-autolink-headings'
 
+// textr plugins
+// does basic typography substitution, " -> “ for example. 
+import typographicBase from 'typographic-base'
+
 const markdown = unified()
    .use(parse)
 
@@ -31,11 +34,12 @@ const markdown = unified()
    .use(lint)
    .use(supersub)
    .use(directive)
-   .use(htmlDirective)
+   .use(defaultDirective)
    .use(frontmatter, 'yaml')
    .use(parseFrontmatter)
    .use(copyFrontmatter)
    .use(tableOfContents)
+   .use(remarkTextr, { plugins: [typographicBase] })
 
    // html plugins
    .use(remark2rehype)
@@ -64,7 +68,8 @@ function copyFrontmatter() {
    }
 }
 
-function htmlDirective() {
+// a basic transform for directive nodes. It turns a directive name into an html tag, and adds any attributes that are declared. 
+function defaultDirective() {
    return transform
 
    function transform(tree) {
@@ -86,7 +91,8 @@ function tableOfContents() {
    function transform(tree) {
       // todo - might be easier to manually generate the data we want from this. 
       let table = toc(tree)
-      console.log(JSON.stringify(table, null, 3))
+      // is there a way we can expose this data to gulp? 
+      // 
    }
 }
 

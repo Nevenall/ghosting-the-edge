@@ -1,8 +1,8 @@
 {
   "name": "write",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A template for markdown writing projects",
-  "main": "",
+  "main": "gulpfile.js",
   "type": "module",
   "scripts": {
     "publish": "gulp publish"
@@ -40,7 +40,6 @@
     "rehype-stringify": "^9.0.3",
     "rehype-urls": "^1.1.1",
     "remark": "^14.0.2",
-    "remark-containers": "^1.2.0",
     "remark-directive": "^2.0.1",
     "remark-frontmatter": "^4.0.1",
     "remark-lint": "^9.1.1",
@@ -50,9 +49,10 @@
     "remark-rehype": "^10.1.0",
     "remark-sub-super": "^1.0.19",
     "remark-supersub": "^1.0.0",
-    "remark-terms": "^2.1.2",
+    "remark-textr": "^5.0.1",
     "simple-git": "^3.7.1",
     "spellchecker": "^3.7.0",
+    "typographic-base": "^1.0.4",
     "unified": "^10.1.2",
     "unified-stream": "^2.0.0",
     "unist-util-visit": "^4.1.0",

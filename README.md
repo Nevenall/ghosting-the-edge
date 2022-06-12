@@ -1,10 +1,10 @@
 # Write
 
-My very template environment for markdown projects; just fork and write!
+My template for markdown projects; just fork and write!
 
 ## Compiles to Html
 
-Uses Gulp and Markdown-It to compile markdown to html and execute other tasks such as spell checking and word counting.
+Uses Gulp and UnifiedJS to compile markdown to html and execute other tasks such as spell checking and word counting.
 
 ## Internal Links
 
