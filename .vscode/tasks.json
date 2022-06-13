@@ -5,16 +5,22 @@
   "tasks": [
     {
       "label": "build​",
-      "type": "gulp",
-      "task": "build",
+      "command": "gulp",
+      "args": [
+        "build"
+      ],
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "dependsOn": [
-        "spelling",
-        "prose"
-      ],
+      // "dependsOrder": "sequence",
+      // "dependsOn": [
+      //   "spelling-all",
+      //   "prose-all"
+      // ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": {
         "owner": "build",
         "source": "markdown-lint",
@@ -28,12 +34,15 @@
             "message": 3
           }
         ]
-      }
+      },
     },
     {
-      "label": "spelling",
+      "label": "spelling-all",
       "type": "gulp",
       "task": "spelling",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": {
         "owner": "spelling",
         "source": "spelling",
@@ -51,9 +60,12 @@
       }
     },
     {
-      "label": "prose​—all",
+      "label": "prose​-all",
       "type": "gulp",
       "task": "prose",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": {
         "owner": "prose",
         "source": "prose-lint",
@@ -72,9 +84,12 @@
       }
     },
     {
-      "label": "lint​—all",
+      "label": "lint-all​",
       "type": "gulp",
       "task": "lint",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": {
         "owner": "build",
         "source": "markdown-lint",

@@ -9,9 +9,9 @@ Fire fights in dark alleys, monosword duels on abandoned factory crane towers, w
 The Boosted Reflexes upgrade mentions that you can do something called steal the initiative. Here's what that means.
 
 1. A conflict starts with the most appropriate character. Commonly: the first one who decides to make it a fight, the one with the most wired reflexes, or the one with the highest Notice skill.
-2. After a character has acted they pass the initiative to any character who hasn't gone yet, even a foe.
-3. The last character to act chooses any character in the conflict to go first in the next the round.
-4. If you haven't gone yet you can invoke an appropriate aspect to steal the initiative from someone who hasn't rolled yet. Characters that lose the initiative doesn't lose their action, but you do get to see some evidence of what they intended to do and who they intended to target before you interrupt them. You can steal the first action of the round even if you've been ambushed. Once they get the initiative again, they get to choose a different action.
+1. After a character has acted they pass the initiative to any character who hasn't gone yet, even a foe.
+1. The last character to act chooses any character in the conflict to go first in the next the round.
+1. If you haven't gone yet you can invoke an appropriate aspect to steal the initiative from someone who hasn't rolled yet. Characters that lose the initiative doesn't lose their action, but you do get to see some evidence of what they intended to do and who they intended to target before you interrupt them. You can steal the first action of the round even if you've been ambushed. Once they get the initiative again, they get to choose a different action.
 
 #### Initiative Relay and Gear with Effect Skills
 

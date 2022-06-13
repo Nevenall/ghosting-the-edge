@@ -205,7 +205,6 @@ export {
    build as build,
    publishEx as publish,
    spelling as spelling,
-   spelling as spell,
    count as count,
    prose as prose,
    render as render,
