@@ -18,7 +18,7 @@ alternately, we could got for a baseline with expansion options style.
 
 words.
 
-{aspect}, {aspect}
+:aspect[aspect], :aspect[aspect]
 
 Skill 2
 
@@ -47,7 +47,7 @@ todo - move interesting settings likes, like the Dis further up in the text.
 todo - for that matter consider rearranging the text for web. 
 todo - Title case aspect text
 todo - Do we need some bookshelf markup for images? align right/left, wrap and such? 
-todo – consider revised layout
+todo—consider revised layout
 
 1. chapter 1 - The Usual Suspects
   1) an simple intro to stuff
@@ -57,7 +57,7 @@ todo – consider revised layout
 
 
 
-todo – what if we changed up em-dashes with something programmy, like >>> or => like a modern index pointing finger. 
+todo—what if we changed up em-dashes with something programmy, like >>> or => like a modern index pointing finger. 
 todo - make a rendered page that shows the various markup stuff we want. Examples of all the stuff
 todo - make sure that all aspects are title cased, manually
 

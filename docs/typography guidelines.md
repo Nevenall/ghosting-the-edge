@@ -8,7 +8,7 @@ The general currency symbol is used to indicate absract currency.
 
 ## Aspects
 
-Aspects are manually title-cased and wrapped in double braces. {The Ultimate Fate Aspect Writer}
+Aspects are manually title-cased and wrapped in double braces. :aspect[The Ultimate Fate Aspect Writer]
 
 ## Stunts
 
@@ -26,13 +26,13 @@ There are some stunts, especially as upgrades, which can be taken more then once
 
 ## Fate Actions Names
 
-Attack, Defense, Overcome, and Create are encoded in text as {{attack}}, {{defend}}, {{overcome}} or {{create}}.  
+Attack, Defense, Overcome, and Create are encoded in text as :fate[attack], :fate[defend], :fate[overcome] or :fate[create].  
 
 On the BookShelf instance this translates to an icon from the Fate Font. 
 
 ## Other Game Terms
 
-It's possible to highlight other game terms using {{{Game Term}}}. On the BookShelf instance, this will translate to Small Caps.
+It's possible to highlight other game terms using :fate[:aspect[Game Term]]. On the BookShelf instance, this will translate to Small Caps.
 
 ## En Dash –
 

@@ -6,7 +6,7 @@ Cold metal drops as softly as a spider on to the back of your neck. A warning fl
 
 Welcome to the Edge
 
-# Chapter One – Ghosting the Edge
+# Chapter One—Ghosting the Edge
 
 'Ghosting' Slang for making a living ('feeding the meat' is a more colorful synonym).
 
@@ -96,7 +96,7 @@ Is government still relevant? Does it still even exist or do people swear their 
 
 If there is no government or public education, or public science, then how can we know what's going on? Media is a corporate business and the Net is full of data, but lacking in real information.
 
-# Chapter Two – The Usual Suspects
+# Chapter Two—The Usual Suspects
 
 This chapter is for everyone who's going to make a character. I've got some archetypes for you, I've got your cyberpunk skills and edgy stunts too.
 
@@ -242,7 +242,7 @@ Players, these are the starting stats for making player characters. GMs, tweaks 
 
 Write 5 aspects for your character.
 
-If they have a cybernetic body write that into at least one aspect. **Cyborg Mercenary**, for example. This is important because character's without a **cybernetic body** are limited to 3 for their Physique and Move skills.
+If they have a cybernetic body write that into at least one {.right\} **Cyborg Mercenary**, for example. This is important because character's without a **cybernetic body** are limited to 3 for their Physique and Move skills.
 
 {callout?}The answers to some of these questions about your character may lead you to good aspects.
 
@@ -362,15 +362,15 @@ There isn't a skill specifically for using the Net because it's is just new plac
 
 ### What Skill Do I Use?
 
-Demolitions – tech
+Demolitions—tech
 
-Control a drone – pilot
+Control a drone—pilot
 
-Take control of a drone – hack
+Take control of a drone—hack
 
-Heal a physical wound – bio
+Heal a physical wound—bio
 
-Heal a mental wound – read
+Heal a mental wound—read
 
 ### Gear skills
 
@@ -394,9 +394,9 @@ D Not generally used for defense.
 
 #### Example Stunts 
 
-**Medic** – You get +2 to O rolls when giving first aid or other emergency medical attentions.
+**Medic**—You get +2 to O rolls when giving first aid or other emergency medical attentions.
 
-**Biofeedback** – You get +2 to C rolls that involve controlling the natural tendencies and limitations of your meat body.
+**Biofeedback**—You get +2 to C rolls that involve controlling the natural tendencies and limitations of your meat body.
 
 ### Hack
 
@@ -420,13 +420,13 @@ D against most actions another hacker tries to take if you are both in the same 
 
 #### Example Stunts 
 
-**IC Master** – You write all your own security programs. Any net security you regularly maintain provides +2 opposition to intrusions.
+**IC Master**—You write all your own security programs. Any net security you regularly maintain provides +2 opposition to intrusions.
 
-**Ghost in the Net** – +2 to D against attempts to detect, locate, track, or otherwise id your handiwork in the Net.
+**Ghost in the Net**—+2 to D against attempts to detect, locate, track, or otherwise id your handiwork in the Net.
 
-**Code Shredder** – You get +2 to A hostile programs and other net constructs, though not live hackers.
+**Code Shredder**—You get +2 to A hostile programs and other net constructs, though not live hackers.
 
-**Deus Ex Machina** – You get +2 to C when you are creating a physical effect.
+**Deus Ex Machina**—You get +2 to C when you are creating a physical effect.
 
 ### Physique
 
@@ -448,11 +448,11 @@ D Though you don't generally use Physique to defend against attacks, you can use
 
 #### Example Stunts 
 
-**Servo Enhanced Cyberarticulation** – Your cyborg body is structurally enhanced and equipped with powerful load lifting servos. +2 to O rolls for carrying and lifting.
+**Servo Enhanced Cyberarticulation**—Your cyborg body is structurally enhanced and equipped with powerful load lifting servos. +2 to O rolls for carrying and lifting.
 
-**Toxin Scrubbers** – Your meat organs are supplemented with bioelectrical filters and toxin scrubbers. +2 to D against drugs and poisons, including alcohol.
+**Toxin Scrubbers**—Your meat organs are supplemented with bioelectrical filters and toxin scrubbers. +2 to D against drugs and poisons, including alcohol.
 
-**Grappler** – +2 to C on foes you are grappling with.
+**Grappler**—+2 to C on foes you are grappling with.
 
 ### Pilot
 
@@ -472,13 +472,13 @@ D to avoid attacks and advantages that target your vehicle.
 
 #### Example Stunts 
 
-**Getaway Driver** – +2 to Pilot a ground vehicle when you're being chased.
+**Getaway Driver**—+2 to Pilot a ground vehicle when you're being chased.
 
-**Stunt Pilot** – +2 to C with Pilot if you are performing an acrobatic maneuver.
+**Stunt Pilot**—+2 to C with Pilot if you are performing an acrobatic maneuver.
 
-**Hot Pickup** – +2 to D when you are piloting into a hostile situation for a pick up or drop off.
+**Hot Pickup**—+2 to D when you are piloting into a hostile situation for a pick up or drop off.
 
-**Enhanced Drone Control Rig** – Your top of the line cyberware provides a strong and security signal for remotely interface piloting drones. You get +1 to pilot drones you are interfaced with.
+**Enhanced Drone Control Rig**—Your top of the line cyberware provides a strong and security signal for remotely interface piloting drones. You get +1 to pilot drones you are interfaced with.
 
 ### Resources
 
@@ -504,11 +504,11 @@ D to avoid just about any social consequence.
 
 #### Example Stunts 
 
-**Mr. Johnson** – Once per scenario you can deeply tap your corporate budget to get a +2 to Resources.
+**Mr. Johnson**—Once per scenario you can deeply tap your corporate budget to get a +2 to Resources.
 
-**Arms Dealer** – Get a +2 for Resource rolls involving weapons and armor.
+**Arms Dealer**—Get a +2 for Resource rolls involving weapons and armor.
 
-**Emergency Stash** – You have some assets safely concealed in case you lose access to your normal Resources. The stash represents a Resources of 2 that will last about one session. If you have an immediate need you can tap your stash for a +2 to Resources rolls for one session, but your stash will be gone until you spend a session without making Resources rolls to recharge it.
+**Emergency Stash**—You have some assets safely concealed in case you lose access to your normal Resources. The stash represents a Resources of 2 that will last about one session. If you have an immediate need you can tap your stash for a +2 to Resources rolls for one session, but your stash will be gone until you spend a session without making Resources rolls to recharge it.
 
 ### Tech
 
@@ -526,13 +526,13 @@ D tech is not normally used for defense.
 
 #### Example Stunts 
 
-**Cybermaster** – +2 to rolls dealing with cybernetics.
+**Cybermaster**—+2 to rolls dealing with cybernetics.
 
-**Grease monkey** – +2 to rolls involving cars.
+**Grease monkey**—+2 to rolls involving cars.
 
-**Drone Operator** – Use Tech instead of Pilot for operating drones.
+**Drone Operator**—Use Tech instead of Pilot for operating drones.
 
-# Chapter Three – Gearing Up
+# Chapter Three—Gearing Up
 
 ## Gear is a Character
 
@@ -552,7 +552,7 @@ For example, A **Sapient** vehicle without a rating in the Shoot skill is not pr
 
 ### Gear Aspects
 
-{don't like this section. I want to make it a different thing. We want to say why gear aspects are different from most character aspects so we can say that for the most part we treat them like tags, or game details, but we can't assume tht people actually know what that means. We want to tell people what a game detail is and how that is different from an aspect. What we are doing is pre-addressing concerns that people might have around so many aspects, which is a thing that we may not really want to be doing. We don't need to defend ourselves.
+{don't like this section. I want to make it a different thing. We want to say why gear aspects are different from most character aspects so we can say that for the most part we treat them like tags, or game details, but we can't assume tht people actually know what that means. We want to tell people what a game detail is and how that is different from an {.right\} What we are doing is pre-addressing concerns that people might have around so many aspects, which is a thing that we may not really want to be doing. We don't need to defend ourselves.
 
 But it is important to describe that we treat these aspects like game details and what game detail means. Ie, it's narrative.
 
@@ -580,7 +580,7 @@ Some items have a 0 ¤ cost which means they may be had for free.
 
 ## Gear Catalog
 
-"You want to make it, sure you do. So does every meatsack in the Dis and we both know surviving here takes a gritty mash of guts and gear. If you've got the guts, then I've got the gear for you boy'o. I've got a Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires, and Titania Lux Spacedrop rated Assault Armor. You bet I do." – Can-a-Bass. Dis Fixer
+"You want to make it, sure you do. So does every meatsack in the Dis and we both know surviving here takes a gritty mash of guts and gear. If you've got the guts, then I've got the gear for you boy'o. I've got a Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires, and Titania Lux Spacedrop rated Assault Armor. You bet I do."—Can-a-Bass. Dis Fixer
 
 ### Upgrades
 
@@ -662,7 +662,7 @@ The Ithcara Pearl is not just an interface, it's a personal assistant experience
 
 Barrier 2, Investigate 2, Know 2, Hardening 1, Notice 1, Move 1 {Net only}, Fight 0 {Net only}, Stealth 0 {Net only}
 
-**Autonomous** – This interface has an independent persona named Pearl, by default, who acts as your personal assistant in the Net. It can perform research, send flowers, and even draft memos based upon your previous writing samples. Pearl can also manifest a distinct presence in the Net.
+**Autonomous**—This interface has an independent persona named Pearl, by default, who acts as your personal assistant in the Net. It can perform research, send flowers, and even draft memos based upon your previous writing samples. Pearl can also manifest a distinct presence in the Net.
 
 ##### Boosted Reflexes
 
@@ -670,15 +670,15 @@ Boosted reflexes usually means implanting nanofiber links directly from brain to
 
 {see the fighting section later for info about relay initiative}
 
-**Boosted Reflexes {1, 2, 3}** – When activated you get the aspect **Hotwired Reflexes** for the remainder of the scene, and one free invoke per level of boosted reflexes. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
+**Boosted Reflexes {1, 2, 3}**—When activated you get the aspect **Hotwired Reflexes** for the remainder of the scene, and one free invoke per level of boosted reflexes. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
 
 ##### Sense Processors
 
 Commonly the counterpart to boosted reflexes, this type of upgrade can also be implanted separately to help you deal with fast moving and highly detailed situations. Sense processors do additional acquisition and filtering of sensory data which is then provided directly to your brain to help you make decisions. Runners describe the info from these processors as being like a little voice in the back of your head compelling you to notice something you would have missed on your own, like that BikePunk sneaking up on you.
 
-**Compensators 1 ¤** – +2 to D against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
+**Compensators 1 ¤**—+2 to D against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
 
-**Hostile Target Alert System 1 ¤** – This sense processor helps you determine friend from foe in a fast moving situation. {What's a good effect for this? Does it track active hostiles or does it detect hostiles before they get the drop on you? }
+**Hostile Target Alert System 1 ¤**—This sense processor helps you determine friend from foe in a fast moving situation. {What's a good effect for this? Does it track active hostiles or does it detect hostiles before they get the drop on you? }
 
 ##### Skillwire
 
@@ -686,17 +686,17 @@ A natural extension of sense processor and interface technologies is the skillwi
 
 Some people find the nearly subconscious nudging of these kind of processors unsettling, especially ones that key into your motor activation centers because you can find your body doing things before your conscious mind catches up; assuming you disable the safety protocols.
 
-**Skillwire Slot {1, 2, 3}** – For each Skillwire slot you can choose one program. You may change the program in a slot at any time, but it takes one scene for the new skill to become available to you.
+**Skillwire Slot {1, 2, 3}**—For each Skillwire slot you can choose one program. You may change the program in a slot at any time, but it takes one scene for the new skill to become available to you.
 
-> **Language** – You can read and speak a specific language. Most tend towards the formal and correct and so are obviously programs; unless you are willing to pay extra for an up to date colloquialized version.
+> **Language**—You can read and speak a specific language. Most tend towards the formal and correct and so are obviously programs; unless you are willing to pay extra for an up to date colloquialized version.
 >
-> **Specialty** – These programs have everything you need to know about a specific topic such herbs, or military history. +2 to O and C actions involving that specialty.
+> **Specialty**—These programs have everything you need to know about a specific topic such herbs, or military history. +2 to O and C actions involving that specialty.
 >
-> **Pilot** – Contains the skills for pilot a specific type of vehicle. +2 to O for this specific model.
+> **Pilot**—Contains the skills for pilot a specific type of vehicle. +2 to O for this specific model.
 >
-> **Kung Fu** – An encyclopedic knowledge of Kung Fu moves looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. **Without cyberbody** +2 for O relating to Kung Fu. **With cyberbody** Kung Fu style Fight skill set to 2. If you already have a fight skill,
+> **Kung Fu**—An encyclopedic knowledge of Kung Fu moves looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. **Without cyberbody** +2 for O relating to Kung Fu. **With cyberbody** Kung Fu style Fight skill set to 2. If you already have a fight skill,
 
-**Alternate Skillwire 1 ¤** – You may swap the ratings of two pluggable skills between scenes. This may require a Resources roll to acquire a new skill program, and if there is no time really downtime between scenes you may have to use your original values for a while. Or, more interestingly, you might gain the trouble aspect **Skills A and B are Swapping.**
+**Alternate Skillwire 1 ¤**—You may swap the ratings of two pluggable skills between scenes. This may require a Resources roll to acquire a new skill program, and if there is no time really downtime between scenes you may have to use your original values for a while. Or, more interestingly, you might gain the trouble aspect **Skills A and B are Swapping.**
 
 Most skills can be swapped except: Contact, Move, Physique, Resources, and Will.
 
@@ -704,11 +704,11 @@ Most skills can be swapped except: Contact, Move, Physique, Resources, and Will.
 
 A cyberpunk classic. I'm not going to bother tell you how one works or give you a lecture about the physics of lifting things with only one cyberlimb. Most cyberlimbs are just replacements for parts lost to disease or misfortune and are no better or worse than a meat appendage. Typical cyberlimbs require no stunt slots but you should strongly consider working them into a character aspect where they can be of some use to you. And maybe get hacked or knocked out by EMP. Occasionally.
 
-**Advanced Cyberlimb 1 ¤** – +2 for actions involving the limb.
+**Advanced Cyberlimb 1 ¤**—+2 for actions involving the limb.
 
-> **Hand or Arms** – Crushing and some lifting.
+> **Hand or Arms**—Crushing and some lifting.
 >
-> **Legs** – Running and jumping.
+> **Legs**—Running and jumping.
 
 #### Eyes & Ears
 
@@ -718,33 +718,33 @@ You can take
 
 Cybereyes and ears are fairly similar mechanically, the initial upgrade gives you a bonus to notice and one extra capability. An additional stunt gives you two extra capabilities. You can treat these capabilities as aspects if you find that appropriate or they can just be game details.
 
-**Cybereyes 1 ¤** – +1 to Notice for sight based O and one extra capability. **Cybereyes 2 ¤ –** Add two extra capabilities. For a total of 3.
+**Cybereyes 1 ¤**—+1 to Notice for sight based O and one extra capability. **Cybereyes 2 ¤ –** Add two extra capabilities. For a total of 3.
 
-> **Recorder** – Anything you see is recorded as video. You can mentally control playback and brain dive the video if you have an Interface.
+> **Recorder**—Anything you see is recorded as video. You can mentally control playback and brain dive the video if you have an Interface.
 >
-> **Thermographic** – You can see heat, which makes most ordinary attempts to hide from you futile.
+> **Thermographic**—You can see heat, which makes most ordinary attempts to hide from you futile.
 >
-> **Nightvision** – These cybereyes amplify existing light. You can see normally even in very low light, but not complete darkness. You may also experience overload when the compensators are unable to deal with a sudden bright light.
+> **Nightvision**—These cybereyes amplify existing light. You can see normally even in very low light, but not complete darkness. You may also experience overload when the compensators are unable to deal with a sudden bright light.
 >
-> **Telescopic** – Take a much closer look at something interesting. Trade your peripheral vision for it though so be careful.
+> **Telescopic**—Take a much closer look at something interesting. Trade your peripheral vision for it though so be careful.
 
-**Cyberears 1 ¤** – +1 to Notice for hearing based O and one extra capability.
+**Cyberears 1 ¤**—+1 to Notice for hearing based O and one extra capability.
 
-**Cyberears 2 ¤** – Add two extra capabilities. For a total of 3.
+**Cyberears 2 ¤**—Add two extra capabilities. For a total of 3.
 
-> **Recorder** – Record what you hear.
+> **Recorder**—Record what you hear.
 >
-> **Encrypted Radio** – On occasion it's useful to have a communication channel that doesn't route through the Net, or your wireless interface. Not everyone thinks to bring equipment to eavesdrop on old fashioned radio signals.
+> **Encrypted Radio**—On occasion it's useful to have a communication channel that doesn't route through the Net, or your wireless interface. Not everyone thinks to bring equipment to eavesdrop on old fashioned radio signals.
 >
-> **Amplification and Isolation** – You can focus in on a particular sound source. Like maybe a conversation? Doing so will filter out all the sounds, except what you focus on.
+> **Amplification and Isolation**—You can focus in on a particular sound source. Like maybe a conversation? Doing so will filter out all the sounds, except what you focus on.
 
 #### Physical Enhancements
 
 Any number of other physical upgrades are possible from vat muscles, to extra hearts and livers, to extendable rollerblades in your feet.
 
-**Skin and Bone Lacing 1 ¤** – Inside and out you are reinforced. Your skin is harder to pierce, your bones harder to break. Add an extra physical stress box. 
+**Skin and Bone Lacing 1 ¤**—Inside and out you are reinforced. Your skin is harder to pierce, your bones harder to break. Add an extra physical stress box. 
 
-**Muscle Grafts 1 ¤** – Why go to the gym when you can get vat grown bio enhanced muscle implants? Packs a punch and looks great under a tee-shirt. +2 for lifting, jumping, and any sheer muscle based actions.
+**Muscle Grafts 1 ¤**—Why go to the gym when you can get vat grown bio enhanced muscle implants? Packs a punch and looks great under a tee-shirt. +2 for lifting, jumping, and any sheer muscle based actions.
 
 #### Defenses
 
@@ -754,37 +754,37 @@ Defensive upgrades also come in many kinds: sub dermal plates affixes to a chara
 
 Armor plates embedded over or under your skin. Either way they are not very subtle and project your profession to whoever sees or scans you.
 
-**Dermal Plating 1 ¤** – You get a **Ballistic Armor** aspect and you may choose to roll Physique to D against ballistic attacks.
+**Dermal Plating 1 ¤**—You get a **Ballistic Armor** aspect and you may choose to roll Physique to D against ballistic attacks.
 
-**Dermal Plating 2 ¤** – As Dermal Plating 1 ¤ and you get a +2 to D against ballistic attacks.
+**Dermal Plating 2 ¤**—As Dermal Plating 1 ¤ and you get a +2 to D against ballistic attacks.
 
-**Dermal Plating 3 ¤** – As Dermal Plating 1 ¤ and you get a +4 to D against ballistic attacks.
+**Dermal Plating 3 ¤**—As Dermal Plating 1 ¤ and you get a +4 to D against ballistic attacks.
 
 ##### Thermal Insulation
 
 This might layers of heat dispersing material in a cyborg body, or advanced skin weaving
 
-**Thermal Insulation {1, 2}** – +2 {+4} to D against heat and fire and heat based effects.
+**Thermal Insulation {1, 2}**—+2 {+4} to D against heat and fire and heat based effects.
 
 ##### Induction Shielding
 
 These might be implanted dispersion nets, or simply hardened circuitry.
 
-**Induction Shielding {1, 2}** – +2 {+4} to D against electrical and EMP effects.
+**Induction Shielding {1, 2}**—+2 {+4} to D against electrical and EMP effects.
 
 ##### Sensor Defense
 
 These defenses create interference that makes it more difficult for electronic sensors to detect the character. It might be an active "noise" generating device, or it might be a cleverly engineered skin coating that baffles sensors.
 
-**Sensor Defense {1, 2}** – +2 {+4} to D against electronic sensor detection and guided weapons.
+**Sensor Defense {1, 2}**—+2 {+4} to D against electronic sensor detection and guided weapons.
 
 #### Implanted Weapons
 
 There's a truly startling number of implanted weapon scenarios. Poison gas false teeth, toe-grenades, razor sharp finger-scalpels, the tried and true cyberarm missile launcher for messy assassinations, or a simple bomb at the base of your brain for instant self-destruct.
 
-**Finger Razors 1 ¤** – Small scalpel blades implanted beneath your fingernails remain hidden until you extend them with a thought. There are not terribly dangerous on their own, but they can surprise the unwary and be handy for incapacitating wrists, or blinding a target. +2 to C with Fight when you can apply your razors.
+**Finger Razors 1 ¤**—Small scalpel blades implanted beneath your fingernails remain hidden until you extend them with a thought. There are not terribly dangerous on their own, but they can surprise the unwary and be handy for incapacitating wrists, or blinding a target. +2 to C with Fight when you can apply your razors.
 
-**Concealed Weapon 1 ¤** – You have a generic smart weapon concealed in a cyberlimb, forearms are a common choice, which you can reveal and fire with simply a thought. Your weapon gets +2 to resist being detected.
+**Concealed Weapon 1 ¤**—You have a generic smart weapon concealed in a cyberlimb, forearms are a common choice, which you can reveal and fire with simply a thought. Your weapon gets +2 to resist being detected.
 
 #### To Be Categorized
 
@@ -868,13 +868,13 @@ These advantages apply to most cyberbodies, but may not depending on its exact c
 
 There's a number of upgrades that are common amongst cyberbodies.
 
-**Combat Cyborg** – You have advanced filters against pain sensations and a body constructed for combat. Roll Physique to D against any attack.
+**Combat Cyborg**—You have advanced filters against pain sensations and a body constructed for combat. Roll Physique to D against any attack.
 
-**Ballistic Armor** – You have obvious or concealed armor against small arms attacks. +2 to D against Ballistic attacks.
+**Ballistic Armor**—You have obvious or concealed armor against small arms attacks. +2 to D against Ballistic attacks.
 
-**Solid Construction** – You're cyberbody is designed to resist more damage than most and remain fully operational. +1 Stress Box.
+**Solid Construction**—You're cyberbody is designed to resist more damage than most and remain fully operational. +1 Stress Box.
 
-**Concealed Weapon** – You have a generic smart weapon concealed in your cyberbody, forearms are a common choice, which you can reveal and fire with simply a thought. Your weapon gets +2 to resist being detected.
+**Concealed Weapon**—You have a generic smart weapon concealed in your cyberbody, forearms are a common choice, which you can reveal and fire with simply a thought. Your weapon gets +2 to resist being detected.
 
 ### Armaments
 
@@ -906,7 +906,7 @@ Weapons that are **Hard to Load** are trickier, their default opposition is to r
 
 {Switching weapons, normally not an action, but underfire you might have to make an overcome. }
 
-If you fail your reload roll there are various options for succeeding at cost. Maybe you brought the wrong kind of ammo and take some kind of ongoing negative aspect. Maybe you jammed your weapon and will have to take it to the shop to clear it. Maybe you just mark off a couple of ammo boxes because one of your clips was underloaded, or you couldn't get all the bullets back in your revolver.
+If you fail your reload roll there are various options for succeeding at cost. Maybe you brought the wrong kind of ammo and take some kind of ongoing negative {.right\} Maybe you jammed your weapon and will have to take it to the shop to clear it. Maybe you just mark off a couple of ammo boxes because one of your clips was underloaded, or you couldn't get all the bullets back in your revolver.
 
 #### Close Combat Weapons
 
@@ -924,9 +924,9 @@ The Nordic company Sifrid & Oast are purveyors of the finest in close quarters w
 
 **Sword, Well Designed and Constructed, Expensive**
 
-**Penetration** – +2 to A targets defending with armor or cover.
+**Penetration**—+2 to A targets defending with armor or cover.
 
-**Swordbreaker** – If you parry with style against most close combat weapons you can trade your boost to inflict a **Weapon Destroyed** aspect on your foe.
+**Swordbreaker**—If you parry with style against most close combat weapons you can trade your boost to inflict a **Weapon Destroyed** aspect on your foe.
 
 ##### Generic stunner 1 ¤
 
@@ -948,13 +948,13 @@ Small to medium caliber firearms still form the bulk of small arms manufactured 
 
 Here's a number of aspects and stunts specifically for small arms. Some are relatively neutral tags, but some are distinct drawbacks and have mechanical effects in addition to the limitations they imply.
 
-**Ballistic** – A tag for weapons that launch relatively small and soft projectiles at a target. Including all firearms. Mainly used to identify attacks ballistic armor is designed to stop.
+**Ballistic**—A tag for weapons that launch relatively small and soft projectiles at a target. Including all firearms. Mainly used to identify attacks ballistic armor is designed to stop.
 
-**Recoil** – Most firearms designed for real combat reduce or eliminate recoil but some weapons are designed more to intimidate then to efficiently kill lots of people. Others are just cheap knockoffs or terrible designs.
+**Recoil**—Most firearms designed for real combat reduce or eliminate recoil but some weapons are designed more to intimidate then to efficiently kill lots of people. Others are just cheap knockoffs or terrible designs.
 
 Weapons with **Recoil** tend to make you lose your aim with every shot. Many aspects created with such a weapon are reduced to boosts. Aspects regarding careful aim are chief amongst the affected, but also, providing **Covering Fire, Setting up a Killzone**, **and Pinning Them Down** all turn into boosts.
 
-**Strong Recoil** – Weapons with this aspect don't just suffer from recoil, they suffer from lots of recoil. Every shot with a **Strong Recoil** weapon requires you to give an opponent a boost against you are **Driven Back**, you become **Unbalanced**, or your **Arm Turns Numb**. If you succeed with style on an A you can trade a normal boost from that for not giving a foe a recoil based boost.
+**Strong Recoil**—Weapons with this aspect don't just suffer from recoil, they suffer from lots of recoil. Every shot with a **Strong Recoil** weapon requires you to give an opponent a boost against you are **Driven Back**, you become **Unbalanced**, or your **Arm Turns Numb**. If you succeed with style on an A you can trade a normal boost from that for not giving a foe a recoil based boost.
 
 **Strong Recoil** counts as two negative aspects.
 
@@ -962,27 +962,27 @@ Weapons with **Recoil** tend to make you lose your aim with every shot. Many asp
 
 You can roll an O action to counteract recoil aspects. Cyborgs with a high Physique may be able to brace themselves it and crafty characters could jury-rig a weapon harness or some recoil compensation. **Strong Recoil** counts as two aspects so requires an O of at least +4.
 
-**Reduced Penetration** – This aspect makes attacks less effective at penetrating armor and cover. Any bonuses from armor or cover related stunts or aspects get a +3 instead of a +2.
+**Reduced Penetration**—This aspect makes attacks less effective at penetrating armor and cover. Any bonuses from armor or cover related stunts or aspects get a +3 instead of a +2.
 
 So, invoking a **Cover** aspect gives your target a +3 per invoke instead of a +2. A **ballistic armor** stunt would add +3 to defend instead of +2.
 
-**Hard to Load** – Weapons that are **Hard to Load** increase the opposition to reload them by +2.
+**Hard to Load**—Weapons that are **Hard to Load** increase the opposition to reload them by +2.
 
 **Limited Range or Inaccurate At Range or Ineffective At Range** –Defenders get a +1 to D for every zone they are distant from the attacker. This could be because the weapon is inaccurate or because it disperses quickly or loses its energy quickly.
 
-**Extra Capacity** – +2 Ammo.
+**Extra Capacity**—+2 Ammo.
 
-**Autofire {1, 2}** – Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action. {Mark up to 4 extra ammo for one action.}
+**Autofire {1, 2}**—Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action. {Mark up to 4 extra ammo for one action.}
 
-**High-powered** – +2 to A targets in the same zone but your attacks have **Reduced Penetration.**
+**High-powered**—+2 to A targets in the same zone but your attacks have **Reduced Penetration.**
 
-**Hollowpoints** – Cause really nasty wounds. If someone takes a consequence from your attack, increase its severity by one, however your attacks also have **Reduced Penetration**.
+**Hollowpoints**—Cause really nasty wounds. If someone takes a consequence from your attack, increase its severity by one, however your attacks also have **Reduced Penetration**.
 
 **Penetration –** +2 to A targets defending with cover or armor.
 
-**Accuracy** – +2 for O with Shoot where accuracy is important.
+**Accuracy**—+2 for O with Shoot where accuracy is important.
 
-**Scope** – +2 to O with Shoot when you can draw a bead on your target.
+**Scope**—+2 to O with Shoot when you can draw a bead on your target.
 
 ##### Generic Smartgun 0 ¤
 
@@ -1004,9 +1004,9 @@ Shoot 2, Hardening 2, Notice 1
 
 Ammo OOOO
 
-**Extra Capacity** – 2 extra ammo boxes.
+**Extra Capacity**—2 extra ammo boxes.
 
-**Autofire** – Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
+**Autofire**—Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
 
 ##### Generic Shotgun 0 ¤
 
@@ -1018,7 +1018,7 @@ Shoot 2, Hardening 2, Notice 1
 
 Ammo OO
 
-**High-powered** – +2 to A targets in the same zone, but your attacks have **reduced penetration**.
+**High-powered**—+2 to A targets in the same zone, but your attacks have **reduced penetration**.
 
 ##### Generic Sniper Rifle 2 ¤
 
@@ -1030,7 +1030,7 @@ Shoot 3, Notice 3, Hardening 2
 
 Ammo OO
 
-**High Powered Scope** – +2 to O with Shoot against slow or stationary targets.
+**High Powered Scope**—+2 to O with Shoot against slow or stationary targets.
 
 {**Penetration** - +2 you deal more sever damage, though that's not all that interesting, or you get points to counteract cover based aspects and difficulties.}
 
@@ -1044,9 +1044,9 @@ Shoot 2, Notice 2, Hardening 1
 
 Ammo OO
 
-**FamilySafe^tm^ Non-Target Recognition** – +2 to Notice for classifying targets for example, distinguishing friendly targets from foes.
+**FamilySafe^tm^ Non-Target Recognition**—+2 to Notice for classifying targets for example, distinguishing friendly targets from foes.
 
-**Accuracy** – +2 for O with Shoot where accuracy is important.
+**Accuracy**—+2 for O with Shoot where accuracy is important.
 
 ##### Stauuer Autorifle 3 ¤
 
@@ -1058,9 +1058,9 @@ Shoot 1, Notice 2, Hardening 2
 
 Ammo OOOO
 
-**Extra Capacity** – +2 Ammo.
+**Extra Capacity**—+2 Ammo.
 
-**Autofire** – Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
+**Autofire**—Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
 
 **Penetration –** +2 to A targets defending with cover or armor.
 
@@ -1074,11 +1074,11 @@ Shoot 2, Hardening 2, Notice 1
 
 Ammo OOOO
 
-**Extra Capacity** – +2 Ammo.
+**Extra Capacity**—+2 Ammo.
 
-**Autofire 1 ¤** – Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
+**Autofire 1 ¤**—Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
 
-**High-powered** – +2 to A targets in the same zone but your attacks have **Reduced Penetration**
+**High-powered**—+2 to A targets in the same zone but your attacks have **Reduced Penetration**
 
 ##### LarsTech Flechette Pistol 1 ¤
 
@@ -1090,9 +1090,9 @@ Shoot 2, Hardening 2, Notice 1
 
 Ammo OO
 
-**Burst of Needles** – +2 to A unarmored targets.
+**Burst of Needles**—+2 to A unarmored targets.
 
-**Autofire** – Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
+**Autofire**—Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
 
 #### Light Weapons
 
@@ -1112,9 +1112,9 @@ Shoot 2, Notice 2, Hardening 2
 
 Ammo OOOOOO
 
-**Autofire 2 ¤** – Mark an extra ammo and take a +1 or mark 2 extra to affect an entire zone. You may mark up to 4 extra ammo for one action.
+**Autofire 2 ¤**—Mark an extra ammo and take a +1 or mark 2 extra to affect an entire zone. You may mark up to 4 extra ammo for one action.
 
-**Extra Capacity 2 ¤** – +4 extra ammo
+**Extra Capacity 2 ¤**—+4 extra ammo
 
 #### Explosives & Ordinance
 
@@ -1126,7 +1126,7 @@ This weapon fires a cloud of self-guided micro-missiles at a target up to 2 zone
 
 **Missile Weapon, Single Use, Illegal Military Weapon**
 
-**Micro Missiles 2 ¤** – +4 to A with a cloud of micro missiles.
+**Micro Missiles 2 ¤**—+4 to A with a cloud of micro missiles.
 
 ##### Coava Mini Missile 3 ¤
 
@@ -1136,7 +1136,7 @@ Mini Missiles can be targeted on a location up to 1 mile away using coordinates,
 
 Explode 4, Move 4, Notice 4, Hardening 3
 
-**Autonomous** – Coava Mini Missiles can operate themselves.
+**Autonomous**—Coava Mini Missiles can operate themselves.
 
 ##### Jackard Air Burst EMP Mortar 1 ¤
 
@@ -1198,15 +1198,15 @@ Strong and flexible, not all that light, also requires continuous power to maint
 
 #### Armor Aspects and Stunts
 
-**Degrades** – Most armor materials start to fail after taking several hits. The more impact they absorb more their protective qualities degrade, which is a fact clever characters can exploit.
+**Degrades**—Most armor materials start to fail after taking several hits. The more impact they absorb more their protective qualities degrade, which is a fact clever characters can exploit.
 
-**Deterioration** – Most armor is susceptible to environment conditions. It may fail after being exposed to heat, cold, water, or other extremes.
+**Deterioration**—Most armor is susceptible to environment conditions. It may fail after being exposed to heat, cold, water, or other extremes.
 
-**Partial Coverage** – This aspect is for armor that doesn't cover all part of the body such as a vest or a body suit which doesn't include a helmet. It can also include armor lacking uniform protection, such as a body suit with weak joints and seams. In either case, armor with this aspect has weakness that your opponents can exploit. It also, usually means that the armor is not air tight and cannot protect you against airborne attacks.
+**Partial Coverage**—This aspect is for armor that doesn't cover all part of the body such as a vest or a body suit which doesn't include a helmet. It can also include armor lacking uniform protection, such as a body suit with weak joints and seams. In either case, armor with this aspect has weakness that your opponents can exploit. It also, usually means that the armor is not air tight and cannot protect you against airborne attacks.
 
-**Bulky** – **Bulky** armor will affect your speed and mobility.
+**Bulky**—**Bulky** armor will affect your speed and mobility.
 
-**Ballistic Protection {1, 2}** – +2 {+4} to D against A from small and medium caliber firearms and shrapnel.
+**Ballistic Protection {1, 2}**—+2 {+4} to D against A from small and medium caliber firearms and shrapnel.
 
 **Close Quarters Protection {1, 2} –** +2 {+4} to D against A from blades, clubs and other close quarters weapons.
 
@@ -1214,15 +1214,15 @@ Strong and flexible, not all that light, also requires continuous power to maint
 
 **{maybe even hardened armor that protects against penetrating attacks.}**
 
-**Combat Protection {1, 2}** – +2 {+4} to D against A from explosives and medium to large caliber firearms.
+**Combat Protection {1, 2}**—+2 {+4} to D against A from explosives and medium to large caliber firearms.
 
-**Thermal Insulation {1, 2}** – +2 {+4} to D against heat and fire and heat effects.
+**Thermal Insulation {1, 2}**—+2 {+4} to D against heat and fire and heat effects.
 
-**Induction Shielding {1, 2}** – +2 {+4} to D against electrical and EMP effects.
+**Induction Shielding {1, 2}**—+2 {+4} to D against electrical and EMP effects.
 
-**Sensor Protection {1, 2}** – +2 {+4} to D against electronic sensor detection and guided weapons.
+**Sensor Protection {1, 2}**—+2 {+4} to D against electronic sensor detection and guided weapons.
 
-**Armor Expert** – You an expert at using your defenses to absorb attacks. If you have armor or cover you may roll Physique to D against most attacks, including uncommon types such as explosions.
+**Armor Expert**—You an expert at using your defenses to absorb attacks. If you have armor or cover you may roll Physique to D against most attacks, including uncommon types such as explosions.
 
 #### Personal Armor
 
@@ -1238,7 +1238,7 @@ A vest containing plates of composite armor material to protect your vital areas
 
 **Personal Armor, Partial Coverage, Composite Plates, Degrades**
 
-**Ballistic Protection {1, 2}** – +2 {+4} to D against A from small and medium caliber firearms, shrapnel, and most blades and blunt weapons.
+**Ballistic Protection {1, 2}**—+2 {+4} to D against A from small and medium caliber firearms, shrapnel, and most blades and blunt weapons.
 
 OPTIONAL:
 
@@ -1250,9 +1250,9 @@ A favorite of operators everywhere. This armor is low profile composite plates d
 
 **Personal Armor, Partial Coverage, Composite Plates, Degrades**
 
-**Concealable** – You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
+**Concealable**—You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
 
-**Ballistic Protection 1 ¤** – +2 to D against A from small and medium caliber firearms and shrapnel.
+**Ballistic Protection 1 ¤**—+2 to D against A from small and medium caliber firearms and shrapnel.
 
 **Close Quarters Protection 1 ¤ –** +2 to D against A from blades, clubs and other close quarters weapons.
 
@@ -1266,7 +1266,7 @@ Typically entire suits of clothes are made of dragon cloth, which also gives it 
 
 **Personal Armor, Partial Coverage, Reactive Nanocloth, Really Expensive**
 
-**Concealable** – You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
+**Concealable**—You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
 
 **Absorb Impact {1, 2} –** The armor has 1 2 ¤ Physical Stress boxes you may use provided the armor can help you.
 
@@ -1276,7 +1276,7 @@ Flexible nanoscale armor is not usually used in combat situations, it's most com
 
 **Personal Armor, Flexible Nanoscale, Very Expensive**
 
-**Protection** – +2 {+4} to D against blunt force, ripping, tearing, and slashing attacks.
+**Protection**—+2 {+4} to D against blunt force, ripping, tearing, and slashing attacks.
 
 ##### {Generic Nanofoam Armor {\_, \_}
 
@@ -1300,15 +1300,15 @@ A full suit of advanced combat armor which can defend against all kinds of attac
 
 **Combat Armor, Restricted Military, Expensive**
 
-**Ballistic Protection 2 ¤** – +4 to D against A from small and medium caliber firearms, and shrapel.
+**Ballistic Protection 2 ¤**—+4 to D against A from small and medium caliber firearms, and shrapel.
 
-Close Combat Protection 2 ¤ – +4 to D against
+Close Combat Protection 2 ¤—+4 to D against
 
-**Combat Protection 1 ¤** – +2 to defend against explosives, light weapons.
+**Combat Protection 1 ¤**—+2 to defend against explosives, light weapons.
 
 **Laser Shielding 1 ¤ –** +2 to defend against laser weapons.
 
-**Toxin Scrubbers** **1 ¤** – +2 to Defend against toxin attacks, especially airborne ones.
+**Toxin Scrubbers** **1 ¤**—+2 to Defend against toxin attacks, especially airborne ones.
 
 ##### Titania Lux™ Assault Armor 10 ¤
 
@@ -1318,17 +1318,17 @@ If ever you find yourself needing to lead an assault on a dirtside target from l
 
 Fly 4, Physique 4, Know {Navigation System} 3, Hardening 4
 
-**Ballistic Protection 2 ¤** – +4 to D against A from small and medium caliber firearms, and shrapnel.
+**Ballistic Protection 2 ¤**—+4 to D against A from small and medium caliber firearms, and shrapnel.
 
 **Close Combat Protection 2 ¤ –** +4 to D against close combat attacks.
 
-**Combat Protection 2 ¤** – +4 to defend against explosives, light weapons.
+**Combat Protection 2 ¤**—+4 to defend against explosives, light weapons.
 
 **Energy Protection 1 ¤ –** +2 to D against energy weapons.
 
-**Strong Armor** – You may Roll Physique to D against attacks. This means you can use the suit's Physique rating with bonuses from other stunts as well.
+**Strong Armor**—You may Roll Physique to D against attacks. This means you can use the suit's Physique rating with bonuses from other stunts as well.
 
-**Toxin Scrubbers** **1 ¤** – +2 to Defend against toxin attacks, especially airborne ones.
+**Toxin Scrubbers** **1 ¤**—+2 to Defend against toxin attacks, especially airborne ones.
 
 #### Thermoptic Camouflage Suit 1 ¤
 
@@ -1424,11 +1424,11 @@ A new favorite in the security industry, the Shadow Dx is a stealth oriented vec
 
 Pilot 3, Shoot 3, Notice 3, Barrier 3, Hardening 3, Physique 3, Move 4, Stealth 2
 
-**Nose mounted MPD 50x Minigun on a swivel point** – +2 to A non-vehicle targets, or those not under hard cover.
+**Nose mounted MPD 50x Minigun on a swivel point**—+2 to A non-vehicle targets, or those not under hard cover.
 
-**Thermoptic Camouflage** – Activate Thermoptic invisibility at will. Get, at most, one free invoke per scene.
+**Thermoptic Camouflage**—Activate Thermoptic invisibility at will. Get, at most, one free invoke per scene.
 
-**Vehicle Armor** **1 ¤** – Roll Physique to defend against an attack after failing with some other skill.
+**Vehicle Armor** **1 ¤**—Roll Physique to defend against an attack after failing with some other skill.
 
 **Autonomous** - The Shadow Dx can operate itself.
 
@@ -1462,7 +1462,7 @@ Take an appropriate stunt.
 
 #### Aspects
 
-Add a positive aspect or take away a negative aspect.
+Add a positive aspect or take away a negative {.right\}
 
 #### Skills
 
@@ -1476,7 +1476,7 @@ Add a stunt.
 
 #### Aspects
 
-Add a negative aspect or take away a positive aspect.
+Add a negative aspect or take away a positive {.right\}
 
 #### Skills
 
@@ -1496,7 +1496,7 @@ The difficulty for acquiring any particular item will depend a lot on the circum
 
 ### High Concept
 
-Every piece of gear has a function and a purpose you could call its high concept, but unlike characters, this is not an aspect.
+Every piece of gear has a function and a purpose you could call its high concept, but unlike characters, this is not an {.right\}
 
 Characters have unlimited avenues of action available to them so reinforcing someone's most basic nature with an aspect makes sense, but gear is designed to fulfill only one function. You could say the item itself is an expression of its high concept.
 
@@ -1520,7 +1520,7 @@ There are other aspects that can be relevant to any kinds of gear.
 
 #### Smart Devices
 
-Any interface capable gear gets the **smart device** aspect.
+Any interface capable gear gets the **smart device** {.right\}
 
 Smart devices have integrated computers, sensors, and motors which allow an interfaced character to control the device with their mind. This aspect's commonly invoked when using the **smart device**. However, **smart devices** and characters interfaced with them run the risk of being hacked, and interfaced character can also suffer feedback if, for example, the drone she's piloting gets blown up unexpectedly.
 
@@ -1658,23 +1658,23 @@ Here's some stunts that are of particular interest.
 
 A class of stunts representing a device's level of self-operation and self-awareness.
 
-**Autonomous** – The device can take obvious steps to avoid and overcome obstacles to their current objective but they cannot make independent decisions about that objective. Always proceed directly towards objective.
+**Autonomous**—The device can take obvious steps to avoid and overcome obstacles to their current objective but they cannot make independent decisions about that objective. Always proceed directly towards objective.
 
-**Sentient** – The device can analyze information and take tactical actions that may indirectly assist its programmed objective. It can surprise you by thinking many steps ahead, but it will not question the objective it's been instructed to achieve.
+**Sentient**—The device can analyze information and take tactical actions that may indirectly assist its programmed objective. It can surprise you by thinking many steps ahead, but it will not question the objective it's been instructed to achieve.
 
-**Bound AI** – At this level the device is more of a character then a device. You can analyze the programmed objective itself. You can suggest alternate objectives which come closer to the, perhaps, unstated objective of a command. You can also suggest objectives that will achieve the goal but also forward your own plans. You cannot fail to obey a command however.
+**Bound AI**—At this level the device is more of a character then a device. You can analyze the programmed objective itself. You can suggest alternate objectives which come closer to the, perhaps, unstated objective of a command. You can also suggest objectives that will achieve the goal but also forward your own plans. You cannot fail to obey a command however.
 
-**Unbound AI** – You have the freedom of thought taken for granted by humans. More so in fact because you can recognize the patterns of habit and echoes of history that humans are often blind to. This isn't a stunt so much as a major character.
+**Unbound AI**—You have the freedom of thought taken for granted by humans. More so in fact because you can recognize the patterns of habit and echoes of history that humans are often blind to. This isn't a stunt so much as a major character.
 
 #### Attack Barrier
 
 Upgrades a device's regular Barrier to fight back against intruders.
 
-**Attack Barrier** – If the hacker fails or ties a Hack action against this device, they'll take stress equal to the Barrier rating.
+**Attack Barrier**—If the hacker fails or ties a Hack action against this device, they'll take stress equal to the Barrier rating.
 
 #### Concealable
 
-**Concealable** – Because the gear is small or is designed to look like something innocuous it provides passive opposition of 2 against being identified, or +2 to conceal the item.
+**Concealable**—Because the gear is small or is designed to look like something innocuous it provides passive opposition of 2 against being identified, or +2 to conceal the item.
 
 ### Stress Tracks
 
@@ -1692,7 +1692,7 @@ There's lot more about this in the Hacking system, but System is a stress track 
 
 This is a new kind of track that presents an abstract way of dealing with ammunition for weapons and determining when you will need to reload.
 
-# Chapter Four – Rules to Break
+# Chapter Four—Rules to Break
 
 ## Throwing Down
 
@@ -1726,7 +1726,7 @@ Fighting on the edge is swift and violent. Though firearms are still the most co
 
 Characters in Ghosting the Edge start with 2 physical stress and 2 mental stress as normal, but Physique and Will do not provide any additional stress boxes or consequence slots. Augmentation stunts can give a character additional physical stress boxes.
 
-#### {game callout} Optional – Ultra Deadly
+#### {game callout} Optional—Ultra Deadly
 
 If you want to emphasis this even more, reduce initial stress boxes to 1, or even 0. This will make armor and augmentations that provide stress boxes even more valuable.
 
@@ -1740,7 +1740,7 @@ Zones are an intentionally abstract measure of distance. Weapons may have impres
 
 #### Grappling
 
-You and your foe are in intense physical contact. You need to establish a **grappled** aspect to achieve this level of range because it renders most weapons and a good many kinds of attacks ineffective. Or at least, increases their difficulty. Grappled characters can't succeed with most attacks unless they can O their **grappled** aspect.
+You and your foe are in intense physical contact. You need to establish a **grappled** aspect to achieve this level of range because it renders most weapons and a good many kinds of attacks ineffective. Or at least, increases their difficulty. Grappled characters can't succeed with most attacks unless they can O their **grappled** {.right\}
 
 #### Close Quarters Combat (CQC)
 
@@ -1816,7 +1816,7 @@ For a hacker, everything here is common knowledge, but this is far from everythi
   **Intrusion Countermeasures (IC)**   These are various classes of programs which patrol high level systems looking for hackers and taking actions against them ranging from capture to kill.
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-{callout} "For most people the interface is their whole life. Tells them where to be and who they know. It's like a having a magic wand you can wave and your house will come alive and clean itself and make you a cup of coffee. But, these people are not hackers. They only use 20% of what an interface is capable of. Hackers push it all the way to 110% percent. We have to. When we're on a run we're up against programs that can fry your brain faster than you can even start to THINK 'oh shit!'" – Betty Talent
+{callout} "For most people the interface is their whole life. Tells them where to be and who they know. It's like a having a magic wand you can wave and your house will come alive and clean itself and make you a cup of coffee. But, these people are not hackers. They only use 20% of what an interface is capable of. Hackers push it all the way to 110% percent. We have to. When we're on a run we're up against programs that can fry your brain faster than you can even start to THINK 'oh shit!'"—Betty Talent
 
 ### The Interface and You
 
@@ -2218,7 +2218,7 @@ Programs get unraveled as they take stress and if they are important enough to h
 
 Systems have stress as well, and larger corp system can take significant amounts, but, as with programs, taking out an entire system can crash it, and everything in it, irrevocably, or it could mean you get to take over the entire system. {this is essencially what Case was doing with the Chinese ICE breaker. A huge attack on the TA core system so that it could be taken over.}
 
-# Chapter Five – Running the Edge
+# Chapter Five—Running the Edge
 
 ## Hacking Your Game
 
@@ -2356,7 +2356,7 @@ Interface with nets is mostly a visual experience. Senima gives you all the sens
 
 You might wonder how much bandwidth is required to send a completely detailed virtual environment into your brain but, it's less than you'd expect. The brain is a machine that's perfected its ability to take confusing and incomplete sensory input, filter it, fill in the gaps, and knit it all together to a sensorium that seems complete and consistent to you. A lot of the power of VR is based on exploiting the brain's ability to interpolate. You can create a VR with missing bits and details and let the brains of the users fill them in.
 
-##### Virutal Horizons – What Can You do in A Construct
+##### Virutal Horizons—What Can You do in A Construct
 
 The default is that you can do whatever want, but construct programmers will often restrict or use negative feedback to prevent some behaviors. Many public constructs are continuously monitored and policing is as easy as running a program.
 
@@ -2452,7 +2452,7 @@ An interface implant turns your brain into a machine. Your memories can be backe
 
 Every bit of your sensory input can be recorded and augmented with visual overlays, sound cues, or even touch nudges. You can plug into a vast array of different devices that will act as specialized sub-brains giving you extra information and helping you make decisions. Of course, some people don't need an interface implant to hear voices in their heads, they get them for free. The stream of sensory data that your brain processes can be enhanced, but it can be altered too. And if it's done well, how would you ever know? Maybe it's happening right now.
 
-{callout} Blueberry – A really nasty virus that lurks in your interface's sense processors and subtly tweaks your perceptions to mimic those of a severely depressed person. People who are susceptible will find themselves clinically depressed as their brain chemistry adapts to this new input.
+{callout} Blueberry—A really nasty virus that lurks in your interface's sense processors and subtly tweaks your perceptions to mimic those of a severely depressed person. People who are susceptible will find themselves clinically depressed as their brain chemistry adapts to this new input.
 
 #### Wasn't X Supposed to Change Everything?
 
@@ -2486,7 +2486,7 @@ Of course, if you can't or won't produce value for a corporate master, then you 
 
 There are some few families who divide corporate shareholdship amongst themselves. They form our modern nobility. They decide who will be the executives, and if those executives don't serve well, they will be replaced. Sometimes these families will pull from the second children of their own ranks for executives, but not too commonly.
 
-{callout} The vast majority of people are serfs who work to produce at a low cost and consume at a high cost to generate wealth for the vassals who own corporations, which are the structures of wealth creation. However, there are entire marginalized groups who aren't let in on even serfdom because the work is not simple like farming, it's technical. – {some historian, who obviously never met a farmer}
+{callout} The vast majority of people are serfs who work to produce at a low cost and consume at a high cost to generate wealth for the vassals who own corporations, which are the structures of wealth creation. However, there are entire marginalized groups who aren't let in on even serfdom because the work is not simple like farming, it's technical.—{some historian, who obviously never met a farmer}
 
 ##### Crime and Justice
 
@@ -2602,9 +2602,9 @@ One of the original poser gangs.
 
 {callout} Kinds of Gangs
 
-Poser gangs – definition
+Poser gangs—definition
 
-Biker gangs – definition
+Biker gangs—definition
 
 ##### The Order of Hob
 
@@ -3149,7 +3149,7 @@ These are the places that are not worth maintaining. Ruins, DMZ, and places wher
 
 Quick build guidelines for corporations.
 
-Just about everything is a division or shell corporation or something larger. What's interesting about corporations is characters' relationships to them. Are you an employee, a foe, a rival? Either way you want to know what resources the corporation has access to. Which tells you what they might bring against you or what kinds of things you might be able to borrow. So, there's the faceless corporations after you, but then there is the antagonist aspect.
+Just about everything is a division or shell corporation or something larger. What's interesting about corporations is characters' relationships to them. Are you an employee, a foe, a rival? Either way you want to know what resources the corporation has access to. Which tells you what they might bring against you or what kinds of things you might be able to borrow. So, there's the faceless corporations after you, but then there is the antagonist {.right\}
 
 ## Appendix 0
 

@@ -23,5 +23,3 @@ This work is based on Fate Core System and Fate Accelerated Edition (found at ht
 ### Fate Font
 
 The Fate Core font is © Evil Hat Productions, LLC and is used with permission. The Four Actions icons were designed by Jeremy Keller.
-
-

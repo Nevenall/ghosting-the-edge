@@ -42,7 +42,7 @@ Some items have a 0¤ cost which means they may be had for free during character
 
 ## Gear Catalog
 
-::: quote left Can-a-Bass. Dis Fixer
+:::quote[Can-a-Bass. Dis Fixer]{.left}
 You want to make it in the Dis do ya? Well so does every other meatsack! Let me tell ya! Surviving here takes a gritty mash of guts and gear and if you've got the guts, then I've got the gear for you boy'o. I've got yer Maglin Enforcer smart-linked combat shotgun, SlashRazor Hot Nerve Wires. I've even got Titania Lux Assault Armor. You bet I do! 
 :::
 
@@ -68,9 +68,9 @@ A reestablishment consequence can reflect physical recovery or complications fro
 
 By adding 1¤ to the cost of the item the severity of the reestablishment consequence can be reduced to mild. By adding 2¤ to the cost, it can be removed entirely.
 
-Some upgrades are {Non-invasive} by their nature and these upgrades reduce the default reestablishment to mild.
+Some upgrades are :aspect[Non-Invasive] by their nature and these upgrades reduce the default reestablishment to mild.
 
-Many upgrades are {Invasive} or {Difficult to Adjust to} and for these the reestablishment severity is increased by 1 each. These aspects are applied last so even if you have payed 2¤ extra to eliminate a reestablishment consequence an {Invasive} upgrade will still result in a mild one. If an upgrade is both {Invasive} and {Difficult to Adjust to} you will have to pay 1¤ just to avoid taking an extreme consequence. 
+Many upgrades are :aspect[Invasive] or :aspect[Difficult to Adjust to] and for these the reestablishment severity is increased by 1 each. These aspects are applied last so even if you have payed 2¤ extra to eliminate a reestablishment consequence an :aspect[Invasive] upgrade will still result in a mild one. If an upgrade is both :aspect[Invasive] and :aspect[Difficult to Adjust to] you will have to pay 1¤ just to avoid taking an extreme consequence. 
 
 
 #### Neural Implants
@@ -89,9 +89,9 @@ It defines our era in another way as well. Everything you do with your interface
 
 ###### Unlocked Interfaces
 
-Most characters will have a {Jailbroken Interface} which circumvents the ever present corporate controls and safeguards. This gives a character complete control over their device and allows them to do things like fiddle with the interface id to conceal their true identities. 
+Most characters will have a :aspect[Jailbroken Interface] which circumvents the ever present corporate controls and safeguards. This gives a character complete control over their device and allows them to do things like fiddle with the interface id to conceal their true identities. 
 
-Jailbreaking an interface can be done with a Tech {{overcome}}.
+Jailbreaking an interface can be done with a Tech :fate[overcome].
 
 ###### Wirelessly interface with the Net and local nets
 
@@ -109,13 +109,13 @@ If you are a too out of date with your interface wiring however, you might have 
 
 ###### Direct Contact Plate
 
-A common add-on for interfaces is the {Direct Contact Plate} placed somewhere on your body (Finger tips and the palms are common). The plate is directly wired to your interface allowing you connect to a smart device through the contact plate instead of plugging in an external wire or using a wireless connection.
+A common add-on for interfaces is the :aspect[Direct Contact Plate] placed somewhere on your body (Finger tips and the palms are common). The plate is directly wired to your interface allowing you connect to a smart device through the contact plate instead of plugging in an external wire or using a wireless connection.
 
 ###### ThotCom Quality Interface [0¤]
 
 The ThotCom is a fair example of an affordable commercial interface device.
 <!-- todo - see if not formatting the commas looks strange -->
-{Invasive}, {Weak Wireless Radio}, {Smart Device}
+:aspect[Invasive], :aspect[Weak Wireless Radio], :aspect[Smart Device]
 
 Barrier 2, Investigate 1, Know 1, Notice 0, Hardening 1, Move 0 (Net only), Fight 0 (Net only)
 
@@ -123,7 +123,7 @@ Barrier 2, Investigate 1, Know 1, Notice 0, Hardening 1, Move 0 (Net only), Figh
 
 A pretty standard interface for professional users. Most of the bells and whistles are more flash then substance, but the G-Gob is popular for its high quality defense barrier programming.
 
-{All the Bells and Whistles}, {Invasive}, {Smart Device}
+:aspect[All the Bells and Whistles], :aspect[Invasive], :aspect[Smart Device]
 
 Barrier 3, Hardening 2, Investigate 1, Know 1, Notice 2, Move 2 (Net only), Fight 2 (Net only)
 
@@ -131,7 +131,7 @@ Barrier 3, Hardening 2, Investigate 1, Know 1, Notice 2, Move 2 (Net only), Figh
 
 The Ithcara Pearl is not just an interface, it's a personal assistive experience. It features an autonomous computer intelligence which can perform a variety of tasks independently. A current favorite amoungst ambitous corp types.
 
-{Invasive}; {Pearl, Your Personal Net Assistant}; {Smart Device}
+:aspect[Invasive]; :aspect[Pearl, Your Personal Net Assistant]; :aspect[Smart Device]
 
 Barrier 2, Investigate 2, Know 2, Hardening 1, Notice 1, Move 1 (Net only), Fight 0 (Net only), Stealth 0 (Net only)
 
@@ -143,7 +143,7 @@ Hot wiring your nerves means implanting nanofiber links directly from brain to m
 
 See the fighting section for info about relay initiative.
 
-**Reflex Amplifiers**​—When activated you get the aspect {Amplified Reflexes} for the remainder of the scene, and one free invoke per level. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
+**Reflex Amplifiers**​—When activated you get the aspect :aspect[Amplified Reflexes] for the remainder of the scene, and one free invoke per level. You can use your free invokes on applicable actions like fighting, and especially to seize the initiative from other characters.
 
 ##### Sense Processors [1¤ each]
 
@@ -151,7 +151,7 @@ See the fighting section for info about relay initiative.
 
 Commonly the counterpart to reflex amplifiers, this type of upgrade can also be implanted separately to help you deal with fast moving and highly detailed situations. Sense processors do additional acquisition and filtering of sensory data which is then provided directly to your brain to help you make decisions. Runners describe the info from these processors as being like a little voice in the back of your head compelling you to notice something you would have missed on your own, like that BikePunk sneaking up on you.
 
-**Compensators**​—+2 to {{defend}} against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
+**Compensators**​—+2 to :fate[defend] against sensory overload based attacks. Flashbang grenades, sonic noise attack, and such.
 
 **Hostile Tracking System**​—This sense processor helps you determine friend from foe in a fast moving situation. 
 <!-- Seems this needs an effect. -->
@@ -167,13 +167,13 @@ Some people find the nearly subconscious nudging of these kind of processors uns
 ###### Skillwire Programs [1¤ each]
 
 - **Language**—You can read and speak a specific language. Most tend towards the formal and correct and obviously come from a program unless you are willing to pay extra for an up-to-date colloquialized version.
-- **Specialty**—These programs have everything you need to know about a specific topic such herbs, or military history. +2 to {{overcome}} and {{create}} actions involving that specialty.
-- **Pilot**—Contains the skills for pilot a specific type of vehicle. +2 to {{overcome}} for this specific model.
-- **Kung Fu**—An {encyclopedic knowledge of Kung Fu moves} looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. Without cyberbody +2 for {{overcome}} relating to Kung Fu. {With cyberbody} Kung Fu style Fight skill set to 2. If you already have a fight skill 
+- **Specialty**—These programs have everything you need to know about a specific topic such herbs, or military history. +2 to :fate[overcome] and :fate[create] actions involving that specialty.
+- **Pilot**—Contains the skills for pilot a specific type of vehicle. +2 to :fate[overcome] for this specific model.
+- **Kung Fu**—An :aspect[encyclopedic knowledge of Kung Fu moves] looks very cool but unless you have a cyborg body or have already built up the appropriate musculature to back up the physical skills it's not as useful as most teenage chipbois dream it is. Without cyberbody +2 for :fate[overcome] relating to Kung Fu. :aspect[With cyberbody] Kung Fu style Fight skill set to 2. If you already have a fight skill 
 
 ##### Alternate Skillwire [1¤]
 
-**Alternate Skillwire**—You can swap the ratings of two skills between scenes. This may require a Resources roll to acquire a new skill program. If there is no downtime between scenes you may might gain the trouble aspect {Skills A and B are Swapping}.
+**Alternate Skillwire**—You can swap the ratings of two skills between scenes. This may require a Resources roll to acquire a new skill program. If there is no downtime between scenes you may might gain the trouble aspect :aspect[Skills A and B are Swapping].
 
 Most skills can be swapped except: Contacts, Move, Physique, Resources, and Will.
 
@@ -183,7 +183,7 @@ Cybereyes and ears were a lot more popular before we cracked the brain's sense p
 
 Cybereyes and ears are fairly similar mechanically, the initial upgrade gives you a bonus to notice and one extra capability. An additional stunt gives you two extra capabilities. You can treat these capabilities as aspects if you find that appropriate or they can just be game details.
 
-**Cybereyes 1**—+1 to Notice for sight based {{overcome}} and one extra capability. 
+**Cybereyes 1**—+1 to Notice for sight based :fate[overcome] and one extra capability. 
 
 **Cybereyes 2**—Add two extra capabilities. For a total of 3.
 
@@ -194,7 +194,7 @@ Cybereyes and ears are fairly similar mechanically, the initial upgrade gives yo
 
 #### Ears [1, 2¤] 
 
-**Cyberears 1**—+1 to Notice for hearing based {{overcome}} and one extra capability.
+**Cyberears 1**—+1 to Notice for hearing based :fate[overcome] and one extra capability.
 
 **Cyberears 2**—Add two extra capabilities. For a total of 3.
 
@@ -228,41 +228,41 @@ Defensive upgrades also come in many kinds: sub dermal plates affixes to a chara
 
 Armor plates embedded over or under your skin. Either way they are not very subtle and project your profession to whoever sees or scans you.
 
-**Dermal Plating 1**—You get a {Ballistic Armor} aspect and you may choose to roll Physique to {{defend}} against ballistic attacks.
+**Dermal Plating 1**—You get a :aspect[Ballistic Armor] aspect and you may choose to roll Physique to :fate[defend] against ballistic attacks.
 
-**Dermal Plating 2**—As **Dermal Plating 1** and you get a +2 to {{defend}} against ballistic attacks.
+**Dermal Plating 2**—As **Dermal Plating 1** and you get a +2 to :fate[defend] against ballistic attacks.
 
-**Dermal Plating 3**—As **Dermal Plating 2** and you get a +4 to {{defend}} against ballistic attacks.
+**Dermal Plating 3**—As **Dermal Plating 2** and you get a +4 to :fate[defend] against ballistic attacks.
 
 ##### Thermal Insulation [1, 2¤]
 
 This might layers of heat dispersing material in a cyborg body, or advanced skin weaving
 
-**Thermal Insulation 1**—+2 to {{defend}} against heat and fire and heat based effects.
+**Thermal Insulation 1**—+2 to :fate[defend] against heat and fire and heat based effects.
 
-**Thermal Insulation 2**—+4 to {{defend}} against heat and fire and heat based effects.
+**Thermal Insulation 2**—+4 to :fate[defend] against heat and fire and heat based effects.
 
 ##### Induction Shielding [1, 2¤]
 
 These might be implanted dispersion nets, or simply hardened circuitry.
 
-**Induction Shielding 1**—+2 to {{defend}} against electrical and EMP effects.
+**Induction Shielding 1**—+2 to :fate[defend] against electrical and EMP effects.
 
-**Induction Shielding 2**—+4 to {{defend}} against electrical and EMP effects.
+**Induction Shielding 2**—+4 to :fate[defend] against electrical and EMP effects.
 
 ##### Sensor Defense [1, 2¤]
 
 These defenses create interference that makes it more difficult for electronic sensors to detect the character. It might be an active "noise" generating device, or it might be a cleverly engineered skin coating that baffles sensors.
 
-**Sensor Defense 1**—+2 to {{defend}} against electronic sensor detection and guided weapons.
+**Sensor Defense 1**—+2 to :fate[defend] against electronic sensor detection and guided weapons.
 
-**Sensor Defense 2**—+4 to {{defend}} against electronic sensor detection and guided weapons.
+**Sensor Defense 2**—+4 to :fate[defend] against electronic sensor detection and guided weapons.
 
 #### Implanted Weapons
 
 There's a truly startling number of implanted weapon scenarios. Poison gas false teeth, toe-grenades, razor sharp finger-scalpels, the tried and true cyberarm missile launcher for messy assassinations, or a simple bomb at the base of your brain for instant self-destruct.
 
-**Finger Razors [1¤]**—Small scalpel blades implanted beneath your fingernails remain hidden until you extend them with a thought. There are not terribly dangerous on their own, but they can surprise the unwary and be handy for incapacitating wrists, or blinding a target. +2 to {{create}} with Fight when you can apply your razors.
+**Finger Razors [1¤]**—Small scalpel blades implanted beneath your fingernails remain hidden until you extend them with a thought. There are not terribly dangerous on their own, but they can surprise the unwary and be handy for incapacitating wrists, or blinding a target. +2 to :fate[create] with Fight when you can apply your razors.
 
 **Concealed Weapon [1¤]**—You have a generic smart weapon concealed in a cyberlimb, forearms are a common choice, which you can reveal and fire with simply a thought. Your weapon gets +2 to resist being detected.
 
@@ -308,7 +308,7 @@ A cyberbody doesn't require any stunt slots, but does require an aspect indicati
 
 #### Basic Cybernetic Body
 
-You can have a basic cybernetic body simply by writing it into one of your aspects. Examples: {Medical Prosthetic Body}, {Crazed Combat Cyborg}, {Prototype Aria Cyberbody}, or {Heavy Construction Cyborg}, {Deep Water Spider Body}, {Gev-Tallen Designer Cyberbody}
+You can have a basic cybernetic body simply by writing it into one of your aspects. Examples: :aspect[Medical Prosthetic Body], :aspect[Crazed Combat Cyborg], :aspect[Prototype Aria Cyberbody], or :aspect[Heavy Construction Cyborg], :aspect[Deep Water Spider Body], :aspect[Gev-Tallen Designer Cyberbody]
 
 A basic cyberbody will look and operate more or less like a normal human one. Some bodies are human looking but fall into the Uncanny Valley and give most people the creeps, lots of designer bodies are flawlessly beautiful fantasies come true, but cyberbodies can be designed for all manner of purposes. Some are humanoid but gigantic, metallic and ugly, designed with practicality for heavy dangerous construction work, or they can be completely inhuman robot bodies, like the many legged spider bodies that are used for construction and repair in space and underwater.
 
@@ -350,9 +350,9 @@ These advantages apply to most cyberbodies, but may not depending on its exact c
 
 There's a number of upgrades that are common amongst cyberbodies.
 
-**Combat Cyborg**—You have advanced filters against pain sensations and a body constructed for combat. Roll Physique to {{defend}} against any attack.
+**Combat Cyborg**—You have advanced filters against pain sensations and a body constructed for combat. Roll Physique to :fate[defend] against any attack.
 
-**Ballistic Armor**—You have obvious or concealed armor against small arms attacks. +2 to {{defend}} against Ballistic attacks.
+**Ballistic Armor**—You have obvious or concealed armor against small arms attacks. +2 to :fate[defend] against Ballistic attacks.
 
 **Solid Construction**—You're cyberbody is designed to resist more damage than most and remain fully operational. +1 Stress Box.
 
@@ -380,15 +380,15 @@ Whenever you use your weapon in an action you mark ammo whether your action succ
 
 If your opponent succeeds with style on a defend action against you, then can choose to trade their normal benefit to make you mark ammo.
 
-When you run out of ammo you can ditch that weapon or reload. Ditching your empty weapon and picking up another doesn't require an action unless there's some circumstance that could oppose you. Like you are {pinned down by fire}. In which case it will require an {{overcome}} with Shoot.
+When you run out of ammo you can ditch that weapon or reload. Ditching your empty weapon and picking up another doesn't require an action unless there's some circumstance that could oppose you. Like you are :aspect[pinned down by fire]. In which case it will require an :fate[overcome] with Shoot.
 
-Reloading a weapon in a firefight does require an {{overcome}} action with Shoot. Free of any extenuating circumstances, reloading is a +0 difficulty.
+Reloading a weapon in a firefight does require an :fate[overcome] action with Shoot. Free of any extenuating circumstances, reloading is a +0 difficulty.
 
-Weapons that are {Hard to Load} are trickier, their opposition to reload is +2.
+Weapons that are :aspect[Hard to Load] are trickier, their opposition to reload is +2.
 
 Switching weapons, normally not an action, but underfire you might have to make an overcome.
 
-If you fail your reload roll there are various options for succeeding at cost. Maybe you brought the wrong kind of ammo and take some kind of ongoing negative aspect. Maybe you jammed your weapon and will have to take it to the shop to clear it. Maybe you just mark off a couple of ammo boxes because one of your clips was underloaded, or you couldn't get all the bullets back in your revolver.
+If you fail your reload roll there are various options for succeeding at cost. Maybe you brought the wrong kind of ammo and take some kind of ongoing negative {.right\} Maybe you jammed your weapon and will have to take it to the shop to clear it. Maybe you just mark off a couple of ammo boxes because one of your clips was underloaded, or you couldn't get all the bullets back in your revolver.
 
 #### Close Combat Weapons
 
@@ -398,15 +398,15 @@ Always fun! Knifes, swords, and advanced weapons like tasers and stun batons.
 
 The Nordic company Sifrid & Oast are purveyors of the finest in close quarters weaponry and the Excalibur™ long sword is their premier offering. It's not some cheap composite stamped into a sword shape and given a thin nano edge that will chip and break after a couple of uses. The Excalibur is mostly light composite with customizable blade and hilt weights so you can find your perfect point of balance, or weight it towards the blade for greater force. The cutting edge is a good flexible nanoconstruct that's highly resistant to impact and stronger than even most other nano edge weapons.
 
-{Well Designed and Constructed}, {Expensive}
+:aspect[Well Designed and Constructed], :aspect[Expensive]
 
-**Penetration**—+2 to {{attack}} targets defending with armor or cover.
+**Penetration**—+2 to :fate[attack] targets defending with armor or cover.
 
-**Swordbreaker**—If you parry with style against most close combat weapons you can trade your boost to inflict a {Weapon Destroyed} aspect on your foe.
+**Swordbreaker**—If you parry with style against most close combat weapons you can trade your boost to inflict a :aspect[Weapon Destroyed] aspect on your foe.
 
 ##### Merrzin Pocket Stunner [1¤]
 
-A common personal defense weapon. Make an {{overcome}} to hit your target in a vulnerable spot then roll Stun vs. Physique to {{attack}} or {{create}} against them.
+A common personal defense weapon. Make an :fate[overcome] to hit your target in a vulnerable spot then roll Stun vs. Physique to :fate[attack] or :fate[create] against them.
 
 Stun 4
 
@@ -422,49 +422,49 @@ Small to medium caliber firearms still form the bulk of small arms manufactured 
 
 Here's a number of aspects and stunts specifically for small arms. Some are relatively neutral tags, but some are distinct drawbacks and have mechanical effects in addition to the limitations they imply.
 
-{Ballistic}​—A tag for weapons that launch relatively small and soft projectiles at a target. Including all firearms. Mainly used to identify attacks ballistic armor is designed to stop.
+:aspect[Ballistic]​—A tag for weapons that launch relatively small and soft projectiles at a target. Including all firearms. Mainly used to identify attacks ballistic armor is designed to stop.
 
-{Recoil}​—Most firearms designed for real combat reduce or eliminate recoil but some weapons are designed more to intimidate then to efficiently kill lots of people. Others are just cheap knockoffs or terrible designs.
+:aspect[Recoil]​—Most firearms designed for real combat reduce or eliminate recoil but some weapons are designed more to intimidate then to efficiently kill lots of people. Others are just cheap knockoffs or terrible designs.
 
-Weapons with {Recoil} tend to make you lose your aim with every shot. Many aspects created with such a weapon are reduced to boosts. Aspects regarding careful aim are chief amongst the affected, but also, providing {Covering Fire}, {Setting up a Killzone}, and {Pinning Them Down} all turn into boosts.
+Weapons with :aspect[Recoil] tend to make you lose your aim with every shot. Many aspects created with such a weapon are reduced to boosts. Aspects regarding careful aim are chief amongst the affected, but also, providing :aspect[Covering Fire], :aspect[Setting up a Killzone], and :aspect[Pinning Them Down] all turn into boosts.
 
-{Strong Recoil}​—Weapons with this aspect don't just suffer from recoil, they suffer from lots of recoil. Every shot with a {Strong Recoil} weapon requires you to give an opponent a boost against you are {Driven Back}, you become {Unbalanced}, or your {Arm Turns Numb}. If you succeed with style on an {{attack}} you can trade a normal boost from that for not giving a foe a recoil based boost.
+:aspect[Strong Recoil]​—Weapons with this aspect don't just suffer from recoil, they suffer from lots of recoil. Every shot with a :aspect[Strong Recoil] weapon requires you to give an opponent a boost against you are :aspect[Driven Back], you become :aspect[Unbalanced], or your :aspect[Arm Turns Numb]. If you succeed with style on an :fate[attack] you can trade a normal boost from that for not giving a foe a recoil based boost.
 
-{Strong Recoil} counts as two negative aspects.
+:aspect[Strong Recoil] counts as two negative aspects.
 
-{Strong Recoil} can also apply to unenhanced humans using large weapons that are designed for cyborgs or vehicles.
+:aspect[Strong Recoil] can also apply to unenhanced humans using large weapons that are designed for cyborgs or vehicles.
 
-You can roll an {{overcome}} action to counteract recoil aspects. Cyborgs with a high Physique may be able to brace themselves it and crafty characters could jury-rig a weapon harness or some recoil compensation. {Strong Recoil} counts as two aspects so requires an {{overcome}} of at least +4.
+You can roll an :fate[overcome] action to counteract recoil aspects. Cyborgs with a high Physique may be able to brace themselves it and crafty characters could jury-rig a weapon harness or some recoil compensation. :aspect[Strong Recoil] counts as two aspects so requires an :fate[overcome] of at least +4.
 
-{Reduced Penetration}​—This aspect makes attacks less effective at penetrating armor and cover. Any bonuses from armor or cover related stunts or aspects get a +3 instead of a +2.
+:aspect[Reduced Penetration]​—This aspect makes attacks less effective at penetrating armor and cover. Any bonuses from armor or cover related stunts or aspects get a +3 instead of a +2.
 
-So, invoking a {Cover} aspect gives your target a +3 per invoke instead of a +2. A {Ballistic Armor} stunt would add +3 to defend instead of +2.
+So, invoking a :aspect[Cover] aspect gives your target a +3 per invoke instead of a +2. A :aspect[Ballistic Armor] stunt would add +3 to defend instead of +2.
 
-{Hard to Load}​—Weapons that are {Hard to Load} increase the opposition to reload them by +2.
+:aspect[Hard to Load]​—Weapons that are :aspect[Hard to Load] increase the opposition to reload them by +2.
 
-{Limited Range}​—Defenders get a +1 to {{defend}} for every zone they are distant from the attacker. This could be because the weapon is inaccurate or because it disperses quickly or loses its energy quickly.
+:aspect[Limited Range]​—Defenders get a +1 to :fate[defend] for every zone they are distant from the attacker. This could be because the weapon is inaccurate or because it disperses quickly or loses its energy quickly.
 
-{Extra Capacity}​—+2 Ammo.
+:aspect[Extra Capacity]​—+2 Ammo.
 
-{Autofire 1}​—Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
+:aspect[Autofire 1]​—Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
 
-{Autofire 2}​—Mark up to 4 extra ammo for one action.
+:aspect[Autofire 2]​—Mark up to 4 extra ammo for one action.
 
-{High-powered}​—+2 to A targets in the same zone but your attacks have {Reduced Penetration}
+:aspect[High-powered]​—+2 to A targets in the same zone but your attacks have :aspect[Reduced Penetration]
 
-{Hollowpoints}​—Cause really nasty wounds. If someone takes a consequence from your attack, increase its severity by one, however your attacks also have {Reduced Penetration}.
+:aspect[Hollowpoints]​—Cause really nasty wounds. If someone takes a consequence from your attack, increase its severity by one, however your attacks also have :aspect[Reduced Penetration].
 
-{Penetration}​—+2 to A targets defending with cover or armor.
+:aspect[Penetration]​—+2 to A targets defending with cover or armor.
 
-**Accuracy**—+2 for {{overcome}} with Shoot where accuracy is important.
+**Accuracy**—+2 for :fate[overcome] with Shoot where accuracy is important.
 
-**Scope**—+2 to {{overcome}} with Shoot when you can draw a bead on your target.
+**Scope**—+2 to :fate[overcome] with Shoot when you can draw a bead on your target.
 
 ##### Generic Smartgun [0¤]
 
 An average interface enabled handgun.
 
-{Ballistic}, {Restricted Deadly Weapon}, {Smart Device}
+:aspect[Ballistic], :aspect[Restricted Deadly Weapon], :aspect[Smart Device]
 
 Shoot 2, Hardening 2, Notice 1
 
@@ -474,13 +474,13 @@ Ammo ☐☐
 
 A standard issue assault rifle.
 
-{Ballistic}, {Illegal Deadly Weapon}, {Smart Device}
+:aspect[Ballistic], :aspect[Illegal Deadly Weapon], :aspect[Smart Device]
 
 Shoot 2, Hardening 2, Notice 1
 
 Ammo ☐☐☐☐
 
-{Extra Capacity}​—2 extra ammo boxes
+:aspect[Extra Capacity]​—2 extra ammo boxes
 
 **Autofire 1**​—Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
 
@@ -488,31 +488,31 @@ Ammo ☐☐☐☐
 
 A standard shot loaded shotgun with low penetration and high stopping power at close range.
 
-{Hard to Load}, {Restricted Deadly Weapon}, {Smart Device}
+:aspect[Hard to Load], :aspect[Restricted Deadly Weapon], :aspect[Smart Device]
 
 Shoot 2, Hardening 2, Notice 1
 
 Ammo ​☐☐
 
-**High-powered**—+2 to A targets in the same zone, but your attacks have {Reduced Penetration}.
+**High-powered**—+2 to A targets in the same zone, but your attacks have :aspect[Reduced Penetration].
 
 ##### Generic Sniper Rifle [2¤]
 
 A standard interface-enabled rifle for long distance assassination.
 
-{Ballistic}, {Hard to Load}, {Restricted Deadly Weapon}, {Smart Device}
+:aspect[Ballistic], :aspect[Hard to Load], :aspect[Restricted Deadly Weapon], :aspect[Smart Device]
 
 Shoot 3, Notice 3, Hardening 2
 
 Ammo ☐☐
 
-**High Powered Scope**—+2 to {{overcome}} with Shoot against slow or stationary targets.
+**High Powered Scope**—+2 to :fate[overcome] with Shoot against slow or stationary targets.
 
 ##### Colt-Sauer Striking Hawk Light Combat Pistol [2¤]
 
 The Striking Hawk is a standout in the smart pistol arena. A favorite of sharpshooters and those looking to avoid unwanted casualties. It's highly accurate even at medium ranges and boasts an advanced civilian recognition system.
 
-{Ballistic}, {Restricted Deadly Weapon}, {Smart Device}
+:aspect[Ballistic], :aspect[Restricted Deadly Weapon], :aspect[Smart Device]
 
 Shoot 2, Notice 2, Hardening 1
 
@@ -520,13 +520,13 @@ Ammo ☐☐
 
 **FamilySafe™ Non-Target Recognition**—+2 to Notice for classifying targets for example, distinguishing friendly targets from foes.
 
-**Accuracy**—+2 for {{overcome}} with Shoot where accuracy is important.
+**Accuracy**—+2 for :fate[overcome] with Shoot where accuracy is important.
 
 ##### Stauuer Autorifle [3¤]
 
 The Stauuer is a common sight amongst security forces because of its superior penetration against armor and even light cover. It does not, however, hold up well to field work or rough handling so be sure you have some duct tape handy.
 
-{Ballistic}, {Illegal Deadly Weapon}, {Smart Device}, {Flimsy}
+:aspect[Ballistic], :aspect[Illegal Deadly Weapon], :aspect[Smart Device], :aspect[Flimsy]
 
 Shoot 1, Notice 2, Hardening 2
 
@@ -542,7 +542,7 @@ Ammo ☐☐☐☐
 
 A shotgun designed for heavy combat situations. It features a large drum magazine and fully automatic mode.
 
-{Ballistic}, {Restricted Deadly Weapon}, {Smart Device}
+:aspect[Ballistic], :aspect[Restricted Deadly Weapon], :aspect[Smart Device]
 
 Shoot 2, Hardening 2, Notice 1
 
@@ -552,13 +552,13 @@ Ammo ☐☐☐☐
 
 **Autofire 1**—Mark an extra ammo and take a +1 or mark 2 extra ammo and affect a zone. You may only mark 2 extra ammo per action.
 
-**High-powered**—+2 to A targets in the same zone but your attacks have {Reduced Penetration}
+**High-powered**—+2 to A targets in the same zone but your attacks have :aspect[Reduced Penetration]
 
 ##### LarsTech Flechette Pistol [1¤]
 
 A dangerous little personal defense weapon which fires large bursts of tiny needles at a target. Great for tearing up unarmored targets, but mostly useless against rigid targets and hard armor.
 
-{Ballistic}, {Illegal Deadly Weapon}, {Smart Device}, {Reduced Penetration}
+:aspect[Ballistic], :aspect[Illegal Deadly Weapon], :aspect[Smart Device], :aspect[Reduced Penetration]
 
 Shoot 2, Hardening 2, Notice 1
 
@@ -578,7 +578,7 @@ Which is a greatly expanded class of weapons thanks to the advent of cyberbodies
 
 A common light machine gun, the super auto offers a high rate of fire in a small package, and with excellent heat dispersal. Super Autos are popular choice for small drones and for high spec cyborgs looking for firepower. Its even small enough to be used by unenhanced humans but they will suffer some Recoil.
 
-{Illegal Military Weapon}
+:aspect[Illegal Military Weapon]
 
 Shoot 2, Notice 2, Hardening 2
 
@@ -596,15 +596,15 @@ Grenades, landmines, claymores all kinds of fun things.
 
 This weapon fires a cloud of self-guided micro-missiles at a target up to 2 zones away. The launcher is often hidden in a cyberlimb or other compartment. This is a single use weapon and you'll have to replace it if you use it, which is likely to take a scene, at least.
 
-{Single Use}, {Illegal Military Weapon}
+:aspect[Single Use], :aspect[Illegal Military Weapon]
 
-**Micro Missiles 2**—+4 to {{attack}} with a cloud of micro missiles.
+**Micro Missiles 2**—+4 to :fate[attack] with a cloud of micro missiles.
 
 ##### Coava Mini Missile [3¤]
 
 Mini Missiles can be targeted on a location up to 1 mile away using coordinates, or it can be locked onto a target you have line of sight to. The missile can pursue its target at vehicle speeds rolling Move to navigate obstacles and Notice to find the target if they try to hide.
 
-{Single Use}, {Illegal Military Weapon}
+:aspect[Single Use], :aspect[Illegal Military Weapon]
 
 Explode 4, Move 4, Notice 4, Hardening 3
 
@@ -614,9 +614,9 @@ Explode 4, Move 4, Notice 4, Hardening 3
 
 The Jackard mortar is useful for disabling vehicles, communications, and all manner of electronic defenses; not to mention inducing electric current in the cyber implants of hapless soldiers. Be careful not to be too close to the area of effect yourself.
 
-Launching and activating the shell is easy enough to not require a roll, assuming you know some something about mortars. Once launched, roll the EMP skill against electronics in the target zone. You can roll it as an {{overcome}} if you are just trying to knockout the defenses of some area, as a C, or even as an attack against those with cyber implants. The shell is powerful enough to affect a large building.
+Launching and activating the shell is easy enough to not require a roll, assuming you know some something about mortars. Once launched, roll the EMP skill against electronics in the target zone. You can roll it as an :fate[overcome] if you are just trying to knockout the defenses of some area, as a C, or even as an attack against those with cyber implants. The shell is powerful enough to affect a large building.
 
-{Single Use}, {Illegal Military Weapon}
+:aspect[Single Use], :aspect[Illegal Military Weapon]
 
 EMP 6
 
@@ -646,7 +646,7 @@ The material armor is made of makes a good deal of difference in how it performs
 
 ##### Composite Plates
 
-Is the most common armor material. There's a number of varieties but they all boil down to arranging some amount of nano-fiber in a larger matrix material to make a plate that can be used to cover vital areas. {Composite} is relatively cheap and easy to find, but weights more than more exotic nano materials It also lacks flexibility and so composite armor will inevitably have joints and seams.
+Is the most common armor material. There's a number of varieties but they all boil down to arranging some amount of nano-fiber in a larger matrix material to make a plate that can be used to cover vital areas. :aspect[Composite] is relatively cheap and easy to find, but weights more than more exotic nano materials It also lacks flexibility and so composite armor will inevitably have joints and seams.
 
 Composite Plates offer good protection, but they will deform and break as they absorb attacks and lose their protective qualities.
 
@@ -654,7 +654,7 @@ Classic body armor is made of composite plates or scales sewn into a vest or imp
 
 ##### Flexible Nanoscale
 
-Layers of interlocking nanoscales that absorb impact by intermeshing. It provides uniform protection and is light and flexible. However, its structure is derived from a fish that evolved the design to defeat shark bites, so {Flexible Nanoscale} is more useful against the ripping and tearing from animal attacks or accidents then from penetration wounds of firearms.
+Layers of interlocking nanoscales that absorb impact by intermeshing. It provides uniform protection and is light and flexible. However, its structure is derived from a fish that evolved the design to defeat shark bites, so :aspect[Flexible Nanoscale] is more useful against the ripping and tearing from animal attacks or accidents then from penetration wounds of firearms.
 
 ##### Reactive Nanocloth 
 
@@ -670,42 +670,42 @@ Strong and flexible, not all that light, also requires continuous power to maint
 
 #### Armor Aspects and Stunts
 
-{Degrades}—Most armor materials start to fail after taking several hits. The more impact they absorb more their protective qualities degrade, which is a fact clever characters can exploit.
+:aspect[Degrades]—Most armor materials start to fail after taking several hits. The more impact they absorb more their protective qualities degrade, which is a fact clever characters can exploit.
 
-{Deterioration}—Some armor is susceptible to environment conditions. It may fail after being exposed to heat, cold, water, or other extremes.
+:aspect[Deterioration]—Some armor is susceptible to environment conditions. It may fail after being exposed to heat, cold, water, or other extremes.
 
-{Partial Coverage}—This aspect is for armor that doesn't cover all part of the body such as a vest or a body suit which doesn't include a helmet. It can also include armor lacking uniform protection, such as a body suit with weak joints and seams. In either case, armor with this aspect has weakness that your opponents can exploit. It also, usually means that the armor is not air tight and cannot protect you against airborne attacks.
+:aspect[Partial Coverage]—This aspect is for armor that doesn't cover all part of the body such as a vest or a body suit which doesn't include a helmet. It can also include armor lacking uniform protection, such as a body suit with weak joints and seams. In either case, armor with this aspect has weakness that your opponents can exploit. It also, usually means that the armor is not air tight and cannot protect you against airborne attacks.
 
-{Bulky}—This armor will affect your speed and mobility.
+:aspect[Bulky]—This armor will affect your speed and mobility.
 
-**Ballistic Protection 1**—+2 to {{defend}} against attacks from small and medium caliber firearms and shrapnel.
+**Ballistic Protection 1**—+2 to :fate[defend] against attacks from small and medium caliber firearms and shrapnel.
 
-**Ballistic Protection 2**—+4 to {{defend}} against attacks from small and medium caliber firearms and shrapnel.
+**Ballistic Protection 2**—+4 to :fate[defend] against attacks from small and medium caliber firearms and shrapnel.
 
-**Close Quarters Protection 1**​—+2 to {{defend}} against attacks from blades, clubs and other close quarters weapons.
+**Close Quarters Protection 1**​—+2 to :fate[defend] against attacks from blades, clubs and other close quarters weapons.
 
-**Close Quarters Protection 2**​—+4 to {{defend}} against attacks from blades, clubs and other close quarters weapons.
+**Close Quarters Protection 2**​—+4 to :fate[defend] against attacks from blades, clubs and other close quarters weapons.
 
 <!-- stunt for defending against blunt attacks and explosives
 hardened armor that defends against penetrating attacks -->
 
-**Combat Protection 1**—+2 to {{defend}} against explosives and medium to large caliber firearms.
+**Combat Protection 1**—+2 to :fate[defend] against explosives and medium to large caliber firearms.
 
-**Combat Protection 2**—+4 to {{defend}} against explosives and medium to large caliber firearms.
+**Combat Protection 2**—+4 to :fate[defend] against explosives and medium to large caliber firearms.
 
-**Thermal Insulation 1**—+2 to {{defend}} against heat and fire and heat effects.
+**Thermal Insulation 1**—+2 to :fate[defend] against heat and fire and heat effects.
 
-**Thermal Insulation 2**—+4 to {{defend}} against heat and fire and heat effects.
+**Thermal Insulation 2**—+4 to :fate[defend] against heat and fire and heat effects.
 
-**Induction Shielding 1**—+2 to {{defend}} against electrical and EMP effects.
+**Induction Shielding 1**—+2 to :fate[defend] against electrical and EMP effects.
 
-**Induction Shielding 2**—+4 to {{defend}} against electrical and EMP effects.
+**Induction Shielding 2**—+4 to :fate[defend] against electrical and EMP effects.
 
-**Sensor Protection 1**—+2 to {{defend}} against electronic sensor detection and guided weapons.
+**Sensor Protection 1**—+2 to :fate[defend] against electronic sensor detection and guided weapons.
 
-**Sensor Protection 2**—+4 to {{defend}} against electronic sensor detection and guided weapons.
+**Sensor Protection 2**—+4 to :fate[defend] against electronic sensor detection and guided weapons.
 
-**Armor Expert**—You an expert at using your defenses to absorb attacks. If you have armor or cover you may roll Physique to {{defend}} against most attacks, including uncommon types such as explosions.
+**Armor Expert**—You an expert at using your defenses to absorb attacks. If you have armor or cover you may roll Physique to :fate[defend] against most attacks, including uncommon types such as explosions.
 
 #### Personal Armor
 
@@ -719,9 +719,9 @@ Some character know how to use their armor to greater effect.
 
 A vest containing plates of composite armor material to protect your vital areas from common street level threats. They also have slots that allow you to add heavier plates for protection against higher caliber weapons.
 
-{Partial Coverage}, {Composite Plates}, {Degrades}
+:aspect[Partial Coverage], :aspect[Composite Plates], :aspect[Degrades]
 
-**Ballistic Protection 1**—+2 to {{defend}} against attacks from small and medium caliber firearms, shrapnel, and most blades and blunt weapons.
+**Ballistic Protection 1**—+2 to :fate[defend] against attacks from small and medium caliber firearms, shrapnel, and most blades and blunt weapons.
 
 <!-- todo - no generic gear -->
 
@@ -733,13 +733,13 @@ For +0 add **Combat Protection 1** and **Bulky**
 
 A favorite of operators everywhere. This armor is low profile composite plates designed for both ballistic and close quarters fighting concealed in a fairly large jacket or trench coat.
 
-{Partial Coverage}, {Composite Plates}, {Degrades}
+:aspect[Partial Coverage], :aspect[Composite Plates], :aspect[Degrades]
 
 **Concealable**—You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
 
-**Ballistic Protection 1**—+2 to {{defend}} against attacks from small and medium caliber firearms and shrapnel.
+**Ballistic Protection 1**—+2 to :fate[defend] against attacks from small and medium caliber firearms and shrapnel.
 
-**Close Quarters Protection 1**​—+2 to {{defend}} against attacks from blades, clubs and other close quarters weapons.
+**Close Quarters Protection 1**​—+2 to :fate[defend] against attacks from blades, clubs and other close quarters weapons.
 
 ##### Mobeus Dragon Cloth™ [1, 2¤]
 
@@ -749,7 +749,7 @@ Elite corp mercs also like it for its resilience. You make quite an impression w
 
 Typically entire suits of clothes are made of dragon cloth, which also gives it more coverage than most common personal armor.
 
-{Partial Coverage}, {Reactive Nanocloth}, {Really Expensive}
+:aspect[Partial Coverage], :aspect[Reactive Nanocloth], :aspect[Really Expensive]
 
 **Concealable**—You get a +2 for concealing this armor. Alternately it presents 2 passive against detection.
 
@@ -765,11 +765,11 @@ the material can be an advantage, but in some ways disadvantages -->
 
 Flexible nanoscale armor is not usually used in combat situations, it's most commonly used as accident protection for construction workers and the like. It looks like a wetsuit or a skin tight jump suit and provides uniform protection against explosive force and accidents, or animal attacks.
 
-{Flexible Nanoscale}, {Very Expensive}
+:aspect[Flexible Nanoscale], :aspect[Very Expensive]
 
-**Protection 1**—+2 to {{defend}} against blunt force, ripping, tearing, and slashing attacks.
+**Protection 1**—+2 to :fate[defend] against blunt force, ripping, tearing, and slashing attacks.
 
-**Protection 2**—+4 to {{defend}} against blunt force, ripping, tearing, and slashing attacks.
+**Protection 2**—+4 to :fate[defend] against blunt force, ripping, tearing, and slashing attacks.
 
 <!-- todo - these are just generic armor materials. not actual gear -->
 ##### Nanofoam Armor
@@ -778,7 +778,7 @@ Protects againsts explosives and blunt attacks. It's pretty easy to manufacture,
 
 ##### Magnetorheological Fluid Armor
 
- {Magnetorheological Fluid}, {Bulky}
+ :aspect[Magnetorheological Fluid], :aspect[Bulky]
 
 #### Combat and Assault Armor
 
@@ -790,11 +790,11 @@ Assault armor is also full coverage hard armor, but with powered servos, built i
 
 A full suit of advanced combat armor which can defend against all kinds of attacks. It provides full coverage protection and it also provides some defense against battle field level dangers such as explosions and light weapons.
 
-{{Combat Armor, Restricted Military, Expensive}}
+:fate[Combat Armor, Restricted Military, Expensive]
 
-**Ballistic Protection 2**—+4 to {{defend}} against small and medium caliber firearms, and shrapel.
+**Ballistic Protection 2**—+4 to :fate[defend] against small and medium caliber firearms, and shrapel.
 
-**Close Combat Protection 2**—+4 to {{defend}} against close quarters weapons.
+**Close Combat Protection 2**—+4 to :fate[defend] against close quarters weapons.
 
 **Combat Protection 1**—+2 to defend against explosives, light weapons.
 
@@ -806,19 +806,19 @@ A full suit of advanced combat armor which can defend against all kinds of attac
 
 If ever you find yourself needing to lead an assault on a dirtside target from low orbit, this is the armor you'll wish you had. Titania's Lux line is not just best-in-class powered assault armor rated at 90% survivability for uncontrolled Earth reentry; the stuff is just gorgeous and you will feel like a superhero flying it.
 
-{Very Expensive}, {Highly Restricted Military}
+:aspect[Very Expensive], :aspect[Highly Restricted Military]
 
 Fly 4, Physique 4, Navigation 3, Hardening 4
 
-**Ballistic Protection 2**—+4 to {{defend}} against A from small and medium caliber firearms, and shrapnel.
+**Ballistic Protection 2**—+4 to :fate[defend] against A from small and medium caliber firearms, and shrapnel.
 
-**Close Combat Protection 2**​—+4 to {{defend}} against close combat attacks.
+**Close Combat Protection 2**​—+4 to :fate[defend] against close combat attacks.
 
 **Combat Protection 2**—+4 to defend against explosives, light weapons.
 
-**Energy Protection 1**​—+2 to {{defend}} against energy weapons.
+**Energy Protection 1**​—+2 to :fate[defend] against energy weapons.
 
-**Strong Armor**—You may Roll Physique to {{defend}} against attacks. This means you can use the suit's Physique rating with bonuses from other stunts as well.
+**Strong Armor**—You may Roll Physique to :fate[defend] against attacks. This means you can use the suit's Physique rating with bonuses from other stunts as well.
 
 **Toxin Scrubbers 1**—+2 to Defend against toxin attacks, especially airborne ones.
 
@@ -826,7 +826,7 @@ Fly 4, Physique 4, Navigation 3, Hardening 4
 
 This is a full body suit which can be activated to hide the wearer from visual and thermographic detection. It can be activated and deactivated multiple times but you get only one free invoke per scene.
 
-**Thermoptic Camouflage**​—At any time you may activate your suit and gain the aspect {Invisible to Optical and Thermal Detection} You can toggle this aspect anytime but, you only get one free invoke per scene.
+**Thermoptic Camouflage**​—At any time you may activate your suit and gain the aspect :aspect[Invisible to Optical and Thermal Detection] You can toggle this aspect anytime but, you only get one free invoke per scene.
 
 ### Personal Devices
 
@@ -836,7 +836,7 @@ This is a full body suit which can be activated to hide the wearer from visual a
 
 SmartMetal is a fist-sized blob of malleable metal/nanite mixture which has a built in power supply and a smartlink that allows you to configure the device into any shape with just a thought. As long as it has power SmartMetal will retain the shape you desire and is 500x harder than steel. It's sold commercially as a rich kid's toy and in large amounts for industrial purposes but when hacked to disable the safety features SmartMetal becomes a tool of surpassing versatility. Especially if you have a direct contact plate on your palm to control and recharge the thing.
 
-{Malleable Metal}, {Smart Device}, {Very Expensive}
+:aspect[Malleable Metal], :aspect[Smart Device], :aspect[Very Expensive]
 
 ### Drugs & Other Biologicals
 
@@ -897,11 +897,11 @@ Vectordyne craft are more maneuverable then helicopters but are just as loud, if
 
 A new favorite in the security industry, the Shadow Dx is a stealth oriented vectordyne that can quietly transport a small team to a target zone and provide them with light combat support. It's equipped with thermoptic camouflage and Terradyne's new SilentRunning™ TurboRotors to provide total stealth capability.
 
-{SilentRunning™ TurboRotors}, {Terri™ Advanced Operational Intelligence}
+:aspect[SilentRunning™ TurboRotors], :aspect[Terri™ Advanced Operational Intelligence]
 
 Pilot 3, Shoot 3, Notice 3, Barrier 3, Hardening 3, Physique 3, Move 4, Stealth 2
 
-**Nose mounted MPD 50x Minigun on a swivel point**—+2 to {{attack}} non-vehicle targets, or those not under hard cover.
+**Nose mounted MPD 50x Minigun on a swivel point**—+2 to :fate[attack] non-vehicle targets, or those not under hard cover.
 
 **Thermoptic Camouflage**—Activate Thermoptic invisibility at will. Get, at most, one free invoke per scene.
 
@@ -909,19 +909,18 @@ Pilot 3, Shoot 3, Notice 3, Barrier 3, Hardening 3, Physique 3, Move 4, Stealth 
 
 **Autonomous**​—The Shadow Dx can operate itself.
 
-
 ::: callout left
 ## Gear Creation Guidelines
 
 If you need to quickly stat-up a piece of gear these guidelines will be super helpful.
 
-Start with an Average \[1¤\] cost. Add upgrades, and subtract downgrades for the final cost rating.
+Start with an Average [1¤] cost. Add upgrades, and subtract downgrades for the final cost rating.
 
 ### Average Gear [1¤]
 
 #### Aspects
 
-Take one trouble aspect and other balanced aspects such as {Smart Device} as appropriate.
+Take one trouble aspect and other balanced aspects such as :aspect[Smart Device] as appropriate.
 
 #### Skills
 
@@ -939,13 +938,13 @@ Take an appropriate stunt.
 
 ### For +1¤ Upgrade
 
-- Add a positive aspect or take away a negative aspect.
+- Add a positive aspect or take away a negative {.right\}
 - Add 5 skill points and increase the skill cap by 1.
 - Add a stunt.
 
 ### For -1¤ Downgrade
 
-- Add a negative aspect or take away a positive aspect.
+- Add a negative aspect or take away a positive {.right\}
 - Remove 4 or 5 skill points and reduce the skill cap by 1.
 - Remove a stunt
 :::
@@ -954,21 +953,21 @@ Take an appropriate stunt.
 
 During play characters can try all kinds of ways to get their hands on new gear. They can buy it outright with a Resources roll, or borrow it through some Contacts, or even design and fab it with an automated workshop and a Tech skill. They might even Steal one.
 
-The difficulty for acquiring any particular item will depend a lot on the circumstances of the method. For example, some items have aspects such as {Restricted}, or {Luxury Item}, which increases the opposition for acquiring that item through just spending money.
+The difficulty for acquiring any particular item will depend a lot on the circumstances of the method. For example, some items have aspects such as :aspect[Restricted], or :aspect[Luxury Item], which increases the opposition for acquiring that item through just spending money.
 
 ## Building Gear
 
 ### High Concept
 
-Every piece of gear has a function and a purpose you could call its high concept, but unlike characters, this is not an aspect.
+Every piece of gear has a function and a purpose you could call its high concept, but unlike characters, this is not an {.right\}
 
 Characters have unlimited avenues of action available to them so reinforcing someone's most basic nature with an aspect makes sense, but gear is designed to fulfill only one function. You could say the item itself is an expression of its high concept.
 
 ### Troubles
 
-Gear has negative aspects called troubles to represent its quirks, drawbacks, and incompatibilities. For example: {Prototype}, {Beta Software}, {Out of Date}, {Glitchy Interface Drivers}, {Bad Auto Piloting Algorithm}, {Slow to Reload}, {Strong Recoil}.
+Gear has negative aspects called troubles to represent its quirks, drawbacks, and incompatibilities. For example: :aspect[Prototype], :aspect[Beta Software], :aspect[Out of Date], :aspect[Glitchy Interface Drivers], :aspect[Bad Auto Piloting Algorithm], :aspect[Slow to Reload], :aspect[Strong Recoil].
 
-Some troubles, like {Strong Recoil}, have distinct mechanical drawbacks in addition to being aspects. These are described in the appropriate section of the gear catalog.
+Some troubles, like :aspect[Strong Recoil], have distinct mechanical drawbacks in addition to being aspects. These are described in the appropriate section of the gear catalog.
 
 ### Other Aspects
 
@@ -976,17 +975,17 @@ There are other aspects that can be relevant to any kinds of gear.
 
 #### Cost
 
-{Luxury} items are harder to get, but they signal wealth and status to those in the know. These items can be used to impress or intimidate some people. {Cheap Knock Off} gear might not always been reliable, but it might help fit in at a party full of posers.
+:aspect[Luxury] items are harder to get, but they signal wealth and status to those in the know. These items can be used to impress or intimidate some people. :aspect[Cheap Knock Off] gear might not always been reliable, but it might help fit in at a party full of posers.
 
 #### The Tech Curve
 
-{Top of the line} and {Prototype} are ways to say an item is ahead of the tech curve and is more advanced in some ways than similar devices. Though be ready for incompatibilities and unresolved beta issues. On the other hand, it might be easy to find a sale on {Last Year's Model} if you are willing to deal with poor performance and lack of features.
+:aspect[Top of the line] and :aspect[Prototype] are ways to say an item is ahead of the tech curve and is more advanced in some ways than similar devices. Though be ready for incompatibilities and unresolved beta issues. On the other hand, it might be easy to find a sale on :aspect[Last Year's Model] if you are willing to deal with poor performance and lack of features.
 
 #### Smart Devices
 
-Any interface capable gear gets the {Smart Device} aspect.
+Any interface capable gear gets the :aspect[Smart Device] {.right\}
 
-Smart devices have integrated computers, sensors, and motors which allow an interfaced character to control the device with their mind. This aspect's commonly invoked when using the {Smart Device}. However, smart devices and characters interfaced with them run the risk of being hacked, and interfaced character can also suffer feedback if, for example, the drone she's piloting gets blown up unexpectedly.
+Smart devices have integrated computers, sensors, and motors which allow an interfaced character to control the device with their mind. This aspect's commonly invoked when using the :aspect[Smart Device]. However, smart devices and characters interfaced with them run the risk of being hacked, and interfaced character can also suffer feedback if, for example, the drone she's piloting gets blown up unexpectedly.
 
 <!-- [being a smart device is different than having sapience] -->
 
@@ -996,11 +995,11 @@ The concept of legality is outdated. Corporations are the law and they don't hav
 
 You may want categories of legality for your game, so here are some legality aspects. These are exactly the sort of things which would increase the opposition for a roll to acquire such an item.
 
-{Restricted}​—items are harder to get because they require licensing and permission. For example, you can't just buy explosives unless you are, say, a demolition contractor, and faking all the data to prove you are such a thing is going to take some work.
+:aspect[Restricted]​—items are harder to get because they require licensing and permission. For example, you can't just buy explosives unless you are, say, a demolition contractor, and faking all the data to prove you are such a thing is going to take some work.
 
-{Illegal}​—means no one allowed to own, sell, trade, possess, or produce the item.
+:aspect[Illegal]​—means no one allowed to own, sell, trade, possess, or produce the item.
 
-{Military}​—hardware is especially hard to get your hands on, but it's also usually more advanced and robust then civilian gear.
+:aspect[Military]​—hardware is especially hard to get your hands on, but it's also usually more advanced and robust then civilian gear.
 
 ### Skills
 
@@ -1026,9 +1025,9 @@ Some gear, like explosives, missiles and grenades, has a skill which measures it
 
 For example, a Magma Carta Personal Explosives™ Hand Grenade has the skill Explode 4. When the grenade goes off, roll Explode to A everyone in the same zone.
 
-Using gear with an effect skill typically calls for the character to take an {{overcome}} action to activate the item. If that's successful the character can pass the initiative baton to the device and roll for its effect. If the {{overcome}} succeeds with style, the boost can be passed to the device.
+Using gear with an effect skill typically calls for the character to take an :fate[overcome] action to activate the item. If that's successful the character can pass the initiative baton to the device and roll for its effect. If the :fate[overcome] succeeds with style, the boost can be passed to the device.
 
-The effect skill is only relevant when the character is pressed for time or resources, as during a conflict. When such conditions don't exist the character can simply roll an {{overcome}} to use the gear or accomplish their goal with no roll required. For example, a doctor using anesthetics under normal circumstances would not roll at all. They would simply administer the correct amount.
+The effect skill is only relevant when the character is pressed for time or resources, as during a conflict. When such conditions don't exist the character can simply roll an :fate[overcome] to use the gear or accomplish their goal with no roll required. For example, a doctor using anesthetics under normal circumstances would not roll at all. They would simply administer the correct amount.
 
 #### Sapience
 
@@ -1042,17 +1041,17 @@ Below is a partial list of gear skills.
 
 ##### Barrier
 
-A barrier is a program that controls who is allowed to interface with a smart device. Hackers must succeed in an {{overcome}} action against the barrier to gain access to the protected system.
+A barrier is a program that controls who is allowed to interface with a smart device. Hackers must succeed in an :fate[overcome] action against the barrier to gain access to the protected system.
 
 ##### Drug
 
-Drugs have an effect skill to roll for {{attack}} and {{create}} actions against a target appropriate to the drug's class.
+Drugs have an effect skill to roll for :fate[attack] and :fate[create] actions against a target appropriate to the drug's class.
 
 Rename this skill according to the class of the drug. Soporific drugs put people to sleep. Analgesics kill pain. Anxiogenics induce anxiety, Hallucinogens induces hallucinations and erratic perceptions. Spasmolytic drugs relax a target's muscles and can make it very difficult for them to move or fight.
 
 ##### Explode
 
-A common effect skill for explosive devices. Roll it for {{attack}} and {{create}} actions related to blowing shit up.
+A common effect skill for explosive devices. Roll it for :fate[attack] and :fate[create] actions related to blowing shit up.
 
 ##### Friend
 
@@ -1078,7 +1077,7 @@ Devices usually have a limited version of the Know skill that only applies to a 
 
 ##### Notice
 
-{Smart Devices} with the Notice skill are equipped with sensors arrays, or algorithms that parse the senses of an interfaced human.
+:aspect[Smart Devices] with the Notice skill are equipped with sensors arrays, or algorithms that parse the senses of an interfaced human.
 
 Gear is generally programmed to detect specific things and so takes Notice as a specialized skill. For example: Notice Movement, Notice Falsified Identifications, or Notice Explosives.
 
@@ -1094,11 +1093,11 @@ Most devices can't dodge to avoid attacks, but they can defend against damage us
 
 ##### Toxin
 
-Toxins such as poisons and venoms have a specific effect skill they use for {{attack}} and {{create}} actions.
+Toxins such as poisons and venoms have a specific effect skill they use for :fate[attack] and :fate[create] actions.
 
 ##### Potency?
 
-This is a skill a drug or poison can use to {{defend}} itself against {{attack}} and {{create}} actions that are intended to counter its effects or remove it from the target's system.
+This is a skill a drug or poison can use to :fate[defend] itself against :fate[attack] and :fate[create] actions that are intended to counter its effects or remove it from the target's system.
 
 ##### Pilot
 
@@ -1110,9 +1109,9 @@ A vehicle needs the **Sapience** stunt to independently operate itself, but with
 
 Smartguns can use Shoot for making attacks but they usually have to guide their human owner to move the gun into the correct position through interface. Weapons mounted on an articulator can control their own movements and fire at whatever target they can perceive.
 
-::: sidebar left 
+:::sidebar{.left}
 A smartgun and portable articular are a classic defense strategy. 
-<!-- Maybe this should be a quote? -->
+<!-- todo - Maybe this should be a quote? -->
 :::
 
 ### Stunts
