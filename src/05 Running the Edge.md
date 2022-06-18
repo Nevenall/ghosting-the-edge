@@ -22,7 +22,7 @@ This section contains setting details that are assumed to be true. It's not at a
 
 ### Tech
 
-:::sidebar:aspect[.left\\]
+:::sidebar{.left}
 Way back everyone was scared cloning would confuse the value of human life but, it was the neuroscientists they really should have been worried about.
 :::
 
@@ -134,7 +134,7 @@ Edited sensorium recordings, and completely synthetic ones, called senima or sen
 
 <!-- :aspect[there are extra sections that we can talk about here. Thoughts and memories. Transference/transmission of memories. Or do we leave that for the cybernetic body section.] -->
 
-:::callout left
+:::sidebar{.left}
 ##### Thoughts and Memories
 
 Do sensorium recordings include thoughts and even recalled memories? And if they do are they routinely edited out for commercial products, and what if someone didn't? This is a question for you to answer for your own game.
@@ -240,7 +240,11 @@ An interface implant turns your brain into a machine. Your memories can be backe
 
 Every bit of your sensory input can be recorded and augmented with visual overlays, sound cues, or even touch nudges. You can plug into a vast array of different devices that will act as specialized sub-brains giving you extra information and helping you make decisions. Of course, some people don't need an interface implant to hear voices in their heads, they get them for free. The stream of sensory data that your brain processes can be enhanced, but it can be altered too. And if it's done well, how would you ever know? Maybe it's happening right now.
 
-:aspect[callout] Blueberry—A really nasty virus that lurks in your interface's sense processors and subtly tweaks your perceptions to mimic those of a severely depressed person. People who are susceptible will find themselves clinically depressed as their brain chemistry adapts to this new input.
+:::sidebar{.left}
+# Blueberry
+
+A really nasty virus that lurks in your interface's sense processors and subtly tweaks your perceptions to mimic those of a severely depressed person. People who are susceptible will find themselves clinically depressed as their brain chemistry adapts to this new input.
+:::
 
 #### Wasn't X Supposed to Change Everything?
 
@@ -258,7 +262,7 @@ The sad thing is almost no one noticed when the last congress was gaveled out of
 
 Public interest went bankrupt, the debts were paid out to big corporate lenders, and finally, the global market is free of its shackles.
 
-:::sidebar left
+:::sidebar{.left}
 ##### No Government
 
 The default background of Ghosting the Edge assumes the United States government no longer at all. Other places in the world might have some functioning governments but if they have anything valuable they will likely face extreme pressure from corporate powers.
@@ -276,7 +280,7 @@ Of course, if you can't or won't produce value for a corporate master, then you 
 
 There are some few families who divide corporate shareholdship amongst themselves. They form our modern nobility. They decide who will be the executives, and if those executives don't serve well, they will be replaced. Sometimes these families will pull from the second children of their own ranks for executives, but not too commonly.
 
-::: quote right some historian who obviously never met a farmer
+:::quote[some historian who obviously never met a farmer]{.right}
 The vast majority of people are serfs who work to produce at a low cost and consume at a high cost to generate wealth for the vassals who own corporations, which are the structures of wealth creation. However, there are entire marginalized groups who aren't let in on even serfdom because the work is not simple like farming, it's technical.
 :::
 
@@ -362,7 +366,7 @@ You can find all kinds of crazy stuff in the District, there's even rumors that 
 
 :aspect[Abandoned Self-Sustaining Urban Enclave], :aspect[No Law but What You Can Make For Yourself]
 
-::: quote right attribution
+:::quote[attribution]{.right}
 The Dis? The Dis is a ruin no one can abandon. The last gasp of a government losing its grip. They wanted to turn what was left of New Jersey and the new eastern seaboard into a modern enclave, safe, clean, efficient, and self-sustaining. Really, it was a dumping ground for those who couldn't, or wouldn't, participate in the new global culture. The undereducated and the misfits. Reality, it was the biggest projects ever created. Well, attempted anyway. No police, nothing official in the Dis, just the law of the street. Its urban decay, poverty, crime, black market, and freedom from corp influence. It's where you go for shady biz, or to hide, and it's where you end up when you can't make it anywhere else. The corps use it too, for them it's dumping ground and proving ground and a place for their darkest deals and nastiest ops.
 :::
 
@@ -396,7 +400,7 @@ Why not live in space? It's amazing and if you have a cyberbody, you don't need 
 
 One of the original poser gangs.
 
-::: callout left 
+:::callout{.left} 
 ###### Types of Gangs
 
 Poser gangs
@@ -425,14 +429,13 @@ Choose a Name, Style, Drive, and Template.
 
 #### Names
 
-Adele, 10Go, Alt, Atlanta, August, Betty, Big, Boggart, Brooks, Cairo, Calico, Calisto, Crys, Dec, Dell, Dux, DWord, Endian, Faux, Fidget, Fightback, Flatline, Gwen, Hu, Huong, Huron, Hy, Isfahan, Jennifer, Jeong, Johnson, Kazuma, Ken, Leprechaun, Leviticus, Little, Lorelei, Mark, Masters, Matic, Moira, Morgan, New, Null, Ophelia, Pamala, Park, Patri\
-ka, Phr33k, Piffle, Prince, Prop, Ren, Ry, Ryu, Sable, Samzel, Shara, Shift, Sioux, Six, Slot, Smith, Sweet, Talent, Task, Tengu, Uhurn, Vak, Wang, XLg
+Adele, 10Go, Alt, Atlanta, August, Betty, Big, Boggart, Brooks, Cairo, Calico, Calisto, Crys, Dec, Dell, Dux, DWord, Endian, Faux, Fidget, Fightback, Flatline, Gwen, Hu, Huong, Huron, Hy, Isfahan, Jennifer, Jeong, Johnson, Kazuma, Ken, Leprechaun, Leviticus, Little, Lorelei, Mark, Masters, Matic, Moira, Morgan, New, Null, Ophelia, Pamala, Park, Patrika, Phr33k, Piffle, Prince, Prop, Ren, Ry, Ryu, Sable, Samzel, Shara, Shift, Sioux, Six, Slot, Smith, Sweet, Talent, Task, Tengu, Uhurn, Vak, Wang, XLg
 
 #### 100 Cyberpunk Styles & Quirks
 
 Cyberpunk's a lot about personal style. You can use this list to give a character unique and recognizable traits.
 
-::: callout left
+:::callout{.left}
 #### 100 NPC Drives
 
 100 Drives is taken, with some cyberpunk liberties, from Dungeon World by Sage LaTorra & Adam Koebel under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/)
@@ -819,7 +822,7 @@ I kinda feel like I should pay off some of the stuff from the world section by h
 
 #### Inequity 
 
-If you decide nothing else about a location, you should place it on one or the other extreme in terms of wealth. Wherever your characters go, there is either :aspect[Urban Decay] and :aspect[NeglectedIinfrastructure] or :aspect[Pretentious Exclusivity] and :aspect[Constant Monitoring and Security]. You might occasionally find an area where people cast out of the corporate monoculture have :aspect[Repurposed Abandoned Urban Habitat], but those are rare oases of humanity in a wasteland of :aspect[Lawless Ruins] and :aspect[Soulless Corporate Enclaves].
+If you decide nothing else about a location, you should place it on one or the other extreme in terms of wealth. Wherever your characters go, there is either :aspect[Urban Decay] and :aspect[Neglected Infrastructure] or :aspect[Pretentious Exclusivity] and :aspect[Constant Monitoring and Security]. You might occasionally find an area where people cast out of the corporate monoculture have :aspect[Repurposed Abandoned Urban Habitat], but those are rare oases of humanity in a wasteland of :aspect[Lawless Ruins] and :aspect[Soulless Corporate Enclaves].
 
 #### Age
 
@@ -853,7 +856,7 @@ These are the places that are not worth maintaining. Ruins, DMZ, and places wher
 
 Quick build guidelines for corporations.
 
-Just about everything is a division or shell corporation or something larger. What's interesting about corporations is characters' relationships to them. Are you an employee, a foe, a rival? Either way you want to know what resources the corporation has access to. Which tells you what they might bring against you or what kinds of things you might be able to borrow. So, there's the faceless corporations after you, but then there is the antagonist {.right\}
+Just about everything is a division or shell corporation or something larger. What's interesting about corporations is characters' relationships to them. Are you an employee, a foe, a rival? Either way you want to know what resources the corporation has access to. Which tells you what they might bring against you or what kinds of things you might be able to borrow. So, there's the faceless corporations after you, but then there is the antagonist aspect.
 
 ## Appendix 0
 

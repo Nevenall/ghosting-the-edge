@@ -29,7 +29,7 @@ Fighting on the edge is swift and violent. Though firearms are still the most co
 
 Characters in Ghosting the Edge start with 2 physical stress and 2 mental stress as normal, but Physique and Will do not provide any additional stress boxes or consequence slots. Augmentation stunts can give a character additional physical stress boxes.
 
-::: callout right
+:::callout{.right}
 #### Optional Rule​—Ultra Deadly
 
 If you want to emphasis this even more, reduce initial stress boxes to 1, or even 0. This will make armor and augmentations even more valuable.
@@ -87,7 +87,7 @@ Congrats! You finally made it to the hacking section. I hope a bunch of you skip
 
 For a hacker, everything here is common knowledge, but this is far from everything you'll run into. There are other things out there beyond the keen of your work-a-day hacker. Half-crazed Frankenstein IC lurking in forgotten servers, rogue AI who capture hackers and try to "debug" their minds, and rumors of ghost hacks that can rewrite your soul.
 
-::: callout left
+:::callout{.left}
 #### Hacking Terms
 
 Hack 
@@ -125,7 +125,7 @@ Intrusion Countermeasures (IC)
 ~ These are various classes of programs which patrol high level systems looking for hackers and taking actions against them ranging from capture to kill.
 :::
 
-::: quote right Betty Talent
+:::quote[Betty Talent]{.right}
 For most people the interface is their whole life. Tells them where to be and who they know. It's like a having a magic wand you can wave and your house will come alive and clean itself and make you a cup of coffee. But, these people are not hackers. They only use 20% of what an interface is capable of. Hackers push it all the way to 110% percent. We have to. When we're on a run we're up against programs that can fry your brain faster than you can think 'oh shit!'
 :::
 
@@ -141,7 +141,7 @@ With a :aspect[Commercial Interface] there are places in the Net you cannot visi
 
 People accept this intrusion because they don't intend to do any hacking with their interface anyway, and most of the tracking data is just used to sell them things and improve the quality of their services. Imagine that twice in row you order a pizza after an evening work out, but the third time your interface asks if you'd like it to order the pizza for you every time you work out after 6 pm? They also accept it because they need their interface to do their job. Their corp job which is the only thing standing between them and moving into the district.
 
-Anyway, this all means that the first thing you need to be a hacker is an :aspect[Unlocked Interface]. One that you have complete control over. You can block ads, and turn off any perception filtering in the Net so you can visit all those nasty hacker hangouts the corp overloads didn't want you to know existed. And what's even better is you have control over the identity of your interface. You can mask it, which will get you rejected from most commercial systems. Or you can present a fake identity, hackers buy them by the dozen. Or you can spoof somebody else's id and get them fingered for your hacker crimes. Of course, most secure nets will raise an alert if a duplicate id connects and lock you both down until the situation can be sorted out. Which is, in fact, a common hacker prank called :aspect[Deduping].
+Anyway, this all means that the first thing you need to be a hacker is an :aspect[Unlocked Interface]. One that you have complete control over. You can block ads, and turn off any perception filtering in the Net so you can visit all those nasty hacker hangouts the corp overloads didn't want you to know existed. And what's even better is you have control over the identity of your interface. You can mask it, which will get you rejected from most commercial systems. Or you can present a fake identity, hackers buy them by the dozen. Or you can spoof somebody else's id and get them fingered for your hacker crimes. Of course, most secure nets will raise an alert if a duplicate id connects and lock you both down until the situation can be sorted out. Which is, in fact, a common hacker prank called :aspect[Duping].
 
 Of course, if you're lucky enough to have a high level job as say, a corp hacker, you can get an :aspect[Unrestricted Interface], which still tracks you, but which doesn't filter you.
 
@@ -165,7 +165,7 @@ Some of the cheaper commercial interface implants have :aspect[Weak Wireless Rad
 
 This is the default mode for most interface implants and it means they'll automatically connect and share information with whatever secure net or device comes into range.
 
-:::sidebar right
+:::sidebar{.right}
 which's how Mode-Little-En hacked JelRazor; by sticking a magnetic wireless repeater on Jel's :aspect[Direct Contact Plate] and frying his brain.
 :::
 
@@ -257,30 +257,31 @@ By themselves, maze barriers are not terribly secure, but when they are used, th
 
 Intrusion Countermeasures, unlike static barriers, are free roaming security programs designed to do various things from capture to kill unidentified hackers in a system. Common IC comes in a variety of shades: Green, Red, Grey, and Black depending on what they do.
 
-##### Green IC​ 
-:::sidebar:aspect[.left\\]
-*aka* tracers, shadows, ghosts, spooks, ninjas
-:::
+:::callout{.right}
+#### Types of 
 
-Green IC is harmless on its own. When they detect and intruder they follow it around and trace where it goes and what it does and reports that back to its central authority.
+##### Green IC​ 
+
+*aka* tracers, shadows, ghosts, spooks, ninjas
+
+Green IC is harmless on its own. When they detect any intruder they just follow it around and trace where it goes and what it does and reports that back to its central authority.
 
 ##### Red IC
-:::sidebar:aspect[.right\\]
-*aka* rushers, come-ons, flashers, distract-o-bots, honeypots
-:::
 
-Red IC re less common forms of IC. They are designed to distract intruders. Often by flooding their brains with sensory overloads of, say, pleasure.
+*aka* rushers, come-ons, flashers, distract-o-bots, honeypots
+
+Reds are less common forms of IC. They are designed to distract intruders. Often by flooding their brains with sensory overloads of, say, pleasure. Of course you can use them recreationally, if you have no respect for yourself as an elite hacker.
 
 ##### Grey IC 
-:::sidebar:aspect[.left\\]
+
  *aka* glue, chains, cages
-:::
+
 Grey IC captures intruders until someone can come along and decide what to do with them.
 
 ##### Black IC 
-:::sidebar:aspect[.right\\]
+
  *aka*  killers, burners, black knights
-:::
+
 Black IC programs are the enforcers of a system. They are designed to attack and kill the brains of intruders.
 
 IC programs can be obstacles to overcome, or treated as NPCs with their own skills, aspects, and sometimes stunts.
@@ -314,7 +315,7 @@ Like a construct, a persona is a fully detailed and interactive entity that live
 ### Oh the Things You Will Do
 
 <!-- should this list be a callout in the description of the hacking skill? -->
-::: callout left
+:::callout{.left}
 #### 12 things you can do with a hack skill
 
 Now you know a bit about the tools of your trade. Here's list of things you can do with your Hack skill.
@@ -461,7 +462,7 @@ One of the consequences of failing a hack action is often that the system has cl
 
 Many systems only provide passive opposition. They just have hardening, maybe not even a barrier program or automated defense systems that can provide active opposition against an intruder. Smart devices not in use, most commercial secure nets in homes and small businesses, like restaurants, are of this sort. As are the occasional lone server you can find connected to the Net.
 
-::: callout right
+:::callout{.right}
 #### Hacking Example
 
 **Player**: I'll roll to crack the system.
@@ -489,17 +490,17 @@ The system can present active opposition as appropriate, and many will. If there
 
 ##### Succeeding At a Cost
 
-You can use the :fate[:aspect[succeed at a cost]] concept from :fate[overcome] actions when someone fails a hacking montage, even if they're trying to :fate[attack].
+You can use the Succeed At A Cost concept from :fate[overcome] actions when someone fails a hacking montage, even if they're trying to :fate[attack].
 
 The cost to succeed can be based on the qualities of the system you're hacking. For example, most serious secure nets have :aspect[Black IC] which can inflict stress as a cost. One or two for a minor cost, and perhaps even a major consequence for a major cost.
 
 ###### Example Costs
 
-  Minor                           | Major
-   -------------------------------|-------------------------------
-  Couple of Stress                | A consequence
-  You are :aspect[Detected]              | The system has :aspect[Captured] you
-  Your location has been :aspect[Traced] | There is a security team at your door
+Minor                           | Major
+-------------------------------|-------------------------------
+Couple of Stress                | A consequence
+You are :aspect[Detected]              | The system has :aspect[Captured] you
+Your location has been :aspect[Traced] | There is a security team at your door
 
 #### Hacking Sequence
 

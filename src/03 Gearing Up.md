@@ -314,7 +314,7 @@ A basic cyberbody will look and operate more or less like a normal human one. So
 
 Ideally, your basic cyberbody aspect should imply the nature of its benefits and limitations because it's the aspect that you invoke when you use your cybernetic body to your advantage and it's the aspect that will get compelled when your body works to your disadvantage.
 
-::: callout right
+:::callout{.right}
 ##### Advantages
 
 ###### All Cyberbodies
@@ -743,7 +743,7 @@ A favorite of operators everywhere. This armor is low profile composite plates d
 
 ##### Mobeus Dragon Cloth™ [1, 2¤]
 
-One of the top sellers for this boutique brand is their patented dragon cloth. Under normal conditions it's a soft and pliable as ordinary cloth, but upon sudden impact the reactive nanofibers in the cloth hardens to absorb the attack. It works against nearly every kind of attack but it loses its protective qualities quickly when subject to too much force. However, what makes Dragon Cloth worth its exorbitant price is its self-repairing design. If allowed to rest, it's protective qualities will return.
+One of the top sellers for this boutique brand is their patented Dragon Cloth. Under normal conditions it's a soft and pliable as ordinary cloth, but upon sudden impact the reactive nanofibers in the cloth hardens to absorb the attack. It works against nearly every kind of attack but it loses its protective qualities quickly when subject to too much force. However, what makes Dragon Cloth worth its exorbitant price is its self-repairing design. If allowed to rest, it's protective qualities will return.
 
 Elite corp mercs also like it for its resilience. You make quite an impression when you walk away from a grenade explosion with you clothes still in immaculate condition.
 
@@ -774,7 +774,7 @@ Flexible nanoscale armor is not usually used in combat situations, it's most com
 <!-- todo - these are just generic armor materials. not actual gear -->
 ##### Nanofoam Armor
 
-Protects againsts explosives and blunt attacks. It's pretty easy to manufacture, but it decentigrates fast. It's often used as part of the gear for bomb disposal because it's ideal for that. But, you better have some other kind of protection if the bomb has shrapnel in it.
+Protects againsts explosives and blunt attacks. It's pretty easy to manufacture, but it decintigrates fast. It's often used as part of the gear for bomb disposal because it's ideal for that. But, you better have some other kind of protection if the bomb has shrapnel in it.
 
 ##### Magnetorheological Fluid Armor
 
@@ -790,7 +790,7 @@ Assault armor is also full coverage hard armor, but with powered servos, built i
 
 A full suit of advanced combat armor which can defend against all kinds of attacks. It provides full coverage protection and it also provides some defense against battle field level dangers such as explosions and light weapons.
 
-:fate[Combat Armor, Restricted Military, Expensive]
+:aspect[Combat Armor], :aspect[Restricted Military], :aspect[Expensive]
 
 **Ballistic Protection 2**—+4 to :fate[defend] against small and medium caliber firearms, and shrapel.
 
@@ -825,7 +825,7 @@ Fly 4, Physique 4, Navigation 3, Hardening 4
 #### Thermoptic Camouflage Suit [1¤]
 
 This is a full body suit which can be activated to hide the wearer from visual and thermographic detection. It can be activated and deactivated multiple times but you get only one free invoke per scene.
-
+<!-- todo - maybe make that more of a bonus? -->
 **Thermoptic Camouflage**​—At any time you may activate your suit and gain the aspect :aspect[Invisible to Optical and Thermal Detection] You can toggle this aspect anytime but, you only get one free invoke per scene.
 
 ### Personal Devices
@@ -834,7 +834,7 @@ This is a full body suit which can be activated to hide the wearer from visual a
 
 ##### Smartmetal™ [1¤]
 
-SmartMetal is a fist-sized blob of malleable metal/nanite mixture which has a built in power supply and a smartlink that allows you to configure the device into any shape with just a thought. As long as it has power SmartMetal will retain the shape you desire and is 500x harder than steel. It's sold commercially as a rich kid's toy and in large amounts for industrial purposes but when hacked to disable the safety features SmartMetal becomes a tool of surpassing versatility. Especially if you have a direct contact plate on your palm to control and recharge the thing.
+SmartMetal is a fist-sized blob of malleable metal/nanite mixture which has a built in power supply and a smartlink that allows you to configure the device into any shape with just a thought. As long as it has power, SmartMetal will retain the shape you desire and is 500x harder than steel. It's sold commercially as a rich kid's toy and in large amounts for industrial purposes but when hacked to disable the safety features SmartMetal becomes a tool of surpassing versatility. Especially if you have a direct contact plate on your palm to control and recharge the thing.
 
 :aspect[Malleable Metal], :aspect[Smart Device], :aspect[Very Expensive]
 
@@ -850,7 +850,7 @@ A couple of fun drug write-ups, just as examples.
 
 ##### GEMic DS Butterfly Drone
 
-GEMic's DS class butterfly drones are unassuming, fluttery, beautiful, and very very dangerous. They have powerful short range projectors that can read and induce current in devices. Meaning that if a DS lands on a device it can interface and interact with it even if that device's wireless is turned off. The DS is not powerful enough to allow a hacker to interface through it, but can induce the device to turn itself on and switch to promiscuous mode.
+GEMic's DS class butterfly drones are unassuming, fluttery, beautiful, and very very dangerous. They have powerful short range projectors that can read and induce current in electronic devices. Meaning that if a DS lands on a device, it can interface and interact with it even if that device's wireless is turned off. The DS is too small to also carry an interface that would allow a hacker to hop through, but it can induce the device to turn itself on and switch to promiscuous mode.
 
 #### Robots
 
@@ -858,21 +858,21 @@ Robots
 
 ##### Benetech Guardian L - Advanced Facility Security Robot
 
-Guardian Ls are roughly spherical robots about two and a half feet in diameter. They have eight extendable spider legs and one automatic weapon pod on each side, somewhat like arms. The Guardian L is programmed to defend with lethal force, hence the L in its name. They operate best in pairs so that one can pin down an intruder with automatic fire and the other can apply lethal force.
+Guardian Ls are roughly spherical robots about two and a half feet in diameter. They have eight extendable spider legs and one automatic weapon pod on each side, somewhat like arms. The Guardian L is programmed to defend with lethal force, hence the L in its name. They operate best in pairs so that one can pin down an intruder with automatic fire and the other can apply said L.
 
 ###### Good At (+2)
 
 - Patrolling a facility or parameter
-- detecting unauthorized targets
+- Detecting unauthorized targets
 - Shooting at targets identified as unauthorized
 - Analyzing credentials
-- identifying falsified or invalid credentials
+- Identifying falsified or invalid credentials
 - Defending against physical attacks
 
 ###### Bad At (-2)
 
 - Fighting hand to hand
-- Quick reaction actions
+- Quick reactions
 - Anything requiring hands and arms
 
 **Autonomous**​—The Guardian L can operate itself and proceed according to its role as a facility guard.
@@ -901,15 +901,15 @@ A new favorite in the security industry, the Shadow Dx is a stealth oriented vec
 
 Pilot 3, Shoot 3, Notice 3, Barrier 3, Hardening 3, Physique 3, Move 4, Stealth 2
 
-**Nose mounted MPD 50x Minigun on a swivel point**—+2 to :fate[attack] non-vehicle targets, or those not under hard cover.
+**Nose mounted MPD 50x Minigun on a swivel point**—+2 to :fate[attack] soft targets, unless they have some hard cover.
 
-**Thermoptic Camouflage**—Activate Thermoptic invisibility at will. Get, at most, one free invoke per scene.
+**Thermoptic Camouflage**—Activate :aspect[Thermoptic Invisibility] at will. One free invoke per scene.
 
 **Vehicle Armor 1**—Roll Physique to defend against an attack after failing with some other skill.
 
 **Autonomous**​—The Shadow Dx can operate itself.
 
-::: callout left
+:::callout{.left}
 ## Gear Creation Guidelines
 
 If you need to quickly stat-up a piece of gear these guidelines will be super helpful.
@@ -938,13 +938,13 @@ Take an appropriate stunt.
 
 ### For +1¤ Upgrade
 
-- Add a positive aspect or take away a negative {.right\}
+- Add a positive aspect or take away a negative aspect.
 - Add 5 skill points and increase the skill cap by 1.
 - Add a stunt.
 
 ### For -1¤ Downgrade
 
-- Add a negative aspect or take away a positive {.right\}
+- Add a negative aspect or take away a positive aspect.
 - Remove 4 or 5 skill points and reduce the skill cap by 1.
 - Remove a stunt
 :::
@@ -959,7 +959,7 @@ The difficulty for acquiring any particular item will depend a lot on the circum
 
 ### High Concept
 
-Every piece of gear has a function and a purpose you could call its high concept, but unlike characters, this is not an {.right\}
+Every piece of gear has a function and a purpose you could call its high concept, but unlike characters, this is not an aspect.
 
 Characters have unlimited avenues of action available to them so reinforcing someone's most basic nature with an aspect makes sense, but gear is designed to fulfill only one function. You could say the item itself is an expression of its high concept.
 
@@ -983,7 +983,7 @@ There are other aspects that can be relevant to any kinds of gear.
 
 #### Smart Devices
 
-Any interface capable gear gets the :aspect[Smart Device] {.right\}
+Any interface capable gear gets the :aspect[Smart Device] aspect.
 
 Smart devices have integrated computers, sensors, and motors which allow an interfaced character to control the device with their mind. This aspect's commonly invoked when using the :aspect[Smart Device]. However, smart devices and characters interfaced with them run the risk of being hacked, and interfaced character can also suffer feedback if, for example, the drone she's piloting gets blown up unexpectedly.
 
@@ -1023,7 +1023,7 @@ Specialized skills like this can be 2 higher than the device's skill cap, but th
 
 Some gear, like explosives, missiles and grenades, has a skill which measures its effect.
 
-For example, a Magma Carta Personal Explosives™ Hand Grenade has the skill Explode 4. When the grenade goes off, roll Explode to A everyone in the same zone.
+For example, a Magma Carta Personal Explosives™ Hand Grenade has the skill Explode 4. When the grenade goes off, roll Explode to :fate[attack] everyone in the same zone.
 
 Using gear with an effect skill typically calls for the character to take an :fate[overcome] action to activate the item. If that's successful the character can pass the initiative baton to the device and roll for its effect. If the :fate[overcome] succeeds with style, the boost can be passed to the device.
 
@@ -1107,7 +1107,7 @@ A vehicle needs the **Sapience** stunt to independently operate itself, but with
 
 ##### Shoot
 
-Smartguns can use Shoot for making attacks but they usually have to guide their human owner to move the gun into the correct position through interface. Weapons mounted on an articulator can control their own movements and fire at whatever target they can perceive.
+Smartguns can use Shoot for making attacks but they usually have to guide their human owner to move the gun into the correct position through interface. Smart weapons mounted on an articulator can control their own movements and fire at whatever target they can perceive.
 
 :::sidebar{.left}
 A smartgun and portable articular are a classic defense strategy. 
