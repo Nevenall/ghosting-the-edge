@@ -11,10 +11,6 @@
         "kind": "build",
         "isDefault": true
       },
-      "dependsOn": [
-        "spelling",
-        "prose"
-      ],
       "problemMatcher": {
         "owner": "build",
         "source": "markdown-lint",

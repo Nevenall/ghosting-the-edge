@@ -4,6 +4,7 @@ import parse from 'remark-parse'
 import remark2rehype from 'remark-rehype'
 import format from 'rehype-format'
 import html from 'rehype-stringify'
+import { h } from 'hastscript'
 
 import path from 'path'
 import { visit } from 'unist-util-visit'
@@ -31,15 +32,16 @@ const markdown = unified()
    .use(parse)
 
    // markdown plugins
-   .use(lint)
    .use(supersub)
    .use(directive)
    .use(defaultDirective)
+   .use(writeDirectives)
    .use(frontmatter, 'yaml')
    .use(parseFrontmatter)
    .use(copyFrontmatter)
    .use(tableOfContents)
    .use(remarkTextr, { plugins: [typographicBase] })
+   .use(lint)
 
    // html plugins
    .use(remark2rehype)
@@ -68,6 +70,7 @@ function copyFrontmatter() {
    }
 }
 
+
 // a basic transform for directive nodes. It turns a directive name into an html tag, and adds any attributes that are declared. 
 function defaultDirective() {
    return transform
@@ -77,12 +80,114 @@ function defaultDirective() {
    }
 
    function ondirective(node) {
-      var data = node.data || (node.data = {})
-      var hast = h(node.name, node.attributes)
-
+      let data = node.data || (node.data = {})
+      let hast = h(node.name, node.attributes)
       data.hName = hast.tagName
       data.hProperties = hast.properties
    }
+}
+
+function writeDirectives() {
+   return transform
+   function transform(tree) {
+      visit(tree, ['textDirective', 'leafDirective', 'containerDirective'], ondirective)
+   }
+
+   function ondirective(node) {
+      let data = node.data || (node.data = {})
+      switch (node.name) {
+         case 'sidebar':
+            sidebarDirective(node, data)
+            break
+         case 'callout':
+            calloutDirective(node, data)
+            break
+         case 'columns':
+            columnsDirective(node, data)
+            break
+         case 'fate':
+            fateDirective(node, data)
+            break
+         case 'aspect':
+            aspectDirective(node, data)
+            break
+         case 'quote':
+            quoteDirective(node, data)
+            break
+         case 'figure-table':
+            figureTableDirective(node, data)
+            break
+         default:
+            break;
+      }
+
+
+      function sidebarDirective(node, data) {
+         let hast = h('aside', node.attributes)
+         data.hName = hast.tagName
+         data.hProperties = hast.properties
+      }
+
+      function calloutDirective(node, data) {
+         let hast = h('article', node.attributes)
+         data.hName = hast.tagName
+         data.hProperties = hast.properties
+      }
+
+      function columnsDirective(node, data) {
+         let hast = h('div', { class: 'columns' })
+         data.hName = hast.tagName
+         data.hProperties = hast.properties
+      }
+
+      function fateDirective(node, data) {
+         let hast = h('span', { class: 'fate-icon' })
+         data.hName = hast.tagName
+         data.hProperties = hast.properties
+      }
+
+      function aspectDirective(node, data) {
+         let hast = h('span', { class: 'aspect' })
+         data.hName = hast.tagName
+         data.hProperties = hast.properties
+      }
+
+      function quoteDirective(node, data) {
+         let aside = h('aside', node.attributes || { class: '' })
+         data.hName = aside.tagName
+         // add a classname of 'quoted' to the start
+         aside.properties.className.unshift('quoted')
+         data.hProperties = aside.properties
+
+         // find the attribution, it'll be a child with directiveLabel = true
+         // move it to the end and tell rehype to make it a footer
+         let attribution = node.children.find(el => el.data.directiveLabel === true)
+         if (attribution) {
+            let index = node.children.indexOf(attribution)
+            node.children.push(node.children.splice(index, 1)[0])
+            attribution.data.hName = 'footer'
+         }
+      }
+
+      function figureTableDirective(node, data) {
+         let aside = h('aside', node.attributes || { class: '' })
+         data.hName = aside.tagName
+         // add a classname of 'quoted' to the start
+         aside.properties.className.unshift('figure-table')
+         data.hProperties = aside.properties
+
+         // find the caption, it'll be a child with directiveLabel = true
+         // move it to the end and tell rehype to make it a ficaption
+         let caption = node.children.find(el => el.data.directiveLabel === true)
+         if (caption) {
+            let index = node.children.indexOf(caption)
+            node.children.push(node.children.splice(index, 1)[0])
+            caption.data.hName = 'figcaption'
+         }
+      }
+
+   }
+
 }
 
 function tableOfContents() {
