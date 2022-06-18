@@ -6,7 +6,7 @@ This chapter is about characters. There's cyberpunk roles for you to play, leet 
 
 Don't have a solid character concept yet? Scan these six archetypical roles for inspiration.
 
-::: sidebar left
+:::sidebar{.left}
 #### Famous Faces
 
 ##### Varsha Patel
@@ -53,7 +53,7 @@ Contact, Friend, Resources, Troll.
 
 ### Ghost
 
-Your role is infiltration and information acuisition. Anyone can gather data, but you transform data into intelligence.
+Your role is infiltration and information acquisition, but anyone can gather data; you can transform data into intelligence.
 
 You know how to hound an info trail and run a humint asset. You can break most security systems. Oh, and you also know an awful lot about assassination.
 
@@ -63,16 +63,16 @@ Ghosts are spies, investigators, assassins, intelligence analysts, and occassion
 
 Information. Ghosts know how to interpret raw data into meaningful intelligence. A Hacker can liberate a data stream of satellite positioning but it takes a Ghost to tell you that data is clear evidence of an ongoing covert action in the Indian Ocean.
 
-Some Ghosts have cracking and hacking skills, but they are specialized for defeating security systems, not for general programming or repair.
+Some Ghosts have cracking and hacking skills, but they are usually specialized for defeating security systems, not for general programming or repair.
 
 #### Trademark Skills
 
 Stealth, Notice, Investigate, Crime.
 
-::: sidebar left
-##### The blackout
+:::sidebar{.left}
+##### The Blackout
 
-Ask your mom if she remembers the blackout. Back when someone didn't just crack the Eastern Power Grid secure net, they crashed it. Total system failure. Massive blackouts. Chaos and destruction everywhere.
+Ask your mom if she remembers The Blackout. Back when someone didn't just crack the Eastern Power Grid secure net, they crashed it. Total system failure. Massive blackouts. Chaos and destruction everywhere.
 :::
 
 ### Hacker
@@ -81,12 +81,12 @@ Ask your mom if she remembers the blackout. Back when someone didn't just crack 
 
 In the old days you'd have programmed with keyboards and monitors but now, thanks to your interface, you soar through the endless virtual terrain of the Net like a vengeful god of data liberation. If they put up a wall, you tear it down with a thought. If they build a data prison, you code yourself a virtual ram to blow the gates open. Thanks to your interface, you make with a thought, hacks your granddaddy would've taken a week to code.
 
-::: callout right
+:::callout{.right}
 #### Legends of the Net
 
 ##### cP@1nz
 
-Back when we used bigass cyberdecks and 'trodes to access a Net of green perspective lines dotted with gaudy neon data fortress icons, cP@1nz pulled a series of practical jokes that have yet to be topped. They're the one who hacked the nuclear launch sequence to text all of congress "HAHA! BOOM!" instead of firing missiles and then leaked the launch codes.
+Back when we used bigass cyberdecks and 'trodes to access a Net of green perspective lines dotted with gaudy neon data fortress icons, cP@1nz pulled a practical joke that has yet to be topped. They hacked the nuclear launch sequence to text all of congress "HAHA! BOOM!" instead of firing missiles and then leaked the launch codes.
 
 ##### Betty Talent
 
@@ -94,12 +94,12 @@ Let's be honest, most hackers get one big score before they become targets for e
 
 ##### The Black Monk
 
-The monk is just a myth...right? A boogeyman of the Net. They say he keeps the minds of unfortunate hackers trapped in jars in some fortress construct, but no one can extract your consciousness through the Net, let alone keep it around after your meat brain dies...right?
+The monk is just a myth...right? A boogeyman of the Net. They say he keeps the minds of unfortunate hackers trapped in jars in some fortress construct, but no one can extract your consciousness through the Net; let alone keep it around after your meat brain dies...right?!
 :::
 
 On the other hand, your granddaddy didn't have to worry about attack barriers and black IC that can use that magical interface of yours to hack your brain and mess you up in ways there aren't even senses for, let alone words. Brain death is just the beginning, Kid.
 
-As a hacker you'll find yourself using your skills to maybe crack Terradyne's secure net and steal a 3d model of their latest VecD rotor for your "employer," or sell to the highest bidder, or maybe both. Don't think your "employer" wouldn't do the same to you.
+As a hacker you'll find yourself using your skills to maybe crack Terradyne's secure net and steal a 3d model of their latest VecD rotor for your "employer" or sell to the highest bidder, or maybe both. Don't think your "employer" wouldn't do the same to you.
 
 Find the Hacking section for more details about what you do.
 
@@ -109,9 +109,9 @@ Hack, Investigate, Tech, Crime.
 
 ### Samurai
 
-You can't reprogram every hostile meatbag and charm doesn't work on security drones. Sometimes the only solution to a problem is the reasoned application of extreme violence and you, my Samurai friend, excel at such applications.
+You can't reprogram every hostile meatbag and charm doesn't work on security drones. Sometimes the only solution to a problem is the reasoned application of extreme violence and you, my friend, excel at such applications.
 
-You'll find yourself in a dazzling variety of lethal situations; drawing fire and beat downs for whomever's paying the bills this week. Some old Samurai say you owe a worthy foe respect because of your mutual affiently with death or some bull, but you know, there's more honor amongst thieves then killers like you.
+You'll find yourself in a dazzling variety of lethal situations; drawing fire and beat downs for whomever's paying the bills this week. Some old Samurai say you owe a worthy foe respect because of your mutual affinity with death or some bull, but you know, there's more honor amongst thieves then killers like you.
 
 As a Samurai you might be a bodyguard, soldier, security, gang enforcer, a pit fighter, a razor dancer, a mercenary trying to make a name for yourself, quick muscle for this one job, or just a straight up street thug.
 
@@ -127,7 +127,7 @@ Your specialty might be medical cyberization, ancient Assyrian, or the sociology
 
 As a Tech you have theoretical knowledge and the pratical skills to make, modify, maintain, and operate most devices. You can draft a new drone design, autofac it in a couple hours, and then be expertly piloting it in support of your team.
 
-A Tech might have any number of jobs including: cyberware designer, trauma medic, hot shot pilot, mechanic, archeology, or back alley gene splicer.
+A Tech might have any number of jobs including: cyberware designer, trauma medic, hot shot pilot, mechanic, archeologist, or back alley gene splicer.
 
 #### Trademark Skills
 
@@ -145,7 +145,7 @@ These are the starting stats for making player characters.
 
 Write 5 aspects for your character.
 
-::: sidebar left
+:::sidebar{.left}
 #### Ask a Question … Make an Aspect
 
 Answer some of these questions about your character.
@@ -155,7 +155,6 @@ Answer some of these questions about your character.
 - What's your plan to get there?
 - What's your relationship to corporate power?
 - What's your relationship to the street?
-- In a single phrase, who are you?
 - Where, how, and why did you get your upgrades?
 - How much augmentation do you have?
 - Do you suffer some form of Reality Disassociative Disorder?
@@ -163,11 +162,11 @@ Answer some of these questions about your character.
 
 #### Cybernetic Body
 
-If you have a cybernetic body write that into at least one aspect; {Cyborg Mercenary} for example. This is important because characters without a {cybernetic body} are limited to 3 for their Physique and Move skills. 
+If you have a cybernetic body write that into at least one aspect; :aspect[Cyborg Mercenary] for example. This is important because characters without a :aspect[Cybernetic Body] are limited to 3 for their Physique and Move skills. 
 
 ### Skills
 
-Pick skills for your character according to the traditional pyramid with an apex of 4, and one additional restriction; your Physique and Move are limited to 3, unless you have a {cybernetic body}.
+Pick skills for your character according to the traditional pyramid with an apex of 4, and one additional restriction; your Physique and Move are limited to 3, unless you have a :aspect[Cybernetic Body].
 
 ### Refresh & Stunts
 
@@ -180,7 +179,7 @@ You'll spend stunt slots on most cyberware and other upgrades but not regular ge
 
 Your character start with 2 physical stress boxes and 2 mental stress boxes.
 
-Characters with a Physique of 4 or 5, and therefore a {cybernetic body}, get an extra stress box for a total of 3 physical stress. Characters with a Physique of 6 or 7, get 2 extra physical stress boxes for a total of 4.
+Characters with a Physique of 4 or 5, and therefore a :aspect[cybernetic body], get an extra stress box for a total of 3 physical stress. Characters with a Physique of 6 or 7, get 2 extra physical stress boxes for a total of 4.
 
 Characters with a Will of 4 or 5 get 1 extra mental stress box for a total of 3.
 
@@ -207,7 +206,7 @@ Check out the Gear chapter for more possibilities.
 
 A number of upgrades are available without using stunt slots. They are listed in with a cost of 0¤ in the Gear section.
 
-For example, you may have a basic Interface implant for no cost. You may also have a standard, meaning non-combat, {Cyborg Replacement Body}, without using stunt slots. Such a body has both benefits and drawbacks.
+For example, you may have a basic Interface implant for no cost. You may also have a standard, meaning non-combat, :aspect[Cyborg Replacement Body], without using stunt slots. Such a body has both benefits and drawbacks.
 
 ##### How Much Can I Take?
 
@@ -221,7 +220,7 @@ The existing Fate Core skills operate as usual and so aren't described in detail
 
 ### Skill List
 
-::: columns
+:::columns
 - Bio (NEW)
 - Contacts
 - Deceive
@@ -244,16 +243,16 @@ The existing Fate Core skills operate as usual and so aren't described in detail
 - Will
 :::
 
-::: sidebar right
+:::sidebar{.right}
 ### What Skill Do I Use In the Net?
 
-There isn't a skill specifically for using the Net because it's is just new place to use your old skills, at least the xnon-physical ones. If you searching the Net for someone you'll roll Investigate. If you are making nice in a forum, roll Friend.
+There isn't a skill specifically for using the Net because it's is just new place to use your old skills, at least the non-physical ones. If you searching the Net for someone you'll roll Investigate. If you are making nice in a forum, roll Friend.
 
-- Demolitions – tech
-- Control a drone – pilot
-- Take control of a drone – hack
-- Heal a physical wound – bio
-- Heal a mental wound – read
+- Demolitions — tech
+- Control a drone — pilot
+- Take control of a drone — hack
+- Heal a physical wound — bio
+- Heal a mental wound — read
 :::
 
 ### Gear skills
@@ -268,25 +267,25 @@ Bio is like the Tech skill, but for dealing with living stuff. Its medicine, bio
 
 #### Bio and the Four Actions
 
-{{overcome}}—Stop your friend from bleeding out, or to design a genetically enhanced liver.
+:fate[overcome]​—Stop your friend from bleeding out, or to design a genetically enhanced liver.
 
-{{create}}—Old-fashion body hacking like entering a {breath control trance}, or to use a mild stimulant concoction to {overcharge} your adrenal control bioimplant.
+:fate[create]—Old-fashion body hacking like entering a :aspect[Breath Control Trance], or to use a mild stimulant concoction to :aspect[Overcharge] your adrenal control bioimplant.
 
-{{attack}}​—Not used for attacks.
+:fate[attack]​—Not used for attacks.
 
-{{defend}}​—Not generally used for defense.
+:fate[defend]​—Not generally used for defense.
 
 #### Example Stunts 
 
-**Medic**–You get +2 to {{overcome}} rolls when giving first aid or other emergency medical attentions.
+**Medic**—You get +2 to :fate[overcome] rolls when giving first aid or other emergency medical attentions.
 
-**Biofeedback**–You get +2 to {{create}} rolls that involve controlling the natural tendencies and limitations of your meat body.
+**Biofeedback**—You get +2 to :fate[create] rolls that involve controlling or overcoming the natural tendencies and limitations of your meat body.
 
 ### Hack
 
-Hack is the skill for computer related activities like writing programs, setting up secure nets, cracking them, or hacking into the tapestry smart devices to make things happen.
+Hack is the skill for computer related activities like writing programs, setting up secure nets, cracking them, or hacking into our modern tapestry of smart devices to make things happen.
 
-In the Net you can use Hack to get passed a security barrier and into the secure net it's guarding. You can use Hack for {{attack}} and {{defend}} actions against hostile programs, or other hackers who are interfaced in the same system.
+In the Net you can use Hack to get passed a security barrier and into the secure net it's guarding. You can use Hack for :fate[attack] and :fate[defend] actions against hostile programs, or other hackers who are interfaced in the same system.
 
 Hack requires equipment but that doesn't have to be an interface. You can use an old fashioned keyboard and monitor, and it will even be safer. It will just take more time.
 
@@ -294,23 +293,23 @@ See the hacking on page XXX for more information.
 
 #### Hack and the Four Actions
 
-{{overcome}}​—Crack an attack barrier and get into the secure net it protects. To code an IC program to patrol your own personal castle in the Net, and a geisha construct to keep you company while you are there. Use it to hack your boss's memory so he'll think you've {already completed project Daedalus}.
+:fate[overcome]​—Crack an attack barrier and get into the secure net it protects. To code an IC program to patrol your own personal castle in the Net, and a geisha construct to keep you company while you are there. Use it to hack your boss's memory so he'll think you've :aspect[Already Completed Project Daedalus].
 
-{{create}}​—Stir up a localized {Packet Storm} that'll keep the system you just cracked from tracing your signal. To activate the {Fire Suppression System} as a distraction so your team can penetrate the Hyldyne Corporate building. Or hack the security controller and make yourself {Invisible to their Security Sensors}.
+:fate[create]​—Stir up a localized :aspect[Packet Storm] that'll keep the system you just cracked from tracing your signal. To activate the :aspect[Fire Suppression System] as a distraction so your team can penetrate the Hyldyne Corporate building. Or hack the security controller and make yourself :aspect[Invisible To Their Security Sensors].
 
-{{attack}}​—Attack IC programs and other hackers if you are both interfaced in the same system.
+:fate[attack]​—Attack IC programs and other hackers if you are both interfaced in the same system.
 
-{{defend}}​—Defend against most actions another hacker tries to take if you are both in the same system. Defend your own brain from being hacked if someone gets past the defenses on your interface.
+:fate[defend]​—Defend against most actions another hacker tries to take if you are both in the same system. Defend your own brain from being hacked if someone gets past the defenses on your interface.
 
 #### Example Stunts 
 
 **IC Master**​—You write all your own security programs. Any net security you regularly maintain provides +2 opposition to intrusions.
 
-**Ghost in the Net**​—+2 to {{defend}} against attempts to detect, locate, track, or otherwise id your handiwork in the Net.
+**Ghost in the Net**​—+2 to :fate[defend] against attempts to detect, locate, track, or otherwise id your handiwork in the Net.
 
-**Code Shredder**​—You get +2 to {{attack}} hostile IC and other net constructs, though not live hackers, or AI.
+**Code Shredder**​—You get +2 to :fate[attack] hostile IC and other net constructs, though not live hackers, or AI.
 
-**Deus Ex Machina**​—You get +2 to {{create}} when you are creating a physical effect.
+**Deus Ex Machina**​—You get +2 to :fate[create] when you are creating a physical effect.
 
 ### Physique
 
@@ -322,21 +321,21 @@ Physique is still a measure of a character's strength, endurance, toughness, but
 
 #### Physique and the Four Actions
 
-{{overcome}}​—Overcome obstacles that require the application of brute force—most often to overcome a situation aspect on a zone—or any other physical impedance, like prison bars or locked gates. Of course, Physique is the classic skill for arm-wrestling matches and other contests of applied strength, as well as marathons or other endurance-based challenges.
+:fate[overcome]​—Overcome obstacles that require the application of brute force—most often to overcome a situation aspect on a zone—or any other physical impedance, like prison bars or locked gates. Of course, Physique is the classic skill for arm-wrestling matches and other contests of applied strength, as well as marathons or other endurance-based challenges.
 
-{{create}}​—Physique has a lot of potential for advantages in physical conflict, usually related to grappling and holding someone in place, making them {Pinned} or {Locked Down}. You might also use it as a way of discovering physical impairments possessed by the target—grappling the old mercenary tells you that he has a {Bum Leg} or some such.
+:fate[create]​—Physique has a lot of potential for advantages in physical conflict, usually related to grappling and holding someone in place, making them :aspect[Pinned] or :aspect[Locked Down]. You might also use it as a way of discovering physical impairments possessed by the target—grappling the old mercenary tells you that he has a :aspect[Bum Leg] or some such.
 
-{{attack}}​—Physique is not used to harm people directly; use the Fight skill.
+:fate[attack]​—Physique is not used to harm people directly; use the Fight skill.
 
-{{defend}}​—Though you don't generally use Physique to defend against attacks, you can use it to provide active opposition to someone else's movement, provided you're in a small enough space that you can effectively use your body to block access. You might also interpose something heavy and brace it to stop someone from getting through.
+:fate[defend]​—Though you don't generally use Physique to defend against attacks, you can use it to provide active opposition to someone else's movement, provided you're in a small enough space that you can effectively use your body to block access. You might also interpose something heavy and brace it to stop someone from getting through.
 
 #### Example Stunts 
 
-**Servo Enhanced Cyberarticulation**—Your cyborg body is structurally enhanced and equipped with powerful load lifting servos. +2 to {{overcome}} rolls for carrying and lifting.
+**Servo Enhanced Cyberarticulation**—Your cyborg body is structurally enhanced and equipped with powerful load lifting servos. +2 to :fate[overcome] rolls for carrying and lifting.
 
-**Toxin Scrubbers**—Your meat organs are supplemented with bioelectrical filters and toxin scrubbers. +2 to {{defend}} against drugs and poisons, including alcohol.
+**Toxin Scrubbers**—Your meat organs are supplemented with bioelectrical filters and toxin scrubbers. +2 to :fate[defend] against drugs and poisons, including alcohol.
 
-**Grappler**—+2 to {{create}} on foes you are grappling with.
+**Grappler**—+2 to :fate[create] on foes you are grappling with.
 
 ### Pilot
 
@@ -346,27 +345,27 @@ Many smart vehicles also have the Pilot skill and can use it to operate themselv
 
 #### Pilot and the Four Actions
 
-{{overcome}}—Navigate difficult terrain or perform exceptional maneuvers.
+:fate[overcome]—Navigate difficult terrain or perform exceptional maneuvers.
 
-{{create}}—Put yourself in prime position or to put a foe in a bad position.
+:fate[create]—Put yourself in prime position or to put a foe in a bad position.
 
-{{attack}}—Pilot is not normally used for attacks, unless you are ramming a target with your vehicle. In which case both you, your target, and your vehicle take the same amount of stress.
+:fate[attack]—Pilot is not normally used for attacks, unless you are ramming a target with your vehicle. In which case both you, your target, and your vehicle take the same amount of stress.
 
-{{defend}}—Avoid attacks and advantages that target your vehicle.
+:fate[defend]—Avoid attacks and advantages that target your vehicle.
 
 #### Example Stunts 
 
 **Getaway Driver**—+2 to Pilot a ground vehicle when you're being chased.
 
-**Stunt Pilot**—+2 to {{create}} with Pilot if you are performing an acrobatic maneuver.
+**Stunt Pilot**—+2 to :fate[create] with Pilot if you are performing an acrobatic maneuver.
 
-**Hot Pickup**—+2 to {{defend}} when you are piloting into a hostile situation for a pick up or drop off.
+**Hot Pickup**—+2 to :fate[defend] when you are piloting into a hostile situation for a pick up or drop off.
 
-**Enhanced Drone Control Rig**—Your top of the line cyberware provides a strong and security signal for remotely interface piloting drones. You get +1 to pilot drones you are interfaced with.
+**Enhanced Drone Control Rig**—Your top of the line cyberware provides a strong and secure signal for remotely interface piloting drones. You get +1 to pilot drones you are interfaced with.
 
 ### Resources
 
-Resources are vastly important to cyberpunk characters because in the dark future money is power, access, respect, justice, and freedom.
+Resources are vastly important to cyberpunk characters because in the dark future money is power, access, respect, justice, and even freedom.
 
 If someone steals your car you'll have to take out a security contract to get it back, unless of course the thief buys off your contract himself and leaves you looking for alternate means of transportation.
 
@@ -378,13 +377,13 @@ Resources can represent a character's personal wealth, but it can also be a stat
 
 #### Resources and the Four Actions
 
-{{overcome}}—Acquire just about any good or service you can imagine, including a justice contract against someone who'd done wrong to you. Or just someone you don't like.
+:fate[overcome]—Acquire just about any good or service you can imagine, including a justice contract against someone who'd done wrong to you. Or just someone you don't like.
 
-{{create}}—Host an associate at an {Exclusive Restaurant} to give you an edge in your negotiations. Hire someone to get {Useful Dirt} on the Trellex board of directors.
+:fate[create]—Host an associate at an :aspect[Exclusive Restaurant] to give you an edge in your negotiations. Hire someone to get :aspect[Useful Dirt] on the Trellex board of directors.
 
-{{attack}}—Resources is not used for direct attacks.
+:fate[attack]—Resources is not used for direct attacks.
 
-{{defend}}—Avoid many kinds of social consequences.
+:fate[defend]—Avoid many kinds of social consequences.
 
 #### Example Stunts 
 
@@ -400,13 +399,13 @@ Tech is the skill for machines and science. Mechanical, and electrical. From a s
 
 #### Tech and the Four Actions
 
-{{overcome}}—Repair a broken device, design and a build a new one, or place some explosives.
+:fate[overcome]—Repair a broken device, design and a build a new one, or place some explosives.
 
-{{create}}—Jury-rig a {Turbo Booster} for your VecD Shadow, or create some {Simple Mechanical Advantage}.
+:fate[create]—Jury-rig a :aspect[Turbo Booster] for your VecD Shadow, or create some simple :aspect[Mechanical Advantage].
 
-{{attack}}—Tech is not used directly for attacks but it can help you make the most of an attack using or targeting a device.
+:fate[attack]—Tech is not used directly for attacks but it can help you make the most of an attack using or targeting a device.
 
-{{defend}}—Tech is not normally used for defense.
+:fate[defend]—Tech is not normally used for defense.
 
 #### Example Stunts 
 

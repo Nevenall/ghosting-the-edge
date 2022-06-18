@@ -6,7 +6,7 @@
   "configurations": [
     {
       "args": [
-       "render"
+       "build"
       ],
       "name": "Gulp",
       "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",

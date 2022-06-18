@@ -18,11 +18,11 @@ Or, for characters down on their luck, maybe they only have 1×Resources, or les
 
 This section contains setting details that are assumed to be true. It's not at all necessary for you to know them or use them, but players and GMs can take them as common knowledge for educated characters. Nothing here is secret, but there's no guarantee that these details are all true, or are the whole story, they are only assumed to be true. 
 
-<!-- {I'm going to move this after character stuff. Because it's background stuff. So, the game creation stuff can stay though because game creation and character creation go very much hand in hand.} -->
+<!-- :aspect[I'm going to move this after character stuff. Because it's background stuff. So, the game creation stuff can stay though because game creation and character creation go very much hand in hand.] -->
 
 ### Tech
 
-::: sidebar left
+:::sidebar:aspect[.left\\]
 Way back everyone was scared cloning would confuse the value of human life but, it was the neuroscientists they really should have been worried about.
 :::
 
@@ -56,7 +56,7 @@ That's the implant part; the interface itself is a small computer that locks int
 
 Socket implants let you swap out one interface for another without needing to redo all your expensive brain wiring every time. That's the idea anyway, but interfaces are made by Corps and Corps will lock you into coming back to them anytime they can, so most interfaces are only compatible with sockets from the same Corp. There's always third-party adapters, but you've heard all kinds of horror stories about those. After all, an interface is a thing that can literally mess with your mind.
 
- <!-- {proposed blockquote}{pay off that statement. What are the stories? Callout?} -->
+ <!-- :aspect[proposed blockquote]:aspect[pay off that statement. What are the stories? Callout?] -->
 
 There will still be times when you need to have wiring work done because neuron growth moves the wires around or the next generation of implant tech has hit the market and the new features require new wiring.
 
@@ -92,7 +92,7 @@ Every interface is imprinted with a unique identifier and personal data it will 
 
 Interface ids can be spoofed to fool systems into thinking you are someone else. There's a thriving black market for unlocked interfaces that allow you to present a fake or stolen identity. Getting your first unlocked interface is like getting your hacker diploma.
 
-<!-- {should make that sentence, or something like it, a block quote. } -->
+<!-- :aspect[should make that sentence, or something like it, a block quote. ] -->
 
 Secure physical locations add security to your interface identity by requiring you to present a biometric like a fingerprint or retinal scan.
 
@@ -116,7 +116,7 @@ Anything you can imagine can be overlain into your field of vision through an in
 
 Augmented reality is by far the most common manner of interacting with devices, nets, and even the Net. Total immersion interfacing is more of a special occasion reserved for visiting interesting constructs or for dramatic narratives in senima.
 
-<!-- {more then just vision? What about information from other kinds of neural devices…What's it like to use AR to move through nets and interact with the Net? What does it feel and look like. } -->
+<!-- :aspect[more then just vision? What about information from other kinds of neural devices…What's it like to use AR to move through nets and interact with the Net? What does it feel and look like. ] -->
 
 #### nets
 
@@ -124,7 +124,7 @@ Short for networks; nets with a little 'n' exist anywhere two devices share info
 
 Take that big black corp headquarters building down in the core for example. It's got a densely layered system of nets. There's the public net for visitors with every interface and smartdevice in range connected to it. Usually with some cheesy AR persona welcoming you and offering to "guide you through your first visit to our…" blah blah blah… Then there's the private net for employees with all their interfaces and smartdevices, plus employee workstations and business machines connected to the big servers that run the operations and store data. Layer on to that, all the systems that operate the building's physical features: doors, security, fire prevention, and climate control. And on top of that, connect this building to the corp's larger global net which reaches into every other corp facility and employee there is.
 
-<!-- {we can expand on this from the hacking section too. Anything else that we'd like to know? What they look like through an interface. Focus on how net interface is built from AR} -->
+<!-- :aspect[we can expand on this from the hacking section too. Anything else that we'd like to know? What they look like through an interface. Focus on how net interface is built from AR] -->
 
 #### Sensorium
 
@@ -132,7 +132,7 @@ Sensorium is the entirety of your sense input. Every bit of sensory data that re
 
 Edited sensorium recordings, and completely synthetic ones, called senima or sen-cin are produced for public entertainment. Purists make noise about the superior depth and subtly of unedited sensorium.
 
-<!-- {there are extra sections that we can talk about here. Thoughts and memories. Transference/transmission of memories. Or do we leave that for the cybernetic body section.} -->
+<!-- :aspect[there are extra sections that we can talk about here. Thoughts and memories. Transference/transmission of memories. Or do we leave that for the cybernetic body section.] -->
 
 :::callout left
 ##### Thoughts and Memories
@@ -162,7 +162,7 @@ The Net makes your personalized data and services accessible to you whenever and
 
 A The Net is more than a virtual shadow of the real world, it's more like billions of worlds all interconnected in a web as vast as the night sky.
 
-<!-- {What is it like? Using nets and the Net? } -->
+<!-- :aspect[What is it like? Using nets and the Net? ] -->
 
 #### Your Mind Networked
 
@@ -182,7 +182,7 @@ Death doesn't scare us all that much anymore, at least not the "us" that matters
 
 ##### Cyberware and Bioware
 
-<!-- {this is a section about the state of other augmentations? Do we really need it? Maybe it's assumed. But then again. Maybe we want to explicitly call it out so we know this is a cyberpunk setting} -->
+<!-- :aspect[this is a section about the state of other augmentations? Do we really need it? Maybe it's assumed. But then again. Maybe we want to explicitly call it out so we know this is a cyberpunk setting] -->
 
 #### Artificial Intelligence 
 
@@ -240,7 +240,7 @@ An interface implant turns your brain into a machine. Your memories can be backe
 
 Every bit of your sensory input can be recorded and augmented with visual overlays, sound cues, or even touch nudges. You can plug into a vast array of different devices that will act as specialized sub-brains giving you extra information and helping you make decisions. Of course, some people don't need an interface implant to hear voices in their heads, they get them for free. The stream of sensory data that your brain processes can be enhanced, but it can be altered too. And if it's done well, how would you ever know? Maybe it's happening right now.
 
-{callout} Blueberry – A really nasty virus that lurks in your interface's sense processors and subtly tweaks your perceptions to mimic those of a severely depressed person. People who are susceptible will find themselves clinically depressed as their brain chemistry adapts to this new input.
+:aspect[callout] Blueberry—A really nasty virus that lurks in your interface's sense processors and subtly tweaks your perceptions to mimic those of a severely depressed person. People who are susceptible will find themselves clinically depressed as their brain chemistry adapts to this new input.
 
 #### Wasn't X Supposed to Change Everything?
 
@@ -360,7 +360,7 @@ The district can be many things to your game. It can be an urban wasteland ruled
 
 You can find all kinds of crazy stuff in the District, there's even rumors that there's a snyth-concrete cathedral constructed by nano-bots.
 
-{Abandoned Self-Sustaining Urban Enclave}, {No Law but What You Can Make For Yourself}
+:aspect[Abandoned Self-Sustaining Urban Enclave], :aspect[No Law but What You Can Make For Yourself]
 
 ::: quote right attribution
 The Dis? The Dis is a ruin no one can abandon. The last gasp of a government losing its grip. They wanted to turn what was left of New Jersey and the new eastern seaboard into a modern enclave, safe, clean, efficient, and self-sustaining. Really, it was a dumping ground for those who couldn't, or wouldn't, participate in the new global culture. The undereducated and the misfits. Reality, it was the biggest projects ever created. Well, attempted anyway. No police, nothing official in the Dis, just the law of the street. Its urban decay, poverty, crime, black market, and freedom from corp influence. It's where you go for shady biz, or to hide, and it's where you end up when you can't make it anywhere else. The corps use it too, for them it's dumping ground and proving ground and a place for their darkest deals and nastiest ops.
@@ -438,105 +438,105 @@ Cyberpunk's a lot about personal style. You can use this list to give a characte
 100 Drives is taken, with some cyberpunk liberties, from Dungeon World by Sage LaTorra & Adam Koebel under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/)
 
 1. To avenge
-2. To spread the good word
-3. To reunite with a loved one
-4. To make money
-5. To make amends
-6. To explore the Net
-7. To uncover a hidden truth
-8. To locate a lost thing
-9. To kill a hated foe
-10. To restore democracy
-11. To cure an illness
-12. To design a masterwork
-13. To survive just one more day
-14. To earn affection
-15. To prove a point
-16. To be smarter, faster and stronger
-17. To heal an old wound
-18. To start a corporation
-19. To hide from a shameful fact
-20. To evangelize
-21. To spread suffering
-22. To prove worth
-23. To rise in status
-24. To be praised
-25. To discover the truth
-26. To make good on a bet
-27. To get out of an obligation
-28. To convince someone to do their dirty work
-29. To steal something valuable
-30. To overcome a bad habit
-31. To commit an atrocity
-32. To earn renown
-33. To accumulate power
-34. To transcend the physical body
-35. To teach
-36. To settle down
-37. To get just one more score
-38. To destroy a corporation
-39. To discover
-40. To devour
-41. To restore the family name
-42. To live a quiet life
-43. To help others
-44. To atone
-45. To prove their worth
-46. To gain honor
-47. To become CEO
-48. To move to a secure Enclave
-49. To retreat from society
-50. To escape
-51. To party
-52. To return home
-53. To serve
-54. To reclaim what was taken
-55. To do what must be done
-56. To be a champion
-57. To avoid notice
-58. To help a family member
-59. To perfect a skill
-60. To travel
-61. To overcome a disadvantage
-62. To play the game
-63. To establish a dynasty
-64. To build a community
-65. To retire
-66. To recover a lost memory
-67. To battle
-68. To become a terror to criminals
-69. To give birth to an AI
-70. To live up to expectations
-71. To become someone else
-72. To do what can't be done
-73. To score a corp job
-74. To be forgotten
-75. To find true love
-76. To lose their mind
-77. To indulge
-78. To make the best of it
-79. To find the one
-80. To reveal an unwelcome secret
-81. To show them all
-82. To get lost in the Net
-83. To fly
-84. To find the six-fingered man
-85. To unify human consciousness
-86. To entertain
-87. To follow an order
-88. To die gloriously
-89. To be careful
-90. To show kindness
-91. To not screw it all up
-92. To uncover the past
-93. To go where no man has gone before
-94. To do good
-95. To become a beast
-96. To spill blood
-97. To live forever
-98. To hunt the most dangerous game
-99. To hate
-100. To run away
+1. To spread the good word
+1. To reunite with a loved one
+1. To make money
+1. To make amends
+1. To explore the Net
+1. To uncover a hidden truth
+1. To locate a lost thing
+1. To kill a hated foe
+1. To restore democracy
+1. To cure an illness
+1. To design a masterwork
+1. To survive just one more day
+1. To earn affection
+1. To prove a point
+1. To be smarter, faster and stronger
+1. To heal an old wound
+1. To start a corporation
+1. To hide from a shameful fact
+1. To evangelize
+1. To spread suffering
+1. To prove worth
+1. To rise in status
+1. To be praised
+1. To discover the truth
+1. To make good on a bet
+1. To get out of an obligation
+1. To convince someone to do their dirty work
+1. To steal something valuable
+1. To overcome a bad habit
+1. To commit an atrocity
+1. To earn renown
+1. To accumulate power
+1. To transcend the physical body
+1. To teach
+1. To settle down
+1. To get just one more score
+1. To destroy a corporation
+1. To discover
+1. To devour
+1. To restore the family name
+1. To live a quiet life
+1. To help others
+1. To atone
+1. To prove their worth
+1. To gain honor
+1. To become CEO
+1. To move to a secure Enclave
+1. To retreat from society
+1. To escape
+1. To party
+1. To return home
+1. To serve
+1. To reclaim what was taken
+1. To do what must be done
+1. To be a champion
+1. To avoid notice
+1. To help a family member
+1. To perfect a skill
+1. To travel
+1. To overcome a disadvantage
+1. To play the game
+1. To establish a dynasty
+1. To build a community
+1. To retire
+1. To recover a lost memory
+1. To battle
+1. To become a terror to criminals
+1. To give birth to an AI
+1. To live up to expectations
+1. To become someone else
+1. To do what can't be done
+1. To score a corp job
+1. To be forgotten
+1. To find true love
+1. To lose their mind
+1. To indulge
+1. To make the best of it
+1. To find the one
+1. To reveal an unwelcome secret
+1. To show them all
+1. To get lost in the Net
+1. To fly
+1. To find the six-fingered man
+1. To unify human consciousness
+1. To entertain
+1. To follow an order
+1. To die gloriously
+1. To be careful
+1. To show kindness
+1. To not screw it all up
+1. To uncover the past
+1. To go where no man has gone before
+1. To do good
+1. To become a beast
+1. To spill blood
+1. To live forever
+1. To hunt the most dangerous game
+1. To hate
+1. To run away
 :::
 
 #### Templates
@@ -819,11 +819,11 @@ I kinda feel like I should pay off some of the stuff from the world section by h
 
 #### Inequity 
 
-If you decide nothing else about a location, you should place it on one or the other extreme in terms of wealth. Wherever your characters go, there is either {Urban Decay} and {NeglectedIinfrastructure} or {Pretentious Exclusivity} and {Constant Monitoring and Security}. You might occasionally find an area where people cast out of the corporate monoculture have {Repurposed Abandoned Urban Habitat}, but those are rare oases of humanity in a wasteland of {Lawless Ruins} and {Soulless Corporate Enclaves}.
+If you decide nothing else about a location, you should place it on one or the other extreme in terms of wealth. Wherever your characters go, there is either :aspect[Urban Decay] and :aspect[NeglectedIinfrastructure] or :aspect[Pretentious Exclusivity] and :aspect[Constant Monitoring and Security]. You might occasionally find an area where people cast out of the corporate monoculture have :aspect[Repurposed Abandoned Urban Habitat], but those are rare oases of humanity in a wasteland of :aspect[Lawless Ruins] and :aspect[Soulless Corporate Enclaves].
 
 #### Age
 
-Is the place {So, the Bugs Aren't All Worked Out} or is it an old repurposed building that {Should have been Condemned}.
+Is the place :aspect[So, the Bugs Aren't All Worked Out] or is it an old repurposed building that :aspect[Should have been Condemned].
 
 #### Purpose
 
@@ -853,12 +853,12 @@ These are the places that are not worth maintaining. Ruins, DMZ, and places wher
 
 Quick build guidelines for corporations.
 
-Just about everything is a division or shell corporation or something larger. What's interesting about corporations is characters' relationships to them. Are you an employee, a foe, a rival? Either way you want to know what resources the corporation has access to. Which tells you what they might bring against you or what kinds of things you might be able to borrow. So, there's the faceless corporations after you, but then there is the antagonist aspect.
+Just about everything is a division or shell corporation or something larger. What's interesting about corporations is characters' relationships to them. Are you an employee, a foe, a rival? Either way you want to know what resources the corporation has access to. Which tells you what they might bring against you or what kinds of things you might be able to borrow. So, there's the faceless corporations after you, but then there is the antagonist {.right\}
 
 ## Appendix 0
 
 A section of optional rules you may find interesting.
- <!-- {these may well become callouts in other parts of the manuscript.} -->
+ <!-- :aspect[these may well become callouts in other parts of the manuscript.] -->
 
 ### Sponsor Standing
 
@@ -868,7 +868,6 @@ If a character enjoys the benefits of a sponsor, consider making their standing 
 
 If you want characters to feel how sharp the edge can be show them the cost of not maintaining and upgrading their tech.
 
-Between scenarios every character gets a negative aspect attached to one of their upgrades. It might be {Obsolete Wired Reflexes} because someone invented a way to make them faster and you can bet all the potential adversaries out there won't waste any time getting the new wiring. Or, it can be a maintenance related aspect such as {Sticky Cyberarm Articulator}, which is sure to lockup at the most inconvenient time if it goes unaddressed.
+Between scenarios every character gets a negative aspect attached to one of their upgrades. It might be :aspect[Obsolete Wired Reflexes] because someone invented a way to make them faster and you can bet all the potential adversaries out there won't waste any time getting the new wiring. Or, it can be a maintenance related aspect such as :aspect[Sticky Cyberarm Articulator], which is sure to lockup at the most inconvenient time if it goes unaddressed.
 
-Characters who don't want to start getting outclassed by every ganger they throw down on will take the time to make an {{overcome}} with Resources or Tech to remove these aspects.
-
+Characters who don't want to start getting outclassed by every ganger they throw down on will take the time to make an :fate[overcome] with Resources or Tech to remove these aspects.

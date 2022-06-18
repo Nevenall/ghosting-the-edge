@@ -5,19 +5,12 @@
   "tasks": [
     {
       "label": "build​",
-      "command": "gulp",
-      "args": [
-        "build"
-      ],
+      "type": "gulp",
+      "task": "build",
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      // "dependsOrder": "sequence",
-      // "dependsOn": [
-      //   "spelling-all",
-      //   "prose-all"
-      // ],
       "options": {
         "cwd": "${workspaceFolder}"
       },
