@@ -56,7 +56,6 @@ function render() {
       }))
       .pipe(dest(destination))
       .pipe(through.obj(function (vinyl, encoding, callback) {
-         // todo - need to url normalize the path based on something
          pages.push({
             title: vinyl?.pageData?.title || vinyl.stem,
             path: vinyl?.pageData?.path || `/${paramCase(vinyl.stem)}`,
@@ -75,7 +74,7 @@ function render() {
 }
 
 async function writeBook(cb) {
-   
+
    pages.sort((a, b) => a - b)
 
    var str = `${pages.map((page, idx) => `import Page${idx} from './${page.file}'`).join('\n')}
