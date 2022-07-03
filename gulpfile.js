@@ -16,7 +16,8 @@ import spellchecker from 'spellchecker'
 import path from 'path'
 import fs from 'fs/promises'
 
-import { Book, Page } from 'book'
+import { paramCase } from "change-case"
+
 
 import glob from 'fast-glob'
 import git from 'simple-git'
@@ -31,13 +32,9 @@ const destination = 'html/'
 const destinationGlob = 'html/**'
 const publishTarget = "publish/"
 
-var book = null
-
-// todo - remark-smartypants to do "" transforms. Or remark-textr `does that same thing
-// wiki link can do handy internal page links
+var pages = []
 
 function render() {
-   book = new Book(title, path.resolve(destination))
    return src(sourceGlob).pipe(through.obj(function (vinyl, encoding, callback) {
       if (vinyl.isBuffer()) {
          var vfile = convert(vinyl)
@@ -47,14 +44,7 @@ function render() {
             if (parsed.data.metadata) {
                // record the original .md file path
                vinyl.pageData = parsed.data.metadata
-            } else {
-               vinyl.pageData = {
-                  name: vinyl.stem,
-                  order: book.allPages.length + 1
-               }
             }
-            vinyl.pageData.sourcePath = parsed.path
-
             callback(null, vinyl)
          }, error => {
             return callback(new Error(error))
@@ -66,11 +56,14 @@ function render() {
       }))
       .pipe(dest(destination))
       .pipe(through.obj(function (vinyl, encoding, callback) {
-         if (vinyl.pageData) {
-            let page = new Page(vinyl.pageData.title, path.relative(book.root, vinyl.path), vinyl.pageData.order)
-            page.data = vinyl.pageData
-            book.addPage(page)
-         }
+         // todo - need to url normalize the path based on something
+         pages.push({
+            title: vinyl?.pageData?.title || vinyl.stem,
+            path: vinyl?.pageData?.path || `/${paramCase(vinyl.stem)}`,
+            order: vinyl?.pageData?.order || pages.length + 1,
+            file: path.relative('html', vinyl.path)
+         })
+
          callback(null, vinyl)
       }))
 
@@ -81,15 +74,18 @@ function render() {
    }
 }
 
-async function writeBook() {
-   // todo - write out a list of pages in order so that consuming apps can construct a book object?
-   // could also write an export for each page 
-   try {
-      await fs.writeFile('html/book.js', `module.exports = ${JSON.stringify(book, null, 3)}`)
-   } catch (err) {
-      await Promise.reject(err)
-   }
-   await Promise.resolve()
+async function writeBook(cb) {
+   
+   pages.sort((a, b) => a - b)
+
+   var str = `${pages.map((page, idx) => `import Page${idx} from './${page.file}'`).join('\n')}
+
+export default [
+${pages.map((page, idx) => `   { title: '${page.title}', path: '${page.path}', page: Page${idx} },`).join('\n')}
+]`
+
+   await fs.writeFile('html/book.js', str)
+   cb()
 }
 
 function assets() {
