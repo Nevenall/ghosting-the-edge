@@ -1,7 +1,7 @@
 ---
+title: 'Cover'
 path: '/'
+order: 0
 ---
 
-
-
-![cover image](/assets/256px-Continental_Standard_typewriter_keyboard_-_key_detail.jpg)
+![cover image](assets/Cover.png)

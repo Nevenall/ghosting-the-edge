@@ -1,3 +1,9 @@
+---
+title: 'Afterwards'
+path: '/afterwards'
+order: 7
+---
+
 # Afterwards
 
 ![Tree of Life by Doomer from DeviantArt](assets/tree_of_digital_life_by_adoomer-d35ytew.png)

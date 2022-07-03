@@ -1,3 +1,9 @@
+---
+title: 'Ghosting the Edge'
+path: '/ghosting-the-edge'
+order: 2
+---
+
 Jet engines scream throught the smog overhead and tonight's greasy rain on your mirrorshades smears the scavenged neon of High Street Market. Every face in the twisting makeshift stalls gets sniffed from your visual cortex by the program your client provided and pumped back into your field of vision with a color-coded match percentage. 58%...12%...70%...68%...95% — "Hey there, Friend."
 
 Cold metal drops, soft as a spider, on the back of your neck and a garishly graphiced warning floats across the bottom of your vision. This smartass hacked their 'safety's off' to broadcast a custom weapons-free alert. 

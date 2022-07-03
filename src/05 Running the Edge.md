@@ -1,3 +1,9 @@
+---
+title: 'Running the Edge'
+path: '/running-the-edge'
+order: 6
+---
+
 # Running the Edge
 
 ## Hacking Your Game

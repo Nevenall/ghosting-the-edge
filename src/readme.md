@@ -1,3 +1,9 @@
+---
+title: 'Introduction'
+path: '/intro'
+order: 1
+---
+
 # Ghosting the Edge
 
 A cyberpunk toolkit for Fate Core. 

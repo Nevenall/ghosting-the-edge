@@ -56,10 +56,11 @@ function render() {
       }))
       .pipe(dest(destination))
       .pipe(through.obj(function (vinyl, encoding, callback) {
+
          pages.push({
             title: vinyl?.pageData?.title || vinyl.stem,
             path: vinyl?.pageData?.path || `/${paramCase(vinyl.stem)}`,
-            order: vinyl?.pageData?.order || pages.length + 1,
+            order: vinyl?.pageData?.order !== undefined ? vinyl.pageData.order : pages.length + 1,
             file: path.relative('html', vinyl.path)
          })
 
@@ -75,7 +76,7 @@ function render() {
 
 async function writeBook(cb) {
 
-   pages.sort((a, b) => a - b)
+   pages.sort((a, b) => a.order - b.order)
 
    var str = `${pages.map((page, idx) => `import Page${idx} from './${page.file}'`).join('\n')}
 

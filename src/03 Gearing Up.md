@@ -1,3 +1,9 @@
+---
+title: 'Gearing Up'
+path: '/gearing-up'
+order: 4
+---
+
 # Gearing Up
 
 ## Gear is a Character

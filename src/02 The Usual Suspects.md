@@ -1,3 +1,9 @@
+---
+title: 'The Usual Suspects'
+path: '/the-usual-suspects'
+order: 3
+---
+
 # The Usual Suspects
 
 This chapter is about characters. There's cyberpunk roles for you to play, leet skills, and classic operator stunts too.
