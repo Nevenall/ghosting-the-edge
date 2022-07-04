@@ -27,6 +27,11 @@ import autolink from 'rehype-autolink-headings'
 // textr plugins
 // does basic typography substitution, " -> “ for example. 
 import typographicBase from 'typographic-base'
+// Remove the typographicCurrency plugin because it does weird stuff like yer=>﷼ 
+var currencyIndex = typographicBase.mws.findIndex(func => func.name === 'typographicCurrency')
+if (currencyIndex > 0) {
+   typographicBase.mws.splice(currencyIndex, 1)
+}
 
 const markdown = unified()
    .use(parse)
@@ -40,7 +45,7 @@ const markdown = unified()
    .use(parseFrontmatter)
    .use(copyFrontmatter)
    .use(tableOfContents)
-   .use(remarkTextr, { plugins: [typographicBase] })
+   .use(remarkTextr, { locale: 'en-us', plugins: [typographicBase] })
    .use(lint)
 
    // html plugins
