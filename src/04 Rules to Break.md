@@ -51,7 +51,7 @@ Zones are an intentionally abstract measure of distance. Weapons may have impres
 
 #### Grappling
 
-You and your foe are in intense physical contact. You need to establish a :aspect[Grappled] aspect to achieve this level of range because it renders most weapons and a good many kinds of attacks ineffective. Or at least, increases their difficulty. Grappled characters can't succeed with most attacks unless they can :fate[overcome] their :aspect[Grappled] {.right\}
+You and your foe are in intense physical contact. You need to establish a :aspect[Grappled] aspect to achieve this level of range because it renders most weapons and a good many kinds of attacks ineffective. Or at least, increases their difficulty. Grappled characters can't succeed with most attacks unless they can :fate[overcome] their :aspect[Grappled] aspect.
 
 #### Close Quarters Combat (CQC)
 
