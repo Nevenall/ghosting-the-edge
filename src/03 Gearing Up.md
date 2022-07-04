@@ -394,7 +394,7 @@ Weapons that are :aspect[Hard to Load] are trickier, their opposition to reload 
 
 Switching weapons, normally not an action, but underfire you might have to make an overcome.
 
-If you fail your reload roll there are various options for succeeding at cost. Maybe you brought the wrong kind of ammo and take some kind of ongoing negative {.right\} Maybe you jammed your weapon and will have to take it to the shop to clear it. Maybe you just mark off a couple of ammo boxes because one of your clips was underloaded, or you couldn't get all the bullets back in your revolver.
+If you fail your reload roll there are various options for succeeding at cost. Maybe you brought the wrong kind of ammo and take some kind of ongoing negative aspect. Maybe you jammed your weapon and will have to take it to the shop to clear it. Maybe you just mark off a couple of ammo boxes because one of your clips was underloaded, or you couldn't get all the bullets back in your revolver.
 
 #### Close Combat Weapons
 
@@ -956,6 +956,8 @@ Take an appropriate stunt.
 :::
 
 ## Acquiring Gear
+
+◊
 
 During play characters can try all kinds of ways to get their hands on new gear. They can buy it outright with a Resources roll, or borrow it through some Contacts, or even design and fab it with an automated workshop and a Tech skill. They might even Steal one.
 
