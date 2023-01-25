@@ -201,8 +201,9 @@ function tableOfContents() {
    function transform(tree) {
       // todo - might be easier to manually generate the data we want from this. 
       let table = toc(tree)
-      // is there a way we can expose this data to gulp? 
+
       // 
+     
    }
 }
 
