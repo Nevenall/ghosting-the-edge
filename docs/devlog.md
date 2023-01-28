@@ -22,3 +22,8 @@ We have a prose lint, but I think I'd like to have a task specificly for markdow
 When we compile our book, create the book.json with everything but explicit content. We can do relative pathing, I think. 
 Also do complete table of contents with pages and sections of pages. 
 I wonder if we can use a toc markdown module to gather that data?
+
+## 1.28.2023, danb
+
+wow, so long ago. It is time to abandon the native spell checker? there must be a better one by now :) 
+retext spell might be the easiest way to go

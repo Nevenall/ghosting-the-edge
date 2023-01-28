@@ -1,7 +1,7 @@
 import gulp from 'gulp'
 let { parallel, series, src, dest } = gulp
 
-import del from 'delete'
+import { deleteAsync as del } from 'del'
 import through from 'through2'
 import rename from 'gulp-rename'
 import stats from 'gulp-count-stat'
@@ -74,11 +74,9 @@ function render() {
 }
 
 async function writeBook(cb) {
-
    pages.sort((a, b) => a.order - b.order)
 
    var str = `${pages.map((page, idx) => `import Page${idx} from './${page.file}'`).join('\n')}
-
 export default [
 ${pages.map((page, idx) => `   { title: '${page.title}', path: '${page.path}', page: Page${idx} },`).join('\n')}
 ]`
@@ -91,8 +89,9 @@ function assets() {
    return src(assetsGlob).pipe(dest(destination + "/assets"))
 }
 
-function clean(callback) {
-   return del(destinationGlob, callback)
+async function clean(cb) {
+   await del(destinationGlob)
+   cb()
 }
 
 function publish() {
@@ -203,6 +202,7 @@ export {
    spelling as spell,
    count as count,
    prose as prose,
+   clean as clean,
    render as render,
    check as check,
    save as save,

@@ -22,7 +22,7 @@
     "@types/node": "^17.0.30",
     "change-case": "^4.1.2",
     "convert-vinyl-to-vfile": "^3.0.0",
-    "delete": "^1.1.0",
+    "del": "^7.0.0",
     "esm": "^3.2.25",
     "fancylog": "^4.0.5",
     "fast-glob": "^3.2.4",
