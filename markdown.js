@@ -33,30 +33,31 @@ if (currencyIndex > 0) {
    typographicBase.mws.splice(currencyIndex, 1)
 }
 
-const markdown = unified()
-   .use(parse)
+const markdown =
+   unified()
+      .use(parse)
 
-   // markdown plugins
-   .use(supersub)
-   .use(directive)
-   .use(defaultDirective)
-   .use(writeDirectives)
-   .use(frontmatter, 'yaml')
-   .use(parseFrontmatter)
-   .use(copyFrontmatter)
-   .use(tableOfContents)
-   .use(remarkTextr, { locale: 'en-us', plugins: [typographicBase] })
-   .use(lint)
+      // markdown plugins
+      .use(supersub)
+      .use(directive)
+      .use(defaultDirective)
+      .use(writeDirectives)
+      .use(frontmatter, 'yaml')
+      .use(parseFrontmatter)
+      .use(copyFrontmatter)
+      .use(tableOfContents)
+      .use(remarkTextr, { locale: 'en-us', plugins: [typographicBase] })
+      .use(lint)
 
-   // html plugins
-   .use(remark2rehype)
-   .use(slug)
-   .use(autolink)
-   .use(urls, fixupLinks)
+      // html plugins
+      .use(remark2rehype)
+      .use(slug)
+      .use(autolink)
+      .use(urls, fixupLinks)
 
-   // post process
-   .use(format)
-   .use(html)
+      // post process
+      .use(format)
+      .use(html)
 
 function fixupLinks(url) {
    if (url.pathname && path.extname(url.pathname) === '.md') {
@@ -70,7 +71,7 @@ function copyFrontmatter() {
    return function (ast, file) {
       visit(ast, 'yaml', item => {
          // copy parsed frontmatter to the file data
-         file.data.metadata = item.data.parsedValue
+         Object.assign(file.data, { metadata: item.data.parsedValue })
       })
    }
 }
@@ -198,12 +199,11 @@ function writeDirectives() {
 function tableOfContents() {
    return transform
 
-   function transform(tree) {
-      // todo - might be easier to manually generate the data we want from this. 
+   function transform(tree, file) {
       let table = toc(tree)
-
-      // 
-     
+      // add the table of contents to the file data for later use
+      // todo - munge table into something more useful
+      Object.assign(file.data, { toc: table })
    }
 }
 

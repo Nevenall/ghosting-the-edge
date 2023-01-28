@@ -38,17 +38,16 @@ function render() {
    return src(sourceGlob).pipe(through.obj(function (vinyl, encoding, callback) {
       if (vinyl.isBuffer()) {
          var vfile = convert(vinyl)
-         markdown.process(vfile).then(parsed => {
-            logWarnings(parsed)
-            vinyl.contents = Buffer.from(parsed.value, encoding)
-            if (parsed.data.metadata) {
-               // record the original .md file path
-               vinyl.pageData = parsed.data.metadata
-            }
-            callback(null, vinyl)
-         }, error => {
-            return callback(new Error(error))
-         })
+         markdown.process(vfile)
+            .then(parsed => {
+               logWarnings(parsed)
+               vinyl.contents = Buffer.from(parsed.value, encoding)
+               // copy the custom data from the parsed markdown file to the subsequent gulp file
+               vinyl.data = { ...vinyl.data, ...parsed.data }
+               callback(null, vinyl)
+            }, error => {
+               return callback(new Error(error))
+            })
       }
    }))
       .pipe(rename({
@@ -56,11 +55,13 @@ function render() {
       }))
       .pipe(dest(destination))
       .pipe(through.obj(function (vinyl, encoding, callback) {
+         // prefer values from frontmatter for page properties
          pages.push({
-            title: vinyl?.pageData?.title || vinyl.stem,
-            path: vinyl?.pageData?.path || `/${paramCase(vinyl.stem)}`,
-            order: vinyl?.pageData?.order !== undefined ? vinyl.pageData.order : pages.length + 1,
-            file: path.relative('html', vinyl.path)
+            title: vinyl?.data?.metadata?.title || vinyl.stem,
+            path: vinyl?.data?.metadata?.path || `/${paramCase(vinyl.stem)}`,
+            order: vinyl?.data?.metadata?.order !== undefined ? vinyl.data.metadata.order : pages.length + 1,
+            file: path.relative('html', vinyl.path),
+            toc: vinyl?.data?.toc
          })
 
          callback(null, vinyl)
