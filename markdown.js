@@ -8,6 +8,8 @@ import { h } from 'hastscript'
 
 import path from 'path'
 import { visit } from 'unist-util-visit'
+import { toHtml } from 'hast-util-to-html'
+import { toHast } from 'mdast-util-to-hast'
 
 // markdown plugins
 import directive from 'remark-directive'
@@ -201,9 +203,43 @@ function tableOfContents() {
 
    function transform(tree, file) {
       let table = toc(tree)
-      // add the table of contents to the file data for later use
-      // todo - munge table into something more useful
-      Object.assign(file.data, { toc: table })
+
+      // skip files without headers
+      if(table.map == null) return
+     
+      // we'll have to reach into children : text nodes to find the values to use for the title of the link
+      // we care about type='listItem' nodes
+      // type='list'
+      //    type='listItem'
+      //       type='paragraph'
+      //          type='link' url='#anchor'
+      //             type='text' value='title'
+      //       type='list'
+      //          type='listItem'
+      //          type='listItem'
+      //          type='listItem'
+
+      let depth = -1
+      let list = []
+      let curr = {}
+      visit(table.map, ['list', 'listItem', 'link'], node => {
+         if (node.type == 'list') {
+            ++depth
+         }
+
+         if (node.type == 'listItem') {
+            curr = { depth: depth }
+         }
+
+         if (node.type == 'link') {
+            curr.url = node.url
+            let hast = toHast(node)
+            curr.title = toHtml(hast.children)
+            list.push(curr)
+         }
+      })
+      // console.log(JSON.stringify(list, null, '  '))
+      Object.assign(file.data, { toc: list })
    }
 }
 

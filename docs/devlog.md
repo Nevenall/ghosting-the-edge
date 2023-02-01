@@ -27,3 +27,7 @@ I wonder if we can use a toc markdown module to gather that data?
 
 wow, so long ago. It is time to abandon the native spell checker? there must be a better one by now :) 
 retext spell might be the easiest way to go
+
+## 1.30.2023, danb
+
+I think I see now how to format some toc contents.

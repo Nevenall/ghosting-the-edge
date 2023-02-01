@@ -56,8 +56,11 @@ function render() {
       .pipe(dest(destination))
       .pipe(through.obj(function (vinyl, encoding, callback) {
          // prefer values from frontmatter for page properties
+         let tlHeader = vinyl?.data?.toc ? vinyl.data.toc[0].title : null
          pages.push({
-            title: vinyl?.data?.metadata?.title || vinyl.stem,
+            // use metadata title, or the title of the top level header, or vinyl.stem
+            // title: vinyl?.data?.metadata?.title  || vinyl.stem,
+            title: vinyl?.data?.metadata?.title || tlHeader || vinyl.stem,
             path: vinyl?.data?.metadata?.path || `/${paramCase(vinyl.stem)}`,
             order: vinyl?.data?.metadata?.order !== undefined ? vinyl.data.metadata.order : pages.length + 1,
             file: path.relative('html', vinyl.path),
