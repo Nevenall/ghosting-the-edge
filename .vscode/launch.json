@@ -6,7 +6,10 @@
   "configurations": [
     {
       "args": [
-       "build"
+        "build",
+        "--trace-warnings",
+        "--experimental-modules",
+        "--preserve-symlinks"
       ],
       "name": "Gulp",
       "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
@@ -14,7 +17,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "type": "node"
+      "type": "node",
     },
     {
       "type": "node",

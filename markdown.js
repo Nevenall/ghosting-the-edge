@@ -8,6 +8,8 @@ import { h } from 'hastscript'
 
 import path from 'path'
 import { visit } from 'unist-util-visit'
+import { toHtml } from 'hast-util-to-html'
+import { toHast } from 'mdast-util-to-hast'
 
 // markdown plugins
 import directive from 'remark-directive'
@@ -33,30 +35,31 @@ if (currencyIndex > 0) {
    typographicBase.mws.splice(currencyIndex, 1)
 }
 
-const markdown = unified()
-   .use(parse)
+const markdown =
+   unified()
+      .use(parse)
 
-   // markdown plugins
-   .use(supersub)
-   .use(directive)
-   .use(defaultDirective)
-   .use(writeDirectives)
-   .use(frontmatter, 'yaml')
-   .use(parseFrontmatter)
-   .use(copyFrontmatter)
-   .use(tableOfContents)
-   .use(remarkTextr, { locale: 'en-us', plugins: [typographicBase] })
-   .use(lint)
+      // markdown plugins
+      .use(supersub)
+      .use(directive)
+      .use(defaultDirective)
+      .use(writeDirectives)
+      .use(frontmatter, 'yaml')
+      .use(parseFrontmatter)
+      .use(copyFrontmatter)
+      .use(tableOfContents)
+      .use(remarkTextr, { locale: 'en-us', plugins: [typographicBase] })
+      .use(lint)
 
-   // html plugins
-   .use(remark2rehype)
-   .use(slug)
-   .use(autolink)
-   .use(urls, fixupLinks)
+      // html plugins
+      .use(remark2rehype)
+      .use(slug)
+      .use(autolink)
+      .use(urls, fixupLinks)
 
-   // post process
-   .use(format)
-   .use(html)
+      // post process
+      .use(format)
+      .use(html)
 
 function fixupLinks(url) {
    if (url.pathname && path.extname(url.pathname) === '.md') {
@@ -70,7 +73,7 @@ function copyFrontmatter() {
    return function (ast, file) {
       visit(ast, 'yaml', item => {
          // copy parsed frontmatter to the file data
-         file.data.metadata = item.data.parsedValue
+         Object.assign(file.data, { metadata: item.data.parsedValue })
       })
    }
 }
@@ -198,11 +201,44 @@ function writeDirectives() {
 function tableOfContents() {
    return transform
 
-   function transform(tree) {
-      // todo - might be easier to manually generate the data we want from this. 
+   function transform(tree, file) {
       let table = toc(tree)
-      // is there a way we can expose this data to gulp? 
-      // 
+      let list = []
+      // skip files without headers
+      if (table.map != null) {
+         // we'll have to reach into children : text nodes to find the values to use for the title of the link
+         // we care about type='listItem' nodes
+         // type='list'
+         //    type='listItem'
+         //       type='paragraph'
+         //          type='link' url='#anchor'
+         //             type='text' value='title'
+         //       type='list'
+         //          type='listItem'
+         //          type='listItem'
+         //          type='listItem'
+
+         let depth = -1
+         let curr = {}
+         visit(table.map, ['list', 'listItem', 'link'], node => {
+            if (node.type == 'list') {
+               ++depth
+            }
+
+            if (node.type == 'listItem') {
+               curr = { depth: depth }
+            }
+
+            if (node.type == 'link') {
+               curr.url = node.url
+               let hast = toHast(node)
+               curr.title = toHtml(hast.children)
+               list.push(curr)
+            }
+         })
+         // console.log(JSON.stringify(list, null, '  '))
+      }
+      Object.assign(file.data, { toc: list })
    }
 }
 

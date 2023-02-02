@@ -1,7 +1,7 @@
 import gulp from 'gulp'
 let { parallel, series, src, dest } = gulp
 
-import del from 'delete'
+import { deleteAsync as del } from 'del'
 import through from 'through2'
 import rename from 'gulp-rename'
 import stats from 'gulp-count-stat'
@@ -38,17 +38,16 @@ function render() {
    return src(sourceGlob).pipe(through.obj(function (vinyl, encoding, callback) {
       if (vinyl.isBuffer()) {
          var vfile = convert(vinyl)
-         markdown.process(vfile).then(parsed => {
-            logWarnings(parsed)
-            vinyl.contents = Buffer.from(parsed.value, encoding)
-            if (parsed.data.metadata) {
-               // record the original .md file path
-               vinyl.pageData = parsed.data.metadata
-            }
-            callback(null, vinyl)
-         }, error => {
-            return callback(new Error(error))
-         })
+         markdown.process(vfile)
+            .then(parsed => {
+               logWarnings(parsed)
+               vinyl.contents = Buffer.from(parsed.value, encoding)
+               // copy the custom data from the parsed markdown file to the subsequent gulp file
+               vinyl.data = { ...vinyl.data, ...parsed.data }
+               callback(null, vinyl)
+            }, error => {
+               return callback(new Error(error))
+            })
       }
    }))
       .pipe(rename({
@@ -56,12 +55,16 @@ function render() {
       }))
       .pipe(dest(destination))
       .pipe(through.obj(function (vinyl, encoding, callback) {
-
+         // prefer values from frontmatter for page properties
+         let tlHeader = vinyl?.data?.toc?.length > 0 ? vinyl.data.toc[0].title : null
          pages.push({
-            title: vinyl?.pageData?.title || vinyl.stem,
-            path: vinyl?.pageData?.path || `/${paramCase(vinyl.stem)}`,
-            order: vinyl?.pageData?.order !== undefined ? vinyl.pageData.order : pages.length + 1,
-            file: path.relative('html', vinyl.path)
+            // use metadata title, or the title of the top level header, or vinyl.stem
+            // title: vinyl?.data?.metadata?.title  || vinyl.stem,
+            title: vinyl?.data?.metadata?.title || tlHeader || vinyl.stem,
+            path: vinyl?.data?.metadata?.path || `/${paramCase(vinyl.stem)}`,
+            order: vinyl?.data?.metadata?.order !== undefined ? vinyl.data.metadata.order : pages.length + 1,
+            file: path.relative('html', vinyl.path),
+            toc: vinyl?.data?.toc
          })
 
          callback(null, vinyl)
@@ -75,13 +78,11 @@ function render() {
 }
 
 async function writeBook(cb) {
-
    pages.sort((a, b) => a.order - b.order)
 
    var str = `${pages.map((page, idx) => `import Page${idx} from './${page.file}'`).join('\n')}
-
 export default [
-${pages.map((page, idx) => `   { title: '${page.title}', path: '${page.path}', page: Page${idx} },`).join('\n')}
+${pages.map((page, idx) => `   { title: '${page.title}', path: '${page.path}', page: Page${idx}, toc: ${JSON.stringify(page.toc)} },`).join('\n')}
 ]`
 
    await fs.writeFile('html/book.js', str)
@@ -92,8 +93,9 @@ function assets() {
    return src(assetsGlob).pipe(dest(destination + "/assets"))
 }
 
-function clean(callback) {
-   return del(destinationGlob, callback)
+async function clean(cb) {
+   await del(destinationGlob)
+   cb()
 }
 
 function publish() {
@@ -203,6 +205,7 @@ export {
    spelling as spelling,
    count as count,
    prose as prose,
+   clean as clean,
    render as render,
    check as check,
    save as save,
