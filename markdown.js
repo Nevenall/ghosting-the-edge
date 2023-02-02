@@ -203,42 +203,41 @@ function tableOfContents() {
 
    function transform(tree, file) {
       let table = toc(tree)
-
-      // skip files without headers
-      if(table.map == null) return
-     
-      // we'll have to reach into children : text nodes to find the values to use for the title of the link
-      // we care about type='listItem' nodes
-      // type='list'
-      //    type='listItem'
-      //       type='paragraph'
-      //          type='link' url='#anchor'
-      //             type='text' value='title'
-      //       type='list'
-      //          type='listItem'
-      //          type='listItem'
-      //          type='listItem'
-
-      let depth = -1
       let list = []
-      let curr = {}
-      visit(table.map, ['list', 'listItem', 'link'], node => {
-         if (node.type == 'list') {
-            ++depth
-         }
+      // skip files without headers
+      if (table.map != null) {
+         // we'll have to reach into children : text nodes to find the values to use for the title of the link
+         // we care about type='listItem' nodes
+         // type='list'
+         //    type='listItem'
+         //       type='paragraph'
+         //          type='link' url='#anchor'
+         //             type='text' value='title'
+         //       type='list'
+         //          type='listItem'
+         //          type='listItem'
+         //          type='listItem'
 
-         if (node.type == 'listItem') {
-            curr = { depth: depth }
-         }
+         let depth = -1
+         let curr = {}
+         visit(table.map, ['list', 'listItem', 'link'], node => {
+            if (node.type == 'list') {
+               ++depth
+            }
 
-         if (node.type == 'link') {
-            curr.url = node.url
-            let hast = toHast(node)
-            curr.title = toHtml(hast.children)
-            list.push(curr)
-         }
-      })
-      // console.log(JSON.stringify(list, null, '  '))
+            if (node.type == 'listItem') {
+               curr = { depth: depth }
+            }
+
+            if (node.type == 'link') {
+               curr.url = node.url
+               let hast = toHast(node)
+               curr.title = toHtml(hast.children)
+               list.push(curr)
+            }
+         })
+         // console.log(JSON.stringify(list, null, '  '))
+      }
       Object.assign(file.data, { toc: list })
    }
 }

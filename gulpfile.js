@@ -56,7 +56,7 @@ function render() {
       .pipe(dest(destination))
       .pipe(through.obj(function (vinyl, encoding, callback) {
          // prefer values from frontmatter for page properties
-         let tlHeader = vinyl?.data?.toc ? vinyl.data.toc[0].title : null
+         let tlHeader = vinyl?.data?.toc?.length > 0 ? vinyl.data.toc[0].title : null
          pages.push({
             // use metadata title, or the title of the top level header, or vinyl.stem
             // title: vinyl?.data?.metadata?.title  || vinyl.stem,
@@ -82,7 +82,7 @@ async function writeBook(cb) {
 
    var str = `${pages.map((page, idx) => `import Page${idx} from './${page.file}'`).join('\n')}
 export default [
-${pages.map((page, idx) => `   { title: '${page.title}', path: '${page.path}', page: Page${idx} },`).join('\n')}
+${pages.map((page, idx) => `   { title: '${page.title}', path: '${page.path}', page: Page${idx}, toc: ${JSON.stringify(page.toc)} },`).join('\n')}
 ]`
 
    await fs.writeFile('html/book.js', str)
