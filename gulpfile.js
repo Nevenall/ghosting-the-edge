@@ -32,7 +32,7 @@ const destination = 'html/'
 const destinationGlob = 'html/**'
 const publishTarget = "publish/"
 
-var pages = []
+var chapters = []
 
 function render() {
    return src(sourceGlob).pipe(through.obj(function (vinyl, encoding, callback) {
@@ -57,12 +57,12 @@ function render() {
       .pipe(through.obj(function (vinyl, encoding, callback) {
          // prefer values from frontmatter for page properties
          let tlHeader = vinyl?.data?.toc?.length > 0 ? vinyl.data.toc[0].title : null
-         pages.push({
+         chapters.push({
             // use metadata title, or the title of the top level header, or vinyl.stem
             // title: vinyl?.data?.metadata?.title  || vinyl.stem,
             title: vinyl?.data?.metadata?.title || tlHeader || vinyl.stem,
             path: vinyl?.data?.metadata?.path || `/${paramCase(vinyl.stem)}`,
-            order: vinyl?.data?.metadata?.order !== undefined ? vinyl.data.metadata.order : pages.length + 1,
+            order: vinyl?.data?.metadata?.order !== undefined ? vinyl.data.metadata.order : chapters.length + 1,
             file: path.relative('html', vinyl.path),
             toc: vinyl?.data?.toc
          })
@@ -78,11 +78,11 @@ function render() {
 }
 
 async function writeBook(cb) {
-   pages.sort((a, b) => a.order - b.order)
+   chapters.sort((a, b) => a.order - b.order)
 
-   var str = `${pages.map((page, idx) => `import Page${idx} from './${page.file}'`).join('\n')}
+   var str = `${chapters.map((chapter, idx) => `import Chapter${idx} from './${chapter.file}'`).join('\n')}
 export default [
-${pages.map((page, idx) => `   { title: '${page.title}', path: '${page.path}', page: Page${idx}, toc: ${JSON.stringify(page.toc)} },`).join('\n')}
+${chapters.map((chapter, idx) => `   { title: '${chapter.title}', path: '${chapter.path}', chapter: Chapter${idx}, toc: ${JSON.stringify(chapter.toc)} },`).join('\n')}
 ]`
 
    await fs.writeFile('html/book.js', str)
