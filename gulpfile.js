@@ -30,7 +30,7 @@ const sourceGlob = ['src/**/*.md']
 const assetsGlob = ['src/assets/**']
 const destination = 'html/'
 const destinationGlob = 'html/**'
-const publishTarget = "C:/src/bookshelf-ghosting-the-edge/src/pages"
+const publishTarget = "C:/src/gulp-bookshelf/src/book"
 
 var pages = []
 
