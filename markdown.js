@@ -204,6 +204,7 @@ function tableOfContents() {
    function transform(tree, file) {
       let table = toc(tree)
       let list = []
+
       // skip files without headers
       if (table.map != null) {
          // we'll have to reach into children : text nodes to find the values to use for the title of the link
@@ -217,27 +218,36 @@ function tableOfContents() {
          //          type='listItem'
          //          type='listItem'
          //          type='listItem'
+         //    type='listItem'  // these are the list items we need to work on. 
 
-         let depth = -1
-         let curr = {}
-         visit(table.map, ['list', 'listItem', 'link'], node => {
-            if (node.type == 'list') {
-               ++depth
+         let recurse = function (node, curr, list) {
+            if (node.type === 'list') {
+               // this is when we know there will be children for current node
+               // which means the current node's child list becomes the new context
+               // The top level is a special case
+               if (curr != null) {
+                  list = curr.children
+               }
             }
-
-            if (node.type == 'listItem') {
-               curr = { depth: depth }
+            if (node.type === 'listItem') {
+               // Start a new child
+               curr = { url: '', title: '', children: [] }
             }
-
-            if (node.type == 'link') {
+            if (node.type === 'link') {
                curr.url = node.url
                let hast = toHast(node)
                curr.title = toHtml(hast.children)
                list.push(curr)
             }
-         })
-         // console.log(JSON.stringify(list, null, '  '))
+            // mdast nodes may not have a children property
+            for (const child of node?.children ?? []) {
+               recurse(child, curr, list)
+            }
+         }
+
+         recurse(table.map, null, list)
       }
+      // console.log(JSON.stringify(list, null, '  '))
       Object.assign(file.data, { toc: list })
    }
 }
