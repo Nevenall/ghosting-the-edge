@@ -236,7 +236,7 @@ function tableOfContents() {
             if (node.type === 'link') {
                curr.url = node.url
                let hast = toHast(node)
-               curr.title = toHtml(hast.children)
+               curr.title = toHtml(hast.children, { allowDangerousCharacters: true, allowDangerousHtml: true, allowParseErrors: true, characterReferences:{useNamedReferences: false} })
                list.push(curr)
             }
             // mdast nodes may not have a children property

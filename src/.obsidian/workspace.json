@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "315d942804134846",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e19c4cf11c804e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3aa5f872331d1c55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Gearing Up.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "03 Gearing Up"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ecf23260a1bb8b6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b2273df8b497775",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d9d6b4ba7fcb094",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "05f4152c354d7c24",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "feb5e5251b9dda34",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "79c51d8759017270",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ca97e8da9d46540",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5aa89a54ff466611",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03 Gearing Up.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 03 Gearing Up"
+            }
+          },
+          {
+            "id": "0234ec777d11ddab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03 Gearing Up.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 03 Gearing Up"
+            }
+          },
+          {
+            "id": "5288872a3e8e3266",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1add265007afa051",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03 Gearing Up.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 03 Gearing Up"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3aa5f872331d1c55",
+  "lastOpenFiles": [
+    "06 Afterwards.md",
+    "cover.md",
+    "readme.md",
+    "01 Ghosting the Edge.md"
+  ]
+}
